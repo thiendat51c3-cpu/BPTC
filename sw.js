@@ -1,5 +1,5 @@
 /* Service worker đơn giản: ưu tiên mạng, rơi về bộ nhớ đệm khi mất mạng. */
-var CACHE = 'bptc-v1.13';
+var CACHE = 'bptc-v1.14';
 self.addEventListener('install', function (e) { self.skipWaiting(); });
 self.addEventListener('activate', function (e) {
   e.waitUntil(caches.keys().then(function (keys) {
