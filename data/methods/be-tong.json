@@ -26,7 +26,7 @@
     "tcvn-9335"
   ],
   "prerequisites": [
-    "Thiết kế cấp phối được phòng thí nghiệm duyệt; mác ≥ 150 thiết kế tại phòng thí nghiệm [4453 · mục 6]",
+    "Thiết kế cấp phối được phòng thí nghiệm có tư cách pháp nhân duyệt: mác 100 dùng bảng tính sẵn, từ mác 150 phải thiết kế qua thí nghiệm [4453 · 6.1.1]; thủy công: mác lớn hơn 10 MPa phải thiết kế qua thí nghiệm, cường độ mẫu phòng thí nghiệm 28 ngày lớn hơn mác thiết kế ít nhất 10% [14TCN59 · 4.1.2b]",
     "Cốp pha, cốt thép đã nghiệm thu; vệ sinh bề mặt đổ",
     "Kế hoạch đổ, nhân lực, thiết bị, nguồn dự phòng",
     "Có biện pháp thi công bê tông được duyệt, gồm sơ đồ đổ, chia khối, đường vận chuyển và phương án khi sự cố (mất điện, hỏng máy, mưa)",
@@ -45,7 +45,11 @@
         "Mời thiết kế, địa chất, tư vấn giám sát nghiệm thu nền đá, chụp ảnh và lập bản vẽ hoàn công mặt đá trước khi đổ khối đầu tiên"
       ],
       "requirements": [
-        "Thông số theo thiết kế và bản gốc tiêu chuẩn (chưa có số liệu đối chiếu)"
+        "Nền đá có chỗ đá xấu, phong hóa mạnh hơn tài liệu thiết kế thì đào bỏ sau khi có ý kiến thiết kế và cấp có thẩm quyền [14TCN59 · 4.5.1b]",
+        "Trước khi đổ: dọn sạch rác, đất đá rời, xói rửa bằng nước có áp lực và thổi khô bằng khí nén [14TCN59 · 4.5.1b]",
+        "Đáy móng đào quá cao trình thiết kế phải bù bằng bê tông mác thấp hơn do cấp có thẩm quyền quyết định [14TCN59 · 4.5.1]",
+        "Trước khi đổ lập biên bản kiểm tra công tác chuẩn bị nền, chống thấm, cốt thép, bộ phận chôn ngầm, thiết bị quan trắc [14TCN59 · 4.5.2a, 5.3.15a]",
+        "Móng trên nền đất chỉ được đổ lên lớp đệm sạch trên nền đất cứng [4453 · 6.4.7]"
       ],
       "checks": [
         "Biên bản nghiệm thu nền đá (hình dạng, độ sạch, nước thấm) trước khi đổ khối đầu tiên"
@@ -70,7 +74,15 @@
         "Kiểm tra lại hình học, cao độ, độ thẳng đứng, độ ổn định bằng máy và dây dọi; lập biên bản trước khi chuyển bước"
       ],
       "requirements": [
-        "Sai lệch cho phép của cốp pha theo Bảng 2 của TCVN 4453"
+        "Kiểm tra cốp pha đã lắp: gồ ghề giữa các tấm ghép không quá 3 mm; ghép kín khít không mất nước xi măng; lớp chống dính phủ kín; sạch rác; cốp pha gỗ đã tưới nước [4453 · 3.5.1, Bảng 1]",
+        "Sai lệch cốp pha và đà giáo [4453 · 3.5.2, Bảng 2]: khoảng cách cột chống 25 mm/m, 75 mm toàn khẩu độ; thẳng đứng 5 mm/m; toàn chiều cao: móng 20, tường và cột < 5 m 10, > 5 m 15, dầm và vòm 5 mm; lệch trục: móng 15, tường và cột 8, dầm xà và vòm 10 mm",
+        "Thủy công, sai lệch cốp pha [14TCN59 · Bảng 3.5]: thẳng đứng móng cống, móng nhà máy ±5 mm; móng tường cánh, hố tiêu năng ±10; rãnh van ±3; tường, trụ pin ±2 mm/m và ±10 mm toàn chiều cao; mặt nghiêng ±2 mm/m, ±15 mm toàn chiều cao",
+        "Thủy công, gồ ghề mặt cốp pha kiểm bằng thước thẳng: phần bê tông lộ ngoài ±3 mm, phần không lộ ±5 mm; lệch trục: móng ±15, tường mố trụ ±5, rãnh van ±2 mm [14TCN59 · Bảng 3.5]",
+        "Thủy công, cao trình cốp pha: bản đáy và đỉnh cống ±15 mm; đan trạm bơm -5 mm; đan nhà máy thủy điện -3 mm; đỉnh tường cánh, trụ pin, mố tiêu năng ±20 mm [14TCN59 · Bảng 3.5]",
+        "Độ võng cốp pha không quá 1/400 nhịp với mặt bê tông lộ ngoài, 1/250 nhịp với mặt bị che khuất [4453 · Phụ lục A.3]",
+        "Tải trọng thiết kế cốp pha: người và dụng cụ 250 daN/m² (cốp pha sàn, vòm), đầm rung 200 daN/m², đổ qua ống vòi voi hoặc ống bơm 400 daN/m² [4453 · Phụ lục A.1]",
+        "Chừa lỗ thoát nước rác ở phía dưới cốp pha, bịt kín trước khi đổ; chân cột chống đặt trên nền cứng, nêm điều chỉnh có góc nghiêng < 25° [4453 · 3.4.4; 14TCN59 · 3.1.4b]",
+        "Biên bản nghiệm thu cốp pha là điều kiện bắt buộc để cho phép đổ bê tông [14TCN59 · 5.1i]"
       ],
       "checks": [
         "Nghiệm thu cốp pha trước khi đổ"
@@ -94,7 +106,14 @@
         "Kiểm tra lại ống sau mỗi đợt đổ: thông ống, đầu chờ còn nguyên; nối tiếp ống sang lớp sau đúng vị trí; ghi hồ sơ khuất"
       ],
       "requirements": [
-        "Thông số theo thiết kế và bản gốc tiêu chuẩn (chưa có số liệu đối chiếu)"
+        "Ống chôn (điện, nước, làm lạnh, phụt vữa, đo áp lực): đúng quy cách, số lượng, vị trí thiết kế; không lỗ châm kim, không tắc; cạo sạch gỉ, dầu sơn; mối nối vững chắc không rò nước, rò khí [14TCN59 · G.3.1, G.3.3, G.3.4]",
+        "Ống đi qua khe nhiệt độ phải làm thêm đoạn co giãn tại khe; nhóm ống đặt chung có ký hiệu riêng ở miệng ống [14TCN59 · G.3.5, G.3.6]",
+        "Sau khi đặt phải kiểm tra thông suốt bằng áp lực nước hoặc khí; khi đổ hai bên ống nên đổ song song cùng độ cao; sau 14 ngày kiểm tra liên kết ống - bê tông, kém thì phụt vữa [14TCN59 · G.3.7, G.3.9, G.3.10]",
+        "Lỗ tiêu nước trong nền: sai lệch mặt bằng 5-10 cm; độ xiên lỗ sâu không quá 0,5%, lỗ nông không quá 2%; sai lệch chiều sâu ±2%; cao trình ống tiêu nước sai không quá 2 cm [14TCN59 · H.2.3, H.2.4]",
+        "Ống tiêu nước nhiều lỗ bằng bê tông đúc sẵn đạt cường độ thiết kế mới lắp; thành ống làm ẩm, bọc giấy trước khi đổ bê tông quanh ống; miệng ống có nắp tạm [14TCN59 · H.2.6, H.2.8]",
+        "Thiết bị quan trắc: kiểm tra, hiệu chỉnh trước khi đặt; loại bỏ cốt liệu lớn quanh máy và đầm tay quanh máy; sai lệch tim bu lông chôn sẵn không quá 2 mm [14TCN59 · G.2.1, G.1.2]",
+        "Ống làm mát bằng thép: đường kính ngoài 25-30 mm, dày khoảng 1,5-1,8 mm; thử kín nước từng dàn trước khi phủ bê tông [14334 · 6.6.2.2b]",
+        "Nghiệm thu ống chôn, vị trí đặt dụng cụ đo, ống chờ khoan phụt trước khi đổ [14TCN59 · 5.3.15d, 5.3.15g]"
       ],
       "checks": [
         "Biên bản nghiệm thu ống, ống chờ, hành lang chôn sẵn (vị trí, cố định, thông ống) trước khi đổ"
@@ -118,9 +137,16 @@
         "Vệ sinh máy trộn, thùng chứa sau ca; ghi nhật ký trộn"
       ],
       "requirements": [
-        "Sai số cân đong: xi măng 1%, cốt liệu 3%, nước 1% [4453 · mục 6]",
-        "Kích thước cốt liệu lớn nhất theo kích thước kết cấu và khoảng cách thép [4453 · mục 6]",
-        "Thời gian lưu hỗn hợp: theo tiêu chuẩn và điều kiện thời tiết"
+        "Sai số cân đong theo khối lượng: xi măng và phụ gia bột 1%, cát và đá dăm hoặc sỏi 3%, nước và phụ gia lỏng 1% [4453 · 6.2.1, Bảng 12]; thủy công: xi măng, phụ gia, nước ±1%, cát và đá ±3% [14TCN59 · 4.2.2, Bảng 4.2]",
+        "Lượng nước phải kể cả nước trong phụ gia và trong cốt liệu ẩm; hiệu chỉnh tại hiện trường không làm đổi tỷ lệ N/X [4453 · Bảng 12 chú thích, 6.1.3]",
+        "Cát, đá rửa xong để khô ráo mới cân đong (thủy công: đợi 24 giờ) [4453 · 6.2.2; 14TCN59 · 4.2.4]; kiểm tra thiết bị cân đong trước mỗi đợt đổ [4453 · 6.2.3]",
+        "Thời gian trộn tối thiểu khi không có thông số máy [4453 · 6.2.6, Bảng 13; 14TCN59 · Bảng 4.3]: độ sụt < 10 mm: 2,0 / 2,5 / 3,0 phút; 10-50 mm: 1,5 / 2,0 / 2,5 phút; > 50 mm: 1,0 / 1,5 / 2,0 phút (máy < 500 L / 500-1000 L / > 1000 L)",
+        "Trình tự nạp: đổ trước 15-20% lượng nước, sau đó xi măng và cốt liệu cùng lúc, đổ dần liên tục phần nước còn lại [4453 · 6.2.5a; 14TCN59 · 4.3.3a]; cối đầu tăng thêm 0,20-0,35% vữa xi măng cát để bù phần bám vào máy [14TCN59 · 4.3.3c]",
+        "Cứ sau khoảng 2 giờ làm việc: đổ cốt liệu lớn và nước của một mẻ vào máy quay khoảng 5 phút rồi mới cho cát, xi măng; ngừng trộn quá 1 giờ phải rửa thùng trộn [4453 · 6.2.7; 14TCN59 · 4.3.7, 4.3.8]",
+        "Độ sụt tại khoảnh đổ (cát vừa và to, không phụ gia giảm nước): khối lớn và kết cấu thép < 0,5% 2-4 cm (độ cứng 7-11 s); ít cốt thép 0,5-1% 4-8 cm; thép > 1% 8-14 cm; sai số ±1 cm [14TCN59 · 4.1.5, Bảng 4.1]; dùng phụ gia giảm nước thì lấy thấp hơn, ví dụ khối lớn 1-3 cm [14TCN59 · Bảng 4.1]",
+        "Độ sụt theo cách vận chuyển: băng chuyền không quá 6 cm; bơm tối thiểu 10 cm; máng rung 5-8 cm; vòi voi có rung 2-6 cm [14TCN59 · 4.1.5b,c,d]",
+        "Kích thước hạt lớn nhất (Dmax): không quá 2/3 khoảng cách thông thủy giữa hai thanh thép và 1/3 chiều dày nhỏ nhất của kết cấu; bản không quá 1/2 chiều dày; không quá 120 mm (máy trộn > 0,8 m³) hoặc 80 mm (< 0,8 m³); bơm: không quá 0,4 (sỏi) hoặc 0,33 (đá dăm) đường kính trong ống bơm [14TCN59 · 3.3.4.1; 4453 · 5.4.2]",
+        "Kiểm tra độ sụt: ngay sau mẻ đầu khi trộn tại chỗ; mỗi lần giao hàng với bê tông thương phẩm; ít nhất một lần mỗi ca khi thời tiết và độ ẩm vật liệu ổn định; đổi vật liệu hoặc cấp phối thì kiểm tra mẻ đầu và thêm ít nhất một lần mỗi ca [4453 · 7.1.5]"
       ],
       "checks": [
         "Độ sụt, lấy mẫu thử cường độ"
@@ -145,14 +171,27 @@
         "Hoàn thiện mặt, kiểm tra cao độ; ghi nhật ký đổ gồm thời gian, thể tích, nhiệt độ, mẫu thử"
       ],
       "requirements": [
-        "Thời gian lưu hỗn hợp khi vận chuyển (không phụ gia): trên 30°C 30 phút; 20-30°C 45 phút; 10-20°C 60 phút; 5-10°C 90 phút [4453 · Bảng 14]",
-        "Xe ben: chiều dày lớp bê tông trong thùng nên > 40 cm [4453 · 6.3.4a]",
-        "Trời nóng: nhiệt độ hỗn hợp khi đổ không quá 35°C, tốt nhất dưới 30°C; chờ không quá 1,5 giờ [9345 · 5.3.1, 5.3.2]",
-        "Mạch ngừng: làm nhám, tưới hồ hoặc vữa xi măng-cát trước khi đổ tiếp [9345 · 5.4.2-5.4.3]",
-        "Bê tông đầm lăn (RCC): lớp 15-30 cm sau đầm, nhiệt độ hỗn hợp thường dưới 25°C, độ chặt ≥ 98% (rót cát hoặc đồng vị phóng xạ), tuổi thiết kế thường 90 ngày [10403] (từ trang tóm tắt, chưa đối chiếu điều khoản; thời gian giữa các lớp, số lượt đầm chưa đọc được)"
+        "Thời gian lưu hỗn hợp khi vận chuyển (không phụ gia): trên 30°C 30 phút; 20-30°C 45 phút; 10-20°C 60 phút; 5-10°C 90 phút [4453 · 6.3.1c, Bảng 14; 14TCN59 · Bảng 4.4, dùng cho xi măng bắt đầu ninh kết không sớm hơn 1 giờ]",
+        "Xe ben: lớp bê tông trong thùng dày hơn 40 cm; đường vận chuyển dốc không quá 10%; rửa thùng xe sau mỗi 2 giờ [4453 · 6.3.4a; 14TCN59 · 4.4.6]",
+        "Thùng treo chứa không quá 90-95% dung tích; đáy thùng cách mặt đổ không quá 1,5 m; vận chuyển thủ công không xa quá 200 m [4453 · 6.3.3, 6.3.2; 14TCN59 · 4.4.8]",
+        "Băng chuyền: vận tốc không quá 1 m/s, chênh nhau giữa các băng không quá 0,1 m/s; góc nghiêng lên cao 15°, xuống thấp 12° (độ sụt < 40 mm) hoặc 10° (độ sụt 40-80 mm) [4453 · 6.3.6, Bảng 15]",
+        "Chiều cao rơi tự do không quá 1,5 m; lớn hơn dùng máng nghiêng hoặc ống vòi voi, trên 10 m dùng ống vòi voi có chấn động; ống vòi voi nghiêng không quá 0,25 m trên 1 m chiều cao, đoạn cuối thẳng đứng [4453 · 6.4.2, 6.4.3]",
+        "Ống vòi voi: đường kính lớn hơn 3 lần Dmax, treo dài không quá 10 m (dài hơn phải có bộ giảm tốc và rung); máng nghiêng rộng không nhỏ hơn 3-3,5 lần Dmax [14TCN59 · 4.4.12; 4453 · 6.4.4]",
+        "Chiều dày lớp đổ: đầm dùi không quá 1,25 chiều dài phần công tác (khoảng 20-40 cm); đầm bàn 20 cm (không cốt thép hoặc thép đơn) hoặc 12 cm (thép kép); đầm tay 20 cm [4453 · 6.4.6, Bảng 16]",
+        "Thủy công, chiều dày lớp đổ: đầm dùi không quá 0,8 chiều dài phần công tác (khoảng 20-60 cm); đầm mặt 25 cm (không cốt thép hoặc thép đơn) hoặc 10 cm (có cốt thép); đầm tay 20 cm [14TCN59 · 4.5.7, Bảng 4.6]; nếu hai bảng khác nhau thì lấy giá trị nhỏ hơn hoặc theo thiết kế",
+        "Đầm dùi: bước di chuyển không quá 1,5 bán kính tác dụng; cắm sâu vào lớp dưới 5-10 cm; thời gian khoảng 20-40 giây mỗi vị trí, đến khi ngừng lún, nổi nước xi măng và hết bọt khí; đầm ở góc, cách cốp pha không quá 5-10 cm [4453 · 6.4.14; 14TCN59 · 4.5.9a]",
+        "Đầm mặt: mỗi lượt gối lên vết trước 10-22 cm, khoảng 30-60 giây mỗi vị trí; đầm ngoài (tường < 25 cm, cột < 50 x 50 cm) khoảng 50-90 giây; dự phòng thêm 30-40% số máy đầm [14TCN59 · 4.5.9b, 4.5.12, 4.5.8c]",
+        "Đầm lại bê tông chỉ nên làm 1,5-2 giờ sau lần đầu, với kết cấu mặt lớn như sàn, sân, mặt đường; không đầm lại bê tông khối lớn [4453 · 6.4.14d]",
+        "Thời gian ngừng cho phép giữa hai lớp (không phụ gia), theo nhiệt độ trong khối khi đổ, xi măng poóc lăng / poóc lăng xỉ hoặc puzơlan: trên 30°C 60 / 90 phút; 20-30°C 90 / 120 phút; 10-20°C 135 / 180 phút [4453 · 6.8.2, Bảng 18]",
+        "Thủy công, thời gian từ lúc ra máy trộn đến khi đổ xong một lớp (không phụ gia), xi măng poóc lăng / hỗn hợp, puzơlan: 20-30°C 90 / 120 phút; 10-20°C 135 / 180 phút; 5-10°C 195 phút; khoảng ngừng cho phép bằng trị số bảng trừ thời gian vận chuyển và đổ (ví dụ 25°C: 90 - 60 = 30 phút) [14TCN59 · 4.6.3, Bảng 4.7]",
+        "Ngừng đổ quá thời gian cho phép (kể cả do mưa): đợi bê tông đạt 25 daN/cm² (2,5 MPa) mới được chuẩn bị mặt đổ tiếp; sau 4-10 giờ khi đã đông kết mới phun nước, chải sắt làm nhám; trước khi đổ phải vệ sinh sạch, hút khô nước, rải vữa xi măng cát dày 2-3 cm [4453 · 6.4.5d, 6.8.2 chú thích]",
+        "Tường đổ liên tục từng đoạn cao không quá 3 m; cột cạnh 0,4-0,8 m không đai chồng chéo đổ không quá 5 m; cột cạnh < 0,4 m, tường dày < 15 cm đổ không quá 2 m; nghỉ giữa các đoạn không dưới 40 phút và không quá thời gian ninh kết ban đầu [14TCN59 · 4.7.1a,b]",
+        "Đáy cốp pha tường, cột nên đổ trước lớp vữa xi măng cát 1:2-1:3 dày 5-10 cm để tránh tập trung cốt liệu lớn [14TCN59 · 4.7.1d]",
+        "Dầm, bản liền với cột hoặc tường: đổ xong cột, tường rồi dừng 1-2 giờ cho co ngót ban đầu mới đổ dầm, bản [4453 · 6.4.10]",
+        "Khi mưa phải che chắn không cho nước vào bê tông; đổ đêm hoặc sương mù phải đủ ánh sáng [4453 · 6.4.5d]"
       ],
       "checks": [
-        "Kiểm tra độ sụt, nhiệt độ hỗn hợp, mẫu thử"
+        "Kiểm tra độ sụt, nhiệt độ hỗn hợp, mẫu thử, thời gian vận chuyển và thời gian ngừng giữa các lớp"
       ],
       "tips": [
         "Đầm thiếu gây rỗ tổ ong; đầm quá lâu gây phân tầng, nổi nước xi măng; quan sát mặt bê tông để quyết định",
@@ -174,16 +213,27 @@
         "Đối chiếu chênh nhiệt giữa tâm và mặt; khi vượt ngưỡng cảnh báo thì bổ sung giữ nhiệt hoặc làm mát theo phương án đã duyệt"
       ],
       "requirements": [
-        "Nhiệt độ hỗn hợp khi đổ ≤ 25°C, tốt nhất ≤ 20°C [305 · 6.7.1c]",
-        "Mỗi lớp đổ không quá 50 cm; thời gian quay vòng một lớp không quá 1 giờ (hè) / 2 giờ (đông) [305 · 6.4.3]",
-        "Một đợt đổ liên tục cao không quá 1,5 m; chờ ít nhất 4 ngày đêm mới đổ đợt trên [305 · 6.4.3, 6.8.3]",
-        "Mạch ngừng: làm nhám, rửa sạch, trải vữa xi măng-cát dày 1-1,5 cm [305 · 6.4.3]",
-        "Điểm đo nhiệt: tâm khối, sát cạnh ngoài, cách mặt ngoài khoảng 40-50 cm [305 · 6.6.1]",
-        "Mô đun chênh nhiệt từ 50°C/m trở lên dễ gây nứt nhiệt [305 · mục 2, 6.6.1]",
-        "Che nắng khối đổ khoảng 2 tuần đầu mùa hè [305 · 6.4.4]"
+        "Kết cấu khối lớn: dạng tấm có kích thước nhỏ nhất từ 0,8 m, các dạng còn lại từ 1,2 m; thiết kế có thể quy định khác [14334 · 4]. Quy định cũ: cạnh nhỏ nhất không dưới 2,5 m và dày hơn 0,8 m [4453 · 6.8.1; 14TCN59 · 4.6.1]",
+        "Ba giới hạn bắt buộc khi thiết kế phương án kiểm soát nhiệt: chênh lệch nhiệt độ lớn nhất tâm - mặt ngoài ΔTlim (Bảng 1, theo cấp cường độ B20-B70, tuổi đóng rắn, loại cốt liệu), nhiệt độ cao nhất trong bê tông Tlim (Bảng 2, theo loại xi măng), nhiệt độ hỗn hợp khi đổ [14334 · 5.1-5.3]",
+        "ΔTlim: cốt liệu đá vôi được cộng thêm 2°C; ví dụ B40 cốt liệu granit tuổi 7 ngày ΔTlim = 26°C, giá trị trung gian nội suy [14334 · 5.1, Bảng 1 chú thích]. Giá trị đầy đủ Bảng 1 và Bảng 2 không đọc được trong bản OCR, cần lấy từ bản gốc",
+        "Nhiệt độ hỗn hợp bê tông khi đổ vào ván khuôn không lớn hơn 32°C ((số liệu từ OCR, cần kiểm tra bản gốc)); nhiệt độ trung bình (một số đo mỗi xe) không vượt giá trị trong phương án kiểm soát nhiệt, giá trị lớn nhất không vượt quá 3°C so với giá trị đó [14334 · 5.3, 6.5.5]",
+        "Thủy lợi, tiêu chuẩn ngành: nhiệt độ hỗn hợp vừa ra khỏi máy trộn không quá 30°C, khối lớn theo yêu cầu thiết kế [14TCN59 · 4.6.4]; nếu thiết kế thủy công không quy định thì lấy giá trị chặt hơn",
+        "Nhiệt độ cao nhất tính toán trong khối không vượt quá 0,95 Tlim và được kiểm chứng trên khối đổ thí nghiệm (ví dụ không nhỏ hơn 2 x 2 x 2 m với móng bè B40 trở lên dày từ 3 m) hoặc cấu kiện đại diện [14334 · 6.6.3]",
+        "Mức tăng nhiệt đoạn nhiệt ΔTad = q x X / (c x γ), với q là nhiệt thủy hóa xi măng ở tuổi tính (kJ/kg), X là hàm lượng xi măng (kg/m³), c = 1,05, γ = 2450 kg/m³; ví dụ q28 = 335 kJ/kg, X = 400 kg/m³ cho ΔTad = 52°C [14334 · 6.4.1]",
+        "Xi măng nên chọn theo nhiệt thủy hóa 28 ngày: rất thấp < 250, thấp < 290, trung bình < 335 kJ/kg; nên dùng mác 40 cho B20-B40, mác 50 cho B40-B70; phụ gia giảm nước cao, chậm đông kết, không dùng phụ gia đóng rắn nhanh [14334 · 6.3.2.1, 6.3.2.2]",
+        "Hạ nhiệt hỗn hợp trộn 1°C cần hạ nhiệt cốt liệu khoảng 1,6-1,8°C, hoặc nước trộn 4,5-5,5°C, hoặc xi măng 8-10°C, hoặc thay 6-7 kg nước bằng đá băng [14334 · 6.5.2.1 chú thích]",
+        "Đổ liên tục thành lớp có chiều dày đều, theo một phương cho mọi lớp; đổ bậc thang chỉ khi có thiết kế (khối cao ≤ 1,5 m, dài > 2 lần rộng, bậc rộng > 2 m); dùng đầm dùi hoặc đầm chùm, lớp trên cùng dùng đầm mặt [4453 · 6.8.2d; 14TCN59 · 4.6.1]",
+        "Mặt tiếp giáp giữa các khối đổ theo chiều cao phải đánh xờm; khối chèn đổ sau khi khối trước co ngót và nhiệt độ đã giảm; móng thủy lợi và móng chịu tải động đổ liên tục theo thiết kế [4453 · 6.8.2a,b,c; 14TCN59 · 4.6.2]",
+        "Thời gian ngừng giữa hai khối đổ kề nhau phải đủ để ΔTmax của khối trước không vượt ΔTlim [14334 · 6.6.2.4a]",
+        "Quan trắc nhiệt độ bê tông và không khí suốt giai đoạn kiểm soát nhiệt, từ lúc đổ đến khi tháo ván khuôn, không ít hơn 7 ngày; đo tại tâm khối hoặc nơi dự kiến nóng nhất và tại các mặt ngoài (mặt hở, mặt sườn), thêm góc, gờ cạnh khi dễ trở lạnh [14334 · 6.8.1, 6.8.3]",
+        "Đầu đo mặt ngoài đặt cách mặt bê tông 50-100 mm (hình 3 ghi 50-75 mm), mỗi vị trí một cặp chính và một cặp dự phòng; nhiệt kế độ chính xác 1°C cắm sâu trong bê tông tối thiểu 5 cm [14334 · 6.8.3, 6.5.4]",
+        "Tần suất đo: ngày đầu 1-2 giờ/lần; ngày thứ 2 2-4 giờ/lần; ngày thứ 3 4-8 giờ/lần; các ngày sau 8-12 giờ/lần (số nhỏ cho khối nhỏ nhất dưới 2 m) [14334 · 6.8.5]",
+        "Đo diễn biến nhiệt tại tâm đến khi xác định được Tmax; lập \"lý lịch khối đổ\" ghi toàn bộ quá trình thi công và biện pháp hạn chế tỏa nhiệt [14TCN59 · 4.6.8]",
+        "Biện pháp hạn chế ứng suất nhiệt khi thiết kế không chỉ dẫn: phụ gia hóa dẻo giảm xi măng, xi măng ít tỏa nhiệt, phụ gia chậm đông kết, làm lạnh cốt liệu và nước trộn, ống nước lạnh, độn đá hộc, bọc cách nhiệt, chia khối [4453 · 6.8.1 chú thích]",
+        "Độn đá hộc (kết cấu không hoặc ít cốt thép): cạnh nhỏ nhất của kết cấu > 100 cm; đá không lớn hơn 1/3 kích thước nhỏ nhất của khối, không dùng đá thoi dẹt (tỷ lệ cạnh > 2,5:1); xếp thưa cách đều, khoảng cách ≥ 30 cm; không độn ở vùng chịu kéo; cường độ đá không thấp hơn cốt liệu lớn [4453 · 6.8.4; 14TCN59 · 4.6.5]"
       ],
       "checks": [
-        "Biểu đồ nhiệt độ từng khối, kiểm tra nứt sau tháo cốp pha"
+        "Biểu đồ nhiệt độ từng khối (Tmax, ΔTmax so với giới hạn), nhiệt độ hỗn hợp từng xe, kiểm tra nứt sau tháo cốp pha 1, 2, 3 ngày"
       ],
       "tips": [
         "Hỏng đầu đo hoặc cáp đứt khi đầm là lỗi phổ biến; bảo vệ cáp và kiểm tra thông mạch sau khi đổ lớp đầu",
@@ -205,7 +255,21 @@
         "Sau khi kết thúc làm mát, bơm vữa lấp đầy ống làm mát theo chỉ dẫn thiết kế và ghi hồ sơ"
       ],
       "requirements": [
-        "Thông số theo thiết kế và bản gốc tiêu chuẩn (chưa có số liệu đối chiếu)"
+        "Dàn ống giải nhiệt do tổ chức chuyên nghiệp tính toán và thi công; chỉ nên dùng khi Tmax tính toán vượt Tlim hoặc cần tháo ván nhanh vì chi phí lớn [14334 · 6.6.2.1f, 6.6.2.2a]",
+        "Ống thép đường kính ngoài 25-30 mm, dày khoảng 1,5-1,8 mm; mỗi dàn dài khoảng 150-225 m; các dàn dùng chung ống cấp lấy dài bằng nhau; bước ống ngang và đứng bằng nhau trong khoảng 1,0-1,5 m [14334 · 6.6.2.2b]",
+        "Từng dàn ống thử kín nước trước khi phủ bê tông; mỗi dàn có đồng hồ lưu lượng và đo nhiệt độ nước ra; ống cấp chung đo nhiệt độ nước vào; định vị chắc chống rung, rò rỉ khi đổ, đầm [14334 · 6.6.2.2b]",
+        "Cho nước tuần hoàn ngay khi bê tông bắt đầu phủ ống để ống không nổi; ống hỏng thay bằng đoạn dự phòng chuẩn bị sẵn [14334 · 6.6.2.2c]",
+        "Lưu lượng khoảng 15-18 L/phút (0,25-0,3 L/s) với ống Ø25; nước lạnh khoảng 3°C cho giai đoạn đầu, có thể xuống 1°C bằng hỗn hợp 70% nước + 30% propylene glycol; đảo chiều dòng chảy hằng ngày [14334 · 6.6.2.2d]",
+        "Tiêu chuẩn ngành cũ: vận tốc nước trong ống Ø25 thích hợp khoảng 0,60 m/s, cho nước chảy ngay sau khi đổ xong, đổi chiều dòng chảy mỗi ngày [14TCN59 · 4.6.4 chú thích 7]",
+        "Giai đoạn đến đỉnh nhiệt độ đầu tiên có thể làm lạnh với tốc độ cao nhất; sau đó khống chế để chênh lệch giữa các điểm không vượt ΔTlim [14334 · 6.6.2.2e]",
+        "Tạm dừng làm lạnh (sau đỉnh nhiệt độ đầu tiên) khi chênh lệch giữa hai điểm đạt ΔTlim, hoặc nhiệt độ bê tông đã giảm 17°C dưới đỉnh đầu tiên ((số liệu từ OCR, cần kiểm tra bản gốc)), hoặc bê tông đạt nhiệt độ ổn định cuối cùng; phục hồi khi nhiệt độ tăng lại [14334 · 6.6.2.2f]",
+        "Kết thúc làm lạnh khi ngừng tuần hoàn khoảng 12 giờ mà Tmax và ΔTmax không tăng đáng kể và thấp hơn giới hạn [14334 · 6.6.2.2g]",
+        "Đo nhiệt độ bổ sung sát ống lạnh nhất (đầu vào) và nóng nhất (đầu ra) của một dàn và giữa hai dàn kề nhau; đo nhiệt độ nước tại đầu cấp và thu hồi [14334 · 6.6.2.2h]",
+        "Sau giải nhiệt: bơm rửa, thổi hết nước, bơm ép đầy vữa xi măng có cường độ không thấp hơn bê tông kết cấu, rồi cắt bỏ phần ống ngoài khối [14334 · 6.6.2.2i; 14TCN59 · 4.6.4 chú thích 7]",
+        "Hạ nhiệt cốt liệu: che nắng kho bãi; phun ướt đá và quạt cho bay hơi hạ khoảng 8°C; nhúng đá vào nước lạnh khoảng 12°C; phun nước 4°C lên cốt liệu khoảng 7°C; làm lạnh cát bằng nước lạnh khoảng 4°C; hút chân không khoảng 18°C [14334 · 6.5.2.2]",
+        "Hạ nhiệt nước trộn: nước máy lạnh 2-4°C hạ hỗn hợp khoảng 3-4°C, pha với nước thường hạ 1-3°C; đá băng (viên đặc 2 cm, rỗng 3 cm) thay một phần nước hạ khoảng 4-16°C; nitơ lỏng chỉ khi thực sự cần [14334 · 6.5.2.3-6.5.2.5]",
+        "Giảm tăng nhiệt khi vận chuyển, đổ: rút ngắn thời gian vận chuyển, che nắng băng chuyền, sơn sáng màu xe trộn, vận chuyển và đổ ban đêm hoặc sáng sớm (21 giờ - 9 giờ); khung mái che di động cách mặt khối đổ 2-8 m [14334 · 6.5.3, 6.6.2.1c]",
+        "Chống sốc nhiệt: nước bảo dưỡng không thấp hơn nhiệt độ mặt bê tông quá 3-4°C; khi gió mạnh (> 15 m/s), mưa rào phải phủ bạt, nilon tạo đệm không khí kín [14334 · 6.7.3]"
       ],
       "checks": [
         "Biểu đồ nhiệt độ từng khối, lưu lượng nước làm mát, đối chiếu giới hạn thiết kế"
@@ -221,7 +285,7 @@
     {
       "title": "Bê tông đầm lăn (RCC): san rải, đầm, mạch lớp và khe co ngót",
       "actions": [
-        "Chỉ áp dụng khi thiết kế chọn RCC; bê tông đầm lăn dùng quy trình và tiêu chuẩn riêng (TCVN 10403), không áp dụng nguyên văn các quy định của bê tông thường",
+        "Chỉ áp dụng khi thiết kế chọn RCC; bê tông đầm lăn dùng quy trình và tiêu chuẩn riêng (TCVN 10403), TCVN 14334 không áp dụng cho đập bê tông đầm lăn; không áp dụng nguyên văn các quy định của bê tông thường",
         "Làm đoạn đầm thử trước khi thi công đại trà: chọn bề dày lớp rải, số lượt lu, loại lu, độ ẩm hỗn hợp; ghi lại thông số được thiết kế duyệt",
         "Vận chuyển hỗn hợp bằng xe tải hoặc băng tải, hạn chế phân tầng và mất nước; che chắn khi nắng, mưa",
         "San rải lớp bằng máy ủi/san theo bề dày thiết kế, tránh phân tầng ở mép, xử lý ngay vùng đá cục tập trung",
@@ -231,7 +295,27 @@
         "Bảo dưỡng ẩm mặt lớp đã đầm; ghi nhật ký giờ rải, giờ đầm, nhiệt độ, độ chặt từng lớp"
       ],
       "requirements": [
-        "Thông số theo thiết kế và bản gốc tiêu chuẩn (chưa có số liệu đối chiếu)"
+        "Phải làm thí nghiệm hiện trường trước khi thi công đại trà, bãi thử tối thiểu 8 m x 30 m, xác định cấp phối, độ công tác Vc, loại và số lượt đầm, chiều dày rải, thời gian cắt khe, cách xử lý mặt lớp, đo độ chặt, đo nhiệt [10403 · 4.4.1, 4.4.2, Bảng 4]",
+        "Vật liệu: Dmax khuyến nghị 50 mm (có thể 20-150 mm theo thiết kế); độ hao mòn Los Angeles không quá 35%; cát không nên có mô đun độ lớn < 2,0; cát nghiền lọt sàng 0,075 mm có thể 6-18%; độ ẩm phụ gia khoáng quá 3% gây vón cục [10403 · 4.3.2, 5.2.2]",
+        "Thành phần tham khảo: tổng chất kết dính trong bê tông bên trong thân đập không nhỏ hơn 130 kg/m³; phụ gia khoáng 40-70% khối lượng chất kết dính; N/CKD < 0,7; Vc ở miệng máy trộn khoảng 10-20 s [10403 · Phụ lục A.1]",
+        "Trộn: thời gian trộn xác định bằng thí nghiệm hiện trường; cân riêng từng loại cốt liệu theo khối lượng, không cân tích lũy; nạp xi măng, cát, phụ gia khoáng trộn đều, rồi cốt liệu thô, cuối cùng nước và phụ gia hóa học [10403 · 4.5]",
+        "Vận chuyển: miệng xả cách mặt khoảnh đổ không quá 1,5 m, lớn hơn dùng ống trút/vòi voi đường kính > 3 lần Dmax; lốp xe rửa sạch trước khi vào khoảnh đổ [10403 · 4.2.2, 4.6]",
+        "San rải: chiều dày lớp sau đầm khoảng 30 cm trở xuống có thể rải một lần, dày hơn chia 2-3 lớp rải theo thí nghiệm ((số liệu từ OCR, cần kiểm tra bản gốc)); chiều dày lớp rải không nhỏ hơn 3 lần Dmax; rải lớp nghiêng thì từ hạ lưu lên thượng lưu, dốc không quá 1:10 [10403 · 4.7]",
+        "Đầm lu rung: số lượt và chiều dày xác định bằng thí nghiệm; tốc độ lu không quá 1,5 km/h; làn sau chồng lên làn trước 10-20 cm; sát thượng lưu trong 3-6 m hướng đầm vuông góc dòng chảy; có thiết bị ghi số lượt tự động [10403 · 4.8]",
+        "Mặt lớp làm khe thi công nằm ngang hoặc khe lạnh: sau khi đủ lượt và đạt dung trọng, đầm thêm 1-2 lượt không rung [10403 · 4.8]",
+        "Độ chặt: kiểm tra dung trọng theo mạng ô vuông sau mỗi băng đầm; đo bằng máy phóng xạ sau đầm khoảng 10 phút; độ đầm chặt thiết kế thường 97-98% (khác mức \"≥ 98%\" ghi trước đây) [10403 · 4.8, 5.3.2]",
+        "Thời gian từ lúc cho nước vào trộn đến khi đầm xong không quá 2 giờ, tùy khí hậu có thể ngắn hơn; thời gian dãn cách giữa hai lớp xác định bằng thí nghiệm theo nhiệt độ [10403 · 4.8, 5.3.2, Bảng 11]",
+        "Phân loại khe theo thời gian dãn cách: khe nóng (trước khi bắt đầu đông kết), khe ấm (trước khi kết thúc đông kết), khe lạnh (sau khi kết thúc đông kết hoặc giữa hai block) [10403 · 3.6-3.8]",
+        "Khe nóng: làm sạch mảnh vụn và nước. Khe ấm: đánh xờm, thổi khí nén, rải vữa liên kết (xi măng cát vàng, N/CKD như BTĐL nhưng cường độ cao hơn ít nhất 1 cấp) rồi rải lớp mới theo phương pháp lấn dần [10403 · 4.10.1, 4.10.2]",
+        "Khe lạnh: xử lý như block mới; chỉ đánh xờm hoặc dùng nước áp lực khi BTĐL đạt tối thiểu 2,5 MPa (thường sau khoảng 3 ngày); rải vữa liên kết dày 5-10 mm; máy bơm áp lực cao 2,5-5 MPa làm sạch mặt [10403 · 4.10.3, 4.2.6]",
+        "Khe co giãn: cắt từng lớp bằng lưỡi cắt rung, đặt màng PE hoặc đổ cát; cạnh dưới tấm PE đặt lên mặt lớp đã đầm, cạnh trên thấp hơn mặt lớp trước khi đầm 50 mm; khớp nối mặt thượng lưu có băng chắn nước PVC hoặc tấm đồng theo thiết kế, ống tiêu nước thường D = 100 mm, băng kéo liên tục từ nền đến đỉnh đập [10403 · 4.9]",
+        "Bê tông biến thái dùng sát ván khuôn thượng, hạ lưu, quanh hành lang, chỗ có băng chắn nước; chiều dày lớp bằng lớp BTĐL; vùng gối chồng lên nhau > 20 cm thì đầm dùi trước, đầm lăn sau; dỡ ván khuôn khi đạt tối thiểu 2,5 MPa [10403 · 4.11]",
+        "Nhiệt độ hỗn hợp vào khối đổ không vượt giá trị thiết kế; đo tại trạm trộn và khối đổ khoảng 1 giờ/lần (Bảng 10 ghi 2-4 giờ/lần, hai chỗ không thống nhất); thi công lúc mát, tối đến sáng, thường hạn chế dưới 25°C [10403 · 4.12.1, 4.12.2, Bảng 10]",
+        "Nắng nóng: khi nhiệt độ ngày > 25°C phải giảm thời gian dãn cách giữa hai lớp, che nắng, hạ nhiệt cốt liệu, phun sương [10403 · 4.14.2]",
+        "Mưa: dưới 3 mm/giờ có thể tiếp tục; từ 3 mm/giờ trở lên ngừng trộn, san rải hết hỗn hợp đã trộn, che phủ; khi thi công lại xử lý mặt như khe lạnh [10403 · 4.14.1]",
+        "Bảo dưỡng ẩm theo TCVN 8828, tốt nhất là phun sương toàn mặt; bảo dưỡng ngay khi vừa kết thúc đông kết; mặt khe lạnh giữ ẩm liên tục đến khi đổ lớp tiếp; mặt lộ vĩnh viễn không dưới 28 ngày; không để nước chảy trực tiếp vào BTĐL mới đầm [10403 · 4.13]",
+        "Kiểm tra: Vc cứ 2 giờ một lần, nếu sai lệch quá 3 s thì chỉnh lượng nước nhưng không đổi N/CKD; dung trọng tại khối đổ; nhiệt độ; mẫu nén các tuổi 7, 28, 90, 365 ngày ((số liệu từ OCR, cần kiểm tra bản gốc)); nõn khoan thử nén, kéo dọc trục, kéo theo mặt lớp, thấm [10403 · 5.3.1, 5.3.3, Bảng 10, Bảng 12]",
+        "Sai lệch kích thước cho phép của kết cấu BTĐL nêu trong Bảng 13 và Bảng 14 của tiêu chuẩn; giá trị bị mất/lỗi trong bản OCR nên chưa đưa vào, cần tra bản gốc [10403 · 6.2]"
       ],
       "checks": [
         "Nhật ký rải, đầm, mạch lớp và kết quả đầm thử được thiết kế phê duyệt"
@@ -260,20 +344,31 @@
         "Kết cấu có yêu cầu chống thấm cao hoặc đập: sau khi tháo cốp pha và bê tông đủ tuổi, kiểm tra mạch tiếp giáp; khi thiết kế yêu cầu thì khoan phun ép hồ xi măng hoặc vật liệu chống thấm vào mạch"
       ],
       "requirements": [
-        "Đợt đổ khối lớn: mỗi đợt cao không quá 1,5 m; đợt trên đổ sau khi đợt dưới xong ít nhất 4 ngày đêm; bề mặt mạch làm nhám, rửa sạch, tưới hồ rồi trải vữa xi măng-cát dày 1-1,5 cm [305 · 6.4.3]",
-        "Chia khối đổ: nên có một cạnh hoặc chiều cao nhỏ hơn 2 m (lớn hơn nếu có cốt thép chống nứt do thiết kế quy định); diện tích lớn thì chia thêm theo mặt bằng; phần đổ sau áp sát phần trước khi phần trước đủ ít nhất 4 ngày đêm [305 · 6.8.3]",
-        "Công trình chống thấm cao như đập thủy lợi: có thể phải khoan phun ép hồ xi măng vào mạch tiếp giáp sau khi dỡ cốp pha [305 · 6.4.3, chú thích]",
-        "Mạch ngừng: tốt nhất không dừng; nếu buộc dừng, vỗ phẳng cho nổi vữa, trước khi đổ tiếp tưới hồ xi măng hoặc vữa cùng tỉ lệ với bê tông [9345 · 5.4.2-5.4.3]",
+        "Vị trí mạch ngừng: nơi lực cắt và mômen uốn nhỏ, vuông góc phương truyền lực nén; mạch nằm ngang nên đặt ở chiều cao cốp pha; kết cấu khối lớn, công trình thủy lợi, bộ phận phức tạp thì theo thiết kế [4453 · 6.6.1, 6.6.2, 6.6.8]",
+        "Mạch ngừng thẳng đứng hoặc nghiêng nên làm bằng lưới thép mắt 5-10 mm có khuôn chắn; trước khi đổ tiếp tưới ẩm, làm nhám, rửa sạch, đầm kỹ [4453 · 6.6.3]",
+        "Vị trí mạch ngừng kết cấu thường: cột ở mặt trên móng, mặt dưới dầm hoặc công xôn, mặt trên dầm cần trục; dầm lớn liền bản cách mặt dưới bản 2-3 cm; sàn phẳng song song cạnh ngắn; sàn sườn song song dầm phụ trong 1/3 giữa nhịp, song song dầm chính trong hai khoảng giữa mỗi khoảng 1/4 nhịp [4453 · 6.6.4-6.6.7]",
+        "Xử lý mặt mạch (thủy công): khi xi măng bắt đầu đông cứng (hè 6-8 giờ, đông 12-24 giờ) dùng tia nước 0,3-0,5 MPa, vòi cách mặt 40-60 cm, nghiêng 40-50°, xói sâu quá 2 cm thì tạm ngừng; hoặc khi bê tông đạt 1,5-2,5 MPa chải bàn chải sắt/máy cho trơ đá khoảng 1,5 cm rồi rửa; hoặc đánh xờm sau 4-10 giờ khi đã đông kết [14TCN59 · 4.5.4]",
+        "Trước khi đổ tiếp phải vệ sinh sạch, hút khô nước và rải vữa xi măng cát dày 2-3 cm (N/X không lớn hơn bê tông, cát xi măng như thành phần bê tông), vừa rải vừa đổ phủ bê tông ngay [14TCN59 · 4.6.3 chú thích 2; 4453 · 6.8.2]",
+        "Khối lớn theo TCVN 14334: tẩy màng xi măng đến khi lộ vữa hoặc cốt liệu (nước áp lực cao nếu dưới 2 ngày, hoặc máy đánh xờm bàn chải sắt, đá mài, phun cát); giữ bão hòa nước không đọng; đổ tiếp hoặc rải vữa nối mỏng 10-15 mm; không dùng nước lạnh hơn mặt khối 3-4°C [14334 · 6.6.2.4b]",
+        "Khoảng ngừng 4-8 giờ (20-30°C) hoặc 8-12 giờ (10-20°C) giữa hai khối không cốt thép mà bê tông cũ chưa đạt 2,5 MPa: xử lý mặt như 4.5.4, trong phạm vi 1 m chiều dày khối mới không dùng đầm dùi mà đầm tay [14TCN59 · 4.6.3 chú thích 3]",
+        "Chưa làm công tác chuẩn bị mặt khi bê tông chưa đạt 25 daN/cm² (2,5 MPa); đi lại, đặt giàn giáo, cốt thép lên bê tông mới chỉ sau khi đạt tối thiểu 2,5 MPa [4453 · 6.8.2; 14TCN59 · 4.8.1d]",
+        "Băng chắn nước PVC (TCVN 9407): phân loại theo mặt cắt FF (phẳng), FC (phẳng có gân), CF (lõi rỗng giữa), CC (lõi rỗng có gân), UC (chõm cầu có gân), S (đặc biệt) [9407 · 3, Bảng 1]",
+        "Kích thước danh nghĩa băng: chiều rộng 100-500 mm (ví dụ FF 100/150/200, CF 150-300, UC 200-450, S 150-500), độ dày tham khảo 5, 6, 7 mm, chiều dài cuộn tham khảo từ 9 m; sai lệch rộng ±3%, dày ±10%, dài 0 đến +3% [9407 · 4.2, Bảng 2, Bảng 3]",
+        "Chỉ tiêu cơ lý băng PVC: khối lượng riêng ≤ 1,4 g/cm³; độ cứng Shore A ≥ 65; cường độ kéo ≥ 11,8 MPa; giãn dài khi đứt ≥ 250%; lão hóa nhiệt (100°C, 120 giờ) khối lượng đổi ±5% [9407 · 4.3, Bảng 4, 6.5]",
+        "Độ bền hóa chất băng PVC (ngâm 14 ngày): môi trường kiềm 70°C - khối lượng ±5%, cường độ kéo ±20%, giãn dài ±20%; nước muối 35 g/L ở 27°C - khối lượng ±2%, cường độ kéo ±10%, giãn dài ±10%; bề mặt không nứt gãy [9407 · 4.1, 4.3, Bảng 4, Phụ lục A]",
+        "Thí nghiệm băng: mẫu lấy ngẫu nhiên từ cuộn, mỗi tấm mẫu ≥ 1 m; số viên mẫu: khối lượng riêng 3, Shore A 1, kéo và giãn dài 3, lão hóa nhiệt 3, mỗi môi trường hóa chất 3; thử ở 27 ± 2°C, nhiệt độ khác phải nhân hệ số hiệu chỉnh [9407 · 5, Bảng 5, Bảng 6]",
+        "Vật chắn nước bằng chất dẻo phải có nguồn gốc rõ ràng, thông số kỹ thuật và phiếu kiểm tra của nhà sản xuất, thi công theo hướng dẫn nhà sản xuất; đổi vật liệu hoặc kích thước phải được thiết kế đồng ý và cấp có thẩm quyền phê chuẩn [14TCN59 · H.1.13, H.1.1]",
+        "TCVN 9407 chỉ quy định vật liệu, không có điều khoản về hàn nối băng và vị trí đặt; các nội dung này theo hướng dẫn nhà sản xuất và thiết kế (chưa có số liệu đối chiếu)",
+        "Tấm kim loại ngăn nước: phẳng, sạch gỉ vảy sơn dầu, lỗ nhỏ hàn kín; nối chồng hoặc nối ngàm hàn chặt hai mặt, chiều dài chồng không nhỏ hơn 20 mm; phần nằm trong khe quét nhựa đường, phần chôn trong bê tông gia công đuôi cá [14TCN59 · H.1.2-H.1.4]",
+        "Khe co giãn bằng nhựa đường: nhựa đường và hỗn hợp phải thí nghiệm tỷ lệ; mặt bê tông khô ráo trước khi phủ; khe đổ nhựa sạch, khô; bao tải/giấy dầu tẩm nhựa dán nhiều lớp, đầu nối so le, chồng 10-15 cm, lớp ngoài cùng là nhựa đường [14TCN59 · H.1.5-H.1.12]",
+        "Nghiệm thu: kiểm tra chất lượng thi công phần chống thấm của khe nối biến dạng trước khi đổ, và số lượng, chất lượng khe nối biến dạng khi nghiệm thu kết cấu [14TCN59 · 5.3.15e, 5.3.16e]",
+        "Kết cấu thủy lợi, đập: khi thiết kế yêu cầu chống thấm cao, khoan phun ép hồ xi măng hoặc vật liệu chống thấm vào mạch tiếp giáp sau khi bê tông đủ tuổi (khoan phụt theo quy phạm phụt vữa) [14TCN59 · G.3.11]",
         "Khe dãn (cho chuyển vị): cắt đứt hoàn toàn bê tông và cốt thép, bề rộng không nhỏ hơn 20 mm; bề rộng tính theo b1 = e × l với e = 0,4-0,45 mm/m, l là khoảng cách hai khe dãn (m) [9345 · 6.2.2a]",
         "Khe co (không cho chuyển vị): cắt rãnh xuống độ sâu h thường 10-30 mm với kết cấu mỏng, rộng khoảng 10 mm, cốt thép đi qua; tạo bằng thanh hình thang/tam giác khi đổ hoặc cưa cắt khi bê tông đủ cường độ; tỉ lệ sâu/rộng phần xảm 1/1 hoặc 1,5/1 [9345 · 6.2.2b, 6.2.4.2]",
         "Khoảng cách tối đa giữa các khe dãn trong khí hậu nóng ẩm: 6-9 m (bê tông không cốt hoặc cốt cấu tạo, chịu khí hậu trực tiếp), 18 m (nếu che bức xạ), 35 m (BTCT chịu bức xạ trực tiếp), 50 m (BTCT được che chắn); khe co 6-9 m với BTCT chịu khí hậu trực tiếp [9345 · 6.2.3] (đây là quy định cho kết cấu thường, không áp cho bê tông khối lớn thủy công; khoảng khe công trình thủy lấy theo thiết kế)",
         "Thi công khe dãn: dùng hai tấm xốp polystyrene khối lượng thể tích không quá 20 kg/m³; sau khoảng 20-30 phút tháo cốp pha chắn, đặt xốp, đổ tiếp; khi bê tông rắn bỏ tấm xốp trên, xảm matit vào phần trống [9345 · 6.2.4.1]",
         "Matit xảm: polyurethane (xảm lạnh) hoặc nhựa đường (xảm nóng); bảo vệ khỏi tác động cơ học khi chưa rắn và khỏi bức xạ mặt trời khi sử dụng [9345 · 6.2.4.1]",
-        "Khe dãn yêu cầu ngăn nước cao: dùng màng chắn đàn hồi hoặc băng cách nước phía có nguồn nước; thi công theo chỉ dẫn thiết kế riêng [9345 · 6.2.2c, 6.2.4.3]",
-        "Băng chắn nước PVC: TCVN 9407 áp dụng cho băng PVC dùng ở mối nối kết cấu bê tông có yêu cầu chống thấm, phân loại theo hình dạng mặt cắt (loại phẳng FF, phẳng có gân FC...); chỉ tiêu cơ lý đo theo các TCVN viện dẫn [9407 · mục 1, 3] (chỉ đọc phạm vi và phân loại; chưa đối chiếu giá trị kéo, giãn dài)",
-        "Đập bê tông đầm lăn: khe co giãn, khe thi công phải xử lý đúng kỹ thuật; mặt lớp quá thời gian cho phép phải tạo nhám, tưới hồ hoặc vữa liên kết [10403] (từ trang tóm tắt, chưa đối chiếu điều khoản; khe ngang, khe dọc, băng cản nước, thời gian cho phép chưa đọc được)",
-        "Vị trí mạch ngừng cột, dầm, sàn, tường và cường độ bê tông tối thiểu để đổ tiếp theo TCVN 4453 mục 6.6 chưa đọc được: lấy từ bản gốc hoặc thiết kế",
-        "Cốp pha thành chỉ tháo khi bê tông đủ ít nhất 5 ngày đêm tuổi (khối lớn), nên tháo hai bước [305 · 6.5.2, 6.8.4] (đọc từ trích dẫn)"
+        "Khe dãn yêu cầu ngăn nước cao: dùng màng chắn đàn hồi hoặc băng cách nước phía có nguồn nước; thi công theo chỉ dẫn thiết kế riêng [9345 · 6.2.2c, 6.2.4.3]"
       ],
       "checks": [
         "Vị trí, kích thước khe đúng bản vẽ; mặt mạch ngừng sạch, nhám trước khi đổ tiếp",
@@ -302,8 +397,10 @@
       ],
       "requirements": [
         "Nghiệm thu khe: kiểm tra số lượng, vị trí, cấu tạo khe; cốt thép qua khe; khe không bị chèn bởi đá, sỏi, bê tông rơi; theo dõi hoạt động của khe sau một năm [9345 · mục 7]",
-        "Kiểm tra chất lượng liền khối của các phần đổ đã chia nhỏ khối [305 · 6.9.2, 7.1] (đọc từ trích dẫn)",
-        "Số lượng mẫu thử, tiêu chí đạt của băng chắn nước và vật liệu chèn: lấy theo hợp đồng, thiết kế và tiêu chuẩn vật liệu (chưa đối chiếu)"
+        "Nghiệm thu khối đổ và bộ phận công trình đã chuẩn bị xong phải kiểm tra chất lượng thi công chống thấm khe nối biến dạng và độ chính xác vị trí dụng cụ đo [14TCN59 · 5.3.15e,g]",
+        "Khi hoàn thành kết cấu phải kiểm tra số lượng và chất lượng khe nối biến dạng, hình dáng và kích thước hình học từng khối, vị trí và cao độ công trình [14TCN59 · 5.3.16e,g,h]",
+        "Nghiệm thu trung gian các bộ phận sẽ bị lấp kín (móng, tấm lót chống thấm, cốt thép) và phần đặt sẵn trước khi đổ; lập biên bản chuẩn bị khối đổ, biên bản công tác khuất [14TCN59 · 5.3.13, 5.3.14]",
+        "Số lượng mẫu thử, tiêu chí đạt của băng chắn nước và vật liệu chèn: băng PVC theo TCVN 9407 (xem bước xử lý khe); vật liệu chèn lấy theo hợp đồng, thiết kế và tiêu chuẩn vật liệu (chưa đối chiếu)"
       ],
       "checks": [
         "Biên bản nghiệm thu khe, băng chắn nước và hệ thoát nước trước khi lấp; ghi nhận rò rỉ khi thử"
@@ -325,11 +422,22 @@
       ],
       "requirements": [
         "Bắt đầu bảo dưỡng ngay sau hoàn thiện, liên tục [8828 · 4.1, 6.1]",
+        "Bảo dưỡng ẩm bắt buộc ngay sau khi đổ; thời gian bảo dưỡng ẩm không nhỏ hơn Bảng 17 (theo TCVN 5592), cường độ tới hạn %R28 / số ngày đêm: vùng A (từ Diễn Châu trở ra Bắc) mùa hè IV-IX 50-55% / 3, mùa đông X-III 40-50% / 4; vùng B (đông Trường Sơn, Diễn Châu đến Thuận Hải) mùa khô II-VII 55-60% / 4, mùa mưa VIII-I 35-40% / 2; vùng C (Tây Nguyên, Nam Bộ) mùa khô XII-IV 70% / 6, mùa mưa V-XI 30% / 1 [4453 · 6.5.1, 6.5.2, Bảng 17]",
+        "Thủy công: che phủ, giữ ẩm, tưới chậm nhất 10-12 giờ sau khi đổ xong (trời nóng, có gió thì sau 2-3 giờ), duy trì đến khi bê tông đạt 70% cường độ thiết kế [14TCN59 · 4.8.2a]",
+        "Xi măng poóc lăng, nhiệt độ ≥ 15°C, thời tiết khô: 7 ngày đầu tưới thường xuyên (ban ngày ít nhất 2 giờ/lần, ban đêm ít nhất 2 lần), sau đó giữ ẩm. Xi măng puzơlan: 7 ngày đầu luôn ẩm, đến ngày 14 tưới 2 giờ/lần ban ngày, 6 giờ/lần ban đêm, đến ngày 28 tưới ít nhất 3 lần/ngày đêm [14TCN59 · 4.8.2a]",
+        "Khi phủ cát, bao tải, mùn cưa thì giãn cách tưới có thể bằng 1,5 lần quy định; nước tưới đạt yêu cầu như nước trộn [14TCN59 · 4.8.2b,c]",
+        "Thời gian dưỡng hộ tham khảo (phải qua thí nghiệm): xi măng poóc lăng 14 ngày mùa hè, 7 ngày mùa đông; puzơlan 28 ngày; xi măng đông kết nhanh 7 ngày mùa hè, 3 ngày mùa đông [14TCN59 · 4.8.3, Bảng 4.8]",
+        "Bê tông tiếp giáp nước ngầm chảy (đặc biệt nước xâm thực) cần thoát nước tạm hoặc ngăn nước trong 14 ngày đêm; khối bê tông dày < 3 m trên nền đá, đỉnh hành lang, cống không được để lộ thiên lâu [14TCN59 · 4.8.4, 4.6.7c]",
+        "Khối lớn: nhiệm vụ chính là khống chế chênh lệch nhiệt độ mặt - lòng khối; dẫn nhiệt bằng ống nước lạnh, bao phủ giữ nhiệt đều; không tháo cốp pha trước 7 ngày [4453 · 6.8.5; 14TCN59 · 4.6.7]",
+        "Khối lớn theo TCVN 14334: bảo dưỡng ẩm theo TCVN 8828, chỉ dùng nước phun tia (không xối thẳng); nước không thấp hơn nhiệt độ mặt khối quá 3-4°C; tổng thời gian không ít hơn 7 ngày; hoàn thiện mặt ngay sau đổ, nứt co mềm có thể xoa, đầm lại khi ấn ngón tay còn lún [14334 · 6.9.1, 6.9.2.1]",
+        "Bọc cách nhiệt khi chênh lệch tính toán giữa Tmax và nhiệt độ thấp nhất của môi trường lớn hơn ΔTlim: bọc ván khuôn thành, đáy, phủ kín mặt hở, trải nilon trước; vật liệu có độ ẩm không quá 12% [14334 · 6.10.1, 6.10.2, 6.10.4]",
+        "Vật liệu cách nhiệt: tấm xốp EPS 20-40 kg/m³ dày 10-50 mm; PE 20-40 kg/m³ dày 3-15 mm; bông khoáng hoặc thủy tinh 80-200 kg/m³ dày 25-100 mm; gờ cạnh và góc tăng gấp đôi chiều dày trên dải 0,6-1,2 m; cấu tạo 2-3 lớp để tháo dần [14334 · 6.10.2, 6.10.5]",
+        "Bê tông mới đổ: đi lại, đặt giàn giáo, cốp pha, cốt thép lên chỉ sau khi đạt tối thiểu 2,5 MPa [14TCN59 · 4.8.1d]",
+        "Trời nóng khô: 3 ngày đầu tưới liên tục không để khô; sau khi bỏ lớp che vẫn giữ ẩm tối thiểu 10 ngày [14TCN59 · Phụ lục B.8, B.10]",
         "Bê tông khối lớn bảo dưỡng ẩm tối thiểu 7 ngày; xi măng xỉ/puzolan, đông kết chậm hoặc gần biển trong 1 km: cộng thêm 1 ngày mỗi trường hợp [8828 · 6.3.1-6.3.3]",
         "Trời nóng: bảo dưỡng ban đầu trong 3-5 giờ đầu, phủ nilon dày ≥ 0,1 mm [9345 · 5.5.2.2-5.5.2.3]",
         "Bê tông trên mái dốc: bảo dưỡng không dưới 7 ngày [11652] (từ trang tóm tắt)",
-        "Số ngày bảo dưỡng bê tông thường (TCVN 8828 Bảng 2, TCVN 4453) chưa đọc được: lấy từ bản gốc/thiết kế",
-        "TCVN 14334 áp dụng B20-B70, không áp dụng cho RCC; tuổi thiết kế 56/90 ngày [14334 · mục 1]"
+        "TCVN 14334 áp dụng cho B20-B70, không áp dụng cho đập bê tông đầm lăn; nên dùng cấp cường độ tuổi 60, 90 ngày hoặc lâu hơn để giảm xi măng (khác nội dung \"56/90 ngày\" ghi trước đây) [14334 · 1, 6.3.1.3]"
       ],
       "checks": [
         "Nhật ký nhiệt độ"
@@ -352,11 +460,19 @@
         "Đo kiểm hình học, lập biên bản nghiệm thu khối đổ"
       ],
       "requirements": [
-        "Cốp pha không chịu lực tháo khi cường độ > 50 N/cm² [4453 · mục 6]",
-        "Cốp pha chịu lực: nhịp < 2 m đạt 50% R28; 2-8 m đạt 70%; > 8 m đạt 90% [4453 · mục 6]"
+        "Cốp pha không chịu lực (thành bên dầm, cột, tường) tháo được khi bê tông đạt cường độ trên 50 N/cm²; bản scan có dấu \"…\" sau số liệu, cần đối chiếu bản gốc [4453 · 3.6.2]",
+        "Cốp pha và đà giáo chịu lực (đáy dầm, sàn, cột chống): bản, dầm, vòm khẩu độ < 2 m đạt 50% R28 (không nhỏ hơn 80 N/cm²), 2-8 m đạt 70%, > 8 m đạt 90%; tương ứng thời gian bảo dưỡng 7, 10, 23 ngày (chưa xét phụ gia) [4453 · 3.6.3, Bảng 3 và chú thích]",
+        "Ô văng, công xôn, sê nô: chỉ tháo cột chống và cốp pha đáy khi bê tông đủ mác thiết kế và đã có đối trọng chống lật; chất toàn bộ tải chỉ khi đạt cường độ thiết kế [4453 · 3.6.4, 3.6.8]",
+        "Thủy công, cường độ tối thiểu khi tháo: mặt đứng tường dày, trụ lớn 35 kg/cm²; mặt trong vòm, tường mỏng, mặt dưới dốc > 45° 55 kg/cm²; cột, cống vòm có đất đắp, hầm 100 kg/cm²; xà, dầm, đan, mặt dưới dốc < 45° 150 kg/cm² [14TCN59 · 3.1.5, Bảng 3.6]",
+        "Cốp pha thẳng đứng thủy công: thời gian tối thiểu mùa đông 2-3 ngày, mùa hè 1-2 ngày và phải đủ cường độ; tháo ván đứng trước, từ trên xuống, bộ phận thứ yếu trước; tháo nêm, hộp cát trước cột chống; dỡ dần và kiểm tra biến dạng [14TCN59 · 3.1.5]",
+        "Bê tông khối lớn: không tháo cốp pha trước 7 ngày; tránh tháo khi lòng khối và môi trường chênh nhiệt hoặc có gió lạnh; chênh lệch quá 15-20°C thì phải phủ bảo vệ mặt sau tháo [4453 · 6.8.5c, 6.8.3]; thủy công: mặt bê tông hạ quá 11-14°C thì phủ vật liệu giữ nhiệt sau khi tháo [14TCN59 · 4.6.6]",
+        "Khối lớn theo TCVN 14334: chỉ tháo ván khuôn và vật liệu cách nhiệt khi chênh lệch nhiệt độ tâm khối - không khí không vượt ΔTlim; tháo hai bước (nới lỏng, để khoảng 1 ngày đêm rồi dỡ); nên tháo lúc ấm nhất trong ngày, không tháo khi mưa hoặc gió mạnh; nếu phải tháo sớm thì bọc tạm lại [14334 · 6.11.2, 6.11.3]",
+        "Hoàn thiện bề mặt: gồ ghề đo bằng thước 2 m không quá 7 mm (thông thường) hoặc 5 mm (cấp cao) [4453 · 6.11.2, 6.11.3]",
+        "Kiểm tra sau tháo ván khuôn khối lớn: nứt mặt (vị trí, bề rộng, chiều dài) khi tháo và sau 1, 2, 3 ngày; vị trí và thời điểm Tmax hoặc ΔTmax vượt giới hạn; khuyết tật, tính liền khối [14334 · 6.12.3]",
+        "Tiêu chí đạt cường độ, số tổ mẫu và sai lệch kích thước kết cấu xem bước kiểm tra chất lượng bê tông và nghiệm thu"
       ],
       "checks": [
-        "Cường độ mẫu hiện trường, hình học, khuyết tật; nghiệm thu"
+        "Cường độ mẫu hiện trường, hình học, khuyết tật, nhật ký nhiệt (khối lớn); biên bản cho phép tháo và nghiệm thu"
       ],
       "tips": [
         "Tháo sớm gây sứt cạnh, võng, nứt; chờ kết quả mẫu nén hiện trường",
@@ -378,7 +494,13 @@
         "Lập biên bản xử lý, ảnh trước và sau, nghiệm thu trước khi lấp, che phủ"
       ],
       "requirements": [
-        "Thông số theo thiết kế và bản gốc tiêu chuẩn (chưa có số liệu đối chiếu)"
+        "Rỗ mặt: ngay sau tháo cốp pha đục hết bê tông yếu và hạt cốt liệu nhô, rửa sạch, nhét đầy bê tông mới cùng mác, cốt liệu nhỏ hơn, đầm chặt, miết cẩn thận [14TCN59 · 4.8.7]",
+        "Lỗ hổng, rỗ lớn hoặc bên trong không đông đặc làm yếu tiết diện kết cấu quan trọng: xử lý bằng phương pháp nén (phụt) vữa [14TCN59 · 4.8.8]",
+        "Sửa khuyết tật rỗ, xước, hở thép, nứt bằng trát, vá, phun vữa xi măng, đục tẩy; chú ý pha trộn vật liệu sửa để đồng đều màu [4453 · 6.11.3 chú thích 2]",
+        "Bề mặt hoàn thiện đạt yêu cầu chất lượng, độ phẳng, đồng đều màu theo thiết kế [14TCN59 · 4.8.9]",
+        "Vết nứt mặt khối lớn khuyến nghị: rộng 0,15-0,3 mm bơm đầy keo epoxy chuyên dụng; nhỏ hơn 0,15 mm không cần bơm; phủ kín mặt vết nứt bằng sơn epoxy 3 lớp, băng rộng 200 mm hoặc biện pháp chống thấm khác [14334 · 7.2 chú thích 1]",
+        "Vùng bê tông có Tmax vượt Tlim: khoan lõi (TCVN 12252) đường kính tối thiểu 100 mm tại vùng quá nhiệt, tối thiểu 3 viên cao 100-200 mm để nén và 3 mặt cắt mài bóng để soi, khoan không sớm hơn 60 ngày sau thi công; chấp nhận nếu mặt cắt không nứt, không có vết rạn quanh hạt cốt liệu và cường độ trung bình không nhỏ hơn cấp thiết kế; việc xử lý do người thiết kế quyết định [14334 · 7.2 chú thích 2]",
+        "Khi mẫu không đạt hoặc nghi ngờ chất lượng: khoan lấy mẫu hoặc thử không phá hủy (siêu âm, đồng vị phóng xạ, súng bật nảy); quyết định sử dụng và biện pháp xử lý có sự tham gia của thiết kế và cấp có thẩm quyền [14TCN59 · 5.3.8, 5.3.9; 4453 · Bảng 19]"
       ],
       "checks": [
         "Biên bản phân loại, phương án và nghiệm thu từng vị trí sửa chữa khuyết tật"
@@ -389,6 +511,73 @@
         "Nứt nhiệt hoặc nứt kết cấu cần tìm nguyên nhân trước khi trám, nếu không sẽ nứt lại",
         "Phần trám lớn phải đục có thành đứng, tránh mép mỏng dễ bong",
         "Không dùng vữa xi măng thường để trám chỗ chịu nước áp lực nếu thiết kế chưa cho phép"
+      ]
+    },
+    {
+      "title": "Thi công trong thời tiết nóng và mùa mưa",
+      "actions": [
+        "Theo dõi dự báo thời tiết và nhiệt độ môi trường, xác định ngưỡng chuyển sang chế độ thi công thời tiết nóng và ngưỡng ngừng đổ khi mưa lớn, ghi trong biện pháp thi công",
+        "Che nắng bãi cát đá, thiết bị trộn, nơi trộn và nơi đổ; tưới mát cốt liệu lớn bằng nước mát, dùng nước mát để trộn và bảo dưỡng",
+        "Chọn xi măng ít tỏa nhiệt, phụ gia hóa dẻo phù hợp nhiệt độ cao để kéo dài thời gian ninh kết; trộn bằng máy",
+        "Vận chuyển trong thùng kín có nắp, ống bơm che phủ hoặc sơn trắng; rút ngắn thời gian chờ giữa trộn và đổ",
+        "Bố trí đổ vào ban đêm, sáng sớm hoặc xế chiều, tránh giờ nắng gắt; che nắng khoảnh đổ và bảo dưỡng ngay sau đổ",
+        "Mùa mưa: làm rãnh tiêu thoát nước cho bãi vật liệu, đường vận chuyển, nơi trộn, nơi đổ; chuẩn bị giàn che mưa và bạt phủ",
+        "Tăng số lần thí nghiệm độ ẩm cốt liệu, hiệu chỉnh lượng nước trộn để giữ nguyên tỷ lệ N/X",
+        "Mưa lớn thì ngừng đổ và che kín mặt bê tông; sau mưa tiêu hết nước đọng, bỏ phần bị xói; nếu ngừng quá thời gian cho phép thì xử lý như mạch ngừng"
+      ],
+      "requirements": [
+        "Thi công thời tiết nóng áp dụng khi nhiệt độ môi trường cao hơn 30°C; hỗn hợp ra khỏi máy trộn nên không quá 30°C, khi đổ không quá 35°C; không nên thi công vào ngày trên 35°C [4453 · 6.9.1, 6.9.2, 6.9.3e]",
+        "Biện pháp hạ nhiệt: nước mát để hạ nhiệt cốt liệu lớn và để trộn, bảo dưỡng; che nắng thiết bị, bãi cát đá, nơi trộn, nơi đổ; xi măng ít tỏa nhiệt; phụ gia hóa dẻo; đổ ban đêm hoặc sáng sớm [4453 · 6.9.3]",
+        "Bơm bê tông trời nóng: che phủ hoặc sơn trắng mặt ngoài ống [4453 · 6.3.5b]",
+        "Mùa nóng khô thủy lợi (ngoài trời > 25°C, độ ẩm < 60%): N/X lớn nhất cho kết cấu không phải khối lớn 0,65 (trên mặt đất; dưới đất, dưới nước không áp lực) và 0,60 (chịu áp lực nước) [14TCN59 · Phụ lục B.1, Bảng B.1]",
+        "Xi măng nên có nhiệt thủy hóa không quá 45-50 cal/g sau 3 ngày và 50-60 cal/g sau 7 ngày; nên bắt đầu đổ lúc xế chiều, tránh giờ nắng gắt nhất [14TCN59 · Phụ lục B.3, B.7]",
+        "Bảo dưỡng mùa nóng khô: che chống bức xạ và giữ ẩm liên tục ngay sau đổ, 3 ngày đầu tưới liên tục, sau khi bỏ lớp che giữ ẩm tối thiểu 10 ngày; kết cấu dài (áo kênh, lát mái) có thể phun dung dịch tạo màng [14TCN59 · Phụ lục B.8-B.10]",
+        "Khối lớn thời tiết nóng phải tuân thủ quy định bê tông khối lớn; hạn chế thi công khi không khí trên 35°C [4453 · 6.9.4; 14334 · 6.6.2.1b]",
+        "Mùa mưa: có biện pháp tiêu thoát nước cho bãi cát đá, đường vận chuyển, nơi trộn và nơi đổ; điều chỉnh nước trộn theo độ ẩm cốt liệu để giữ nguyên N/X; có mái che khi đổ dưới mưa [4453 · 6.9.5]",
+        "Mưa nhỏ không có giàn che: giảm nước trộn theo phòng thí nghiệm, tiêu nước đọng, phủ bạt mặt mới đổ, ngăn nước chảy vào khoảnh đổ; mưa lớn ngừng đổ ngay và che kín; quá thời gian ngừng cho phép thì xử lý như khe thi công [14TCN59 · Phụ lục A.3, A.4]"
+      ],
+      "checks": [
+        "Nhật ký nhiệt độ môi trường, nhiệt độ hỗn hợp từng xe, độ ẩm cốt liệu, thời gian ngừng do mưa và biện pháp xử lý mặt bê tông"
+      ],
+      "tips": [
+        "Nhiệt độ hỗn hợp tăng thêm trên đường vận chuyển và khi chờ; đo nhiệt độ ngay tại điểm đổ chứ không chỉ tại trạm trộn",
+        "Không thêm nước tại hiện trường để bù sụt độ sụt do nắng; dùng phụ gia hoặc rút ngắn thời gian chờ",
+        "Che mưa chưa kịp thì mặt bê tông non bị rửa trôi vữa; phủ bạt ngay và xử lý như khe thi công nếu ngừng quá lâu",
+        "Cốt liệu ẩm sau mưa làm tăng nước thực tế trong cối; kiểm tra độ ẩm cát đá đầu mỗi ca"
+      ]
+    },
+    {
+      "title": "Kiểm tra chất lượng bê tông, lấy mẫu và nghiệm thu kết cấu",
+      "actions": [
+        "Kiểm tra vật liệu đầu vào, thiết bị cân đong, trạm trộn, thiết bị vận chuyển và máy đầm theo tần suất quy định trước khi đổ",
+        "Đo độ sụt đúng tần suất; quan sát độ đồng nhất, phân tầng của hỗn hợp tại nơi đổ",
+        "Lấy mẫu tại nơi đổ theo từng tổ ba viên cùng lúc, cùng chỗ; ghi ký hiệu, vị trí, ngày đúc; bảo dưỡng ẩm theo điều kiện chuẩn",
+        "Thử nén ở tuổi 28 ngày (và tuổi thiết kế nếu khác); thử chống thấm khi thiết kế yêu cầu",
+        "Đánh giá kết quả theo tiêu chí đạt của từng tổ mẫu",
+        "Khi mẫu không đạt hoặc nghi ngờ: khoan lấy nõn, thử không phá hủy; báo thiết kế và cấp có thẩm quyền quyết định",
+        "Đo kiểm kích thước, vị trí, cao độ kết cấu so với sai lệch cho phép",
+        "Lập hồ sơ nghiệm thu tại hiện trường, gồm biên bản nghiệm thu trung gian, hoàn công, nhật ký thi công"
+      ],
+      "requirements": [
+        "Mẫu lấy tại nơi đổ, bảo dưỡng ẩm theo TCVN 3105; mỗi tổ 3 viên, mẫu chuẩn 150 x 150 mm [4453 · 7.1.6, 7.1.7]",
+        "Số tổ mẫu: khối lớn 500 m³/tổ khi khối đổ > 1000 m³ và 250 m³/tổ khi khối đổ < 1000 m³; móng lớn 100 m³/tổ (ít nhất một tổ mỗi khối móng); khung và kết cấu cột, dầm, bản, vòm 20 m³/tổ; nền, mặt đường 200 m³/tổ; thử chống thấm 500 m³/tổ, ít hơn vẫn phải lấy một tổ [4453 · 7.1.7; 14TCN59 · 5.3.5]",
+        "Điều kiện đạt (mẫu 28 ngày): giá trị trung bình của từng tổ không nhỏ hơn mác thiết kế và không viên nào dưới 85% mác thiết kế [4453 · 7.1.8; 14TCN59 · 5.3.7]",
+        "Hệ số quy đổi cường độ từ mẫu khác kích thước về mẫu lập phương 150 mm: 100 mm 0,91; 200 mm 1,05; trụ 150 x 300 mm 1,20 [4453 · Phụ lục D]",
+        "Tần suất kiểm tra: xi măng mỗi lần giao hàng; cốt liệu lần giao đầu, khi nghi ngờ hoặc đổi nguồn; phụ gia mỗi lần giao; thiết bị cân đong trước khi sử dụng rồi định kỳ; vận chuyển, đổ, đầm, bảo dưỡng mỗi lần; khuyết tật mỗi kết cấu [4453 · 7.1.4, Bảng 19]",
+        "Kiểm tra bê tông đã đông cứng khi nghi ngờ hoặc mẫu không đạt: súng bật nảy, siêu âm, khoan lấy mẫu từ kết cấu [4453 · Bảng 19; 14TCN59 · 5.3.8]",
+        "Sai lệch kết cấu bê tông toàn khối [4453 · 7.2.2, Bảng 20]: lệch thẳng đứng 5 mm/m; toàn chiều cao móng 20, tường trong cốp pha cố định và cột liền sàn 15, khung cột 10 mm; cốp pha trượt, leo 1/500 chiều cao không quá 100 mm; lệch mặt ngang 5 mm/m, 20 mm toàn bộ; mặt trên kiểm thước 2 m 8 mm; chiều dài hoặc nhịp 20 mm; tiết diện 8 mm; vị trí và cao độ gối tựa 5 mm",
+        "Sai lệch kết cấu thủy lợi [14TCN59 · 5.3.17, Bảng 5.3]: lệch thẳng đứng toàn chiều cao móng 20, tường 15, cột khung 10 mm; thước 2 m 8 mm; chiều dài hoặc nhịp ±20 mm; tiết diện +8 mm; rãnh, hầm thiết bị: vị trí ±10, khoảng cách tim +15, kích thước ngang +10 mm; bu lông néo 5 mm (trong phạm vi trụ), 10 mm (ngoài), cao +20 mm; cao trình vật đặt sẵn ±5 mm",
+        "Hồ sơ nghiệm thu: nghiệm thu cốt thép và cốp pha trước đổ, kết quả thử mẫu, kích thước và vị trí kết cấu, chi tiết đặt sẵn, khe co giãn, bản vẽ hoàn công, văn bản cho phép thay đổi thiết kế, nghiệm thu nền móng và nghiệm thu trung gian, nhật ký thi công [4453 · 7.2.1; 14TCN59 · 5.3.12-5.3.16]",
+        "Khối lớn bổ sung hồ sơ kiểm soát nhiệt (thành phần, nhiệt độ hỗn hợp, bọc cách nhiệt, dàn ống, diễn biến Tmax và ΔTmax, thời điểm tháo ván khuôn, xử lý nứt); chỉ nghiệm thu khi đạt yêu cầu thiết kế, không nứt, không quá nhiệt hoặc đã xử lý [14334 · 7.1, 7.3.1]"
+      ],
+      "checks": [
+        "Biên bản nghiệm thu cốp pha, cốt thép, bê tông từng khối đổ; phiếu thử mẫu; số liệu đo kích thước so với sai lệch cho phép"
+      ],
+      "tips": [
+        "Lấy mẫu ngẫu nhiên và đủ tần suất; tổ mẫu chỉ lấy khi mẻ tốt sẽ không đại diện cho khối đổ",
+        "Mẫu hiện trường phải bảo dưỡng như điều kiện quy định, để lẫn điều kiện hiện trường nắng gió làm kết quả không so được",
+        "Mẫu một tổ không đạt thì dừng lại phân tích khối bê tông tương ứng trước khi đổ tiếp phần che khuất",
+        "Đo sai lệch ngay khi còn tháo cốp pha và sửa được; để lâu việc sửa tốn kém và khó chấp nhận"
       ]
     }
   ],
@@ -419,5 +608,5 @@
     "Sơ đồ ống chôn sẵn, biên bản thử thông ống và thử áp ống làm mát; số liệu nhiệt độ và lưu lượng nước làm mát",
     "Nhật ký RCC (thông số đầm thử, thời gian giữa lớp, độ chặt); hồ sơ khuyết tật và sửa chữa"
   ],
-  "note": "TCVN 10403, 14334, 11652 chỉ đọc được trang tóm tắt. Số liệu khối lớn lấy từ TCXDVN 305:2004 (tiền nhiệm 14334, chưa rõ còn hiệu lực), nên đối chiếu 14334. TCVN 4453 mục 6.4-6.9 (chiều dày lớp, mạch ngừng, bảo dưỡng) chưa đọc được. Phần khe: TCXDVN 305 đọc từ trích dẫn mục 6.4.3, 6.8.3; TCVN 9345 mục 6.2, 5.4, 7 đọc từ bản hiển thị một phần; TCVN 9407 chỉ đọc phạm vi và phân loại; TCVN 4453 mục 6.6, 10403, 14TCN 59 phần khe chưa đọc được."
+  "note": "Đã đối chiếu số liệu với toàn văn TCVN 4453:1995 (mục 3, 4, 6, 7, bảng 1-20), 14TCN 59:2002 (mục 3-5, phụ lục A, B, G, H) và TCVN 9407:2014. TCVN 14334:2025 và TCVN 10403:2015 đọc từ bản scan OCR: Bảng 1, 2 của 14334 (giới hạn ΔT, Tmax) và Bảng 9, 13, 14 của 10403 bị mất, một số số liệu có đánh dấu cần kiểm tra bản gốc. Các số liệu từ TCXDVN 305 đã được thay bằng 14334, 4453, 14TCN 59. Các câu về khe dãn/khe co (TCVN 9345), bảo dưỡng 8828/11652 chưa được đối chiếu lại với toàn văn. Kiểm tra hiệu lực của từng tiêu chuẩn trước khi áp dụng; thiết kế và chỉ dẫn kỹ thuật của dự án luôn ưu tiên."
 }

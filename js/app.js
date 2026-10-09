@@ -36,6 +36,10 @@
   function safeStore(key, val) {
     try { if (val === undefined) return JSON.parse(localStorage.getItem(key) || 'null'); localStorage.setItem(key, JSON.stringify(val)); } catch (e) { return null; }
   }
+  function setApp() {
+    var kids = Array.prototype.slice.call(arguments).filter(function (x) { return x != null && x !== false; });
+    appEl.replaceChildren.apply(appEl, kids);
+  }
   function list(items) {
     return el('ul', null, (items || []).map(function (t) { return el('li', null, cite(t)); }));
   }
@@ -98,7 +102,7 @@
     var n = Number(idx), nav = [];
     if (n > 0) nav.push(el('a', { class: 'btn', href: '#/g/' + gid + '/' + (n - 1), text: '‹ ' + m.steps[n - 1].title }));
     if (n < m.steps.length - 1) nav.push(el('a', { class: 'btn', href: '#/g/' + gid + '/' + (n + 1), text: m.steps[n + 1].title + ' ›' }));
-    appEl.replaceChildren(
+    setApp(
       el('div', { class: 'hero' }, [el('h2', { text: st.title }), el('p', { text: m.title })]),
       introBlock(st.intro),
       section(st.intro ? 'Cách sử dụng, trình tự' : 'Trình tự thực hiện', st.actions),
@@ -163,7 +167,7 @@
     box.addEventListener('keydown', function (e) {
       if (e.key === 'Enter' && box.value.trim()) location.hash = '#/search/' + encodeURIComponent(box.value.trim());
     });
-    appEl.replaceChildren(
+    setApp(
       el('div', { class: 'hero' }, [
         el('h2', { text: 'Thủy lợi, thủy điện' }),
         el('p', { text: 'Trình tự các bước thi công, yêu cầu kỹ thuật và tiêu chuẩn viện dẫn.' })
@@ -218,7 +222,7 @@
     var resetBtn = el('button', { class: 'donebtn', type: 'button', text: 'Xóa đánh dấu các bước' });
     resetBtn.addEventListener('click', function () { safeStore(doneKey, {}); viewGroup(id); });
 
-    appEl.replaceChildren(
+    setApp(
       el('div', { class: 'hero' }, [el('h2', { text: g.icon + ' ' + m.title }), el('p', { text: m.scope })]),
       section('Điều kiện trước khi thi công', m.prerequisites),
       el('h3', { class: 'sec-title', text: 'Trình tự thi công' }),
@@ -264,7 +268,7 @@
       ul.replaceChildren.apply(ul, rows.length ? rows : [el('li', { class: 'empty', text: 'Không có tiêu chuẩn phù hợp.' })]);
     }
     box.addEventListener('input', render);
-    appEl.replaceChildren(
+    setApp(
       el('div', { class: 'hero' }, [el('h2', { text: 'Tiêu chuẩn, quy chuẩn' }), el('p', { text: 'Số hiệu và tên để bạn đối chiếu với bản gốc. Kiểm tra hiệu lực trước khi áp dụng.' })]),
       box, ul
     );
@@ -311,14 +315,14 @@
       }));
     }
     box.addEventListener('input', run);
-    appEl.replaceChildren(box, out);
+    setApp(box, out);
     run();
   }
 
   /* ---------- giới thiệu ---------- */
   function viewAbout() {
     setChrome('Giới thiệu', { tab: 'about' });
-    appEl.replaceChildren(
+    setApp(
       el('div', { class: 'hero' }, [el('h2', { text: state.index.title }), el('p', { text: 'Phiên bản ' + state.index.version + ', cập nhật ' + state.index.updated })]),
       el('div', { class: 'disclaimer', text: state.index.disclaimer }),
       section('Cách dùng', [
@@ -336,7 +340,7 @@
   }
   function viewNotFound() {
     setChrome('Không tìm thấy', { back: true });
-    appEl.replaceChildren(el('p', { class: 'empty', text: 'Không tìm thấy nội dung này.' }), el('a', { class: 'btn', href: '#/', text: 'Về trang chính' }));
+    setApp(el('p', { class: 'empty', text: 'Không tìm thấy nội dung này.' }), el('a', { class: 'btn', href: '#/', text: 'Về trang chính' }));
   }
 
   /* ---------- định tuyến ---------- */
@@ -354,7 +358,7 @@
   window.addEventListener('hashchange', route);
 
   load().then(route).catch(function (e) {
-    appEl.replaceChildren(el('p', { class: 'empty', text: 'Không tải được dữ liệu. Nếu mở file trực tiếp từ máy, hãy đưa lên GitHub Pages hoặc chạy qua máy chủ web. (' + e.message + ')' }));
+    setApp(el('p', { class: 'empty', text: 'Không tải được dữ liệu. Nếu mở file trực tiếp từ máy, hãy đưa lên GitHub Pages hoặc chạy qua máy chủ web. (' + e.message + ')' }));
   });
 
   if ('serviceWorker' in navigator && location.protocol.indexOf('http') === 0) {

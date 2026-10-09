@@ -59,8 +59,8 @@
     "code": "TCVN 9161:2012",
     "title": "Công trình thủy lợi - Khoan nổ mìn đào đá - Phương pháp thiết kế, thi công và nghiệm thu",
     "note": "Tiêu chuẩn chính cho đào đá bằng nổ mìn, đi cùng QCVN 04-04:2012/BNNPTNT.",
-    "read": "none",
-    "readNote": "Chưa mở được nội dung. Số liệu nổ mìn trong app lấy từ QCVN 04-04:2012/BNNPTNT."
+    "read": "full",
+    "readNote": "Đã đối chiếu toàn văn (mục 1-18, Phụ lục A-E) từ bản người dùng cung cấp; hình vẽ không đọc được. Không có bảng cự ly an toàn cụ thể (dẫn QCVN 02:2008/BCT) và không có quy trình xử lý mìn câm chi tiết (chỉ quy định kiểm tra, tín hiệu, biên bản). Một số ký hiệu công thức (căn bậc hai, dấu lớn hơn hoặc bằng) bị mất khi trích nên công thức (2), (22), D.1, D.2 cần đối chiếu bản gốc khi tính chính thức. Bản gốc có số mục lặp (hai mục 15.5, hai mục 14.4) và giá trị dòng thử kíp điện không thống nhất (100 mA ở B.2.4c, 50 mA ở C.2.3)."
   },
   {
     "id": "qcvn-04-04",
@@ -123,7 +123,7 @@
     "title": "Công trình thủy lợi - Yêu cầu kỹ thuật khoan phụt xi măng vào nền đá",
     "note": "Thay cho 14TCN 82:1995. Một nguồn ghi có bản thay thế mới hơn (2019), cần kiểm tra.",
     "read": "partial",
-    "readNote": "Chỉ đọc được mục 1 và 2 (phạm vi, thuật ngữ). Nội dung thi công nằm sau tường phí."
+    "readNote": "CHƯA đối chiếu bản 2019. Tệp người dùng cung cấp (3fd7aea0) là tiêu chuẩn 2020 chưa có số hiệu về khoan phụt vữa xi măng vào NỀN ĐẤT, không phải TCVN 8645:2019 nền đá. Giữ mã 2011; chỉ đọc được mục 1 và 2 của bản 2011. Cần tệp đúng của TCVN 8645:2019 (thay bản 2011) để cập nhật số liệu."
   },
   {
     "id": "14tcn-82",
@@ -156,10 +156,10 @@
     "id": "tcvn-9906",
     "short": "9906",
     "code": "TCVN 9906:2014",
-    "title": "Công trình thủy lợi - Cọc xi măng đất thi công theo phương pháp Jet-Grouting",
+    "title": "Công trình thủy lợi - Cọc xi măng đất thi công theo phương pháp Jet-Grouting - Yêu cầu thiết kế, thi công và nghiệm thu cho xử lý nền đất yếu",
     "note": "Xử lý nền đất yếu. Kiểm tra năm ban hành trên bản gốc.",
-    "read": "none",
-    "readNote": ""
+    "read": "full",
+    "readNote": "Đã đối chiếu toàn văn (mục 1-6 và phụ lục A-F) từ bản người dùng cung cấp. Tiêu chuẩn không nêu số cho tỷ lệ nước/xi măng, lưu lượng bơm, tốc độ rút cần (do thiết kế và cọc thử quyết định); không có nội dung tường chống thấm. Số điều 5.2.2.1 mất do OCR."
   },
   {
     "id": "tcvn-9157",
@@ -167,8 +167,8 @@
     "code": "TCVN 9157:2012",
     "title": "Công trình thủy lợi - Giếng giảm áp - Yêu cầu thi công và kiểm tra nghiệm thu",
     "note": "",
-    "read": "none",
-    "readNote": ""
+    "read": "full",
+    "readNote": "Đã đối chiếu toàn văn (mục 1-5, phụ lục A, B) từ bản người dùng cung cấp, chuyển đổi từ 14TCN 101-2001. Không nêu số cho khoảng cách giếng, cấp phối cát lọc, kích thước khe ống lọc (do thiết kế). Bản in có vài lỗi đánh số điều (ví dụ 4.3.6 nằm trong mục 5.3)."
   },
   {
     "id": "tcvn-12634",
@@ -185,8 +185,8 @@
     "code": "TCVN 8297:2009",
     "title": "Công trình thủy lợi - Đập đất - Yêu cầu kỹ thuật trong thi công bằng phương pháp đầm nén",
     "note": "Các tiêu chuẩn mới viện dẫn với tên Đập đất đầm nén - Thi công và nghiệm thu. Kiểm tra phiên bản hiện hành.",
-    "read": "partial",
-    "readNote": "Đọc được đến mục 14.6. Thiếu mục 15 (nghiệm thu), mục 16 (an toàn) và Phụ lục C (đầm thử)."
+    "read": "full",
+    "readNote": "Đã đối chiếu toàn văn (mục 1-16, Phụ lục A-D) từ bản người dùng cung cấp; các hình vẽ (Hình 1-4, C.1-C.4) không đọc được. Bảng 1 (số lượng mẫu) bị lỗi định dạng khi trích, số liệu được diễn giải từ cột còn đọc được, cần đối chiếu bản gốc. Hai điều dùng chung số 7.2.4a (tường tâm đắp trước một bước) và 10.3.1 (tường thấp hơn khối kề 2-3 m) cần thiết kế chốt cụ thể. Không có số liệu cho đá đổ, bản mặt bê tông, tần suất và ngưỡng quan trắc."
   },
   {
     "id": "tcvn-10397",
@@ -248,8 +248,8 @@
     "code": "TCVN 4453:1995",
     "title": "Kết cấu bê tông và bê tông cốt thép toàn khối - Quy phạm thi công và nghiệm thu",
     "note": "Đã có dự thảo TCVN 4453:202x thay thế. Kiểm tra hiệu lực hiện hành.",
-    "read": "partial",
-    "readNote": "Đọc được đến giữa mục 6.3. Chưa có phần đổ, đầm, bảo dưỡng bê tông."
+    "read": "full",
+    "readNote": "Đã đọc toàn văn (bản TCVN3 giải mã): mục 3 cốp pha, mục 4 cốt thép, mục 5 vật liệu, mục 6 thi công bê tông, mục 7 nghiệm thu, Bảng 1-20 và phụ lục. Một số bảng (Bảng 5, 6, viện dẫn 4.6.5) lệch số trong bản scan."
   },
   {
     "id": "tcvn-1651",
@@ -303,7 +303,7 @@
     "title": "Kết cấu bê tông khối lớn - Thi công và nghiệm thu",
     "note": "Kiểm soát nhiệt độ, hạn chế nứt do ứng suất nhiệt. Áp dụng cho bê tông B20 đến B70, không áp dụng cho đập bê tông đầm lăn.",
     "read": "partial",
-    "readNote": "Chỉ đọc được phạm vi và bản tóm tắt chung; các giới hạn nhiệt độ cụ thể nằm sau tường phí."
+    "readNote": "Đã đọc toàn văn nhưng là bản scan OCR: Bảng 1 (ΔTlim) và Bảng 2 (Tlim) bị mất, chỉ còn vài ví dụ; số liệu khác có thể sai chữ số, cần kiểm tra bản gốc."
   },
   {
     "id": "tcvn-10403",
@@ -311,8 +311,8 @@
     "code": "TCVN 10403:2015",
     "title": "Công trình thủy lợi - Đập bê tông đầm lăn - Thi công và nghiệm thu",
     "note": "",
-    "read": "none",
-    "readNote": "Chỉ đọc được bản tóm tắt chung của trang web, chưa có điều khoản chi tiết."
+    "read": "partial",
+    "readNote": "Đã đọc toàn văn nhưng là bản scan OCR: Bảng 9, 13, 14 bị mất hoặc lỗi, một số số liệu (chiều dày lớp, tuổi mẫu) cần kiểm tra bản gốc."
   },
   {
     "id": "tcvn-9159",
@@ -335,11 +335,11 @@
   {
     "id": "qcvn-04-05",
     "short": "QCVN 04-05",
-    "code": "QCVN 04-05:2012/BNNPTNT",
+    "code": "QCVN 04-05:2022/BNNPTNT",
     "title": "Công trình thủy lợi - Các quy định chủ yếu về thiết kế",
     "note": "Quy định cấp công trình tạm, tần suất thiết kế dẫn dòng và ngăn dòng. Thay thế TCXDVN 285-2002.",
     "read": "partial",
-    "readNote": "Đọc được mục 3.2.8, 5.2.8 (Bảng 7), 5.2.10, 5.2.11 qua bản web bị cắt, chưa đối chiếu bản gốc; chưa đọc Bảng 8 (5.2.9)."
+    "readNote": "Đã đọc toàn văn mục liên quan dẫn dòng: 2.1.2.8-2.1.2.9 (cấp công trình tạm, Bảng 2), 2.3.2.8 (Bảng 7), 2.3.2.9 (Bảng 8), 2.3.2.10-2.3.2.11, 2.2.6-2.2.8. Các mục khác của quy chuẩn (hồ chứa, đập, kênh...) chưa đối chiếu cho ứng dụng này."
   },
   {
     "id": "tcvn-9160",
@@ -347,8 +347,8 @@
     "code": "TCVN 9160:2012",
     "title": "Công trình thủy lợi - Yêu cầu thiết kế dẫn dòng trong xây dựng",
     "note": "Thay thế 14TCN 57-88; áp dụng cho dẫn dòng thi công công trình thủy lợi, thủy điện. Viện dẫn TCVN 8216, 9137, 9150, 9152, TCXDVN 356, 390, TCVN 5308.",
-    "read": "partial",
-    "readNote": "Chỉ đọc được phạm vi (mục 1), thuật ngữ 3.1-3.3 và danh mục viện dẫn. Phần yêu cầu thiết kế (tần suất, đê quây, ngăn dòng, tiêu nước) bị khóa, chưa đối chiếu."
+    "read": "full",
+    "readNote": "Đã đọc toàn văn mục 1-6 và Phụ lục A-D (E-G xem lướt): tần suất dẫn dòng (Bảng 1), tần suất chặn dòng (Bảng 2), đê quây (Bảng 3 mái dốc, cừ, liên trụ/liên cung, tầng lọc), cao trình đỉnh đê quây, ngăn dòng (cửa hạp long, băng két, vật liệu dự trữ, quan trắc), phá đê quây, an toàn. Không có nội dung về công suất bơm hay tiêu nước hố móng."
   },
   {
     "id": "tcvn-9395",
@@ -455,8 +455,8 @@
     "code": "TCVN 9407:2014",
     "title": "Vật liệu chống thấm - Băng chắn nước PVC - Thông số kỹ thuật",
     "note": "Băng chắn nước PVC dùng ở mối nối kết cấu bê tông có yêu cầu chống thấm.",
-    "read": "partial",
-    "readNote": "Chỉ đọc được phạm vi, phân loại theo mặt cắt (FF, FC) và danh mục phương pháp thử viện dẫn; các giá trị cơ lý chưa đọc được. Kiểm tra tên đầy đủ trên bản gốc."
+    "read": "full",
+    "readNote": "Đã đọc toàn văn: phân loại, kích thước, chỉ tiêu cơ lý, độ bền hóa chất, phương pháp thử; không có điều khoản hàn nối băng."
   },
   {
     "id": "14tcn-59",
@@ -464,8 +464,8 @@
     "code": "14TCN 59:2002",
     "title": "Công trình thủy lợi - Kết cấu bê tông và bê tông cốt thép - Yêu cầu kỹ thuật thi công và nghiệm thu",
     "note": "Áp dụng cho bê tông nặng thông thường công trình thủy lợi, không gồm bê tông đầm lăn. Kiểm tra hiệu lực.",
-    "read": "partial",
-    "readNote": "Chỉ đọc được các điều 1 đến 4.2; chưa đọc được nội dung về khe, mạch ngừng, băng cản nước."
+    "read": "full",
+    "readNote": "Đã đọc toàn văn (bản TCVN3 giải mã): mục 3-5, phụ lục A, B, G, H gồm khe, băng cản nước, ống chôn, nóng khô, mưa."
   },
   {
     "id": "tcvn-5574",

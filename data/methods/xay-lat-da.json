@@ -10,7 +10,9 @@
     "tcvn-8218",
     "tcvn-4055",
     "qcvn-18",
-    "tcvn-9159"
+    "tcvn-9159",
+    "tcvn-9407",
+    "14tcn-59"
   ],
   "prerequisites": [
     "Có thiết kế được duyệt: loại đá, mác vữa, mặt cắt, tầng lọc ngược, loại và kích thước rọ/thảm đá; có bản vẽ thi công đã phê duyệt để lập hồ sơ nghiệm thu [14TCN12 · 7.7]",
@@ -170,7 +172,11 @@
         "Bảo vệ mặt khe khi lát mái, trát mạch và đắp lưng tường"
       ],
       "requirements": [
-        "Thông số theo thiết kế và bản gốc tiêu chuẩn (chưa có số liệu đối chiếu)"
+        "Băng chắn nước PVC: chiều rộng danh nghĩa 100-500 mm, độ dày tham khảo 5, 6, 7 mm; sai lệch rộng ±3%, dày ±10%, dài 0 đến +3% [9407 · 4.2, Bảng 2, 3]",
+        "Chỉ tiêu cơ lý băng PVC: khối lượng riêng ≤ 1,4 g/cm³; Shore A ≥ 65; cường độ kéo ≥ 11,8 MPa; giãn dài khi đứt ≥ 250% [9407 · 4.3, Bảng 4]",
+        "Băng PVC phân loại FF, FC, CF, CC, UC, S theo mặt cắt; chọn loại theo thiết kế; việc hàn nối và đặt băng theo nhà sản xuất [9407 · 3, Bảng 1; 14TCN59 · H.1.13]",
+        "Tấm kim loại ngăn nước: nối chồng hoặc ngàm hàn chặt hai mặt, chồng không nhỏ hơn 20 mm; khe nhồi nhựa đường dùng bao tải/giấy dầu tẩm nhựa nhiều lớp, mối nối so le chồng 10-15 cm [14TCN59 · H.1.2-H.1.4, H.1.5-H.1.12]",
+        "Vữa xây, đá xây và bê tông ở chỗ khe theo 14TCN 12, 4085; bê tông liên quan theo TCVN 4453 (thời gian ngừng, mạch ngừng) [4453 · 6.6, 6.8.2]"
       ],
       "checks": [
         "Biên bản nghiệm thu vị trí, chiều rộng và vật liệu chèn khe"

@@ -329,13 +329,19 @@
         "Hoàn thiện đầu cọc, đầu cừ, nối với kết cấu bê tông hoặc lớp chống thấm liền kề"
       ],
       "requirements": [
-        "Thông số theo thiết kế và bản gốc tiêu chuẩn (chưa có số liệu đối chiếu)"
+        "Jet-grouting theo TCVN 9906: cọc dài theo thiết bị không nên quá 45 m, đường kính nên 60-150 cm; áp lực tia khoảng 20-40 MPa, vận tốc từ 100 m/s [9906 · 3.1, 3.3, phụ lục A.2]",
+        "Cọc thử không ít hơn 2 cọc, nén nở hông mẫu lõi ở 28 ngày; trộn thử phòng tối thiểu 3 hàm lượng xi măng cho mỗi loại xi măng [9906 · 4.2.1, 4.3.1, 4.3.3]",
+        "Sai số tọa độ cọc ±5 cm, cao trình đỉnh ±10 cm; máy bơm cách máy khoan không quá 50 m; giữ lớp đất phản áp trên đỉnh cọc 0,6-2 m; cấm xe máy lên cọc dưới 5 ngày tuổi [9906 · 5.1.3, 5.2.1, 4.4.4]",
+        "Tỷ lệ diện tích gia cố sơ bộ 0,12-0,20; Fs thân cọc không nhỏ hơn 1,2; cường độ tính ở 90 ngày, quy đổi qu90 = (1,43-1,8)·qu28 [9906 · 4.4.3, 4.4.5, 4.4.7]",
+        "Kiểm tra: đào lộ đầu cọc sâu 1-2 m; khoan lõi 2-5% số cọc sau tối thiểu 14 ngày (thường 28), ống mẫu nòng đôi không nhỏ hơn 70 mm; nén tĩnh cọc đơn và cụm cọc theo Bảng 2, Bảng 3 [9906 · 6.1.2]",
+        "Cừ chống thấm: chưa có số liệu đối chiếu, theo thiết kế và TCVN 12634"
       ],
       "checks": [
-        "Hạng mục và chỉ tiêu kiểm tra theo thiết kế, chỉ dẫn kỹ thuật dự án (chưa có số liệu đối chiếu)"
+        "Hồ sơ cọc: nhật ký tốc độ rút cần, áp lực bơm, lượng xi măng, trào ngược; kết quả đào lộ, khoan lõi, nén tĩnh [9906 · 5.2.2, 6.1.1, 6.2.3]",
+        "Cừ chống thấm: kiểm tra theo thiết kế (chưa có số liệu đối chiếu)"
       ],
       "tips": [
-        "TCVN 9906 và TCVN 12634 chưa đọc chi tiết trong bộ dữ liệu này: lấy thông số từ thiết kế và bản gốc",
+        "Số liệu cọc jet-grouting lấy từ TCVN 9906 (xử lý nền đất yếu); cừ chống thấm vẫn phải lấy từ thiết kế và TCVN 12634 gốc",
         "Vữa hồi từ jet-grouting cần có hố thu và nơi xử lý, tránh làm bẩn mặt bằng",
         "Phun gián đoạn để lại mối nối yếu: ghi đầy đủ ngưng nghỉ và nối tiếp",
         "Cừ lệch tim hở khóa là điểm thấm; sửa ngay khi phát hiện"
@@ -392,5 +398,5 @@
     "Hồ sơ thi công jet-grouting, cừ chống thấm (thông số phun, mẫu lõi)",
     "Số liệu quan trắc mái dốc sau gia cố"
   ],
-  "note": "TCVN 8870 là tiêu chuẩn giao thông (neo trong đất), TCVN 13509 là tiêu chuẩn hầm giao thông, đều chỉ dùng tham khảo cho thủy lợi, thủy điện. Bảng 2 của TCVN 13509 bị lỗi định dạng khi đọc nên các giá trị cường độ cần đối chiếu bản gốc. Chưa đọc được TCVN 11652 (bê tông mái dốc), 9906 (jet-grouting), 12634 (cừ chống thấm)."
+  "note": "TCVN 8870 là tiêu chuẩn giao thông (neo trong đất), TCVN 13509 là tiêu chuẩn hầm giao thông, đều chỉ dùng tham khảo cho thủy lợi, thủy điện. Bảng 2 của TCVN 13509 bị lỗi định dạng khi đọc nên các giá trị cường độ cần đối chiếu bản gốc. TCVN 9906:2014 (jet-grouting) đã đối chiếu toàn văn. Chưa đọc được TCVN 11652 (bê tông mái dốc), 12634 (cừ chống thấm)."
 }

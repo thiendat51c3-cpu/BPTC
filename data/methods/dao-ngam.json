@@ -38,7 +38,11 @@
         "Đường chuyền cơ bản cho hầm dài đến 1 km: cạnh 100-300 m; sai số khép tối đa 1/35.000 (hầm từ 500 m) hoặc 1/20.000 (hầm dưới 500 m) [4528 · 2.5]",
         "Chủ đầu tư hoàn thành định tuyến trước khởi công 10 ngày [4528 · 2.10]",
         "Đường chuyền dưới đất: cạnh cơ bản 40-120 m, cạnh chi tiết 20-60 m; mốc đặt cao hơn mặt đường xe chạy [4528 · 2.12-2.14]",
-        "Kiểm tra đo đạc sau mỗi 5 m đào; lệch tim tại điểm thông hầm tối đa ±100 mm [4528 · 2.19, 2.20]"
+        "Kiểm tra đo đạc sau mỗi 5 m đào; lệch tim tại điểm thông hầm tối đa ±100 mm [4528 · 2.19, 2.20]",
+        "Trước khi khoan vào gương phải đánh dấu tim và đường viền thiết kế; khi đào hầm dùng thiết bị đo vẽ kết hợp định vị vệ tinh để tuyến hầm luôn trùng tuyến trên mặt đất [9161 · 17.2.9]",
+        "Hầm ngang và buồng nạp thuốc: cứ 5 m phải đo vẽ một mặt cắt ngang tỷ lệ 1/25 hoặc 1/50 và xác định diện tích mặt cắt [9161 · 17.2.10]",
+        "Cán bộ đo đạc xác định hướng và kiểm tra quá trình khoan khi khoan lỗ lớn từ hầm ngang hoặc công trình đào để đặt mìn, và cắm tuyến lỗ khoan khi nổ viền [9161 · 17.2.11]",
+        "Kết quả đo mỗi đợt khoan nổ: mặt cắt dọc, ngang tỷ lệ 1/100-1/1 000; mặt cắt hầm dẫn vào buồng đặt mìn và buồng đặt mìn 1/25 hoặc 1/50; tài liệu hoàn công đủ để tính khối lượng thực tế [9161 · 17.2.12]"
       ],
       "checks": [
         "Kiểm tra tim, cao độ gương đào sau mỗi chu kỳ"
@@ -47,7 +51,8 @@
         "Sai số tích lũy do đường chuyền dưới đất kéo dài: định kỳ đo lại từ mốc ngoài hầm và đo kiểm bằng tổ khác",
         "Mốc bị rung nổ, va chạm làm lệch: gắn mốc chắc vào đá, kiểm tra mốc trước khi dùng sau mỗi đợt nổ lớn",
         "Hầm đào từ hai đầu: đo kiểm chéo thường xuyên trước khi hai gương tiến gần nhau",
-        "Ghi rõ tim, cao độ lên vách hầm để thợ khoan và thợ chống tự kiểm tra được"
+        "Ghi rõ tim, cao độ lên vách hầm để thợ khoan và thợ chống tự kiểm tra được",
+        "Cắm tim, đường viền thiết kế lên gương trước khi khoan: đây là điều kiện bắt buộc trong TCVN 9161, tránh khoan lệch rồi mới đo"
       ]
     },
     {
@@ -113,10 +118,12 @@
         "Báo thiết kế và chủ đầu tư khi dự báo khác hồ sơ khảo sát; chỉ tiếp tục đào sau khi có quyết định về chống đỡ và cách đào"
       ],
       "requirements": [
-        "Thông số theo thiết kế và bản gốc tiêu chuẩn (chưa có số liệu đối chiếu)"
+        "Khảo sát phục vụ nổ mìn phải cho: tên gọi, nhóm độ cứng (RQD, chỉ tiêu Q), cấu trúc các lớp đá trên mặt bằng và mặt cắt; lượng ngậm nước và đặc điểm nước ngầm (nước ngầm là động nếu có từ 50% lượng nước trao đổi trong lỗ khoan giữa lúc nạp thuốc và nổ); bề dày phong hóa; cấp nứt nẻ; đứt gãy, thế nằm, hệ khe nứt phổ biến; khối lượng riêng, độ rỗng, sức kháng nén, kéo [9161 · 17.1.1]",
+        "Đào hầm phải có mặt cắt địa chất chi tiết trên mặt cắt dọc và ngang; mọi thay đổi địa chất khi đào phải ghi chép và hiệu chỉnh tài liệu cũ để điều chỉnh đồ án thiết kế [9161 · 17.1.7, 17.1.8]",
+        "Khoan trong đá chứa nước ngầm cấp nứt nẻ I-II hoặc đá khô phong hóa mạnh phải tính đến hao hụt không tránh khỏi của lỗ khoan theo đo đạc thực tế [9161 · 17.1.4]"
       ],
       "checks": [
-        "Hạng mục và chỉ tiêu kiểm tra theo thiết kế, chỉ dẫn kỹ thuật dự án (chưa có số liệu đối chiếu)"
+        "Ghi nhận thay đổi địa chất từng chu kỳ vào hồ sơ và báo thiết kế điều chỉnh đồ án [9161 · 17.1.8]"
       ],
       "tips": [
         "Khoan thăm dò chỉ có giá trị khi được thực hiện đều đặn; làm tùy hứng thì không đủ báo trước các đới yếu",
@@ -124,6 +131,46 @@
         "Lỗ thăm dò nên khoan có thiết bị chống phụt (nút, van) sẵn để xử lý khi nước hoặc bùn chảy mạnh",
         "Dán sơ đồ dự báo ở khu vực gương cho tổ thi công nắm rủi ro từng đoạn",
         "Số liệu thăm dò và lõi giữ lại làm căn cứ khi tranh chấp địa chất giữa các bên"
+      ]
+    },
+    {
+      "title": "Thiết kế hộ chiếu khoan nổ gương hầm (TCVN 9161 mục 15)",
+      "actions": [
+        "Phân loại mặt cắt hầm theo diện tích (nhỏ, trung bình, lớn) để chọn sơ đồ lỗ khoan nhỏ, lỗ khoan lớn và cách đào",
+        "Chọn chiều dài bước tiến mỗi chu kỳ theo độ ổn định của đá và khả năng thiết bị khoan",
+        "Chọn kiểu rạch (thẳng, nêm, tháp hoặc hội tụ) và bố trí lỗ rạch, lỗ phá, lỗ biên hoặc lỗ theo đường viền trên gương",
+        "Tính chiều sâu lỗ theo bước tiến và hệ số sử dụng lỗ, số lỗ từng loại, tổng số lỗ và lượng thuốc mỗi lỗ",
+        "Chọn thuốc nổ, phương tiện kích nổ (kíp điện vi sai), số lần nổ chậm, trình tự nổ từ rạch ra biên, vật liệu bua",
+        "Tính lượng khí độc sinh ra mỗi chu kỳ và đối chiếu với năng lực hệ thống thông gió",
+        "Nổ thử tại hiện trường để chính xác hóa chiều sâu lỗ, lượng thuốc, hệ số sử dụng lỗ",
+        "Lập hộ chiếu nổ mìn, trình cấp có thẩm quyền duyệt và phổ biến cho toàn bộ người tham gia trước khi nổ"
+      ],
+      "requirements": [
+        "Phân loại theo diện tích mặt cắt: loại nhỏ dưới 4,0 m²; trung bình 4,0-60 m²; lớn trên 60 m² [9161 · 15.1.2]",
+        "Yêu cầu kỹ thuật: đúng hình dạng, kích thước (chỗ lẹm phải xử lý theo thiết kế); đá vỡ vụn phù hợp bốc xúc cơ giới; dùng tối đa chiều dài lỗ; không ảnh hưởng giàn giáo, chống đỡ, vỏ bê tông cốt thép mới thi công; tổng khí độc mỗi chu kỳ phù hợp năng lực thông gió [9161 · 15.1.1]",
+        "Phá vụn toàn gương bằng lỗ khoan nhỏ; lỗ khoan lớn dùng cho bậc dưới của gương và tạo đường viền; mở rộng hầm nhỏ dùng lỗ lớn hoặc nhỏ [9161 · 15.1.3]",
+        "Bước tiến: mặt cắt nhỏ trong đá ổn định bằng chiều rộng hầm nhưng không quá 1,7 m; mặt cắt trung bình và lớn theo thiết bị khoan, không lớn hơn chiều rộng hầm; đá không ổn định lấy theo trị số cho phép đào lộ nóc không bị sập [9161 · 15.1.4]",
+        "Phân loại lỗ: lỗ rạch (nổ đầu tiên, tạo mặt thoáng); lỗ phá (mở rộng rạch); lỗ biên (phá đến đường viền thiết kế, nổ sau cùng); lỗ theo đường viền (tạo đường viền chính xác, nổ đợt đầu cùng rạch khi cắt khe trước hoặc nổ đợt cuối) [9161 · 15.1.5]",
+        "Rạch thẳng dùng cho hầm ngang và giếng đào từ dưới lên; rạch hội tụ dùng cho giếng đào từ trên xuống; rạch hình nêm cho hầm ngang khi phân vỉa không dùng được rạch thẳng [9161 · 15.1.6]",
+        "Chiều sâu lỗ: lỗ biên, lỗ phá, lỗ viền L = wz/η; rạch thẳng L = 1,1·wz/η; rạch hội tụ L = 1,1·wz/(η·sinα); wz là bước tiến, η = 0,8-0,9 là hệ số sử dụng lỗ; chiều sâu chính xác phải theo nổ thử [9161 · 15.1.7]",
+        "Số lỗ rạch: rạch thẳng 6-8 lỗ cách nhau 0,15-0,30 m; rạch nêm 4-8 lỗ cách nhau 0,30-0,50 m; rạch tháp cách nhau 0,60-1,00 m; mặt cắt nhỏ có thể giảm còn 2-4 lỗ rạch [9161 · 15.1.8]",
+        "Số lỗ viền Nviền = chu vi / ak với ak = 0,3-0,6 m tùy độ cứng đá; công trình không nổ viền thì lỗ biên tính tương tự nhưng ak = 0,7-1,0 m; số lỗ phá Nphá = (S đào - S rạch)/Sk; tổng N = Nrạch + Nviền + Nphá [9161 · 15.1.9, 15.1.10, 15.1.11]",
+        "Lượng thuốc một lỗ Q = C·L·P với C = 0,7-0,8 (lỗ rạch) và 0,5-0,7 (lỗ phá, lỗ biên); lỗ theo đường viền nạp 0,2-0,4 kg/m dài lỗ; công trình đặc biệt quan trọng dùng 2-4 sợi dây nổ thay thuốc [9161 · 15.1.12, 15.1.13]",
+        "Mặt cắt nhỏ: lỗ rạch và lỗ biên, nổ bằng châm ngòi, châm lửa điện hoặc điện, nổ chậm hoặc vi sai; mặt cắt trung bình: lỗ rạch, lỗ phá, lỗ viền (công trình tạm thời thay lỗ viền bằng lỗ biên); các hầm song song gần nhau phải nổ viền cắt khe trước [9161 · 15.3.1, 15.3.2]",
+        "Mặt cắt lớn đào toàn gương trong đá ổn định: lỗ rạch, vài hàng lỗ phá theo lưới ô vuông, lỗ viền; hàng lỗ phá sát viền cách hàng lỗ viền 0,5-0,9 m tùy độ cứng; nổ bằng kíp điện vi sai [9161 · 15.3.3.1]",
+        "Hầm nghiêng so với phương ngang từ 45° trở xuống làm theo cách của hầm ngang, trên 45° làm như giếng đứng [9161 · 15.6.1, 15.6.2]",
+        "Hộ chiếu phải được cấp có thẩm quyền duyệt, lập cho mỗi công trình đào dựa trên tính toán và chính xác hóa bằng thí nghiệm hiện trường; nội dung gồm: bản thiết kế, địa chất, diện tích mặt cắt và bước tiến, số - sâu - sơ đồ từng loại lỗ, khối lượng khoan, lượng thuốc và kíp cho 1 m dài, cho 1 m³ và cho một chu trình, loại thuốc - phương tiện kích nổ, số lần nổ chậm - trình tự nổ - khối lượng mỗi lần nổ chậm, bua, hệ số sử dụng lỗ, thông gió - chống bụi - thời gian thông gió, biện pháp an toàn [9161 · 15.2.1, 15.2.2]",
+        "Hộ chiếu là tài liệu cơ bản của vụ nổ: tất cả cán bộ, công nhân, kỹ thuật viên tham gia phải nghiên cứu kỹ trước khi nổ [9161 · 15.2.3]"
+      ],
+      "checks": [
+        "Hộ chiếu nổ mìn đã được duyệt và phổ biến trước mỗi chu kỳ; thông số lỗ thực tế so với hộ chiếu [9161 · 15.2.1, 15.2.3]"
+      ],
+      "tips": [
+        "Hệ số sử dụng lỗ 0,8-0,9 chỉ là giá trị sơ bộ: nổ thử rồi chốt chiều sâu lỗ theo thực tế",
+        "Lỗ rạch nổ đầu tiên và chi phối hiệu quả cả chu kỳ: khoan đúng hướng, đúng khoảng cách trước các lỗ khác",
+        "Đá phân vỉa mạnh làm rạch thẳng kém hiệu quả: cân nhắc rạch nêm theo thiết kế",
+        "Tổng khí độc mỗi chu kỳ phải khớp với năng lực quạt gió; tăng lượng thuốc thì phải tăng thời gian thông gió",
+        "Công trình quan trọng, đá yếu dùng dây nổ thay thuốc ở lỗ viền để bảo vệ đá biên"
       ]
     },
     {
@@ -143,18 +190,28 @@
         "Lỗ mìn cách khe nứt ít nhất 30 cm; lượng thuốc nổ chiếm 20-80% thể tích lỗ [4528 · 4.23, 4.26]",
         "Trong tầng có khí nổ, khí cháy phải dùng kíp điện [4528 · 4.25]",
         "Hầm đào trong đất đá mềm bằng cơ giới: đào lẹm không vượt thiết kế quá 50 mm [4528 · 4.20]",
-        "Hộ chiếu nổ mìn, kiểm tra lỗ trước nạp, ghi nhận thay đổi địa chất theo quy chuẩn khoan nổ mìn [04-04 · 4.1, 4.7, 4.9, 8.1.2]"
+        "Hộ chiếu nổ mìn, kiểm tra lỗ trước nạp, ghi nhận thay đổi địa chất theo quy chuẩn khoan nổ mìn [04-04 · 4.1, 4.7, 4.9, 8.1.2]",
+        "Trước khi nạp phải kiểm tra vị trí, chiều sâu, kích thước từng lỗ so với thiết kế và vét sạch mạt khoan, bùn khoan; sai lệch quá mức phải sửa đúng đồ án mới được nạp thuốc [9161 · 4.3, 18.1a]",
+        "Lỗ khoan nhỏ khô nạp bằng thiết bị khí nén; lỗ có nước dùng thuốc chịu nước đóng gói; nạp thủ công nén chặt từng mẻ, nạp mồi sau khi đã nạp 80% thuốc rồi nạp nốt phần còn lại không đầm chặt; bua bằng vật liệu rời hạt mịn (cát, bột đá), dây mìn không bị hư hại hay kéo căng [9161 · 6.8, 6.9, 5.8.10]",
+        "Giếng đứng nhỏ chỉ dùng thuốc nổ đã đóng bao theo quy định; nổ bằng điện theo phương pháp vi sai [9161 · 15.4.1.2, 15.4.1.3]",
+        "Nổ bằng kíp điện: dòng một chiều qua mỗi kíp tối thiểu 1,0 A (đến 100 kíp) hoặc 1,3 A (đến 300 kíp); điện trở thực của mạng sai khác tính toán không quá 10% mới được nổ; mạng chỉ dùng một loại kíp, điện trở kíp chênh không quá ±0,25 Ω [9161 · C.2.2, C.2.9, C.2.11, B.2.4]",
+        "Chỉ lắp mạng nổ khi đã nạp mìn và bua xong, người không liên quan đã rút ra nơi an toàn, đã cắt điện các thiết bị trong vùng nguy hiểm; khóa máy nổ do người có trách nhiệm quản lý [9161 · C.2.10, C.2.12]",
+        "Không dùng nổ châm ngòi khi thợ mìn không thoát kịp, nơi có khí bụi dễ cháy nổ, hoặc hầm đứng, xiên trên 30°; nổ dây nổ không dùng ở công trình ngầm có nguy cơ khí bụi cháy nổ [9161 · C.1.2, C.3.1]",
+        "Thiết kế phải có biện pháp phòng ngừa và xử lý mìn câm; sau nổ kiểm tra vị trí nghi mìn không nổ, phát hiện mìn chưa nổ xử lý theo quy định về vật liệu nổ [9161 · 5.8.11, 18.1b]",
+        "Chọn thuốc nổ có chỉ số cân bằng oxy gần 0 để sinh ít khí độc nhất, đặc biệt trong công trình ngầm; kiểm tra hạn dùng thiết bị gây nổ [9161 · B.1.8, B.2.1]"
       ],
       "checks": [
         "Kiểm tra số lượng, chiều sâu, độ lệch lỗ khoan trước khi nạp",
-        "Ghi nhật ký nổ mìn từng chu kỳ"
+        "Ghi nhật ký nổ mìn từng chu kỳ",
+        "Sau khoan: kiểm tra chiều sâu, hướng và hình dạng lỗ; sau nổ: kiểm tra mái, vòm, đo mặt cắt và khối lượng đã nổ [9161 · 18.1a, 18.1b]"
       ],
       "tips": [
         "Lỗ khoan lệch hoặc không đủ sâu làm mặt gương gồ ghề, nổ không hết: kiểm tra lỗ bằng thước, sửa trước khi nạp",
         "Đá biên bị phá quá mức (đào lẹm): kiểm tra thuốc biên, khoảng cách lỗ biên, điều chỉnh theo kết quả thực tế",
         "Mìn câm: không khoan lại trong lỗ cũ; xử lý theo quy trình của thợ mìn có chuyên môn",
         "Mưa, ẩm hoặc nước trong lỗ làm kíp, thuốc hỏng: kiểm tra loại thuốc phù hợp điều kiện ẩm",
-        "Không dùng đèn trần hoặc nguồn lửa gần vật liệu nổ; kiểm soát chặt số kíp, thuốc mang vào và trả lại"
+        "Không dùng đèn trần hoặc nguồn lửa gần vật liệu nổ; kiểm soát chặt số kíp, thuốc mang vào và trả lại",
+        "Tín hiệu quy ước theo hộ chiếu (một hồi dài sơ tán, hai hồi dài nổ, ba hồi ngắn báo yên, nhiều hồi ngắn nguy hiểm) phải được phổ biến trước khi nạp mìn [9161 · Phụ lục E]"
       ]
     },
     {
@@ -171,7 +228,9 @@
         "Chỉ bốc xúc sau khi thông khói mìn 15 phút và nồng độ khí độc xuống dưới giới hạn cho phép [4528 · 6.9]",
         "Phải kiểm tra mìn câm trước khi bốc xúc [4528 · 4.24]",
         "Trước khi bốc xúc phải chống đỡ và lát ván nóc hầm, dùng gậy dài đẩy đá rời [4528 · 4.30]",
-        "Thông gió duy trì liên tục, kể cả khi tạm ngừng thi công; miệng ống gió cách gương không quá 10 m; vùng có khí nổ, khí cháy phải hút gió ra [4528 · 6.25, 6.27, 6.29]"
+        "Thông gió duy trì liên tục, kể cả khi tạm ngừng thi công; miệng ống gió cách gương không quá 10 m; vùng có khí nổ, khí cháy phải hút gió ra [4528 · 6.25, 6.27, 6.29]",
+        "Tổng lượng khí độc sinh ra trong một chu kỳ khoan nổ phải phù hợp với năng lực vận hành của hệ thống thông gió; hộ chiếu phải nêu biện pháp thông gió, chống bụi và thời gian thông gió cho gương [9161 · 15.1.1e, 15.2.2l]",
+        "Sau nổ chờ hết khói mới vào kiểm tra gương; có mìn câm phải xử lý trước, chỉ báo yên khi không còn mìn sót; cậy gỡ hết đá om, đá treo trước khi người làm việc [9161 · 18.1b, Phụ lục E]"
       ],
       "checks": [
         "Đo khí tại gương theo quy định",
@@ -273,10 +332,11 @@
         "Lập biên bản sự cố, ghi nguyên nhân và biện pháp xử lý; chủ đầu tư và thiết kế xác nhận trước khi tiếp tục"
       ],
       "requirements": [
-        "Thông số theo thiết kế và bản gốc tiêu chuẩn (chưa có số liệu đối chiếu)"
+        "TCVN 9161 không quy định biện pháp xử lý đới đứt gãy, nước phụt, đá sập, đá ép, khí độc: lấy từ phương án sự cố đã duyệt của thiết kế",
+        "Phần liên quan nổ mìn: lỗ khoan hư hại do địa chất thủy văn phức tạp phải nạp ngay sau khi rút dụng cụ khoan; giếng nhiều nước phải bơm cạn đến khi nạp xong thuốc; phát hiện mìn câm phát tín hiệu nguy hiểm và xử lý ngay [9161 · 5.8.5, 15.4.3.4, 18.1b]"
       ],
       "checks": [
-        "Hạng mục và chỉ tiêu kiểm tra theo thiết kế, chỉ dẫn kỹ thuật dự án (chưa có số liệu đối chiếu)"
+        "Lập biên bản sự cố và xử lý; ghi chép mìn câm, đá văng, sự cố nổ mìn trong hộ chiếu và nhật ký [9161 · Phụ lục E, mục 15, 16]"
       ],
       "tips": [
         "Diễn tập sự cố định kỳ để mọi người biết đường thoát và hiệu lệnh",
@@ -322,10 +382,18 @@
         "Cập nhật mô hình địa chất, đối chiếu với số liệu quan trắc sau mỗi cấp đào"
       ],
       "requirements": [
-        "Thông số theo thiết kế và bản gốc tiêu chuẩn (chưa có số liệu đối chiếu)"
+        "Gương rộng, đá ổn định và đủ thiết bị: đào toàn gương bằng lỗ rạch, vài hàng lỗ phá theo lưới ô vuông và lỗ viền; hàng lỗ phá sát viền cách hàng lỗ viền 0,5-0,9 m; nổ bằng kíp điện vi sai [9161 · 15.3.3.1]",
+        "Địa chất phức tạp: đào gương vượt trước ở phía trên; chiều rộng lớn hơn chiều cao có thể bố trí hai rạch riêng; trước khi đổ bê tông vòm ở bậc dưới phải nổ viền cắt khe trước; bậc dưới dạng hào bậc đào bằng lỗ lớn thẳng đứng hoặc xiên, đường kính không quá 110 mm [9161 · 15.3.3.2]",
+        "Nổ viền: khoảng cách lỗ 0,5-0,8 m với đá cứng, 0,3-0,5 m với đá yếu (có thể 3-4 sợi dây nổ thay thuốc); lỗ nổ tơi nổ vi sai sau lỗ viền không dưới 75 ms (đá yếu) hoặc 50 ms (đá cứng) [9161 · 12.1.8, 12.1.10]",
+        "Chỉ dùng phương pháp chừa tầng bảo vệ cho hố móng, không áp dụng cho đào hầm dẫn nước và tuynen công trình thủy công [9161 · 4.8e]",
+        "Giếng đào từ trên xuống: mặt cắt nhỏ dùng rạch lăng trụ và lỗ biên; mặt cắt trung bình và lớn thêm lỗ phá (rạch lăng trụ hoặc tháp); có nước thì rạch tháp sâu hơn rạch thường 0,4-0,6 m làm hố tập trung nước; lỗ phá mặt cắt tròn bố trí theo các vòng đồng tâm cách nhau 0,6-0,9 m, mặt cắt chữ nhật theo lưới ô vuông [9161 · 15.4.1, 15.4.2, 15.4.3]",
+        "Nạp thuốc chỉ sau khi rút hết thiết bị khoan và tiêu nước khỏi gương; nước ngầm nhiều vẫn bơm cạn cho đến khi nạp xong thuốc, trước khi lắp mạng nổ mới chuyển máy bơm ra ngoài; mạng nổ lắp trên cọc cao không bị ngập; nổ điện vi sai và chậm từng hàng, thực hiện từ mặt đất hoặc hầm ngang [9161 · 15.4.3.4, 15.4.3.5]",
+        "Giếng đào từ dưới lên bằng lỗ lớn: khoan suốt chiều cao giếng; lỗ phá cách lỗ rạch 10-15 lần đường kính lỗ phá; mặt cắt dưới 4 m² có 4 lỗ biên ở 4 góc, cách nhau không quá 20 lần đường kính lỗ lớn; thời gian nổ chậm giữa các lần t = 0,2·H (giây, H là chiều cao giếng, m); dưới đáy lỗ đặt nút cao 0,5 m, dùng mìn phân tán và kích bằng một sợi dây nổ [9161 · 15.5.2.2-15.5.2.7]",
+        "Mở rộng giếng, buồng đã đào: sâu đến 30 m làm toàn chiều sâu, sâu hơn 30 m phải làm từng tầng; khoảng cách lỗ phá 15-20 lần đường kính lỗ lớn; nổ viền theo mục 12.1 [9161 · 15.5 (mở rộng giếng), 15.5.2.1, 15.5.2.3]",
+        "Hang lớn dùng nổ viền, nổ vi sai để hạn chế rung; giới hạn rung với bê tông mới đổ, vỏ hầm theo Phụ lục D (xem bước kiểm soát rung ở nhóm Đào hố móng) [9161 · 4.5, Phụ lục D]"
       ],
       "checks": [
-        "Hạng mục và chỉ tiêu kiểm tra theo thiết kế, chỉ dẫn kỹ thuật dự án (chưa có số liệu đối chiếu)"
+        "Kiểm tra chiều sâu, hướng và thể tích lỗ trước nạp, hình dạng và kích thước mặt cắt sau nổ [9161 · 18.1]"
       ],
       "tips": [
         "Hang lớn không dùng được chu kỳ đào - chống của hầm nhỏ: cần biện pháp thi công riêng của dự án",
@@ -398,7 +466,9 @@
     "Phổ biến và diễn tập phương án thoát hiểm, ứng cứu sập, ngập nước; có bộ cấp cứu và liên hệ y tế gần nhất",
     "Gặp đới yếu, nước phụt hoặc khí: dừng, rút người, báo cáo theo phương án sự cố đã duyệt; không tiếp tục khi chưa có xác nhận của thiết kế",
     "Vượt ngưỡng cảnh báo biến dạng: ngừng đào đoạn liên quan, chống bổ sung và báo thiết kế",
-    "Hang lớn: kiểm soát rung nổ, giao thông đa gương và thông gió từng tầng"
+    "Hang lớn: kiểm soát rung nổ, giao thông đa gương và thông gió từng tầng",
+    "Hộ chiếu nổ mìn là tài liệu cơ bản: toàn bộ người tham gia phải nghiên cứu trước khi nổ; tổng khí độc mỗi chu kỳ phải phù hợp năng lực thông gió [9161 · 15.1.1e, 15.2.3]",
+    "Công trình ngầm gần công trình đặc biệt, bê tông mới đổ hoặc đầu mối thủy lợi cần tính toán chuyên sâu và phương án an toàn được cấp có thẩm quyền duyệt [9161 · 4.5, 16.4]"
   ],
   "acceptance": [
     "Nghiệm thu từng chu kỳ đào và chống đỡ (điểm dừng kiểm tra)",
@@ -406,7 +476,8 @@
     "Nghiệm thu bê tông phun, neo (xem nhóm Gia cố), vỏ hầm, chèn vữa",
     "Hồ sơ đo đạc, địa chất từng chu kỳ được ký xác nhận của các bên trước khi chuyển sang chu kỳ tiếp theo",
     "Nghiệm thu số liệu quan trắc biến dạng: biến dạng ổn định theo tiêu chí của thiết kế trước khi làm vỏ hầm",
-    "Nghiệm thu băng cản nước, khe, thoát nước sau vỏ trước khi che khuất; nghiệm thu chèn vữa và khoảng rỗng sau vỏ"
+    "Nghiệm thu băng cản nước, khe, thoát nước sau vỏ trước khi che khuất; nghiệm thu chèn vữa và khoảng rỗng sau vỏ",
+    "Nghiệm thu khoan nổ: kiểm tra lỗ trước nạp, kiểm tra sau nổ, đo mặt cắt và khối lượng đã nổ; chưa đạt phải xử lý rồi nghiệm thu lại [9161 · 18.1, 18.2]"
   ],
   "records": [
     "Hộ chiếu khoan nổ mìn, nhật ký nổ mìn",
@@ -414,7 +485,9 @@
     "Số liệu đo đạc, quan trắc biến dạng, biên bản nghiệm thu, bản vẽ hoàn công",
     "Biên bản xử lý sự cố, đá sập, nước phụt hoặc thay đổi thiết kế trong quá trình đào",
     "Hồ sơ khoan thăm dò trước gương, phiếu phân loại đá từng chu kỳ và loại chống đỡ áp dụng",
-    "Số liệu quan trắc hội tụ, lún nóc, biểu đồ theo thời gian; biên bản sự cố địa chất; hồ sơ kiểm tra khoảng rỗng và chèn vữa"
+    "Số liệu quan trắc hội tụ, lún nóc, biểu đồ theo thời gian; biên bản sự cố địa chất; hồ sơ kiểm tra khoảng rỗng và chèn vữa",
+    "Hộ chiếu nổ mìn theo mẫu Phụ lục E (thuốc, phụ kiện, bua, chỉ tiêu thuốc, bán kính an toàn, tín hiệu, sơ đồ lỗ và mạng nổ, xử lý mìn câm, nhận xét sau nổ) [9161 · Phụ lục E, 15.2.2]",
+    "Mặt cắt ngang đo mỗi 5 m (1/25 hoặc 1/50) của hầm ngang và buồng nạp thuốc; tài liệu hoàn công khoan nổ [9161 · 17.2.10, 17.2.12]"
   ],
-  "note": "Chưa tìm thấy tiêu chuẩn thi công riêng cho hầm thủy công. TCVN 4528:1988 là tiêu chuẩn hầm giao thông (đường sắt, ô tô), tiêu chuẩn cũ, chỉ đọc được đến mục 6.30; hãy đối chiếu chỉ dẫn kỹ thuật dự án và tiêu chuẩn mới hơn."
+  "note": "Chưa tìm thấy tiêu chuẩn thi công riêng cho hầm thủy công. TCVN 4528:1988 là tiêu chuẩn hầm giao thông (đường sắt, ô tô), tiêu chuẩn cũ, chỉ đọc được đến mục 6.30; hãy đối chiếu chỉ dẫn kỹ thuật dự án và tiêu chuẩn mới hơn. TCVN 9161:2012 đã đối chiếu toàn văn (mục 1-18, Phụ lục A-E): số liệu thiết kế hộ chiếu khoan nổ gương hầm (mục 15), nổ viền, kích nổ, nghiệm thu nổ mìn lấy từ đây. TCVN 9161 không có số liệu cho chống đỡ theo phân loại đá, quan trắc hội tụ, xử lý sự cố địa chất, thông gió định lượng, vỏ hầm: các phần này lấy từ thiết kế và tiêu chuẩn khác. Một số ký hiệu công thức bị mất khi trích văn bản, cần đối chiếu bản gốc khi tính chính thức."
 }

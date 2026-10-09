@@ -23,9 +23,40 @@
     "Đập cấp II trở lên cần hai mốc cấp I bằng bê tông để xác định tim đập [8297 · 4.5]",
     "Có kết quả thí nghiệm vật liệu đắp, đầm thử hiện trường để chọn thông số [8297 · 9.14]",
     "Nền đập đã xử lý và nghiệm thu; chỉ đắp đập sau khi nền nghiệm thu [8297 · 6.6, 9.1]",
-    "Máy móc, thiết bị đầm, vận chuyển được kiểm tra, bảo dưỡng; cán bộ thí nghiệm hiện trường và phòng thí nghiệm sẵn sàng"
+    "Máy móc, thiết bị đầm, vận chuyển được kiểm tra, bảo dưỡng; cán bộ thí nghiệm hiện trường và phòng thí nghiệm sẵn sàng",
+    "Đã nhận bàn giao bản đồ địa hình, điểm khống chế mặt bằng và cao độ, cọc mốc tim đập; mốc được kiểm tra lại ngoài thực địa, bố trí ngoài vùng ảnh hưởng nổ mìn và lún [8297 · 4.1, 4.2, 4.3]",
+    "Chủ đầu tư giao tài liệu vật liệu đắp (vị trí, phạm vi, cao trình khai thác, trữ lượng, tính chất cơ lý từng loại đất) và bàn giao mỏ tại thực địa; nhà thầu kiểm tra lại từng mỏ trước khi đắp [8297 · 7.1.1, 7.1.2]"
   ],
   "steps": [
+    {
+      "title": "Đo đạc khống chế, cắm mốc và đo khối lượng thi công",
+      "actions": [
+        "Nhận bàn giao bản đồ địa hình, điểm khống chế mặt bằng và cao độ, cọc mốc tim đập, đường viền chân đập, tim cống lấy nước, cống xả đáy, tràn và mỏ vật liệu; cùng chủ đầu tư và tư vấn kiểm tra lại mốc ngoài thực địa",
+        "Bố trí điểm khống chế ngoài đường viền công trình, trên nền đá hoặc đất cứng ổn định, cao hơn mực nước ngầm, ngoài vùng ảnh hưởng của nổ mìn; ký hiệu, vẽ sơ đồ và bảo vệ suốt quá trình thi công",
+        "Đập cấp II trở lên: xây hai mốc cấp I bằng bê tông, ghi cao độ tại tim mốc, đánh dấu tim bằng sơn đỏ để kiểm tra vị trí và cao độ các hạng mục trong thân đập",
+        "Đo mặt cắt dọc theo tim đập và mặt cắt ngang tại các cọc tương ứng, đo vượt ra ngoài chân đập; cắm mốc giới hạn xử lý nền và đường viền chân đập theo địa hình sau khi đã xử lý nền",
+        "Định kỳ đo khối lượng đào đắp bằng lưới ô vuông hoặc theo băng, vẽ mặt cắt và lập bảng khối lượng",
+        "Sau mỗi giai đoạn thi công lập bình đồ, mặt cắt phần đã làm và bản đồ địa hình khu thi công làm cơ sở cho kế hoạch tiếp theo",
+        "Kiểm tra bất thường cọc mốc, hiệu chỉnh khi có sai số; chỉnh lý, đánh số và lưu trữ hồ sơ đo đạc; bàn giao mốc cho cơ quan quản lý sau tổng nghiệm thu"
+      ],
+      "requirements": [
+        "Điểm khống chế mặt bằng và cao độ phải ký hiệu, vẽ sơ đồ, bảo vệ suốt thi công và kiểm tra hiệu chỉnh mỗi năm 1-2 lần; sau tổng nghiệm thu bàn giao cho cơ quan quản lý công trình [8297 · 4.4]",
+        "Đập cấp II trở lên: hai mốc cấp I bằng bê tông xác định tim đập, dùng cùng các mốc khống chế khác để kiểm tra vị trí, cao độ các công trình nằm trong thân đập [8297 · 4.5]",
+        "Cọc mốc mặt cắt dọc theo tim đập nên là số chẵn, tốt nhất cách nhau 20-40 m; sườn dốc hai đầu đập hoặc nơi địa hình đổi lớn thì rút ngắn khoảng cách [8297 · 4.6a]",
+        "Mặt cắt ngang đo tại các vị trí ứng với cọc mốc dọc tim, tốt nhất đo vượt ra ngoài đường viền chân đập 20 m [8297 · 4.6b]",
+        "Đo khối lượng: vùng đào đắp rộng dùng lưới ô vuông; vùng dạng băng đặt điểm đo cách nhau 20-40 m [8297 · 4.7]",
+        "Sau mỗi giai đoạn: công trình cấp đặc biệt đến cấp II hoặc khối lượng lớn lập cả bình đồ, mặt cắt và bản đồ địa hình khu thi công; đập cấp III, IV chỉ cần bình đồ và mặt cắt [8297 · 4.8]"
+      ],
+      "checks": [
+        "Kiểm tra bất thường cọc mốc khống chế; nếu thấy sai số phải đo hiệu chỉnh lại [8297 · 4.9]"
+      ],
+      "tips": [
+        "Mốc đặt trong vùng lún hoặc vùng nổ mìn sẽ bị lệch: đặt ngoài vùng ảnh hưởng, trên nền ổn định, trên mực nước ngầm",
+        "Mốc giới hạn xử lý nền và chân đập phải cắm theo địa hình sau khi xử lý xong nền, tránh bị đào mất khi xử lý nền hoặc bị lấp khi đắp [8297 · 4.6c]",
+        "Cán bộ thi công tại hiện trường phải nắm vững cọc mốc để đo hằng ngày; có cán bộ chuyên trách đo đạc [8297 · 4.9, 4.10]",
+        "Hồ sơ đo đạc không chỉnh lý kịp thời sẽ khó dùng khi nghiệm thu: phân loại, đánh số, lưu cẩn thận [8297 · 4.11]"
+      ]
+    },
     {
       "title": "Dẫn dòng, tiêu nước, xử lý nền",
       "actions": [
@@ -35,21 +66,37 @@
         "Lấp các hang hốc, khe nứt; xử lý mạch nước, hố nước bằng tầng lọc hoặc ống dẫn theo thiết kế",
         "Nền đá: làm sạch bằng nước hoặc khí nén, xử lý bề mặt gồ ghề, đổ vữa hoặc bê tông chèn trám nếu thiết kế yêu cầu",
         "Thi công chân khay, hào chống thấm, khoan phụt, cừ theo thiết kế; kiểm tra nghiệm thu hạng mục trước khi sang bước sau",
-        "Làm ẩm hoặc phơi nền cho đúng độ ẩm, lu thử một lượt; lập biên bản nghiệm thu nền rồi mới đắp lớp đầu"
+        "Làm ẩm hoặc phơi nền cho đúng độ ẩm, lu thử một lượt; lập biên bản nghiệm thu nền rồi mới đắp lớp đầu",
+        "Lập tài liệu mô tả địa chất hố móng sau khi dọn nền, báo thiết kế và chủ đầu tư nếu sai khác đồ án; kiểm tra các hố khoan, hố đào khảo sát đã lấp kín chưa",
+        "Bảo vệ lớp phủ thiên nhiên chống thấm (nếu thiết kế dùng để kéo dài đường viền thấm): không đào bới, xả nước, xả rác lên lớp này"
       ],
       "requirements": [
-        "Để lại lớp bảo vệ nền khoảng 20-30 cm, dày hơn vào mùa mưa; nền phải đạt dung trọng khô theo yêu cầu [8297 · 6.1, 6.2]",
+        "Để lại lớp bảo vệ nền dày khoảng 20-30 cm ở chỗ chưa đắp ngay, mùa mưa để dày hơn mùa khô; lớp này chỉ bóc ngay trước khi đắp [8297 · 6.2, 9.2]",
         "Nền đắp luôn khô ráo bằng rãnh, bờ ngăn hoặc bơm tiêu [8297 · 5.2]",
-        "Đất nền phải có độ ẩm tương đương đất đắp: quá khô thì tưới, quá ướt thì phơi [8297 · 9.3]"
+        "Đất nền phải có độ ẩm tương đương đất đắp: quá khô thì tưới, quá ướt thì phơi [8297 · 9.3]",
+        "Dọn nền: phá dỡ công trình cũ, chặt và đào hết gốc rễ, bóc đất hữu cơ, than bùn, đá phong hóa theo thiết kế; lấp hang hốc, hang cầy, hang chuột, giếng nước, khe nứt rồi đầm kỹ; tổ mối phải đào và xử lý đến tận gốc [8297 · 6.1a-g]",
+        "San các chỗ gồ ghề, lấp mương rãnh bằng đất đắp đập và đầm đạt dung trọng khô của nền; các hố khoan, hố đào khảo sát còn sót phải lấp lại cẩn thận [8297 · 6.1d]",
+        "Đá mồ côi nhỏ phải đào bỏ; đá phong hóa mạnh chuyển ra ngoài nền đập; đá lớn, đặc chắc, chân cắm sâu có thể để lại nhưng phải nhét vữa xi măng hoặc đất sét vào chỗ hàm ếch và đầm chèn kỹ quanh bằng đầm tay [8297 · 6.1f]",
+        "Nền đá: nhét vữa xi măng vào khe nứt, hang hốc; phun rửa bằng vòi nước áp lực cao cho sạch bùn, cát, đá vụn [8297 · 6.1h]",
+        "Mặt nối tiếp: đào đến khi không còn vết nứt, lỗ rò, kể cả vết nứt rộng 1-2 mm, và xử lý triệt để các khuyết tật này [8297 · 6.5]",
+        "Sau khi dọn nền phải có tài liệu mô tả địa chất hố móng; sai khác bất lợi so với thiết kế phải báo tư vấn thiết kế và chủ đầu tư; chỉ đắp đập sau khi xong việc xử lý nền [8297 · 6.4, 6.6]",
+        "Lớp phủ thiên nhiên dùng kéo dài đường viền thấm phải được bảo vệ; nghi ngờ hư hỏng phải báo chủ đầu tư [8297 · 6.3]",
+        "Vật liệu ngăn dòng chuẩn bị không ít hơn 130% khối lượng tính toán; phương án và khối lượng phải được tư vấn thiết kế và chủ đầu tư thông qua [8297 · 5.8]",
+        "Đê quai là một phần của đập chính thì phải nghiệm thu xử lý nền trước khi đắp và đảm bảo chất lượng như đập chính; công trình dẫn dòng và bộ phận sẽ ngập nước phải nghiệm thu trước khi ngập [8297 · 5.4, 5.9]",
+        "Sau ngăn dòng đỉnh đê quai và cao trình đập phải luôn cao hơn mực nước dâng trong hồ; khoảng thời gian từ ngăn dòng đến đầu mùa lũ phải đủ để đắp đập vượt lũ theo tần suất quy định [8297 · 5.7, 5.11, 5.12]",
+        "Trước ngăn dòng phải xong công trình bảo đảm nước sinh hoạt và vận tải thủy ở hạ lưu theo thiết kế, và xử lý lòng hồ (điểm thấm mạnh, mái đất dễ sạt, hóa chất hòa tan) [8297 · 5.5, 5.6]"
       ],
       "checks": [
-        "Nghiệm thu nền, xử lý nền trước khi đắp lớp đầu tiên"
+        "Nghiệm thu nền, xử lý nền trước khi đắp lớp đầu tiên",
+        "Nghiệm thu xử lý nền, màn chống thấm, chân khay và công trình dẫn dòng trước khi đắp [8297 · 15.3a, 15.3b]"
       ],
       "tips": [
         "Bóc lớp bảo vệ quá sớm, để nền bị mưa ngâm: bóc đến đâu đắp đến đó",
         "Nước ngầm trồi hoặc mạch nước nhỏ bị bỏ sót làm đất đắp bão hòa: có phương án tiêu nước và ống dẫn tạm",
         "Hố đào xử lý nền chưa dọn hết đất yếu: dùng đào thử, đo kiểm, ghi nhận cao độ mặt đáy",
-        "Nền bị xe nặng làm hỏng sau nghiệm thu: bảo vệ nền, hạn chế phương tiện đi lại"
+        "Nền bị xe nặng làm hỏng sau nghiệm thu: bảo vệ nền, hạn chế phương tiện đi lại",
+        "Lớp phủ thiên nhiên chống thấm bị đào bới, xả nước hoặc rác sẽ mất tác dụng kéo dài đường thấm: rào, biển báo, báo ngay khi nghi hư hỏng",
+        "Hố khoan khảo sát địa chất lấp sót là đường thấm ngầm: đối chiếu hồ sơ khảo sát và kiểm tra lại trước khi đắp"
       ]
     },
     {
@@ -65,15 +112,26 @@
         "Lập biên bản nghiệm thu xử lý nền sâu và công trình xuyên đập trước khi đắp thân đập"
       ],
       "requirements": [
-        "Thông số theo thiết kế và bản gốc tiêu chuẩn (chưa có số liệu đối chiếu)"
+        "Chân khay: chỉ đắp sau khi xử lý nền, tiêu nước, vét bùn, dọn đất đá rời, xử lý vết nứt; đắp chỗ thấp trước cho đều độ cao rồi mới đắp lên [8297 · 10.2.1.1]",
+        "Chân khay bê tông: đắp đất chèn hai bên lên đều; trong phạm vi 1 m quanh chân khay dùng đất không lẫn sỏi sạn và đầm thủ công hoặc đầm cóc, ngoài 1 m mới dùng đầm lăn, đầm nện [8297 · 10.2.1.2]",
+        "Tường chống thấm trong nền (bê tông, bê tông cốt thép, xi măng + bentonite...) phải nghiệm thu xong mới được đắp đập; tường hào trong dung dịch bentonite theo quy trình riêng được chủ đầu tư chấp nhận [8297 · 10.2.2.1, 10.2.2.2]",
+        "Thí nghiệm hiện trường vữa, bê tông, xi măng + bentonite phải làm đầy đủ theo từng cao độ của từng đoạn tường [8297 · 10.2.2.3]",
+        "Cừ chống thấm (gỗ, bê tông cốt thép, thép, chất dẻo) thi công theo quy trình riêng; vật liệu có chứng chỉ chất lượng nhà sản xuất, cừ tự sản xuất phải kiểm tra và có biên bản nghiệm thu trước khi đóng [8297 · 10.2.3]",
+        "Khoan phụt: quy trình riêng do thiết kế hoặc nhà thầu soạn, chủ đầu tư chấp thuận; trước khi thi công phải thí nghiệm các thông số kỹ thuật để đạt chỉ tiêu thiết kế [8297 · 10.2.4]",
+        "Công trình vĩnh cửu trong thân đập (cống lấy nước, cống xả cát, cống dẫn dòng, hành lang kiểm tra, các loại ống) phải nghiệm thu trước khi đắp phủ [8297 · 15.3c]",
+        "Đất đắp quanh công trình xây đúc, vách đá: trong 1 m kể từ đường viền tiếp giáp dùng đất thịt, đất sét không lẫn sạn sỏi, đầm bằng đầm cóc; tại đường viền tiếp giáp đầm bằng chày gỗ hoặc đầm bàn gang [8297 · 11.5b]",
+        "Thiết bị quan trắc nền lắp theo chỉ dẫn riêng của thiết kế; trước khi lắp phải lập biên bản nghiệm thu tình trạng thiết bị tại công trường [8297 · 13.1, 13.2]"
       ],
-      "checks": [],
+      "checks": [
+        "Nghiệm thu xử lý nền, màn chống thấm, chân khay, công trình trong thân đập trước khi đắp [8297 · 15.3a, 15.3c]"
+      ],
       "tips": [
         "Chỗ tiếp giáp giữa đất đắp và cống là vị trí dễ thấm tập trung: đầm kỹ, đắp theo lớp mỏng, kiểm tra riêng",
         "Khoan phụt xong chờ cường độ vữa đủ rồi mới đắp lên hoặc đào lân cận",
         "Phụt vữa nền nên thực hiện trước hoặc ở thời điểm cao trình đắp phù hợp theo thiết kế",
         "Cổ cống không được bỏ khi thiết kế có yêu cầu",
-        "Khoan phụt theo TCVN 8644, 8645 chỉ đọc được từng phần"
+        "Khoan phụt theo TCVN 8644, 8645 chỉ đọc được từng phần",
+        "Tường chống thấm và cừ chưa nghiệm thu thì chưa đắp đập lên trên: không đẩy tiến độ đắp khi biên bản hạng mục này chưa ký"
       ]
     },
     {
@@ -84,19 +142,31 @@
         "Điều chỉnh độ ẩm tại mỏ hoặc bãi trộn: phơi khô khi quá ướt, tưới nước khi quá khô; trộn đều",
         "Lấy mẫu thí nghiệm nhanh theo định kỳ để giám sát chất lượng đất đưa lên đập",
         "Tổ chức xe vận chuyển theo tuyến cố định, tưới nước chống bụi, che phủ để tránh mất ẩm hoặc bị mưa",
-        "Dỡ vật liệu tại bãi tập kết hoặc trực tiếp vào khoảnh đắp; kiểm tra phiếu nhập và chủng loại vật liệu"
+        "Dỡ vật liệu tại bãi tập kết hoặc trực tiếp vào khoảnh đắp; kiểm tra phiếu nhập và chủng loại vật liệu",
+        "Cắm cọc đánh dấu mép mỏ, ghi lên bình đồ và bảo vệ cọc đến khi khai thác hết mỏ; đổ lớp đất màu và phế thải đúng nơi quy định để hoàn trả diện tích canh tác"
       ],
       "requirements": [
-        "Đất sét trương nở, lún ướt hoặc tan rã nhanh cần chỉ dẫn riêng; tránh để tiếp xúc trực tiếp với nước hồ [8297 · 9.20]"
+        "Đất sét trương nở, lún ướt hoặc tan rã nhanh cần chỉ dẫn riêng; tránh để tiếp xúc trực tiếp với nước hồ [8297 · 9.20]",
+        "Kiểm tra mỏ đất: bề dày đất hữu cơ, chiều dày từng lớp, độ ẩm tự nhiên của từng lớp, dung trọng tự nhiên, thành phần hạt, độ ẩm và dung trọng khô lớn nhất; đất nhiều sạn sỏi phải kiểm tra hàm lượng hạt thô lớn hơn 2 mm [8297 · 7.1.3, 7.3.1]",
+        "Kiểm tra mỏ cát sỏi làm tầng lọc: cấp phối hạt, hàm lượng bùn, tạp chất hữu cơ, đường kính hạt lớn nhất, và thêm hàm lượng hạt mềm yếu, hạt thoi dẹt; không dùng cát sỏi tự nhiên ở lòng sông làm tầng lọc khi chưa sàng, kiểm tra và được chủ đầu tư chấp thuận [8297 · 7.1.5, 12.1.2]",
+        "Quy hoạch mỏ: chiếm ít đất canh tác nhất, dùng tối đa mỏ trong vùng ngập hồ, tránh vận chuyển qua đập và giao cắt; giữ lại một số mỏ gần cho ngăn dòng và đắp đập vượt lũ [8297 · 7.2.1, 7.2.3]",
+        "Đất ít thấm, tính chống thấm cao dành đắp phía thượng lưu; mùa mưa thi công các bộ phận đất rời (phản áp hạ lưu, lớp bảo vệ thượng lưu, lớp chuyển tiếp) [8297 · 7.2.4]",
+        "Xử lý độ ẩm đồng đều trong khối đất, lấy mẫu kiểm tra ở cả trên và dưới lớp đất; nên làm ngoài vùng đắp; ủ đất nhiều ngày hoặc trộn nhiều loại đất cần quy trình chi tiết được chủ đầu tư duyệt; tăng ẩm bằng phun nước đồng thời với máy đào xúc [8297 · 7.3.3, 7.3.4, 7.3.5]",
+        "Khai thác: độ ẩm tự nhiên gần hoặc thấp hơn thiết kế thì khai thác theo mặt đứng, cao hơn thì khai thác theo mặt bằng; mùa khô chọn mỏ ẩm cao, mùa mưa chọn mỏ ẩm thấp; rãnh tiêu trong mỏ có đáy thấp hơn đáy khoang đào [8297 · 8.4]",
+        "Giảm ẩm (Phụ lục A): làm sạch tầng phủ, rãnh ngăn nước và tiêu nước ngầm sớm 2-3 tháng trước khai thác; rải đất dày khoảng 30 cm, phơi 1-2 giờ rồi cày lật bằng máy cày nhiều lưỡi, lặp lại đến khi đạt độ ẩm thiết kế [8297 · A.1.1, A.1.3]",
+        "Tăng ẩm (Phụ lục A): đất thấp hơn độ ẩm thiết kế 3-4% thì tưới thấm mỏ rồi đào theo mặt đứng; đất dính nhớt, thấm chậm, thấp hơn 6-8% (có khi 10%) thì tưới toàn bãi và ủ 2-3 ngày, hoặc cày xới sâu khoảng 30 cm, tưới, để thấm 1-2 giờ, trở đất, tưới lại đến khi thấm đều [8297 · A.2.1, A.2.2]",
+        "Đường vận chuyển luôn nằm trên mực nước lũ, không cản thoát lũ, có cầu cống và rãnh tiêu hai bên, có chiếu sáng khi thi công đêm; nên vận chuyển thẳng lên mặt đập; phải bảo dưỡng thường xuyên [8297 · 8.5, 8.7, 8.9]",
+        "Đất bazan: thường chỉ dùng đới 1 và phần trên đới 2 của vỏ phong hóa; không khai thác, sử dụng đất chứa trên 45% khối lượng hạt kết von laterit nhôm sắt hình dạng kỳ dị [8297 · D.3.1, D.3.5]"
       ],
       "checks": [
-        "Thí nghiệm nhanh độ ẩm, thành phần hạt tại mỏ và bãi trộn [8297 · 14]"
+        "Thí nghiệm nhanh độ ẩm, thành phần hạt tại mỏ và bãi trộn; kiểm tra vị trí, ranh giới, trữ lượng, tầng phủ, chỉ tiêu cơ lý từng mỏ [8297 · 14.4]"
       ],
       "tips": [
         "Đất lẫn rễ cây, tạp chất hoặc vón cục: loại bỏ trước khi chở lên đập",
         "Mỏ ẩm không đều theo độ sâu: khai thác cắt lớp đứng để trộn đều",
         "Đất để lâu ở bãi tập kết dễ mất ẩm hoặc bị mưa: tính toán khối lượng chở phù hợp với tốc độ đắp",
-        "Ghi rõ nguồn gốc, thời điểm lấy mẫu để truy vết khi phát hiện chỉ tiêu không đạt"
+        "Ghi rõ nguồn gốc, thời điểm lấy mẫu để truy vết khi phát hiện chỉ tiêu không đạt",
+        "Mỏ nằm trong vùng ngập hồ nên khai thác trước, mỏ gần giữ lại cho giai đoạn ngăn dòng và vượt lũ; ghi rõ trong kế hoạch mỏ"
       ]
     },
     {
@@ -110,7 +180,15 @@
         "Lập báo cáo đầm thử trình chủ đầu tư, tư vấn thiết kế duyệt; tổ chức phổ biến cho tổ đội"
       ],
       "requirements": [
-        "Trước khi đắp phải xác định các thông số: loại đầm, trọng lượng đầm, chiều dày rải, số lần đầm, độ ẩm tối ưu, tốc độ đầm [8297 · 9.14]"
+        "Trước khi đắp phải xác định các thông số: loại đầm, trọng lượng đầm, chiều dày rải, số lần đầm, độ ẩm tối ưu, tốc độ đầm [8297 · 9.14]",
+        "Thông số cần xác định: chiều dày lớp rải, số lần đầm để đạt dung trọng khô thiết kế, độ ẩm thích hợp nhất [8297 · C.1.1]",
+        "Độ chặt K = dung trọng khô thiết kế / dung trọng khô lớn nhất trong phòng; dùng đầm Proctor tiêu chuẩn cho đất dính có hạt ≤ 4,76 mm, đầm Proctor cải tiến cho đất thô có hạt > 4,76 mm [8297 · 9.17]",
+        "Tư vấn thiết kế cung cấp tài liệu Proctor tiêu chuẩn; thiếu thì tham khảo Bảng C1 (độ ẩm tốt nhất; dung trọng khô lớn nhất): cát 8-12%; 1,75-1,95 t/m³ | á cát 9-15%; 1,65-1,85 | bụi 14-23%; 1,60-1,82 | á sét nhẹ 12-18%; 1,65-1,85 | á sét nặng 15-22%; 1,60-1,80 | á sét bụi 17-23%; 1,58-1,78 | sét 18-25%; 1,55-1,75 [8297 · C.1.2, C.1.3, Bảng C1]",
+        "Bãi thử đất dính: nơi bằng phẳng dài khoảng 60 m, rộng 6-8 m, nền bóc hết lớp thực vật và đầm đạt dung trọng khô thiết kế; chia 4 đoạn dài 15 m, mỗi đoạn chia 4 băng rộng 3,75 m [8297 · C.2.1.1]",
+        "Thử 4 lần với 4 chiều dày rải h1-h4; mỗi lần 4 đoạn có 4 độ ẩm W1-W4 gần độ ẩm tự nhiên và độ ẩm tốt nhất; 4 băng đầm n1-n4 lượt; mỗi băng lấy 6-9 mẫu dung trọng khô lấy giá trị bình quân [8297 · C.2.1.2]",
+        "Vẽ quan hệ dung trọng khô - độ ẩm - số lượt đầm cho từng chiều dày; xác định độ ẩm tốt nhất; từ dung trọng khô thiết kế tìm số lượt a, b, c, d ứng với h1-h4; tỷ số h/số lượt lớn nhất là phương án kinh tế nhất, rồi xét thêm độ ẩm khống chế được và năng lực máy để chọn phương án hợp lý [8297 · C.2.1.3]",
+        "Đất không dính: bố trí bãi thử như đất dính nhưng bỏ qua ảnh hưởng độ ẩm, chỉ vẽ quan hệ dung trọng khô - số lượt đầm - chiều dày rải [8297 · C.2.2]",
+        "Đất bazan: nên đầm thử với loại đầm áp suất lớn như đầm chân dê, đầm Sakai hoặc Dynapac có núm gai và chấn động [8297 · D.4]"
       ],
       "checks": [
         "Báo cáo đầm thử được chủ đầu tư, thiết kế duyệt"
@@ -118,7 +196,9 @@
       "tips": [
         "Đầm thử không đại diện (vật liệu khác, thiết bị khác): sai thông số khi áp dụng đại trà",
         "Quên ghi lại điều kiện thời tiết, độ ẩm đất ban đầu: khó giải thích khi kết quả bất thường",
-        "Thay máy đầm hoặc đổi nguồn vật liệu: phải làm lại đầm thử hoặc bổ sung"
+        "Thay máy đầm hoặc đổi nguồn vật liệu: phải làm lại đầm thử hoặc bổ sung",
+        "Bảng C1 chỉ để tham khảo khi thiếu tài liệu Proctor của thiết kế, không thay thế thí nghiệm của chính loại đất tại công trình",
+        "Chiều dày rải thử chọn gần khả năng của máy đầm đang có; độ ẩm thử chọn quanh độ ẩm tự nhiên và độ ẩm tốt nhất của đất"
       ]
     },
     {
@@ -134,9 +214,14 @@
       "requirements": [
         "Chiều dày lớp rải theo kết quả đầm thử [8297 · 9.14]",
         "Mặt san có độ dốc khoảng 2-5% về thượng lưu, hạ lưu hoặc cả hai phía để thoát nước, không có chỗ lồi lõm [8297 · 9.10]",
-        "Không chia đoạn đắp không có lý do; không bố trí mặt nối ngang ở lòng sông suối [8297 · 9.4, 9.5]",
+        "Thi công dây chuyền: chia mặt đập thành các khoảnh, lần lượt đổ - san - đầm; đắp thành lớp, chỗ thấp trước chỗ cao sau, không chia đoạn khi không có lý do chính đáng, nếu phải chia thì xử lý mặt nối theo mục 11; không bố trí mặt nối ngang ở lòng sông suối [8297 · 9.4, 9.5]",
         "Tốc độ lên đập theo thiết kế; muốn nhanh hơn phải tính toán an toàn và được chủ đầu tư chấp thuận [8297 · 9.6]",
-        "Kênh đất: lớp đổ thủ công 15-20 cm; cơ giới theo thí nghiệm hiện trường, không quá 30 cm nếu không thí nghiệm được; đất đắp thủ công phải vằm nhỏ [8305 · 6.2]"
+        "Kênh đất: lớp đổ thủ công 15-20 cm; cơ giới theo thí nghiệm hiện trường, không quá 30 cm nếu không thí nghiệm được; đất đắp thủ công phải vằm nhỏ [8305 · 6.2]",
+        "Chỉ đắp ở khu vực đã xử lý xong nền, các công trình che khuất đã nghiệm thu và có quy trình đắp được chủ đầu tư chấp thuận [8297 · 9.1]",
+        "Đất ít thấm đắp phía thượng lưu và dưới mực nước dâng bình thường; không để hình thành khối cục bộ có tính chất cơ lý khác hẳn vùng lân cận [8297 · 9.8, 9.9]",
+        "Đắp theo mặt cắt đã phòng lún để sau khi lún ổn định cao trình đỉnh đạt thiết kế [8297 · 9.7]",
+        "Trước khi đổ lớp mới phải cào xới lớp cũ bị nhẵn do xe và người đi lại; mùa khô nắng (nhất là miền Trung, Tây Nguyên, Đông Nam Bộ) mặt lớp cũ khô phải tưới ẩm đến phạm vi độ ẩm khống chế mới rải lớp mới [8297 · 9.11]",
+        "Không cho phép đất đắp bị bùng nhùng; nếu có phải đào hết và đắp lại đến khi đạt yêu cầu chất lượng thiết kế [8297 · 9.12]"
       ],
       "checks": [
         "Kiểm tra chiều dày lớp, độ ẩm trước khi đầm"
@@ -145,7 +230,8 @@
         "Rải quá dày để nhanh: lớp dưới không đạt độ chặt, khó phát hiện về sau",
         "Vật liệu phân tầng, đá lớn dồn thành đống: san đều, loại bỏ hoặc trộn lại",
         "Ranh giới vùng bị lẫn: bố trí người trực, kiểm tra trước khi rải tiếp",
-        "Mặt lớp rải bị xe cán hằn bánh: san lại trước khi đầm"
+        "Mặt lớp rải bị xe cán hằn bánh: san lại trước khi đầm",
+        "Phát hiện đất bùng nhùng thì đào bỏ rồi đắp lại, không chữa bằng cách đầm thêm"
       ]
     },
     {
@@ -166,18 +252,28 @@
         "Đập đồng chất: hệ số thấm sau đầm không lớn hơn 1×10⁻⁴ cm/s [8297 · 9.19]",
         "Đầm thủ công kênh: đầm nặng 20-30 kg, không dùng dưới 5 kg, vết đầm chồng không quá 1/3 bề rộng đầm; đầm cơ giới vết sau đè vết trước 10-15 cm [8305 · 6.2]",
         "Trước khi đổ lớp mới phải cào xới lớp cũ; nếu khô thì tưới ẩm đến độ ẩm khống chế [8297 · 9.11]",
-        "Trời mưa: che phủ, hoặc san phẳng và đầm nhẵn, khơi rãnh thoát nước; chỉ đầm lại khi đất đã se và đạt độ ẩm khống chế [8297 · 9.13]"
+        "Trời mưa: che phủ, hoặc san phẳng và đầm nhẵn, khơi rãnh thoát nước; chỉ đầm lại khi đất đã se và đạt độ ẩm khống chế [8297 · 9.13]",
+        "Dao vòng phù hợp đất hạt mịn và cát lẫn dưới 30% sạn sỏi hạt nhỏ hơn 20 mm; gặp nhiều sỏi sạn, cuội, dăm thì dùng hố đào kết hợp rót cát tiêu chuẩn (cát thạch anh hạt 0,25-0,50 mm sấy khô) [8297 · B.1.1, B.2.1, B.2.2]",
+        "Đất bazan đầm bằng loại đầm áp suất lớn (chân dê, Sakai, Dynapac có núm gai và chấn động); dung trọng khô sau đầm K ≥ 0,95 thường chỉ đạt 1,3-1,4 t/m³ [8297 · D.1, D.4]"
       ],
       "checks": [
-        "Lấy mẫu dung trọng hiện trường, so với dung trọng khô lớn nhất; chưa đạt thì đầm lại [8297 · 9.16]",
-        "Kênh đất: lấy 3 mẫu mỗi 1.000 m² mỗi lớp (đầm cơ giới), 3 mẫu mỗi 500 m² (đầm thủ công); dung trọng khô thực tế thấp hơn thiết kế tối đa 0,05 T/m³, số mẫu không đạt không quá 10% [8305 · mục 7]"
+        "Dung trọng khô phải đạt thiết kế ở mọi vị trí trong thân đập; sau thí nghiệm đạt mới đắp lớp khác, chưa đạt phải đầm lại đến khi đạt [8297 · 9.16, 14.13]",
+        "Kênh đất: lấy 3 mẫu mỗi 1.000 m² mỗi lớp (đầm cơ giới), 3 mẫu mỗi 500 m² (đầm thủ công); dung trọng khô thực tế thấp hơn thiết kế tối đa 0,05 T/m³, số mẫu không đạt không quá 10% [8305 · mục 7]",
+        "Số lượng mẫu (Bảng 1): thân đập đồng chất hoặc khối chính, đất sét - á sét - á cát, đo độ ẩm thi công và dung trọng khô: 1 tổ mẫu cho 100-200 m³; tường tâm, tường nghiêng, sân phủ: 1 tổ cho 100 m³. Đất lẫn nhiều cát cuội sỏi (thân đập ngoài tường tâm, tường nghiêng): 1 tổ cho 200-400 m³ [8297 · 14.10a, Bảng 1]",
+        "Hệ số thấm, cường độ chịu cắt, chịu nén chỉ làm với đập cấp đặc biệt và cấp I, 1 tổ cho 20.000-50.000 m³ (thân đập) hoặc 20.000 m³ (tường tâm, tường nghiêng, sân phủ, với đất sét - á sét - á cát); do tư vấn giám sát làm theo yêu cầu của chủ đầu tư, nhà thầu không phải làm [8297 · 14.10a, 14.10d, Bảng 1]",
+        "Vị trí lấy mẫu phân bố đều trên mặt bằng, mỗi lớp đắp ít nhất 1 tổ (3 mẫu); lớp đã đầm dày tới 40 cm lấy mẫu ở độ sâu giáp lớp dưới, lớp dày hơn 40 cm lấy 1 mẫu giữa và 2 mẫu giáp lớp dưới [8297 · 14.10b, 14.10c]",
+        "Vùng đầm thủ công hoặc đầm cóc: mật độ mẫu dày hơn, cứ 25-50 m² mặt lớp đầm lấy 1 tổ 3 mẫu; chỗ nghi ngờ, nhất là chỗ tiếp giáp, lấy thêm mẫu [8297 · 14.10a, 14.10e]",
+        "Dung trọng khô thực tế chỉ được thấp hơn thiết kế không quá 0,03 T/m³; số mẫu không đạt không quá 5% tổng số mẫu và không tập trung vào một vùng; mẫu có thành phần hạt khác loại đất thiết kế cần xem xét loại bỏ [8297 · 14.11]",
+        "Phương pháp đo dung trọng: đất dính dùng dao vòng hoặc phóng xạ; đất rời dùng rót cát tiêu chuẩn; đất nhiều dăm sạn (hạt to 40-50%) dùng dao vòng lớn (đường kính 100-200 mm, cao 100-150 mm) hoặc hố đào; số liệu dao vòng của đất dính là số liệu đưa vào hồ sơ nghiệm thu, phương pháp khác chỉ để kiểm tra nhanh [8297 · 14.8]",
+        "Sau khi lấy mẫu phải lấp hố và đầm chặt lại; ghi kết quả vào sổ thí nghiệm kèm sơ họa vị trí (bình đồ, cao độ) [8297 · 14.12, 14.14]"
       ],
       "tips": [
         "Đầm quá ẩm sinh hiện tượng đất bị nhún, lực đầm không hiệu quả: phơi lại hoặc xới tơi",
         "Mặt lớp đầm bị nén bóng làm lớp trên không liên kết: cào xới trước khi rải lớp mới",
         "Quanh công trình bê tông dễ để lại vùng đầm kém: bố trí thợ có kinh nghiệm, kiểm tra mẫu tại đây",
         "Lấy mẫu dung trọng không đại diện: chọn điểm ngẫu nhiên, tránh chỉ lấy ở chỗ đầm kỹ",
-        "Ghi chép vị trí, cao độ mẫu để truy vết"
+        "Ghi chép vị trí, cao độ mẫu để truy vết",
+        "Số liệu 0,03 T/m³ và 5% số mẫu là của đập đất (TCVN 8297 mục 14.11); đừng lẫn với giá trị của kênh đất (0,05 T/m³ và 10%) ở TCVN 8305"
       ]
     },
     {
@@ -193,15 +289,29 @@
         "Ghi nhật ký cao độ từng vùng, nhận xét thời tiết, báo cáo hằng ngày"
       ],
       "requirements": [
-        "Thông số theo thiết kế và bản gốc tiêu chuẩn (chưa có số liệu đối chiếu)"
+        "Đất ít thấm đắp phía thượng lưu và dưới mực nước dâng bình thường; đập đồng chất dùng đất có chỉ tiêu cơ lý tương đối giống nhau và hệ số thấm sau đầm không lớn hơn 1×10⁻⁴ cm/s [8297 · 9.8, 9.19]",
+        "Tường tâm, tường nghiêng đắp theo chiều cao thân đập, luôn chênh thấp hơn khối đất kề bên ít nhất 2-3 m, đắp theo lớp và phải có mẫu đạt chỉ tiêu thiết kế mới đắp lớp khác; đắp đến đâu bạt mái, đắp lớp bảo vệ và lớp gia tải (nếu có) đến đó [8297 · 10.3.1]",
+        "Nên đắp tường tâm đi trước một bước so với khối đất hai bên; tường nghiêng đắp đến đâu phải có lớp đất bảo vệ để tránh nứt nẻ [8297 · 7.2.4a]",
+        "Vật liệu tầng lọc sau gia công, phân cỡ phải kiểm nghiệm lại tính chất cơ lý, để riêng trên khu vực san phẳng, đầm nện, có rãnh thoát nước và cắm biển ghi số lượng, thứ tự, vị trí sử dụng [8297 · 12.1.2]",
+        "Nền tầng lọc phải san phẳng, đầm chặt, tiêu khô; không đổ tầng lọc vào nước; cắm cọc lên ga xác định vị trí, kích thước từng lớp [8297 · 12.1.3]",
+        "Lớp lọc dày dưới 15 cm nên đắp thủ công, dày trên 15 cm có thể dùng thiết bị cơ giới nhẹ; vật liệu các lớp phải phân biệt rõ, không trộn lẫn [8297 · 12.1.4]",
+        "Phân đoạn đắp tầng lọc không được so le trên mặt bằng hay gãy đoạn trên mặt đứng; chỗ tiếp giáp phải đắp thành bậc thang, bề rộng mặt bậc ít nhất 40 cm [8297 · 12.1.5]",
+        "Trong và sau khi thi công, tầng lọc phải được bảo vệ: không cho nước bẩn, bùn đất chảy vào, không cho người và xe qua lại trên mặt tầng lọc [8297 · 12.1.6]",
+        "Nền sân phủ là cuội sỏi: phải đắp tầng lọc trước khi đắp đất sân phủ để đất không bị xói ngầm trôi vào lớp cuội sỏi [8297 · 10.1.3]",
+        "Lớp gia tải đắp đồng thời với thân đập, cao độ luôn xấp xỉ mặt đập về phía thượng lưu và cao hơn mực nước dâng; san thành lớp mỏng, đầm bằng đầm bánh hơi hoặc bánh xích; mái gia tải san phẳng trước khi làm tầng lọc và lớp bảo vệ mái [8297 · 12.2.5]",
+        "Mùa khô nên đắp khối gia tải bằng cát sỏi phía hạ lưu để đất đắp không tiếp xúc trực tiếp với khí trời khô nóng; mùa mưa ưu tiên thi công các bộ phận đất rời [8297 · 7.2.4b]"
       ],
-      "checks": [],
+      "checks": [
+        "Tầng lọc ngược: kiểm tra chiều dày từng lớp, thành phần hạt (xác định bằng phương pháp sàng) và các mặt nối tiếp, không để các lớp so le, gãy khúc, trộn lẫn [8297 · 14.9, 14.15]",
+        "Số lượng mẫu thành phần hạt vật liệu tầng lọc: 1 tổ cho 20-50 m³ [8297 · 14.10a, Bảng 1]"
+      ],
       "tips": [
         "Tầng lọc bị nhiễm mịn mất tác dụng thoát nước: bảo vệ không cho đất lõi tràn vào",
         "Ranh giới vùng cần dùng máy GPS hoặc toàn đạc kiểm tra thường xuyên",
         "Độ chênh cao giữa các vùng đắp cần giới hạn để tránh sạt mái hố đào, tránh vật liệu rơi vào vùng khác",
         "Mỗi vùng dùng đầm riêng, đừng dùng chung loại một đầm cho vật liệu khác nhau",
-        "Tiêu chuẩn đập hỗn hợp đất đá (TCVN 10397) chưa đọc được nội dung"
+        "Tiêu chuẩn đập hỗn hợp đất đá (TCVN 10397) chưa đọc được nội dung",
+        "TCVN 8297 mục 7.2.4 yêu cầu tường tâm đắp trước một bước, còn mục 10.3.1 nêu tường thấp hơn khối kề 2-3 m: chốt chênh cao cụ thể theo thiết kế và thông báo cho tổ đội"
       ]
     },
     {
@@ -217,15 +327,21 @@
         "Dọn đá lăn, tu chỉnh mái, xếp đá bảo vệ mái theo yêu cầu thiết kế"
       ],
       "requirements": [
-        "Thông số theo thiết kế và bản gốc tiêu chuẩn (chưa có số liệu đối chiếu)"
+        "TCVN 8297 chỉ áp dụng cho đập đất đầm nén, không quy định chiều dày lớp, số lượt đầm hay lượng nước tưới của đá đổ; các thông số này lấy từ thi công thử và thiết kế (TCVN 10397, 10775 chưa đọc)",
+        "Mái đắp bằng vật liệu rời, theo cả hướng ngang và hướng dọc, không được dốc hơn mái ổn định tự nhiên của vật liệu đó [8297 · 11.3d]",
+        "Đống đá tiêu nước sau đập: đá chống ăn mòn, cường độ, kích thước theo thiết kế; thi công cơ giới thì san phẳng, đầm bánh hơi đạt độ chặt thiết kế; xếp thủ công thì xếp khít, chèn lỗ hổng bằng đá nhỏ, không xếp thành lớp, đá mặt ngoài tạo mặt phẳng và đá có đuôi cắm vào trong [8297 · 12.2.1.1, 12.2.1.2]",
+        "Lát đá bảo vệ mái theo tiêu chuẩn xây lát đá hiện hành, không lát trong nước; nếu lũ về kịp thì đổ đá tạm bảo vệ mái, nước rút phải dỡ ra làm lại [8297 · 12.2.4.4]",
+        "Lớp gia tải san thành lớp mỏng, không chất đống cao, đầm bằng bánh hơi hoặc bánh xích theo chỉ dẫn thiết kế [8297 · 12.2.5]"
       ],
-      "checks": [],
+      "checks": [
+        "Kiểm tra đống đá tiêu nước, lớp gia tải, mái vật liệu rời theo thiết kế; thông số đầm đá đổ lấy từ thi công thử [8297 · 12.2.1, 12.2.5]"
+      ],
       "tips": [
         "Đá bị phân tầng khi đổ từ cao: rải bằng đổ gần và san, tránh đổ từ mép",
         "Đầm thử quyết định thông số cho cả công trình: thử bằng đúng loại đầm sẽ sử dụng",
         "Tưới nước sau mỗi lớp giúp đá vào khít hơn nhưng cần theo thông số thiết kế",
         "Đá bột và đá yếu tập trung lại gây lún không đều: kiểm soát tại mỏ",
-        "Số lượt đầm, chiều dày lớp theo thiết kế và tiêu chuẩn gốc, chưa có số liệu đối chiếu"
+        "TCVN 8297 không có số lượt đầm, chiều dày lớp cho đá đổ: lấy từ thi công thử hiện trường và thiết kế"
       ]
     },
     {
@@ -241,15 +357,55 @@
         "Ghi lượng mưa, số ngày ngừng thi công và biện pháp bảo vệ trong nhật ký"
       ],
       "requirements": [
-        "Thông số theo thiết kế và bản gốc tiêu chuẩn (chưa có số liệu đối chiếu)"
+        "Khi gặp mưa sau lúc đổ đất: che đậy kịp thời hoặc nhanh chóng san phẳng và đầm nhẵn mặt (đầm bánh hơi hoặc xe chạy nhiều lần), khơi rãnh thoát nước; sau mưa thoát hết nước mặt, vét bùn nhão, chờ mặt đất se lại và độ ẩm gần độ ẩm khống chế mới được đầm [8297 · 9.13]",
+        "Độ ẩm đắp được lệch tối đa ±3% so với độ ẩm tốt nhất: dấu cộng khi thi công mùa mưa, dấu trừ khi thi công mùa khô [8297 · 9.18]",
+        "Mặt lớp đã san có dốc về thượng lưu, hạ lưu hoặc cả hai phía khoảng 2-5% để thoát nước mưa [8297 · 9.10]",
+        "Lớp bảo vệ nền chưa đắp ngay: dày 20-30 cm, mùa mưa để dày hơn mùa khô [8297 · 6.2]",
+        "Mùa mưa chọn mỏ đất có độ ẩm tự nhiên thấp; ưu tiên thi công các bộ phận đất rời (phản áp hạ lưu, lớp bảo vệ thượng lưu, lớp chuyển tiếp) [8297 · 7.2.4b, 8.4f]",
+        "Tường nghiêng, sân phủ vừa đắp xong phải phủ ngay lớp đất bảo vệ để tránh nứt nẻ do nắng và xói do mưa [8297 · 10.1.5, 10.3.1]",
+        "Phải đủ thời gian từ ngăn dòng đến đầu mùa mưa lũ để đắp đập vượt lũ theo tần suất; giữ lại một số mỏ gần cho giai đoạn này; đường vận chuyển luôn nằm trên mực lũ [8297 · 5.7, 7.2.3, 8.7c]",
+        "Tổ mối: đào bỏ và xử lý đến tận gốc theo tiêu chuẩn hiện hành; hang cầy, hang chuột đào bỏ rồi lấp, đầm cẩn thận [8297 · 6.1e]",
+        "Mùa khô nắng, mặt lớp cũ khô phải tưới ẩm trước khi rải lớp mới; mặt đập luôn cao hơn lớp gia tải và lớp gia tải luôn cao hơn mực nước hồ khi dùng đất dễ trương nở, tan rã [8297 · 9.11, 9.20b]"
       ],
-      "checks": [],
+      "checks": [
+        "Sau mưa: nước mặt đã thoát hết, bùn nhão đã vét, độ ẩm lớp mặt về gần độ ẩm khống chế (±3%) rồi mới đầm; thí nghiệm lại trước khi đắp tiếp [8297 · 9.13, 9.18]"
+      ],
       "tips": [
         "Đắp vội trong mưa tạo lớp yếu khó phát hiện: thà dừng còn hơn đắp lại sau",
         "Mặt lớp đắp dở phải có độ dốc ngang để thoát nước, không để đọng",
         "Kiểm tra mối từ lúc khảo sát bãi vật liệu, tránh đưa đất có tổ mối vào thân đập",
         "Cao trình vượt lũ thi công lấy từ thiết kế dẫn dòng, không tự đặt",
-        "Số liệu mùa mưa (±3%) trong TCVN 8297 cần đối chiếu bản gốc"
+        "Dấu của sai lệch độ ẩm ±3%: cộng (ẩm hơn tối ưu) khi mùa mưa, trừ (khô hơn tối ưu) khi mùa khô [8297 · 9.18]"
+      ]
+    },
+    {
+      "title": "Đắp đập bằng đất bazan và đất có tính chất đặc biệt",
+      "actions": [
+        "Nhận chỉ dẫn thiết kế về phân đới vỏ phong hóa bazan và ranh khai thác; xác nhận ngoài hiện trường đới đang khai thác",
+        "Khai thác đới 1 theo mặt đứng hoặc vát xiên suốt chiều dày tầng đất; đới 2 khai thác đúng chỉ giới; đới 1 mỏng thì khai thác cùng đới 2 trong một tầng đào",
+        "Kiểm tra hàm lượng hạt kết von laterit nhôm sắt hình kỳ dị; loại bỏ nguồn vật liệu vượt giới hạn",
+        "Điều chỉnh độ ẩm cho đất bazan ẩm cao (thường 30-40%) theo phương pháp hạ ẩm của Phụ lục A và đầm thử với loại đầm áp suất lớn",
+        "Đầm bằng đầm chân dê, đầm Sakai hoặc Dynapac có núm gai và chấn động; kiểm tra dung trọng khô bằng dao vòng cỡ lớn hoặc hố đào",
+        "Xác định dung trọng đất hỗn hợp hạt nhỏ - hạt to: độ ẩm chung, độ ẩm riêng của hạt nhỏ, hàm lượng hạt lớn hơn 2 mm, rồi tính dung trọng theo công thức Phụ lục D",
+        "Với đất trương nở, lún ướt, tan rã nhanh, dễ xói (nhiều ở duyên hải miền Trung): thực hiện theo chỉ dẫn thiết kế, giữ không cho tiếp xúc trực tiếp với nước hồ"
+      ],
+      "requirements": [
+        "Đặc điểm đất bazan: tơi xốp, độ ẩm cao thường 30-40%, dung trọng khô sau đầm với K ≥ 0,95 chỉ khoảng 1,3-1,4 t/m³, hệ số thấm sau đầm 10⁻⁵ đến 10⁻⁷ cm/s, lượng kết von laterit tăng dần theo độ sâu, lẫn cuội, dăm cỡ 20-200 mm [8297 · D.1]",
+        "Vỏ phong hóa bazan chia 5 đới: đới 1 đất đỏ đồng nhất dày 0,3-7,0 m; đới 2 đất đỏ có kết von laterit dày 1-7 m; đới 3 đất loang lổ dày 2-7 m; đới 4 sét hóa dày 2-5 m; đới 5 đá mảnh dày 0,5-1,5 m; nhiều nơi thiếu một hoặc hai đới [8297 · D.2]",
+        "Thường chỉ dùng đới 1 và phần trên đới 2 để đắp đập, phải ghi rõ trong thiết kế; khai thác thấy dấu hiệu khác chỉ dẫn thiết kế phải báo thiết kế xử lý [8297 · D.3.1]",
+        "Không khai thác và sử dụng đất bazan chứa trên 45% khối lượng hạt kết von laterit nhôm sắt hình dạng kỳ dị [8297 · D.3.5]",
+        "Yêu cầu kỹ thuật đầm giống các loại đất khác (K, độ ẩm, chiều dày lớp), nhưng nên dùng đầm áp suất lớn như chân dê, Sakai, Dynapac có núm gai và chấn động [8297 · D.4]",
+        "Dao vòng cỡ lớn: đường kính trong 15-20 cm, chiều cao bằng 2/3 đến 3/4 đường kính; hàm lượng hạt to xác định bằng rửa qua sàng 2 mm trên mẫu sấy ở 100-105 °C; nên xác định thêm dung trọng khô của nhóm hạt nhỏ để đánh giá đúng độ chặt [8297 · D.5]",
+        "Đất lún sụt nhanh: chọn độ ẩm thi công ở nhánh ướt của đường quan hệ dung trọng - độ ẩm; đất trương nở, lún ướt, tan rã nhanh: không cho tiếp xúc trực tiếp nước hồ, mặt đập luôn cao hơn lớp gia tải và lớp gia tải luôn cao hơn mực nước hồ [8297 · 9.20a, 9.20b]"
+      ],
+      "checks": [
+        "Kiểm tra tỷ lệ hạt kết von và đới khai thác tại mỏ trước khi đưa lên đập [8297 · D.3]"
+      ],
+      "tips": [
+        "Thiết kế đã giới hạn đới dùng được: thợ máy phải biết nhận ra ranh đới 1, đới 2 ngoài hiện trường",
+        "Bazan ẩm cao dễ bị nhún khi đầm: hạ ẩm theo Phụ lục A trước khi rải, không đầm khi đất quá ướt",
+        "Đất đặc biệt (trương nở, tan rã) ở miền Trung: thiếu chỉ dẫn chi tiết thì không tự ý quyết định, báo tư vấn thiết kế",
+        "Mẫu dung trọng hỗn hợp phải tách hạt to và hạt nhỏ để tính; ghi rõ phương pháp trong sổ thí nghiệm"
       ]
     },
     {
@@ -265,13 +421,19 @@
       "requirements": [
         "Sân phủ đắp xong trước khi hồ chứa nước; nền cuội sỏi phải đắp tầng lọc trước; phủ lớp bảo vệ ngay để tránh nứt [8297 · 10.1]",
         "Chân khay: đắp chỗ thấp trước; quanh bê tông trong phạm vi 1 m dùng đầm tay hoặc đầm cóc, không dùng đất lẫn sỏi sạn [8297 · 10.2.1]",
-        "Tường tâm, tường nghiêng luôn thấp hơn khối đất kề bên khoảng 2-3 m [8297 · 10.3.1]",
-        "Mặt nối: hệ số mái m ≥ 2; chênh cao hai đoạn liền kề trên 5 m thì cứ 5 m làm một cơ rộng ≥ 4 m; m ≥ 3 có thể không cần cơ [8297 · 11.3]",
+        "Tường tâm, tường nghiêng luôn thấp hơn khối đất kề bên ít nhất 2-3 m, đắp theo lớp; đắp tường nghiêng đến đâu bạt mái, phủ lớp bảo vệ và lớp gia tải (nếu có) đến đó [8297 · 10.3.1]",
+        "Mặt nối ngang của đập đồng chất, tường tâm, tường nghiêng: hệ số mái m ≥ 2 (dốc hơn phải có giải pháp đặc biệt và được chủ đầu tư chấp thuận); chênh cao hai đoạn liền kề trên 5 m thì cứ 5 m làm một cơ rộng ≥ 4 m; mái thoải m ≥ 3 có thể không cần cơ [8297 · 11.3a, 11.3b]",
         "Xử lý mặt nối: đào đến hết vết nứt và lỗ rò kể cả vết nứt 1-2 mm; bạt đến lớp đạt dung trọng thiết kế [8297 · 11.4]",
-        "Quanh công trình bê tông, vách đá: trong 1 m dùng đất thịt hoặc sét không lẫn sạn, đầm cóc; ngoài 1 m mới dùng đầm lăn; ngoài 2 m mới dùng đầm rung [8297 · 11.5; kênh: 8305 · 6.4]"
+        "Quanh công trình bê tông, vách đá: trong 1 m dùng đất thịt hoặc sét không lẫn sạn, đầm cóc; ngoài 1 m mới dùng đầm lăn; ngoài 2 m mới dùng đầm rung [8297 · 11.5; kênh: 8305 · 6.4]",
+        "Cố gắng đắp đập lên cao đều; không bố trí mặt nối ở lòng sông suối và nơi đập cao nhất; tường tâm, tường nghiêng bằng đất nói chung không nên có mặt nối vuông góc tim đập [8297 · 11.1, 11.2]",
+        "Mặt đập hẹp: mặt nối có thể xiên góc với tim đập ≥ 45°; mặt đập rộng có thể bố trí mặt nối gãy khúc; mái mặt nối hướng dọc có thể dốc hơn mái hạ lưu nhưng phải tính toán; phần đắp bằng vật liệu rời không dốc hơn mái ổn định tự nhiên [8297 · 11.3b-d]",
+        "Xử lý mặt nối: bạt hết phần trên đến lớp đã đạt dung trọng thiết kế; nếu lớp này có độ ẩm bằng độ ẩm thiết kế thì đánh xờm và đắp lớp mới, thấp hơn thì tưới thêm nước trước khi đắp [8297 · 11.4b, 11.4c]",
+        "Hai vai đập ở sườn núi: bạt mái theo thiết kế và đào tường răng cắm vào sườn núi; không để đất khô, nứt, tách mặt tiếp giáp, ngừng đắp lâu phải che phủ và kiểm tra vết nứt trước khi đắp lớp khác [8297 · 11.5a, 11.5b]",
+        "Sân phủ: có thể đắp trước hoặc cùng đập nhưng xong trước khi hồ chứa nước; đắp theo lớp, đầm đạt dung trọng khô thiết kế, chỗ tiếp giáp xử lý như thân đập; tránh khoan, đào hố, chôn cột, đóng cọc trong phạm vi sân phủ [8297 · 10.1.1, 10.1.4, 10.1.5]",
+        "Tường nghiêng bằng vải geosynthetic clay liner: trải trên lớp đất dính dày tối thiểu 1 m và phủ lớp đất bảo vệ dày tối thiểu 1 m; vải geomembrane phải neo giữ ở hai đầu phía trên để tránh trượt ở mặt tiếp xúc với đất [8297 · 10.3.2b, 10.3.2c]"
       ],
       "checks": [
-        "Kiểm tra mặt nối, mặt tiếp giáp trước khi đắp tiếp"
+        "Kiểm tra mặt nối, mặt tiếp giáp trước khi đắp tiếp; nghiệm thu thân đập có ghi rõ việc xử lý mặt nối [8297 · 11.4, 15.3d]"
       ],
       "tips": [
         "Mặt nối khô, bẩn hoặc có vết nứt chưa xử lý là đường thấm tiềm tàng: kiểm tra kỹ trước khi đắp tiếp",
@@ -291,12 +453,23 @@
         "Đo hoàn công kích thước, cao độ, độ dốc mái, vẽ bản vẽ hoàn công"
       ],
       "requirements": [
-        "Tầng lọc ngược: lớp dày dưới 15 cm đắp thủ công, dày trên 15 cm dùng thiết bị cơ giới nhẹ; các lớp không trộn lẫn; bậc tiếp giáp rộng ít nhất 40 cm [8297 · 12.1]",
-        "Mốc lún đặt ngay khi đập đạt cao độ cần quan trắc, đặt thẳng đứng, đất quanh mốc đầm chặt; ống đo áp đặt sau khi đắp xong, tốt nhất trước khi hồ dâng nước [8297 · 13]",
-        "Kênh đất: đắp dôi tối thiểu 15 cm để tu chỉnh mái; sai số hoàn thiện theo bảng của tiêu chuẩn [8305 · 6.3]"
+        "Tầng lọc ngược: lớp dày dưới 15 cm đắp thủ công, dày trên 15 cm dùng thiết bị cơ giới nhẹ; các lớp không trộn lẫn; chỗ tiếp giáp phải làm bậc thang rộng mặt bậc ít nhất 40 cm, không so le hay gãy đoạn [8297 · 12.1.4, 12.1.5]",
+        "Mốc lún đặt ngay khi đập đắp tới cao độ cần quan trắc, đặt thẳng đứng, mặt trên phẳng và nằm ngang, đất quanh mốc đầm chặt đạt dung trọng thiết kế [8297 · 13.5]",
+        "Kênh đất: đắp dôi tối thiểu 15 cm để tu chỉnh mái; sai số hoàn thiện theo bảng của tiêu chuẩn [8305 · 6.3]",
+        "Ống đo áp đặt sau khi đắp xong đập, tốt nhất xong trước khi nước hồ dâng cao; đất quanh ống nện chặt, phần trên quanh ống chèn đất sét hoặc đổ vữa xi măng [8297 · 13.6]",
+        "Ống tiêu nước, dải tiêu nước trong thân đập: đúng độ dốc thiết kế, đúng độ dày các lớp không trộn lẫn, không đứt gãy hay so le theo mọi hướng, đất quanh ống đầm chặt như nơi khác trong thân đập [8297 · 12.2.2]",
+        "Giếng, hào tiêu nước giảm áp: vị trí, kích thước, vật liệu và chiều dày lớp lọc theo thiết kế; theo dõi địa chất khi khoan đào; khoan đào xong phải loại bùn đất và rửa đến khi hút ra nước trong; thi công trước khi hồ dâng nước; mỗi giếng có lý lịch kỹ thuật bàn giao cho cơ quan quản lý [8297 · 12.2.3.1-12.2.3.7]",
+        "Vải địa kỹ thuật thay lớp cát lọc: phải tính thông số theo tiêu chuẩn hiện hành và được chủ đầu tư chấp thuận; trải vải xong phải rải lớp sỏi ngay để tránh nắng chiếu trực tiếp [8297 · 12.2.2, 12.2.3.5, 12.2.4.3]",
+        "Trước khi làm lớp bảo vệ mái phải sửa mái phẳng, đất đầm chặt đạt dung trọng khô thiết kế; lớp lọc đúng thành phần hạt và độ dày thiết kế [8297 · 12.2.4.1, 12.2.4.2]",
+        "Tấm bê tông đúc sẵn lát mái: san lớp lọc thật phẳng, đầm chặt; lát từ dưới lên theo hàng, mạch vuông góc tim đập so le như xây gạch; khe hở không vượt thiết kế; mặt tấm chênh nhau không quá 5% chiều dày tấm và tấm trên không được cao hơn tấm dưới [8297 · 12.2.4.5]",
+        "Bê tông đổ tại chỗ bảo vệ mái: ngoài tiêu chuẩn thi công bê tông còn phải chống nước xi măng chảy qua lớp lót, không để bê tông chảy xệ, bảo dưỡng (nhất là mùa nắng hanh), làm khe co giãn đúng thiết kế [8297 · 12.2.4.6]",
+        "Trồng cỏ bảo vệ mái hạ lưu: chọn cỏ chịu hạn, thân thấp; rải lớp đất màu trước; trồng xong tưới thường xuyên; làm kịp thời, không để mưa xói hoặc nắng nứt nẻ [8297 · 12.2.4.7]",
+        "Mốc cao độ cấp I (kiểm tra mốc lún và chuyển vị ngang) đặt xa đường viền công trình, ngoài vùng lún và biến dạng, không ngập nước, không có nước mạch, xa chỗ đất mất ổn định [8297 · 13.4]"
       ],
       "checks": [
-        "Đo hoàn công kích thước, cao độ, mái đập"
+        "Đo hoàn công kích thước, cao độ, mái đập",
+        "Lát đá mái thượng lưu kiểm tra theo tiêu chuẩn xây lát đá công trình thủy lợi [8297 · 14.16]",
+        "Nghiệm thu riêng thiết bị thoát nước, thiết bị quan trắc, lớp bảo vệ mái thượng lưu và hạ lưu [8297 · 15.3e, 15.3f, 15.3g]"
       ],
       "tips": [
         "Tầng lọc bị bẩn bởi đất khi thi công: che chắn, làm sạch trước khi rải lớp tiếp",
@@ -318,7 +491,8 @@
         "Thí nghiệm, nghiệm thu bản mặt, khe chu vi; ghi biên bản và hoàn công"
       ],
       "requirements": [
-        "Thông số theo thiết kế và bản gốc tiêu chuẩn (chưa có số liệu đối chiếu)"
+        "TCVN 8297 không quy định bản mặt bê tông, khe chu vi, băng cản nước của đập đá đổ (đối tượng của TCVN 10775, chưa đọc); các thông số lấy từ thiết kế và tiêu chuẩn bê tông thủy công",
+        "Phần bê tông, bê tông cốt thép đổ tại chỗ bảo vệ mái đập đất, ngoài tiêu chuẩn thi công bê tông, phải chống nước xi măng chảy qua lớp lót, không để chảy xệ, bảo dưỡng tốt và làm khe co giãn đúng thiết kế [8297 · 12.2.4.6]"
       ],
       "checks": [],
       "tips": [
@@ -335,16 +509,23 @@
         "Lập chương trình quan trắc theo thiết kế: lún, chuyển vị ngang, áp lực nước lỗ rỗng, thấm, mực nước",
         "Lắp thiết bị đúng cao độ và vị trí trong quá trình đắp (mốc lún, piezometer, đo thấm); bảo vệ thiết bị khi máy đi lại",
         "Hiệu chỉnh thiết bị, đo trị số ban đầu và ghi lại trước khi đắp phủ",
-        "Đo theo tần suất và ngưỡng cảnh báo do thiết kế quy định; số liệu trong tài liệu hiện chưa có",
+        "Đo theo tần suất và ngưỡng cảnh báo do thiết kế quy định (TCVN 8297 không nêu tần suất, ngưỡng)",
         "Phân tích sơ bộ số liệu sau mỗi lần đo; so sánh với dự báo thiết kế, phát hiện bất thường",
         "Khi vượt ngưỡng: dừng đắp, báo cáo thiết kế, kiểm tra nền, vật liệu và tốc độ đắp",
         "Bảo vệ và duy trì hệ thống quan trắc đến khi bàn giao; ghi đầy đủ nhật ký sự cố thiết bị",
         "Bàn giao số liệu quan trắc và sơ đồ bố trí cho đơn vị quản lý khi nghiệm thu"
       ],
       "requirements": [
-        "Thông số theo thiết kế và bản gốc tiêu chuẩn (chưa có số liệu đối chiếu)"
+        "Lắp đặt thiết bị quan trắc theo chỉ dẫn hoặc quy trình riêng của từng loại do thiết kế đề ra; có thể đề xuất chủ đầu tư quan trắc thêm nếu phát hiện vấn đề cần nghiên cứu [8297 · 13.1, 13.3]",
+        "Trước khi lắp phải lập biên bản nghiệm thu tình trạng thiết bị tại công trường, thiết bị mua nhà máy phải có tài liệu chứng nhận chất lượng; không lắp thiết bị hư hỏng, khiếm khuyết [8297 · 13.2]",
+        "Mốc cao độ cấp I đặt xa công trình, ngoài vùng lún, không ngập nước, không có nước mạch; mốc lún lắp ngay khi đập đắp tới cao độ cần quan trắc; ống đo áp lắp sau khi đắp xong, tốt nhất trước khi hồ dâng cao [8297 · 13.4, 13.5, 13.6]",
+        "Việc lắp phải do cán bộ chuyên môn đảm nhiệm; trước khi lấp kín phải kiểm tra và lập biên bản nghiệm thu với sự có mặt của tư vấn thiết kế và giám sát; xong phải lập lý lịch kỹ thuật thiết bị giao chủ đầu tư [8297 · 13.7]",
+        "Khi đắp đê quai ngăn dòng phải thường xuyên quan trắc diễn biến lòng sông, tốc độ dòng chảy, chênh lệch mực nước thượng hạ lưu, xói lở hai bờ [8297 · 5.10]",
+        "Tài liệu quan trắc biến dạng, lún, chuyển vị là một phần hồ sơ nghiệm thu bộ phận công trình [8297 · 15.4c]"
       ],
-      "checks": [],
+      "checks": [
+        "Biên bản nghiệm thu thiết bị quan trắc trước khi lấp kín; lý lịch kỹ thuật thiết bị giao chủ đầu tư [8297 · 13.7, 15.3f]"
+      ],
       "tips": [
         "Dây cáp thiết bị dễ đứt khi đầm: bố trí rãnh, đệm cát bảo vệ",
         "Thiết bị lắp muộn thì mất số liệu giai đoạn đầu quan trọng nhất",
@@ -365,17 +546,26 @@
       ],
       "requirements": [
         "Kiểm tra mỏ đất (vị trí, khối lượng, chỉ tiêu cơ lý, tầng phủ), nền đập, sân phủ, chân khay, màn chống thấm và quá trình đắp [8297 · 14]",
-        "Kênh đất: thử tải từng đoạn, cho nước vào ở mực nước gia cường liên tục 72 giờ; không sạt lở và không rò rỉ vượt thiết kế là đạt; không hạ mực nước đột ngột [8305 · mục 8]"
+        "Kênh đất: thử tải từng đoạn, cho nước vào ở mực nước gia cường liên tục 72 giờ; không sạt lở và không rò rỉ vượt thiết kế là đạt; không hạ mực nước đột ngột [8305 · mục 8]",
+        "Kiểm tra chất lượng gồm: thực hiện đồ án thiết kế, tuân thủ tiêu chuẩn hiện hành, chất lượng xây dựng; nhà thầu tự quản lý chất lượng, chủ đầu tư tổ chức giám sát hoặc thuê tư vấn giám sát, tư vấn thiết kế giám sát tác giả [8297 · 14.1, 14.2]",
+        "Kiểm tra theo dung trọng khô hoặc độ chặt K = dung trọng khô thực tế / dung trọng khô lớn nhất Proctor; tư vấn thiết kế ghi trị số dung trọng khô lớn nhất cho từng loại đất ở từng vùng trong thân đập [8297 · 14.7]",
+        "Mọi kết quả kiểm tra, đánh giá phải ghi vào biên bản, nhật ký thi công và nộp chủ đầu tư khi nghiệm thu [8297 · 14.17]",
+        "Nghiệm thu gồm nghiệm thu bộ phận từng thời kỳ, chặn dòng từng giai đoạn, khi tích nước và toàn bộ công trình [8297 · 15.2]",
+        "Phải nghiệm thu trong thi công: xử lý nền - màn chống thấm - chân khay; công trình dẫn dòng; công trình vĩnh cửu trong thân đập (cống, hành lang, ống); thân đập kèm xử lý mặt nối; thiết bị thoát nước; thiết bị quan trắc; lớp bảo vệ mái thượng lưu và hạ lưu [8297 · 15.3]",
+        "Hồ sơ trước khi nghiệm thu bộ phận: bản vẽ hoàn công; thuyết minh thay đổi thiết kế; kết quả thí nghiệm vật liệu, đất đắp, trắc địa, quan trắc biến dạng; biên bản sự cố và kết quả xử lý; ghi chép, ảnh hạng mục bị che khuất; nhật ký thi công, số liệu khí tượng thủy văn; tất cả do chỉ huy trưởng công trường ký đóng dấu [8297 · 15.4]",
+        "Dung sai: tim đập không quá 500 mm; chiều rộng và cao độ mặt đập lớn hơn hoặc bằng thiết kế nhưng đều trên toàn tuyến; chiều dày tường tâm, tường nghiêng, sân phủ, tầng lọc lớn hơn hoặc bằng thiết kế; hệ số mái m trong khoảng 1,0-1,1 mtk; phần làm quá kích thước vẫn được nghiệm thu nhưng không thanh toán [8297 · 15.6]",
+        "Chưa nghiệm thu, bàn giao thì nhà thầu có nhiệm vụ bảo vệ, tu bổ công trình [8297 · 15.5]"
       ],
       "checks": [
         "Nghiệm thu từng giai đoạn, từng cao trình đắp",
-        "Nghiệm thu hoàn thành thân đập (mục 15 của TCVN 8297 chưa đọc được)"
+        "Nghiệm thu bộ phận và toàn bộ thân đập theo mục 15, hồ sơ đủ theo 15.4 [8297 · 15.2, 15.4]"
       ],
       "tips": [
         "Hồ sơ lập chậm so với tiến độ thi công dễ thiếu sót: ghi chép trong ngày, ký ngay tại hiện trường",
         "Điểm không đạt cần ghi nhận và xử lý đến khi đạt, không bỏ qua",
         "Thử tải kênh cần theo dõi suốt quá trình, nhất là khi tăng hoặc giảm mực nước",
-        "Phối hợp sớm với tư vấn, thiết kế để tránh dừng thi công kéo dài"
+        "Phối hợp sớm với tư vấn, thiết kế để tránh dừng thi công kéo dài",
+        "Bảng 1 (số lượng mẫu) của TCVN 8297 trong bản trích bị lỗi định dạng: đối chiếu bản gốc trước khi lập kế hoạch lấy mẫu"
       ]
     }
   ],
@@ -385,7 +575,9 @@
     "Mưa lớn dừng đắp, che phủ mặt đắp, thoát nước ngay [8297 · 9.13]",
     "Dốc, mép nền, hố đào và mái đập có rào chắn, biển báo; người điều khiển máy được kèm cặp khi làm việc gần người",
     "Đập đá đổ: kiểm soát đá lăn, mép mái, xe đổ lùi; khu vực lu rung có người báo hiệu",
-    "Mùa lũ: mặt đắp dở có kịch bản bảo vệ, đường thoát nước và sơ tán thiết bị"
+    "Mùa lũ: mặt đắp dở có kịch bản bảo vệ, đường thoát nước và sơ tán thiết bị",
+    "Nhà thầu đề ra biện pháp an toàn lao động cho từng hạng mục, viết thành nội quy phổ biến đến cán bộ và công nhân; trước khi thi công một bộ phận, cán bộ an toàn kiểm tra hiện trường và có quyền kiến nghị dừng thi công đến khi đủ điều kiện [8297 · 16.1, 16.2, 16.3]",
+    "Thi công ban đêm có hệ thống chiếu sáng; đường vận chuyển nằm trên mực lũ, có cầu cống, rãnh thoát nước và được bảo dưỡng thường xuyên [8297 · 8.7, 8.9]"
   ],
   "acceptance": [
     "Nghiệm thu nền, xử lý nền trước khi đắp",
@@ -393,7 +585,9 @@
     "Nghiệm thu mái, kích thước hình học, hệ thống quan trắc",
     "Biên bản thí nghiệm từng lớp được tổng hợp và ký xác nhận trước khi đắp lớp tiếp theo",
     "Nghiệm thu xử lý nền sâu (khoan phụt, tường hào, cọc xi măng đất), công trình xuyên đập trước khi đắp",
-    "Nghiệm thu giai đoạn thi công đập và bản mặt bê tông (nếu có), kiểm tra an toàn và bàn giao quan trắc"
+    "Nghiệm thu giai đoạn thi công đập và bản mặt bê tông (nếu có), kiểm tra an toàn và bàn giao quan trắc",
+    "Nghiệm thu bộ phận trong thi công: xử lý nền - màn chống thấm - chân khay, dẫn dòng, công trình trong thân đập, thân đập (ghi rõ xử lý mặt nối), thoát nước, quan trắc, lớp bảo vệ mái [8297 · 15.3]",
+    "Hồ sơ nghiệm thu đủ theo 15.4 và dung sai theo 15.6; nghiệm thu khi tích nước và nghiệm thu toàn bộ công trình [8297 · 15.2, 15.4, 15.6]"
   ],
   "records": [
     "Kết quả thí nghiệm vật liệu, đầm thử, thí nghiệm hiện trường từng lớp",
@@ -402,7 +596,9 @@
     "Sơ đồ vị trí lấy mẫu, biểu đồ theo dõi tốc độ lên đập và lượng mưa ảnh hưởng thi công",
     "Hồ sơ đầm thử, thông số đá đổ (chiều dày lớp, số lượt, nước tưới)",
     "Hồ sơ bản mặt, khe chu vi, băng cản nước; số liệu quan trắc đập trong thi công",
-    "Nhật ký đắp mùa mưa, khảo sát và xử lý mối"
+    "Nhật ký đắp mùa mưa, khảo sát và xử lý mối",
+    "Sổ thí nghiệm dung trọng gốc có sơ họa vị trí lấy mẫu, giao cho cơ quan quản lý sau tổng nghiệm thu [8297 · 14.14]",
+    "Lý lịch kỹ thuật thiết bị quan trắc, giếng tiêu nước; tài liệu mô tả địa chất hố móng; hồ sơ đo đạc đã chỉnh lý, đánh số [8297 · 4.11, 6.4, 12.2.3.7, 13.7]"
   ],
-  "note": "TCVN 8297:2009 chỉ đọc được đến mục 14.6 (thiếu mục 15 nghiệm thu, 16 an toàn, Phụ lục C). Các tiêu chuẩn đập hỗn hợp đất đá (TCVN 10397) và đập đá đổ bản mặt bê tông (TCVN 10775) chưa đọc được nội dung. Các tiêu chí đối chiếu trong bước \"Đầm nén\" (số mẫu/m2, dung trọng thấp hơn tối đa 0,05 T/m3) lấy từ TCVN 8305 cho kênh đất, không áp dụng cho đập. Các bước thêm sau rà soát là thực hành chung, chưa có số liệu đối chiếu; thông số đá đổ và bản mặt lấy từ thiết kế và TCVN 10397, 10775 (chưa đọc được)."
+  "note": "TCVN 8297:2009 đã đối chiếu toàn văn (mục 1-16 và Phụ lục A-D) từ bản người dùng cung cấp; các hình vẽ không đọc được. Bảng 1 (số lượng mẫu) trong bản trích bị lỗi định dạng, số liệu trong bước Đầm nén được diễn giải từ cột còn đọc được, cần đối chiếu bản gốc. Các tiêu chí kênh đất (số mẫu/m2, dung trọng thấp hơn tối đa 0,05 T/m3 và 10% số mẫu) lấy từ TCVN 8305, chỉ áp dụng cho kênh đất, không áp dụng cho đập. TCVN 8297 không có số liệu cho đá đổ, đập hỗn hợp, bản mặt bê tông, tần suất và ngưỡng quan trắc; phần này lấy từ thiết kế và TCVN 10397, 10775 (chưa đọc được). Mục 7.2.4 (tường tâm đắp trước một bước) và 10.3.1 (tường thấp hơn khối kề 2-3 m) trong bản gốc cần được thiết kế chốt cụ thể."
 }

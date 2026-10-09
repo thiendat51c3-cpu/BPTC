@@ -30,8 +30,10 @@
         "Lập biên bản kiểm tra vật liệu đầu vào"
       ],
       "requirements": [
-        "Mức hao hụt tiết diện do làm sạch gỉ ≤ 2% đường kính [4453 · mục 4]",
-        "Lô 100 thanh lấy 5 thanh kiểm tra [4453 · mục 4]"
+        "Bề mặt sạch (không bùn đất, dầu mỡ, vẩy sắt, gỉ), thanh thẳng; trước khi gia công và trước khi đổ bê tông đều phải đạt [4453 · 4.1.5a,c]",
+        "Thanh bị bẹp hoặc giảm tiết diện do làm sạch, nguyên nhân khác: cho phép đến 2% đường kính; vượt quá thì dùng theo diện tích tiết diện thực còn lại [4453 · 4.1.5b]",
+        "Thép nhập khẩu phải có chứng chỉ kỹ thuật và lấy mẫu thử kéo (TCVN 197), thử uốn (TCVN 198) [4453 · 4.1.2]",
+        "Không nên dùng trong cùng công trình nhiều loại thép giống hình dáng, kích thước nhưng khác tính chất cơ lý; thay đổi loại thép phải được thiết kế đồng ý, thay thép cán nóng bằng thép xử lý nguội còn phải có chủ đầu tư đồng ý [4453 · 4.1.4, 4.5]"
       ],
       "checks": [
         "Lập biên bản kiểm tra vật liệu đầu vào"
@@ -54,7 +56,10 @@
         "Đánh dấu, bó thanh theo cấu kiện và vị trí, chuyển tới nơi lắp dựng"
       ],
       "requirements": [
-        "Sai lệch chiều dài thanh cắt: 5 mm/m và tổng 20 mm [4453 · mục 4]"
+        "Cắt, uốn chỉ bằng phương pháp cơ học [4453 · 4.2.1]",
+        "Kiểm tra theo lô 100 thanh cùng loại đã cắt uốn, mỗi lô lấy 5 thanh bất kỳ [4453 · 4.2.2]",
+        "Sai lệch cho phép: chiều dài thanh chịu lực 5 mm/m và 20 mm toàn chiều dài; vị trí điểm uốn 20 mm; góc uốn 30 mm (theo bảng); kích thước móc uốn +a [4453 · 4.2.2, Bảng 4]",
+        "Kết cấu khối lớn: sai lệch chiều dài thanh +d khi dài dưới 10 m; +(d + 0,2a) khi dài trên 10 m (d là đường kính thanh, a là chiều dày lớp bảo vệ) [4453 · 4.2.2, Bảng 4]"
       ],
       "checks": [
         "Kiểm tra kích thước đoạn uốn, móc, sai lệch"
@@ -77,9 +82,17 @@
         "Nối buộc: dùng dây thép buộc chắc, đủ vòng, đảm bảo chiều dài nối theo thiết kế; kiểm tra lại tỷ lệ mối nối trên một mặt cắt"
       ],
       "requirements": [
-        "Mối hàn: cứ 100 mối lấy 5 mẫu kiểm tra kích thước + 3 mẫu thử kéo + 3 mẫu thử uốn [4453 · mục 5]",
-        "Nối buộc: không quá 25% diện tích thép trơn, không quá 50% thép có gờ trong một mặt cắt [4453 · mục 5]",
-        "Chiều dài nối buộc ≥ 250 mm (vùng kéo), ≥ 200 mm (vùng nén), và theo thiết kế [4453 · mục 5]"
+        "Phương pháp hàn phải bảo đảm chất lượng theo thiết kế, theo TCXD 71:1977; hàn đối đầu bằng máy tự động, bán tự động theo TCXD 72:1977; thép khó hàn theo chỉ dẫn nhà chế tạo [4453 · 4.3.1, 4.3.2]",
+        "Hàn điểm tiếp xúc để chế tạo khung, lưới thép đường kính nhỏ hơn 10 mm (kéo nguội) hoặc nhỏ hơn 12 mm (cán nóng); hàn hồ quang nối dài thanh cán nóng đường kính lớn hơn 8 mm [4453 · 4.3.3, 4.3.5a]",
+        "Khung, lưới hàn điểm khi thiết kế không chỉ dẫn: thép trơn hàn mọi giao điểm; thép có gờ hàn mọi giao điểm hai hàng ngoài, các điểm giữa hàn cách một điểm; khung dầm hàn mọi giao điểm [4453 · 4.3.4]",
+        "Mối hàn: bề mặt nhẵn, không cháy, không đứt quãng, không thu hẹp cục bộ, không bọt; đủ chiều dài, chiều cao đường hàn theo thiết kế [4453 · 4.3.6]",
+        "Kiểm tra theo lô 100 mối hàn hoặc 100 khung, lưới: lấy 5% nhưng không ít hơn 5 mẫu kiểm tra kích thước, 3 mẫu thử kéo, 3 mẫu thử uốn [4453 · 4.3.7a]",
+        "Sai lệch kích thước khung hàn, lưới hàn, thanh gia công riêng: 1,0 mm khi d ≤ 16 mm; 1,5 mm khi d > 16 mm; các giá trị khác của Bảng 5 và Bảng 6 (chất lượng mối hàn) bị lỗi trong bản scan nên cần tra bản gốc [4453 · 4.3.7b, Bảng 5, 6]",
+        "Nối buộc: theo thiết kế, không nối ở vị trí chịu lực lớn và chỗ uốn cong; một mặt cắt không nối quá 25% diện tích thép chịu lực đối với thép trơn, quá 50% đối với thép có gờ [4453 · 4.4.1]",
+        "Chiều dài nối buộc cốt thép chịu lực trong khung, lưới: không nhỏ hơn 250 mm (vùng kéo), 200 mm (vùng nén); kết cấu khác lấy theo bảng chiều dài nối (nguyên văn viện dẫn \"bảng 6\", bảng in là Bảng 7) [4453 · 4.4.2a, Bảng 7]",
+        "Bảng 7, kết cấu khác và dầm, tường (kéo / nén): thép trơn cán nóng 40d (dầm, tường) hay 30d (khác) / nén 20d có móc, 30d không móc; thép gờ cán nóng 40d hoặc 30d / nén 20d không móc; thép kéo nguội 45d hoặc 35d / nén 20d có móc, 30d không móc [4453 · 4.4.2a, Bảng 7]",
+        "Nối chồng khung, lưới theo phương làm việc, theo mác bê tông (Bảng 8, kéo / nén): mác ≤ 150: thép gờ cán nóng 20d / 20d, thép tròn cán nóng 35d / 25d, thép kéo nguội 40d / 30d; mác ≥ 200: 25d / 15d, 30d / 20d, 35d / 25d; điều 4.6.5 nêu thêm giới hạn dưới nhưng bản scan ghi \"25 mm\", có thể là 250 mm, cần kiểm tra bản gốc [4453 · 4.6.5, Bảng 8]",
+        "Vùng kéo thép trơn phải uốn móc, thép gờ không móc; dây buộc thép mềm đường kính 1 mm; mỗi mối nối buộc ít nhất 3 vị trí (giữa và hai đầu) [4453 · 4.4.2b,c,d]"
       ],
       "checks": [
         "Kết quả thử kéo, thử uốn mẫu mối hàn"
@@ -105,7 +118,7 @@
         "Ghi hồ sơ: vị trí mối nối, thợ thực hiện, kết quả kiểm tra, mẫu thử"
       ],
       "requirements": [
-        "Thông số theo thiết kế và bản gốc tiêu chuẩn (chưa có số liệu đối chiếu)"
+        "TCVN 4453 không có điều khoản về nối cơ khí (ống ren, ống ép); cấp mối nối, mô men xiết, tiêu chí thử kéo theo thiết kế và tiêu chuẩn nối cơ khí riêng (chưa có số liệu đối chiếu)"
       ],
       "checks": [
         "Biên bản kiểm tra mối nối cơ khí và kết quả thử kéo mẫu"
@@ -128,9 +141,16 @@
         "Làm sạch bụi, bẩn, vụn buộc trước khi đóng cốp pha kín; lập biên bản nghiệm thu cốt thép"
       ],
       "requirements": [
-        "Con kê đặt cách nhau ≤ 1 m [4453 · mục 5]",
-        "Sai lệch lớp bảo vệ: 3 mm (lớp bảo vệ nhỏ) / 5 mm [4453 · mục 5]",
-        "Buộc hoặc hàn ≥ 50% số giao điểm; góc đai buộc 100% [4453 · mục 5]"
+        "Con kê đặt theo mật độ cốt thép, không xa quá 1 m một điểm; dày bằng lớp bảo vệ; vật liệu không ăn mòn cốt thép, không phá hủy bê tông [4453 · 4.6.3]",
+        "Sai lệch chiều dày lớp bảo vệ so với thiết kế: 3 mm khi lớp dày a nhỏ hơn 15 mm; 5 mm khi a lớn hơn 15 mm [4453 · 4.6.3]",
+        "Buộc hoặc hàn dính không ít hơn 50% số giao điểm, xen kẽ; góc giữa đai và thép chịu lực buộc hoặc hàn 100% [4453 · 4.6.4a,b]",
+        "Có biện pháp giữ ổn định cốt thép khi đổ; khi cốt thép và cốp pha tựa vào nhau thành tổ hợp cứng thì cốp pha chỉ đặt trên giao điểm thép chịu lực đúng vị trí thiết kế [4453 · 4.6.2b,c]",
+        "Chuyển vị từng thanh khi chế tạo, lắp dựng khung lưới không lớn hơn 1/5 đường kính thanh lớn nhất và 1/4 đường kính chính thanh đó [4453 · 4.6.6]",
+        "Sai lệch lắp dựng: khoảng cách thanh chịu lực riêng lẻ, kết cấu khối lớn 30 mm; cột, dầm, vòm 10 mm; bản, tường, móng dưới khung 20 mm [4453 · 4.6.6, Bảng 9, mục 1]",
+        "Khoảng cách giữa các hàng thép: kết cấu dài trên 1 m 20 mm; dầm khung, bản dày trên 100 mm 5 mm; bản dày đến 100 mm có lớp bảo vệ 10 mm 3 mm; khoảng cách đai dầm, cột, khung 10 mm [4453 · Bảng 9, mục 2, 3]",
+        "Lớp bảo vệ và chiều dày cục bộ: khối lớn dày trên 1 m 20 mm; cột, dầm, vòm 10 mm; tường, bản dày trên 100 mm 5 mm; dày đến 100 mm 3 mm [4453 · Bảng 9, mục 4; bản scan có chỗ lệch dòng, cần đối chiếu bản gốc]",
+        "Khoảng cách thanh phân bố trong hàng: bản, tường, móng dưới khung 25 mm; khối lớn 40 mm; vị trí đai so với chiều đứng hoặc ngang 10 mm [4453 · Bảng 9, mục 5, 6]",
+        "Tim thanh đầu khung hàn nối tại hiện trường: d < 40 mm sai lệch 5 mm; d ≥ 40 mm 10 mm; vị trí mối hàn theo chiều dài cấu kiện 25 mm (khung, tường, móng), 50 mm (khối lớn); bộ phận cốt thép khối lớn lệch 50 mm trong mặt bằng, 30 mm theo chiều cao [4453 · Bảng 9, mục 7, 8, 9]"
       ],
       "checks": [
         "Nghiệm thu cốt thép trước khi đóng cốp pha kín và đổ bê tông"
@@ -155,7 +175,10 @@
         "Nghiệm thu thép chờ, thép neo trước đổ đợt kế tiếp; ghi hồ sơ"
       ],
       "requirements": [
-        "Thông số theo thiết kế và bản gốc tiêu chuẩn (chưa có số liệu đối chiếu)"
+        "Thép chờ, chi tiết đặt sẵn phải phù hợp thiết kế và được kiểm tra khi nghiệm thu cốt thép [4453 · 4.7.1e]",
+        "Không đặt mối nối ở vị trí chịu lực lớn; mối nối trên một mặt cắt tuân giới hạn 25% (thép trơn), 50% (thép gờ) [4453 · 4.4.1]",
+        "Chiều dài neo, nối thép chờ lấy theo thiết kế và Bảng 7, Bảng 8 của 4453 (theo bội số đường kính d) [4453 · 4.4.2a, 4.6.5]",
+        "Neo thép vào đá (khoan lỗ, keo hoặc vữa neo, thử kéo) không có trong TCVN 4453; lấy theo thiết kế và tiêu chuẩn riêng (chưa có số liệu đối chiếu)"
       ],
       "checks": [
         "Biên bản nghiệm thu thép chờ, thép neo (vị trí, chiều dài, chất lượng neo)"
@@ -165,6 +188,31 @@
         "Chiều dài nối, neo lấy theo thiết kế (theo bội số đường kính), không dùng giá trị chung",
         "Lỗ khoan neo vào đá phải sạch bụi, ẩm theo yêu cầu vật liệu neo",
         "Bảo vệ thép chờ trước khi mưa, nước biển"
+      ]
+    },
+    {
+      "title": "Kiểm tra và nghiệm thu cốt thép",
+      "actions": [
+        "Đối chiếu chủng loại, đường kính, vị trí, số lượng thanh đã lắp với bản vẽ thiết kế",
+        "Đo kiểm sai lệch khoảng cách thanh, hàng thép, đai, lớp bảo vệ theo bảng sai lệch lắp dựng",
+        "Kiểm tra kết quả thử mẫu thép và mối hàn, biên bản gia công",
+        "Kiểm tra thép chờ, chi tiết đặt sẵn, con kê (vật liệu, mật độ)",
+        "Kiểm tra mọi thay đổi cốt thép so với thiết kế có văn bản chấp thuận",
+        "Tập hợp hồ sơ nghiệm thu tại hiện trường trước khi đóng cốp pha kín và đổ bê tông"
+      ],
+      "requirements": [
+        "Nội dung kiểm tra: sự phù hợp loại thép so với thiết kế; gia công, cắt, uốn, làm sạch; công tác hàn (bậc thợ, thiết bị, que hàn, công nghệ, chất lượng mối hàn); thay đổi cốt thép; vận chuyển, lắp dựng; thép chờ, chi tiết đặt sẵn; con kê và lớp bảo vệ [4453 · 4.7.1]",
+        "Trình tự, yêu cầu, phương pháp kiểm tra theo Bảng 10 của 4453; nghiệm thu tại hiện trường trước khi đổ bê tông [4453 · 4.7.2, 4.7.3, Bảng 10]",
+        "Hồ sơ nghiệm thu: bản vẽ thiết kế có ghi thay đổi và biên bản quyết định thay đổi; kết quả thử mẫu thép, mối hàn, gia công; biên bản thay đổi cốt thép trên công trường; biên bản nghiệm thu kỹ thuật trong gia công, lắp dựng; nhật ký thi công [4453 · 4.7.4]",
+        "Vận chuyển: không làm hỏng, biến dạng; thanh buộc thành lô theo chủng loại và số lượng; khung, lưới lớn chia thành bộ phận nhỏ phù hợp phương tiện [4453 · 4.6.1]"
+      ],
+      "checks": [
+        "Biên bản nghiệm thu cốt thép và hồ sơ kèm theo, ký trước khi đổ bê tông"
+      ],
+      "tips": [
+        "Nghiệm thu phải làm khi còn sửa được; sau khi đóng cốp pha kín thì khó kiểm tra lớp bảo vệ",
+        "Mọi thay đổi loại thép, đường kính phải có văn bản thiết kế; ghi vào hồ sơ để không phải xử lý sau",
+        "Bản scan 4453 có số bảng và viện dẫn bị lệch (Bảng 5/6, \"bảng 6\" thành Bảng 7); đối chiếu bản gốc khi tranh chấp"
       ]
     }
   ],
@@ -185,5 +233,5 @@
     "Biên bản và kết quả thử kéo mối nối cơ khí, chứng chỉ vật liệu ống nối",
     "Biên bản thép chờ, thép neo đá và ảnh các vị trí khuất"
   ],
-  "note": "TCVN 4453:1995 chỉ đọc được một phần; điều khoản ghi là 'mục' cần đối chiếu bản gốc. Các số liệu là bản tóm tắt."
+  "note": "Đã đối chiếu số liệu với toàn văn TCVN 4453:1995 mục 4 (4.1-4.7, Bảng 4, 7, 8, 9). Một số bảng trong bản scan lệch số hoặc lỗi dòng (Bảng 5, 6, 9 mục 4, điều 4.6.5), có đánh dấu cần kiểm tra bản gốc. Nối cơ khí và neo vào đá không có trong 4453."
 }

@@ -188,6 +188,48 @@
       ]
     },
     {
+      "title": "Thiết kế bãi mìn và tính thông số khoan nổ (TCVN 9161)",
+      "actions": [
+        "Thu thập tài liệu địa chất phục vụ nổ mìn: nhóm độ cứng, cấp nứt nẻ, thế nằm, lớp phong hóa, nước ngầm, khối lượng riêng đá; lập mặt cắt địa chất chi tiết",
+        "Phân nhóm hạng mục I, II hoặc III theo mức độ cho phép làm nứt nền và mái hố đào để quyết định có chừa tầng bảo vệ và phương pháp nổ viền hay không",
+        "Chọn chiều cao tầng theo cỡ máy xúc và đường kính lỗ theo máy khoan có sẵn; tính đường cản chân tầng, khoảng cách lỗ - hàng, chiều sâu lỗ, đoạn khoan quá, chiều dài bua và lượng thuốc",
+        "Hiệu chỉnh lượng thuốc đơn vị theo loại thuốc nổ thực dùng và nổ thử tại hiện trường (kể cả cỡ đá 500 mm) trước khi áp dụng đại trà",
+        "Chọn sơ đồ vi sai và thời gian vi sai giữa các hàng; chọn phương tiện kích nổ, sơ đồ mạng nổ",
+        "Thiết kế lỗ nông cho tầng bảo vệ, đá quá cỡ, hào hẹp; thiết kế lỗ viền tạo khe trước cho mái và biên",
+        "Lập bình đồ khối nổ (1/200 hoặc 1/500) và mặt cắt đi qua lỗ khoan, ghi miệng lỗ, chiều sâu, cao độ lỗ, mặt tầng, mái dốc, bậc",
+        "Lập hộ chiếu nổ mìn cho từng vụ nổ, trình cấp có thẩm quyền duyệt; phổ biến cho toàn bộ người tham gia"
+      ],
+      "requirements": [
+        "Nổ mìn lỗ sâu: lỗ đường kính từ 75 mm trở lên và sâu từ 5 m; lỗ nông: đường kính dưới 75 mm và sâu dưới 5 m [9161 · 3.1, 3.2]",
+        "Đường cản ngắn nhất chân tầng w (lỗ sâu) tính theo công thức (2) với hệ số 53, phụ thuộc Kt, đường kính bao thuốc, mật độ thuốc, hệ số năng lượng e = v/360 (v là sức công phá, amonit 6ЖB là 360 cm³) và khối lượng riêng đá [9161 · 5.1.2, Bảng 1]",
+        "Kt theo địa chất (Bảng 1): 0,90 đá rắn liền khối; 0,95 đá chia khối, khe nứt đã gắn kín; 1,00 đá nứt nẻ, một phần vết nứt hở; 1,05 nứt nẻ mạnh thành khối nhỏ; 1,10 nứt nẻ mạnh, khe nằm ngang, có lớp kẹp mềm yếu ở chân tầng hoặc đá nửa cứng [9161 · Bảng 1]",
+        "Lưới lỗ ô vuông a = b = w; một mặt thoáng, sườn dốc hoặc từ 3 hàng trở lên thì giảm 10% khoảng cách; hào có hàng mìn phá mở lấy a = 0,7w [9161 · 5.1.3, 5.1.4, 5.1.5]",
+        "Đoạn khoan quá 10-15 lần đường kính bao thuốc (không quá 15 lần), còn 2-3 lần nếu chân tầng có lớp kẹp mềm hoặc thớ nứt ngang; chiều sâu lỗ L = H + Lq [9161 · 5.1.6, 5.1.8]",
+        "Không được khoan quá xuống lớp bảo vệ: thu hẹp lưới lỗ bằng hệ số (Bảng 2) 0,70 nếu đoạn khoan quá tối ưu là 15 lần đường kính, 0,80 nếu 10 lần, 0,90 nếu 2 lần; cho khoan quá một phần thì hệ số tăng lên 0,80-0,95 [9161 · 5.1.7, Bảng 2]",
+        "Chiều dài bua tối ưu 20-25 lần đường kính bao thuốc; nơi chật hẹp, gần nhà cửa, công trình tăng lên 30-35 lần và bố trí lưới lỗ thưa hơn chút, giữ nguyên lượng thuốc đơn vị [9161 · 5.1.9]",
+        "Lượng thuốc một lỗ Q = (L - Lbua) × lượng thuốc trên 1 m dài; tầng thấp hơn 20 lần đường kính bao thuốc tính như mìn tập trung Q = qtt·w³·f(n), f(n) bằng 1/6 (rung), 1/3 (tơi bình thường), 0,5-1,0 (tơi mạnh) [9161 · 5.3.1]",
+        "Giá trị an toàn của đường cản wat = H·cotg(góc mái tầng) + bat với bat tối thiểu 2,0 m; nếu w tính được nhỏ hơn wat thì chuyển sang lỗ khoan nghiêng hoặc lỗ lớn gần nhau từng đôi (w tăng 20-25%) [9161 · 5.2.4, 5.2.5]",
+        "Lượng thuốc đơn vị tính cho amonit 6ЖB; thuốc khác nhân hệ số e1 = 360/v; qtt chính xác phải dựa vào nổ thử hiện trường. Hao thuốc đơn vị nổ xới tơi (Bảng D.5, kg/m³, hệ số độ cứng f 2-5 / 5-10 / 10-20): cấp nứt nẻ II 0,30-0,50 / 0,36-0,60 / 0,45-0,75; III 0,50-0,75 / 0,60-0,90 / 0,75-1,10; IV 0,75-1,00 / 0,90-1,20 / 1,10-1,40; V trên 1,00 / 1,20 / 1,40 [9161 · 4.10, Bảng D.5]",
+        "Điều chỉnh độ vỡ vụn (Bảng 3): hệ số Mo nhân vào lượng thuốc chuẩn: cỡ đá 200 mm → 1,60; 400 → 1,10; 500 → 1,00; 600 → 0,90; 800 → 0,85; 1 000 → 0,75; 1 300 → 0,60; xác định sản lượng đá cỡ 500 mm bằng nổ thử [9161 · 5.5.2, 5.5.3, Bảng 3]",
+        "Vi sai: thời gian đến 50 ms với lỗ nông, đến 100 ms với lỗ sâu; thời gian giữa các hàng t = A·w (ms), A = 3,0 đá rất cứng (granit, quarzit...); 4,0 đá cứng (cát kết, sa thạch); 5,0 cứng vừa (đá vôi, phiến); 6,0 đá mềm (macnơ, sét kết) [9161 · 5.6.1, 5.6.2, Bảng 4]",
+        "Lỗ nông tầng dày trên 1 m (2 mặt thoáng): hệ số 47 thay cho 53; khoan quá bằng 10 lần đường kính (tầng nằm ngang không khoan quá); a = (0,8-1,4)w (nổ điện lấy nhỏ, dây cháy chậm lấy lớn); b = 0,85w (vi sai b = w); Q = q·w·a·H; phá rộng a = b = 0,90w; bao thuốc nhỏ nhất 0,2-0,3 kg [9161 · 6.2, 6.3, 6.4]",
+        "Hào hẹp và hố móng: nổ vỡ vụn từng lớp sâu không quá 1 m; hố rộng không quá 1 m bố trí 2-3 hàng lỗ; 2 hàng khoan theo viền, 3 hàng thêm hàng giữa; nổ vi sai theo hàng cách nhau 3-5 ms, hàng giữa nổ trước; nổ châm ngòi thì cách nhau không dưới 7 s [9161 · 6.5, 6.6, 6.7]",
+        "Phá đá quá cỡ, đá mồ côi: khoan tay đường kính mũi 42 mm, hướng vào trọng tâm, sâu không dưới 25 cm; Q = qtt·V với qtt 0,1-0,2 kg/m³ (amonit 6ЖB) tùy đá mềm hay cứng; chỗ chật hẹp dùng bua nước hoặc tấm phủ để giảm đá văng [9161 · 6.10, 6.11, 6.14]",
+        "Nổ mìn buồng chỉ nên xét khi không dùng được lỗ khoan lớn hoặc bạt núi, địa hình rộng, mái thiết kế không dốc hơn 30°; giếng dẫn vào buồng tối thiểu 1,0×1,0 m, hầm ngang dẫn tối thiểu 1,2 m² (dưới 10 m dài) hoặc 1,8 m² (từ 10 m dài); phải lấp bua kín đường dẫn, hầm ngang lấp ít nhất 3 m [9161 · 7.1, 7.5.1.5, 7.5.1.6, 7.5.2.8]",
+        "Hộ chiếu nổ mìn gồm: loại và số lượng thuốc, phụ kiện, vật liệu bua, chỉ tiêu thuốc q (kg/m³), bán kính an toàn với người và thiết bị, tín hiệu, bảng thông số từng lỗ, biện pháp an toàn, sơ đồ lỗ và đấu mạng, xử lý mìn câm [9161 · 3.15, Phụ lục E]"
+      ],
+      "checks": [
+        "Đồ án thiết kế khoan nổ, hộ chiếu và biện pháp an toàn được cấp có thẩm quyền duyệt và Hội đồng nghiệm thu công tác chuẩn bị nổ mìn chấp thuận [9161 · 4.1]"
+      ],
+      "tips": [
+        "Công thức w của TCVN 9161 dựa trên thuốc amonit 6ЖB; dùng thuốc khác phải hiệu chỉnh và nổ thử, đừng lấy nguyên số",
+        "Tính ra w nhỏ hơn giá trị an toàn của chân tầng mà vẫn khoan thẳng đứng sẽ để chân tầng sót: cân nhắc lỗ nghiêng hoặc lỗ gần nhau từng đôi",
+        "Bua càng ngắn đá văng càng xa: gần công trình tăng bua lên 30-35 lần đường kính",
+        "Các hệ số lấy từ Bảng 1, 2, 3, 4 chỉ là tham số tính; nổ thử và hiệu chỉnh sau mỗi đợt",
+        "Công thức (2) và công thức hao thuốc bị mất ký hiệu căn khi trích văn bản: đối chiếu bản gốc khi tính chính thức"
+      ]
+    },
+    {
       "title": "Đào đá bằng khoan nổ mìn",
       "actions": [
         "Lập hộ chiếu nổ mìn, xác định vùng nguy hiểm, bố trí canh gác, báo hiệu; hội đồng nghiệm thu công tác chuẩn bị chấp thuận trước khi nổ",
@@ -206,18 +248,39 @@
         "Lớp bảo vệ biên tối thiểu 0,3 m, đào nốt bằng cơ giới hoặc thủ công, không dùng thuốc nổ [04-04 · 5.1.10]",
         "Bậc dưới sát đáy móng dày 5-12 lần đường kính quả mìn, không dưới 20 cm, đào cơ giới [04-04 · 5.1.3-5.1.8]",
         "Phải tính các cự ly an toàn: văng đá, sóng xung kích trong không khí, truyền nổ, địa chấn, đá lăn trên mái dốc, khói bụi, khí độc; quy mô vụ nổ cho phép xác định theo khoảng cách an toàn sóng xung kích và địa chấn [04-04 · 7.2, 5.1.15]",
-        "Nổ gần nhà cao tầng, cầu, đường dây cao thế hoặc bê tông mới đổ phải có tính toán riêng [04-04 · 7.4]"
+        "Nổ gần nhà cao tầng, cầu, đường dây cao thế hoặc bê tông mới đổ phải có tính toán riêng [04-04 · 7.4]",
+        "Chỉ khoan nổ khi có đồ án thiết kế, hộ chiếu và biện pháp an toàn được cấp có thẩm quyền duyệt và Hội đồng nghiệm thu công tác chuẩn bị nổ chấp thuận [9161 · 4.1]",
+        "Nhóm I (kênh xả, mặt bằng trạm phân phối ngoài trời...): cho phép kéo dài, mở rộng vết nứt; không bắt buộc chừa tầng bảo vệ mái; đáy nếu chừa thì đào một bậc bằng lỗ không quá 42 mm, không khoan quá. Nhóm II (hố móng nhà máy, kênh chính, sẽ bịt kín nứt bằng áo hoặc khoan phụt) và nhóm III (đập bê tông, chân khay, tường chống thấm, nhà máy sau đập) phải có tầng bảo vệ [9161 · 4.6, 4.7]",
+        "Nhóm II, III: hố sâu trên 1,0 m chia ít nhất hai tầng, tầng dưới cùng là tầng bảo vệ; sâu dưới 1,0 m một tầng; sâu 1-2 m chia hai tầng cao bằng nhau [9161 · 4.8]",
+        "Tầng bảo vệ dày ít nhất 50% đường cản nhỏ nhất tính toán và không dưới 1 m, đào hai bậc: bậc trên nổ lỗ không quá 42 mm và không khoan quá; bậc dưới sát đáy dày 5 lần (đá dai liền khối) đến 12 lần (đá dòn nứt nẻ) đường kính bao thuốc, không dưới 20 cm, đào bằng thiết bị phù hợp, không dùng thuốc nổ [9161 · 4.8b, 12.2.2, 12.2.4]",
+        "Lỗ khoan lớn ở tầng ngay trên tầng bảo vệ đường kính không quá 110 mm; đá không nứt nẻ cứng hơn cấp VII mới được nổ bao thuốc riêng lẻ ở bậc dưới của tầng bảo vệ và phải có đồng ý của tư vấn thiết kế, chủ đầu tư [9161 · 4.8a, 4.8c]",
+        "Mái dốc: nổ viền tạo khe trước, lớp bảo vệ biên không nhỏ hơn 0,3 m đào nốt bằng cơ giới hoặc thủ công, không dùng thuốc nổ; mái dưới 40° khó khoan khe thì dùng lỗ lớn thẳng đứng chừa lớp bảo vệ [9161 · 4.8d]",
+        "Nổ viền: khoảng cách lỗ 0,5-0,8 m với đá cứng, 0,3-0,5 m với đá yếu (có thể 3-4 sợi dây nổ thay thuốc); lượng thuốc trên 1 m lỗ (amonit 6ЖB) 0,4-0,6 kg đá cứng chưa phong hóa, 0,2-0,3 kg đá phong hóa nhẹ; bao thuốc trên cùng cách miệng lỗ 3-4 m (đá bị phá hủy) hoặc 2 m [9161 · 3.8, 12.1.3, 12.1.7, 12.1.10]",
+        "Nổ viền tiến hành trước khi khoan hoặc trước khi nổ tơi; lỗ nổ tơi nổ vi sai sau lỗ viền không nhỏ hơn 75 ms (đá yếu) hoặc 50 ms (đá cứng); khe viền đi trước ranh khu nổ ít nhất 10 m; hố không cho phép hư hỏng thì lỗ viền sâu hơn lỗ nổ tơi ít nhất 10 lần đường kính quả mìn [9161 · 12.1.4, 12.1.8, 12.1.9]",
+        "Khoan xong phải nút kín lỗ, đo kiểm đường cản, khoảng cách lỗ - hàng, chiều sâu, góc nghiêng; dung sai: đường cản chân tầng ±5 lần đường kính lỗ, khoảng cách lỗ trong hàng và giữa hàng ±3 lần đường kính lỗ; lỗ vượt dung sai là lỗ hỏng phải khoan lại hoặc sửa [9161 · 5.8.1-5.8.4]",
+        "Đường cản thực tế vượt tính toán phải bạt chân tầng; chênh lệch trên 25% phải khoan thêm lỗ gần hơn [9161 · 5.8.4]",
+        "Lỗ khoan hư hại do địa chất thủy văn phức tạp phải nạp ngay sau khi rút dụng cụ khoan; trước nạp đo lại chiều sâu, vét sạch mùn khoan, đoạn khoan sâu quá cao trình thiết kế lấp bằng cát hoặc đá mạt, không dùng mùn khoan [9161 · 5.8.5, 5.8.6]",
+        "Đường kính bao thuốc nhỏ hơn đường kính lỗ 15-20%; định kỳ đo phần lỗ chưa nạp để kiểm tra chiều cao quả mìn; bua bằng vật liệu rời hạt mịn, dây mìn gạt về một phía, không kéo căng [9161 · 5.8.7, 5.8.8, 5.8.10]",
+        "Mỗi bao thuốc nạp 1-2 mìn mồi; một mồi thì nối hai dây nổ hoặc hai kíp điện; thuốc phân tán thì mỗi đoạn một mồi; mồi với kíp điện đặt ở phần trên cùng bao thuốc [9161 · 5.8.9]",
+        "Lỗ nông: lỗ khô nạp bằng thiết bị khí nén; lỗ có nước dùng thuốc chịu nước đóng gói; nạp thủ công từng mẻ nén chặt bằng gậy gỗ hoặc nhôm, nạp mồi sau khi đã nạp 80% thuốc rồi nạp nốt phần còn lại không đầm chặt; lỗ khoan từ trên xuống lấp bua cát hoặc bột đá, lỗ nằm ngang hoặc khoan lên lấp hỗn hợp sét và cát, đầm chặt bằng gậy nạp [9161 · 6.8, 6.9]",
+        "Mìn câm: thiết kế phải có biện pháp phòng ngừa và xử lý mìn câm [9161 · 5.8.11, 6.15]",
+        "Nổ gần nhà cao tầng, cầu, đường dây cao thế, công trình ngầm, đầu mối thủy lợi, bê tông mới đổ: ngoài cự ly an toàn theo QCVN 02:2008/BCT còn phải nổ vi sai hoặc định hướng, phân tán và giảm thuốc, che phủ đối tượng cần bảo vệ [9161 · 4.5]"
       ],
       "checks": [
         "Kiểm tra sau nổ: mìn câm, đá treo",
-        "Đánh giá hiệu quả lớp bảo vệ bằng ít nhất hai trong bốn cách: quan sát bề mặt đá, giếng quan sát và thí nghiệm thấm, khoan lấy mẫu kết hợp thí nghiệm thấm, địa vật lý [04-04 · 5.1.7]"
+        "Đánh giá hiệu quả lớp bảo vệ bằng ít nhất hai trong bốn cách: quan sát bề mặt đá, giếng quan sát và thí nghiệm thấm, khoan lấy mẫu kết hợp thí nghiệm thấm, địa vật lý [04-04 · 5.1.7]",
+        "Sau khoan: kiểm tra chiều sâu, hướng, thể tích lỗ, hình dạng, đường kính và vị trí trên mặt bằng, mặt cắt; sai lệch quá mức phải sửa đúng đồ án mới được nạp [9161 · 18.1a]",
+        "Sau nổ: kiểm tra bề mặt, mái dốc, mức độ vỡ vụn, vị trí nghi mìn không nổ (xử lý theo quy định về vật liệu nổ), đo hố đào và khối lượng đã nổ; khi bốc xúc xác định số lượng tảng đá quá cỡ, xem đáy và mái sau khi dọn sạch [9161 · 18.1b, 18.1c]",
+        "Lập mặt cắt dọc lỗ khoan ghi vị trí, cao độ các quả mìn và chiều dày bua khi nạp; đo vẽ địa hình trước khi nạp và sau khi nổ [9161 · 17.2.5, 17.2.6]"
       ],
       "tips": [
         "Chỉ người có chứng chỉ mới được nạp, nối, nổ mìn; có chỉ huy duy nhất",
         "Lỗ khoan lệch hướng làm đá om, nổ không đạt; kiểm tra góc khoan",
         "Mìn câm phải xử lý theo quy định, không được tiếp tục thi công trong vùng",
         "Mái đá sau nổ có đá treo; hạ đá trước khi cho người vào",
-        "Nổ gần công trình cần quan trắc rung, đối chiếu giới hạn thiết kế"
+        "Nổ gần công trình cần quan trắc rung, đối chiếu giới hạn thiết kế",
+        "QCVN 04-04 và TCVN 9161 cho chiều dày lớp bảo vệ khác nhau (04-04: 0,10w, 0,25w, 0,50w theo nhóm; 9161: không dưới 50% đường cản nhỏ nhất và không dưới 1 m): thiết kế chốt giá trị áp dụng, không tự chọn",
+        "Lỗ hỏng hoặc lệch quá dung sai phải khoan lại, không nạp cho xong: đường cản chân tầng sai quá 25% dễ để chân tầng sót"
       ]
     },
     {
@@ -233,15 +296,34 @@
         "Bãi nổ, bãi tập kết đá sau nổ: dọn đá văng, kiểm tra mái có đá lỏng, đá treo trước khi cho máy vào"
       ],
       "requirements": [
-        "Thông số theo thiết kế và bản gốc tiêu chuẩn (chưa có số liệu đối chiếu)"
+        "Cự ly nguy hiểm: TCVN 9161 yêu cầu tính cự ly văng đá, sóng xung kích trong không khí, địa chấn, truyền nổ (định vị kho thuốc tạm), đá rơi và lăn trên mái dốc, hướng bay khói bụi và khoảng cách nguy hiểm của khí độc; giá trị cụ thể lấy theo QCVN 02:2008/BCT, tiêu chuẩn không nêu bảng cự ly [9161 · 4.9, 16.1, 16.2]",
+        "Phương án an toàn gồm: quy mô từng đợt nổ (loại thuốc, khối lượng tối đa mỗi đợt), phạm vi di chuyển người - phương tiện - thiết bị, che chắn đối tượng không di dời, vị trí canh gác cảnh giới, thông báo trên phương tiện thông tin đại chúng thời gian nổ và khu vực bảo vệ [9161 · 16.3]",
+        "Nổ gần công trình đặc biệt (nhà cao tầng, cầu, đường dây cao thế, công trình ngầm, khối bê tông mới đổ...) phải có nghiên cứu, tính toán chuyên sâu và biện pháp được cấp có thẩm quyền phê duyệt [9161 · 16.4]",
+        "Vận tốc dao động giới hạn Vcp (cm/s; nổ nhiều lần / nổ 1 lần): nhà công nghiệp, cầu vượt, cầu lớn và vừa 5 / 10; nhà công nghiệp một tầng khung trên nền đất ít dính 10 / 20; khối đá nứt nẻ, vỏ bê tông cốt thép hầm có áp M200-M300 20 / 50; đá ít nứt nẻ, bê tông thủy công khối lớn M200-M300 đã đạt trên 70% cường độ, vỏ bê tông cốt thép đường hầm 50 / 100; khối đá bền chắc 100 / 150; bê tông thủy công dưới 70% cường độ có giá trị riêng ở bảng gốc [9161 · Bảng D.2]",
+        "Hệ số Kd theo cấp nứt nẻ của đá: I = 500, II = 300, III = 200, IV = 100, V = 50 (Bảng D.3); hệ số α theo điều kiện nổ: nổ vỡ vụn lộ thiên 1,0; nổ ngầm 1,5-3,0; nổ văng xa 1,5-2,0; nổ vỡ vụn một mặt thoáng 0,7-0,8 (Bảng D.1) [9161 · D.1]",
+        "Khối lượng cho phép nổ đồng thời tính theo Vcp, Kd, α, hệ số khoảng cách và khoảng cách r tới công trình; trong khối đá thì tăng gấp đôi, có rãnh cắt trước quanh công trình thì tăng gấp ba; nổ vi sai Qvs = 0,65·nvs·Qcp [9161 · D.1, D.3]",
+        "Thời gian vi sai tối thiểu theo cấp nứt nẻ: cấp I-II 35-50 ms; III 25-35 ms; IV 15-25 ms; V 10-15 ms (Bảng D.4); nổ đồng thời hay vi sai đều phải kiểm tra theo mật độ nạp thuốc cho phép [9161 · D.2, D.3, Bảng D.4]",
+        "Nổ bằng điện: dòng một chiều qua mỗi kíp tối thiểu 1,0 A (đến 100 kíp), 1,3 A (đến 300 kíp), dòng xoay chiều tối thiểu 2,5 A; kiểm tra thông mạch và đo điện trở chỉ dùng thiết bị chuyên dụng phóng dòng không quá 50 mA [9161 · C.2.2, C.2.3]",
+        "Trong một mạng chỉ dùng một loại kíp điện có tính năng giống nhau, điện trở chênh không quá ±0,25 Ω; dòng thử không vượt 100 mA, dòng cực đại qua kíp không vượt 3 A; điện trở thực của mạng nổ sai khác tính toán không quá 10% mới được nổ [9161 · B.2.4, C.2.9, C.2.11]",
+        "Chỉ lắp mạng nổ sau khi nạp mìn và bua xong, người không liên quan đã về nơi an toàn, đã cắt điện các thiết bị điện, cáp và dây trần trong vùng nguy hiểm; khóa máy nổ do người có trách nhiệm quản lý từ lúc nạp mìn đến khi nổ [9161 · C.2.10, C.2.12]",
+        "Dây nổ: chỉ cắt trước khi lắp vào bao thuốc hoặc mìn mồi; không uốn vòng hay xoắn, góc uốn không nhỏ hơn 90°; chỗ dây giao nhau lót tấm đệm dày không dưới 10 cm; kíp nối cách đầu mút dây 10-15 cm; dây nổ kép buộc với nhau cứ 5-10 m [9161 · C.3.2, C.3.6, C.3.7, C.3.8]",
+        "Nổ châm ngòi không dùng khi thợ mìn không kịp rút ra nơi an toàn, nơi có khí bụi nổ, công trình đứng hoặc xiên trên 30°; thời gian đốt một dây thường 3-5 s, thời gian thợ mìn chạy thoát tối thiểu khoảng 60 s [9161 · C.1.2, C.1.3]",
+        "Tín hiệu quy ước: một hồi còi dài - sơ tán; hai hồi dài - nổ mìn; ba hồi ngắn - báo yên; nhiều hồi ngắn liên tục - nguy hiểm (xử lý mìn câm) [9161 · Phụ lục E, mục 8]",
+        "Sau nổ chờ hết khói mới vào kiểm tra bãi; có mìn câm phải phát tín hiệu nguy hiểm và xử lý ngay; chỉ phát tín hiệu báo yên khi không còn mìn sót; cậy gỡ hết đá om, đá treo trên sườn tầng trước khi cho người làm việc dưới chân tuyến [9161 · 18.1b, Phụ lục E]",
+        "Trong bãi mìn không dùng dụng cụ phát tia lửa; trước khi nạp thuốc sơ tán người không nhiệm vụ và toàn bộ thiết bị khỏi vùng nguy hiểm; nạp nhẹ nhàng, không kéo tuột ngòi, nạp xong kiểm tra dây và đo điện trở toàn mạng [9161 · Phụ lục E, mục 11]",
+        "Kiểm tra ngày sản xuất, thời hạn sử dụng thiết bị gây nổ; thuốc nổ kém ổn định phải kiểm tra thường xuyên trong bảo quản vì dễ gây mìn câm [9161 · B.1.4, B.2.1]"
       ],
-      "checks": [],
+      "checks": [
+        "Kiểm tra điện trở mạng nổ thực tế so với tính toán (sai khác không quá 10%) trước khi gọi nổ [9161 · C.2.11]",
+        "Đối chiếu khối lượng thuốc nổ mỗi đợt với Qcp tính cho đối tượng bảo vệ gần nhất; hoàn trả, thống kê vật liệu nổ cuối ca [9161 · D.1, Phụ lục E, mục 9]"
+      ],
       "tips": [
         "Nổ gần bê tông mới đổ cần ngưỡng rung chặt hơn; phối hợp với tổ bê tông trước giờ nổ",
         "Thông báo giờ nổ cho dân cư và chính quyền địa phương, đặt biển cảnh báo đủ xa",
         "Mìn câm thường xuất hiện khi mạng nổ ướt hoặc đứt: kiểm tra mạng nổ kỹ, ghi sổ số lỗ nạp và số lỗ nổ",
         "Lưu hồ sơ vật liệu nổ cấp phát, sử dụng, hoàn trả mỗi ngày để đối chiếu",
-        "Số liệu ngưỡng rung chưa có trong tài liệu đã đọc: lấy từ thiết kế và tiêu chuẩn gốc"
+        "Ngưỡng Vcp ở Bảng D.2 là giá trị sơ bộ, TCVN 9161 yêu cầu chính xác hóa theo khảo sát và thiết kế: dùng số của thiết kế nếu có",
+        "Tính toán Qcp (công thức D.1, D.2) mất một số ký hiệu khi trích văn bản: đối chiếu bản gốc khi tính chính thức"
       ]
     },
     {
@@ -327,7 +409,14 @@
       ],
       "requirements": [
         "Dung sai nghiệm thu hố móng cát chảy: cao độ đáy -10 cm; rộng, dài ±20 cm; tim ±20 cm; mái 10%; mương, hố thu: đáy -10 cm, rộng ±10 cm, độ dốc 15% [11323 · bảng 2, 3]",
-        "Chỉ chuyển bước sau khi nghiệm thu đạt"
+        "Chỉ chuyển bước sau khi nghiệm thu đạt",
+        "Nền và mái hố đào trên cạn sau dọn sạch đá nổ phải đúng kích thước công trình, ổn định, không có phần chồi ra có nguy cơ sập trượt; thiếu hoặc dư cục bộ phải xử lý đủ điều kiện thi công [9161 · 18.2.3]",
+        "Đào quá lớn nhất cho phép ở đáy và mái hố móng sau khi sửa bề mặt (Bảng 9): đá mềm, cứng vừa, cứng nhưng nứt nẻ 20 cm khi đổ bê tông liền khối hoặc đặt cấu kiện đúc sẵn trực tiếp lên đá, 10 cm với trường hợp khác; đá cứng không nứt nẻ 10 cm cho cả hai trường hợp [9161 · 18.2.3, Bảng 9]",
+        "Hố móng dưới nước hoặc đào sâu đáy sông bằng nổ mìn phải đo hai lần: ngay sau nổ và sau khi thu dọn xong đá nổ [9161 · 18.2.2]",
+        "Khối lượng tính theo thể tích nguyên khối trong đường viền mặt cắt thiết kế, phân theo cấp - độ cứng - phương pháp nổ - chiều cao bậc; tính theo một nhóm độ cứng nếu nhóm đó chiếm từ 75% mặt cắt trở lên, ngược lại tính theo từng nhóm [9161 · 18.2.4]",
+        "Nổ văng: thể tích đất đá văng đạt dưới 30% thiết kế là không đạt; thể tích còn lại trong đường viền thiết kế đo thực tế nhân hệ số 0,83 (đất đá cấp I-III) hoặc 0,75 (cấp IV trở lên) [9161 · 18.2.5]",
+        "Hồ sơ nghiệm thu: đồ án thiết kế kỹ thuật thi công, hộ chiếu nổ mìn và thuyết minh tính toán; tài liệu bổ sung; khảo sát, tính khối lượng; nhật ký theo dõi thi công; văn bản kiểm tra chất lượng; chưa đạt thì xử lý đến khi đạt mới nghiệm thu lại [9161 · 18.2.6, 18.2.7]",
+        "Đo vẽ địa hình hoàn công từng đợt và sau khi hoàn thành khoan nổ ở tỷ lệ 1/100, 1/200, 1/500 hoặc 1/1 000, đủ để xác định chính xác khối lượng thực tế và đánh giá thông số nổ đã chọn [9161 · 17.2.12]"
       ],
       "checks": [
         "Biên bản nghiệm thu công việc đào đất đá, bản vẽ hoàn công"
@@ -336,7 +425,8 @@
         "Nền bị ngâm nước, khô nứt làm giảm sức chịu tải; thi công kết cấu ngay sau nghiệm thu",
         "Mô tả địa chất bằng ảnh có tỷ lệ, sơ đồ vị trí để lưu hồ sơ",
         "Phát hiện đất yếu, đứt gãy khác thiết kế phải báo ngay, không tự xử lý",
-        "Dọn sạch đá rời, bụi bẩn trước khi đổ bê tông để đảm bảo liên kết"
+        "Dọn sạch đá rời, bụi bẩn trước khi đổ bê tông để đảm bảo liên kết",
+        "Đào quá nhiều ở đáy móng rồi lấp lại bằng bê tông tốn kém: giữ trong giới hạn Bảng 9, phần quá mức nghiệm thu vẫn phải xử lý"
       ]
     }
   ],
@@ -349,7 +439,9 @@
     "Có phương án ứng cứu khi sạt lở hoặc sự cố nổ mìn, với liên lạc và sơ cứu sẵn sàng",
     "Nổ mìn: kiểm soát rung động và đá văng cho công trình lân cận, bê tông mới đổ; có quy trình xử lý mìn câm",
     "Mái hố móng và mái đá: cạy bẩy đá lỏng, quan trắc chuyển vị, dừng làm việc dưới mái khi có cảnh báo",
-    "Bãi thải và bãi trữ: kiểm tra ổn định và thoát nước, không đổ vào dòng chảy lũ"
+    "Bãi thải và bãi trữ: kiểm tra ổn định và thoát nước, không đổ vào dòng chảy lũ",
+    "Tín hiệu nổ mìn quy ước (một hồi dài sơ tán, hai hồi dài nổ, ba hồi ngắn báo yên, nhiều hồi ngắn nguy hiểm); chỉ khởi nổ khi mọi người đã vào nơi trú ẩn; sau nổ chờ hết khói mới kiểm tra [9161 · Phụ lục E, mục 8, 11]",
+    "Nổ mìn gần công trình đặc biệt, bê tông mới đổ, đầu mối thủy lợi cần tính toán chuyên sâu và phương án được cấp có thẩm quyền duyệt [9161 · 4.5, 16.4]"
   ],
   "acceptance": [
     "Nghiệm thu công tác chuẩn bị, định vị",
@@ -357,7 +449,8 @@
     "Nghiệm thu mái dốc, tuyến kênh, kích thước hình học sau đào",
     "Chỉ chuyển bước khi biên bản nghiệm thu bước trước đã được các bên ký",
     "Nghiệm thu nền móng sau xử lý, kèm bản đồ địa chất hố móng có địa chất viên, thiết kế, giám sát xác nhận",
-    "Nghiệm thu gia cố mái hố móng (rãnh đỉnh, neo, bê tông phun nếu có) theo từng cấp đào"
+    "Nghiệm thu gia cố mái hố móng (rãnh đỉnh, neo, bê tông phun nếu có) theo từng cấp đào",
+    "Nghiệm thu khoan nổ: kiểm tra lỗ trước nạp, kiểm tra sau nổ, đo khối lượng, đo đào quá theo Bảng 9, đủ hồ sơ theo 18.2.6, chưa đạt phải xử lý rồi nghiệm thu lại [9161 · 18.1, 18.2]"
   ],
   "records": [
     "Biện pháp thi công được duyệt, hộ chiếu nổ mìn",
@@ -366,7 +459,9 @@
     "Ảnh chụp, nhật ký sự cố và xử lý phát sinh địa chất, công trình ngầm",
     "Bản đồ và mô tả địa chất hố móng, ảnh đáy móng trước khi đổ bê tông",
     "Nhật ký quan trắc mái và rung động nổ mìn, nhật ký thoát nước hố móng",
-    "Sổ theo dõi bãi trữ và bãi thải, khối lượng đất đá dùng lại"
+    "Sổ theo dõi bãi trữ và bãi thải, khối lượng đất đá dùng lại",
+    "Bình đồ khối nổ (1/200 hoặc 1/500) và mặt cắt đi qua lỗ khoan, mặt cắt dọc lỗ ghi vị trí - cao độ quả mìn và chiều dày bua, hoàn công sau nổ [9161 · 17.2.6, 17.2.7, 17.2.12]",
+    "Hộ chiếu nổ mìn theo mẫu Phụ lục E, bảng ghi thông số nổ, danh sách phân công gác cảnh giới, thống kê vật liệu nổ thực dùng [9161 · Phụ lục E]"
   ],
-  "note": "Số liệu trích từ phần đã đọc được: TCVN 4447 mục 1 đến 4.2, TCVN 8305, TCVN 11323 mục 4 đến 6, QCVN 04-04:2012 đến mục 8.2.3. Chưa đọc được TCVN 9161 và phần đầm nén, nghiệm thu của TCVN 4447. Mục 11323 Bảng 6 có số liệu mâu thuẫn với 6.2.5.2, cần đối chiếu thiết kế. Các bước thêm sau rà soát (thoát nước hố móng, kiểm soát rung và vật liệu nổ, quản lý vật liệu đào, gia cố mái, xử lý nền sau đào) viết theo thực hành chung, chưa có số liệu tiêu chuẩn đối chiếu; ngưỡng rung, dung sai và yêu cầu nền lấy từ thiết kế và bản gốc tiêu chuẩn."
+  "note": "Số liệu trích từ phần đã đọc được: TCVN 4447 mục 1 đến 4.2, TCVN 8305, TCVN 11323 mục 4 đến 6, QCVN 04-04:2012 đến mục 8.2.3. TCVN 9161:2012 đã đối chiếu toàn văn (mục 1-18, Phụ lục A-E): số liệu thiết kế bãi mìn, nổ viền, kích nổ, chấn động và nghiệm thu nổ mìn lấy từ đây. TCVN 9161 không có bảng cự ly an toàn cụ thể (dẫn QCVN 02:2008/BCT) và không có quy trình xử lý mìn câm chi tiết. Một số ký hiệu công thức (căn bậc hai, dấu lớn hơn hoặc bằng) bị mất khi trích văn bản, cần đối chiếu bản gốc khi tính chính thức. Chưa đọc được phần đầm nén, nghiệm thu của TCVN 4447. Mục 11323 Bảng 6 có số liệu mâu thuẫn với 6.2.5.2, cần đối chiếu thiết kế. Các bước thêm sau rà soát (thoát nước hố móng, quản lý vật liệu đào, gia cố mái, xử lý nền sau đào) viết theo thực hành chung, chưa có số liệu tiêu chuẩn đối chiếu; ngưỡng rung theo thiết kế, dung sai và yêu cầu nền lấy từ thiết kế và bản gốc tiêu chuẩn. QCVN 04-04 và TCVN 9161 có số liệu lớp bảo vệ khác nhau, thiết kế chốt giá trị áp dụng."
 }
