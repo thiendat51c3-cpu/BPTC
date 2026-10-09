@@ -15,11 +15,12 @@ body{margin:0;min-height:100vh;background:var(--bg);color:var(--text);
 :root{--topbar-h:45px}
 html{background:var(--card)}
 .topbar{position:sticky;top:0;z-index:20;display:flex;align-items:center;gap:8px;
-  padding:0 12px;height:45px;min-height:45px;
-  background:var(--brand);color:#fff;}
+  padding:env(safe-area-inset-top) 12px 0;height:calc(27px + env(safe-area-inset-top));min-height:0;
+  background:#3a8bab;color:#fff;}
+@media (prefers-color-scheme: dark){.topbar{background:#1d5f78}}
 .topbar h1{flex:1;margin:0;font-size:18px;line-height:1.2;font-weight:650;
   overflow:hidden;text-overflow:ellipsis;white-space:nowrap;}
-.icon-btn{width:30px;height:30px;border:0;border-radius:12px;background:rgba(255,255,255,.16);
+.icon-btn{width:26px;height:26px;border:0;border-radius:12px;background:rgba(255,255,255,.16);
   color:#fff;font-size:28px;line-height:1;cursor:pointer}
 .icon-btn[hidden]{display:none}
 main{max-width:760px;margin:0 auto;padding:14px 14px 24px}
