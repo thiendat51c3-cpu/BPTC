@@ -5,7 +5,11 @@
   "standards": [
     "tcvn-4453",
     "tcvn-4055",
-    "tcvn-9115"
+    "tcvn-9115",
+    "tcvn-1651",
+    "tcvn-5574",
+    "tcvn-9392",
+    "tcvn-8163"
   ],
   "prerequisites": [
     "Thép có chứng chỉ chất lượng của nhà sản xuất; thí nghiệm lại theo lô nếu yêu cầu",
@@ -89,6 +93,31 @@
       ]
     },
     {
+      "title": "Nối cốt thép bằng ống ren, ống ép (nối cơ khí)",
+      "actions": [
+        "Chỉ dùng nối cơ khí khi thiết kế cho phép; xác định loại mối nối (ống ren, ống ép), cấp mối nối theo thiết kế",
+        "Kiểm tra vật liệu: ống nối, ren, chứng chỉ chất lượng của nhà sản xuất, tương thích với nhóm và đường kính thép",
+        "Cắt đầu thanh thẳng góc, vệ sinh đầu thanh; tạo ren hoặc ép theo thiết bị và hướng dẫn nhà sản xuất",
+        "Thợ vận hành thiết bị tạo ren, ép đã được đào tạo, có thợ thử ban đầu trước khi vào thi công chính thức",
+        "Vặn ống ren đến độ sâu, mô men xiết theo quy định, đánh dấu mối nối đã kiểm tra; ép ống bằng thiết bị đúng áp suất, vị trí",
+        "Bố trí mối nối so le, ngoài vùng chịu lực lớn nếu thiết kế yêu cầu",
+        "Lấy mẫu thử kéo mối nối tại hiện trường theo lô, đánh giá theo tiêu chuẩn và thiết kế",
+        "Ghi hồ sơ: vị trí mối nối, thợ thực hiện, kết quả kiểm tra, mẫu thử"
+      ],
+      "requirements": [
+        "Thông số theo thiết kế và bản gốc tiêu chuẩn (chưa có số liệu đối chiếu)"
+      ],
+      "checks": [
+        "Biên bản kiểm tra mối nối cơ khí và kết quả thử kéo mẫu"
+      ],
+      "tips": [
+        "Ren hỏng hoặc dính bẩn, dầu làm mối nối kém; bảo vệ đầu ren bằng nắp",
+        "Mối nối ép dùng sai cỡ ống hoặc thiết bị mòn sẽ không đạt; kiểm tra thiết bị định kỳ",
+        "Thợ chưa thử mẫu không được thi công mối nối chính thức",
+        "Mối nối không đạt xử lý theo thiết kế, không tự bù bằng nối buộc"
+      ]
+    },
+    {
       "title": "Lắp dựng, cố định cốt thép",
       "actions": [
         "Vạch dấu vị trí thanh trên cốp pha hoặc dưỡng, lắp thanh chủ trước, sau đó đai theo đúng bước",
@@ -113,6 +142,30 @@
         "Dây buộc thừa, đầu thép nhô gần mặt cốp pha gây hở thép; bẻ vào trong",
         "Cần kiểm tra lại sau khi lắp ván khuôn và trước khi đổ vì cốt thép có thể bị xê dịch"
       ]
+    },
+    {
+      "title": "Thép chờ, thép neo vào đá và liên kết giữa các đợt đổ",
+      "actions": [
+        "Xác định theo bản vẽ vị trí, đường kính, chiều dài thép chờ ra khỏi mặt bê tông và chiều dài neo, nối",
+        "Định vị thép chờ chính xác bằng dưỡng hoặc khung, cố định chắc vào cốt thép hoặc cốp pha, tránh xê dịch khi đổ",
+        "Bảo vệ thép chờ khỏi gỉ, bùn bê tông, hư hỏng cơ học; bọc hoặc quét lớp bảo vệ theo thiết kế",
+        "Thép neo vào đá: khoan lỗ, vệ sinh lỗ, cố định bằng vữa hoặc keo theo thiết kế; kiểm tra khả năng chịu kéo theo yêu cầu",
+        "Khi nối thép chờ sang đợt sau: làm sạch, uốn nắn lại nếu cần theo hướng dẫn, không uốn mạnh làm nứt thép",
+        "Thép gần khe, băng chắn nước, bộ phận đặt sẵn của cửa van: giữ đủ khoảng cách và lớp bảo vệ, không chạm băng chắn",
+        "Nghiệm thu thép chờ, thép neo trước đổ đợt kế tiếp; ghi hồ sơ"
+      ],
+      "requirements": [
+        "Thông số theo thiết kế và bản gốc tiêu chuẩn (chưa có số liệu đối chiếu)"
+      ],
+      "checks": [
+        "Biên bản nghiệm thu thép chờ, thép neo (vị trí, chiều dài, chất lượng neo)"
+      ],
+      "tips": [
+        "Thép chờ bị bẻ qua lại nhiều lần dễ gãy; thiết kế đủ chiều dài để không phải nắn",
+        "Chiều dài nối, neo lấy theo thiết kế (theo bội số đường kính), không dùng giá trị chung",
+        "Lỗ khoan neo vào đá phải sạch bụi, ẩm theo yêu cầu vật liệu neo",
+        "Bảo vệ thép chờ trước khi mưa, nước biển"
+      ]
     }
   ],
   "safety": [
@@ -122,11 +175,15 @@
     "Nối dây điện máy hàn gọn, cách điện, không nằm trong vùng nước đọng"
   ],
   "acceptance": [
-    "Nghiệm thu cốt thép (chủng loại, vị trí, lớp bảo vệ, mối nối) trước đổ bê tông, lập biên bản"
+    "Nghiệm thu cốt thép (chủng loại, vị trí, lớp bảo vệ, mối nối) trước đổ bê tông, lập biên bản",
+    "Nghiệm thu mối nối cơ khí (kiểm tra ren, ép, thử kéo mẫu) trước khi lắp tiếp",
+    "Nghiệm thu thép chờ, thép neo trước đợt đổ kế tiếp"
   ],
   "records": [
     "Chứng chỉ thép, kết quả thí nghiệm, biên bản nghiệm thu cốt thép",
-    "Biên bản hàn thử, bản vẽ hoàn công cốt thép khi cần"
+    "Biên bản hàn thử, bản vẽ hoàn công cốt thép khi cần",
+    "Biên bản và kết quả thử kéo mối nối cơ khí, chứng chỉ vật liệu ống nối",
+    "Biên bản thép chờ, thép neo đá và ảnh các vị trí khuất"
   ],
   "note": "TCVN 4453:1995 chỉ đọc được một phần; điều khoản ghi là 'mục' cần đối chiếu bản gốc. Các số liệu là bản tóm tắt."
 }

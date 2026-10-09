@@ -493,5 +493,275 @@
     "note": "Đổ và bảo dưỡng bê tông trời nóng.",
     "read": "partial",
     "readNote": "Đọc được các mục 5.3-5.5 từ bản hiển thị một phần."
+  },
+  {
+    "id": "tcvn-9407",
+    "short": "9407",
+    "code": "TCVN 9407:2014",
+    "title": "Vật liệu chống thấm - Băng chắn nước PVC - Thông số kỹ thuật",
+    "note": "Băng chắn nước PVC dùng ở mối nối kết cấu bê tông có yêu cầu chống thấm.",
+    "read": "partial",
+    "readNote": "Chỉ đọc được phạm vi, phân loại theo mặt cắt (FF, FC) và danh mục phương pháp thử viện dẫn; các giá trị cơ lý chưa đọc được. Kiểm tra tên đầy đủ trên bản gốc."
+  },
+  {
+    "id": "14tcn-59",
+    "short": "14TCN 59",
+    "code": "14TCN 59:2002",
+    "title": "Công trình thủy lợi - Kết cấu bê tông và bê tông cốt thép - Yêu cầu kỹ thuật thi công và nghiệm thu",
+    "note": "Áp dụng cho bê tông nặng thông thường công trình thủy lợi, không gồm bê tông đầm lăn. Kiểm tra hiệu lực.",
+    "read": "partial",
+    "readNote": "Chỉ đọc được các điều 1 đến 4.2; chưa đọc được nội dung về khe, mạch ngừng, băng cản nước."
+  },
+  {
+    "id": "tcvn-5574",
+    "short": "5574",
+    "code": "TCVN 5574:2018",
+    "title": "Thiết kế kết cấu bê tông và bê tông cốt thép",
+    "note": "Viện dẫn lớp bảo vệ, chiều dài neo, nối; cần tra bản gốc.",
+    "read": "none",
+    "readNote": "Chưa đọc được nội dung; số hiệu, tên và hiệu lực chưa xác minh, cần kiểm tra trên bản gốc."
+  },
+  {
+    "id": "tcvn-9343",
+    "short": "9343",
+    "code": "TCVN 9343:2012",
+    "title": "Kết cấu bê tông và bê tông cốt thép - Hướng dẫn công tác bảo trì",
+    "note": "Tham khảo cho sửa chữa khuyết tật.",
+    "read": "none",
+    "readNote": "Chưa đọc được nội dung; số hiệu, tên và hiệu lực chưa xác minh, cần kiểm tra trên bản gốc."
+  },
+  {
+    "id": "tcvn-9340",
+    "short": "9340",
+    "code": "TCVN 9340:2012",
+    "title": "Hỗn hợp bê tông trộn sẵn - Yêu cầu cơ bản đánh giá chất lượng và nghiệm thu",
+    "note": "",
+    "read": "none",
+    "readNote": "Chưa đọc được nội dung; số hiệu, tên và hiệu lực chưa xác minh, cần kiểm tra trên bản gốc."
+  },
+  {
+    "id": "tcvn-3116",
+    "short": "3116",
+    "code": "TCVN 3116",
+    "title": "Bê tông nặng - Phương pháp xác định độ chống thấm nước",
+    "note": "Cần xác nhận năm ban hành.",
+    "read": "none",
+    "readNote": "Chưa đọc được nội dung; số hiệu, tên và hiệu lực chưa xác minh, cần kiểm tra trên bản gốc."
+  },
+  {
+    "id": "tcvn-9334",
+    "short": "9334",
+    "code": "TCVN 9334:2012",
+    "title": "Bê tông nặng - Phương pháp xác định cường độ nén bằng súng bật nảy",
+    "note": "",
+    "read": "none",
+    "readNote": "Chưa đọc được nội dung; số hiệu, tên và hiệu lực chưa xác minh, cần kiểm tra trên bản gốc."
+  },
+  {
+    "id": "tcvn-9335",
+    "short": "9335",
+    "code": "TCVN 9335:2012",
+    "title": "Bê tông nặng - Phương pháp thử không phá hủy - Xác định vận tốc xung siêu âm",
+    "note": "",
+    "read": "none",
+    "readNote": "Chưa đọc được nội dung; số hiệu, tên và hiệu lực chưa xác minh, cần kiểm tra trên bản gốc."
+  },
+  {
+    "id": "tcvn-10304",
+    "short": "10304",
+    "code": "TCVN 10304:2014",
+    "title": "Móng cọc - Tiêu chuẩn thiết kế",
+    "note": "",
+    "read": "none",
+    "readNote": "Chưa đọc được nội dung; số hiệu, tên và hiệu lực chưa xác minh, cần kiểm tra trên bản gốc."
+  },
+  {
+    "id": "tcvn-7888",
+    "short": "7888",
+    "code": "TCVN 7888:2014",
+    "title": "Cọc bê tông ly tâm ứng lực trước",
+    "note": "",
+    "read": "none",
+    "readNote": "Chưa đọc được nội dung; số hiệu, tên và hiệu lực chưa xác minh, cần kiểm tra trên bản gốc."
+  },
+  {
+    "id": "tcvn-9396",
+    "short": "9396",
+    "code": "TCVN 9396:2012",
+    "title": "Cọc khoan nhồi - Xác định tính đồng nhất của bê tông - Phương pháp xung siêu âm",
+    "note": "",
+    "read": "none",
+    "readNote": "Chưa đọc được nội dung; số hiệu, tên và hiệu lực chưa xác minh, cần kiểm tra trên bản gốc."
+  },
+  {
+    "id": "tcvn-9392",
+    "short": "9392",
+    "code": "TCVN 9392:2012",
+    "title": "Thép cốt bê tông - Hàn hồ quang",
+    "note": "",
+    "read": "none",
+    "readNote": "Chưa đọc được nội dung; số hiệu, tên và hiệu lực chưa xác minh, cần kiểm tra trên bản gốc."
+  },
+  {
+    "id": "tcvn-8163",
+    "short": "8163",
+    "code": "TCVN 8163:2009",
+    "title": "Thép cốt bê tông - Mối nối bằng ống ren",
+    "note": "",
+    "read": "none",
+    "readNote": "Chưa đọc được nội dung; số hiệu, tên và hiệu lực chưa xác minh, cần kiểm tra trên bản gốc."
+  },
+  {
+    "id": "tcvn-8790",
+    "short": "8790",
+    "code": "TCVN 8790:2011",
+    "title": "Sơn bảo vệ kết cấu thép - Quy trình thi công và nghiệm thu",
+    "note": "Cần xác nhận hiệu lực.",
+    "read": "none",
+    "readNote": "Chưa đọc được nội dung; số hiệu, tên và hiệu lực chưa xác minh, cần kiểm tra trên bản gốc."
+  },
+  {
+    "id": "qcvn-01-2019-bct",
+    "short": "QCVN 01",
+    "code": "QCVN 01:2019/BCT",
+    "title": "Quy chuẩn kỹ thuật quốc gia về an toàn trong bảo quản, vận chuyển, sử dụng và tiêu hủy vật liệu nổ công nghiệp",
+    "note": "Cần xác nhận có thay thế QCVN 02:2008/BCT không.",
+    "read": "none",
+    "readNote": "Chưa đọc được nội dung; số hiệu, tên và hiệu lực cần xác nhận trên nguồn chính thức trước khi viện dẫn."
+  },
+  {
+    "id": "tcvn-5178",
+    "short": "TCVN 5178",
+    "code": "TCVN 5178:2004",
+    "title": "Quy phạm kỹ thuật an toàn trong khai thác và chế biến đá lộ thiên",
+    "note": "",
+    "read": "none",
+    "readNote": "Chưa đọc được nội dung; số hiệu, tên và hiệu lực cần xác nhận trên nguồn chính thức trước khi viện dẫn."
+  },
+  {
+    "id": "tcvn-6963",
+    "short": "TCVN 6963",
+    "code": "TCVN 6963:2001",
+    "title": "Rung động và chấn động - Rung động do các hoạt động xây dựng và sản xuất công nghiệp",
+    "note": "Tên đầy đủ cần xác nhận.",
+    "read": "none",
+    "readNote": "Chưa đọc được nội dung; số hiệu, tên và hiệu lực cần xác nhận trên nguồn chính thức trước khi viện dẫn."
+  },
+  {
+    "id": "tcvn-9362",
+    "short": "TCVN 9362",
+    "code": "TCVN 9362:2012",
+    "title": "Tiêu chuẩn thiết kế nền nhà và công trình",
+    "note": "",
+    "read": "none",
+    "readNote": "Chưa đọc được nội dung; số hiệu, tên và hiệu lực cần xác nhận trên nguồn chính thức trước khi viện dẫn."
+  },
+  {
+    "id": "tcvn-9902",
+    "short": "TCVN 9902",
+    "code": "TCVN 9902:2013",
+    "title": "Công trình thủy lợi - Đê sông - Yêu cầu thiết kế",
+    "note": "Tham khảo cấu tạo; cần xác nhận số hiệu.",
+    "read": "none",
+    "readNote": "Chưa đọc được nội dung; số hiệu, tên và hiệu lực cần xác nhận trên nguồn chính thức trước khi viện dẫn."
+  },
+  {
+    "id": "tcvn-8216",
+    "short": "TCVN 8216",
+    "code": "TCVN 8216:2009",
+    "title": "Thiết kế đập đất đầm nén",
+    "note": "",
+    "read": "none",
+    "readNote": "Chưa đọc được nội dung; số hiệu, tên và hiệu lực cần xác nhận trên nguồn chính thức trước khi viện dẫn."
+  },
+  {
+    "id": "nd-06-2021",
+    "short": "NĐ 06/2021",
+    "code": "Nghị định 06/2021/NĐ-CP",
+    "title": "Quy định chi tiết một số nội dung về quản lý chất lượng, thi công xây dựng và bảo trì công trình xây dựng",
+    "note": "Liên quan phân cấp công trình tạm; cần kiểm tra.",
+    "read": "none",
+    "readNote": "Chưa đọc được nội dung; số hiệu, tên và hiệu lực cần xác nhận trên nguồn chính thức trước khi viện dẫn."
+  },
+  {
+    "id": "nd-114-2018",
+    "short": "NĐ 114/2018",
+    "code": "Nghị định 114/2018/NĐ-CP",
+    "title": "Về quản lý an toàn đập, hồ chứa nước",
+    "note": "Cần kiểm tra hiệu lực và văn bản thay thế.",
+    "read": "none",
+    "readNote": "Chưa đọc được nội dung; số hiệu, tên và hiệu lực cần xác nhận trên nguồn chính thức trước khi viện dẫn."
+  },
+  {
+    "id": "tcvn-8857",
+    "short": "TCVN 8857",
+    "code": "TCVN 8857:2011",
+    "title": "Lớp kết cấu áo đường ô tô bằng cấp phối thiên nhiên - Vật liệu, thi công và nghiệm thu",
+    "note": "",
+    "read": "none",
+    "readNote": "Chưa đọc được nội dung; số hiệu, tên và hiệu lực cần xác nhận trên nguồn chính thức trước khi viện dẫn."
+  },
+  {
+    "id": "tcvn-8858",
+    "short": "TCVN 8858",
+    "code": "TCVN 8858:2011",
+    "title": "Móng cấp phối đá dăm và cấp phối thiên nhiên gia cố xi măng trong kết cấu áo đường ô tô - Vật liệu, thi công và nghiệm thu",
+    "note": "",
+    "read": "none",
+    "readNote": "Chưa đọc được nội dung; số hiệu, tên và hiệu lực cần xác nhận trên nguồn chính thức trước khi viện dẫn."
+  },
+  {
+    "id": "tcvn-8859",
+    "short": "TCVN 8859",
+    "code": "TCVN 8859:2011",
+    "title": "Lớp móng cấp phối đá dăm trong kết cấu áo đường ô tô - Vật liệu, thi công và nghiệm thu",
+    "note": "",
+    "read": "none",
+    "readNote": "Chưa đọc được nội dung; số hiệu, tên và hiệu lực cần xác nhận trên nguồn chính thức trước khi viện dẫn."
+  },
+  {
+    "id": "tcvn-8863",
+    "short": "TCVN 8863",
+    "code": "TCVN 8863:2011",
+    "title": "Mặt đường láng nhựa nóng - Thi công và nghiệm thu",
+    "note": "",
+    "read": "none",
+    "readNote": "Chưa đọc được nội dung; số hiệu, tên và hiệu lực cần xác nhận trên nguồn chính thức trước khi viện dẫn."
+  },
+  {
+    "id": "tcvn-8819",
+    "short": "TCVN 8819",
+    "code": "TCVN 8819:2011",
+    "title": "Mặt đường bê tông nhựa nóng - Yêu cầu thi công và nghiệm thu",
+    "note": "",
+    "read": "none",
+    "readNote": "Chưa đọc được nội dung; số hiệu, tên và hiệu lực cần xác nhận trên nguồn chính thức trước khi viện dẫn."
+  },
+  {
+    "id": "tcvn-8864",
+    "short": "TCVN 8864",
+    "code": "TCVN 8864:2011",
+    "title": "Mặt đường ô tô - Xác định độ bằng phẳng bằng thước dài 3,0 mét",
+    "note": "",
+    "read": "none",
+    "readNote": "Chưa đọc được nội dung; số hiệu, tên và hiệu lực cần xác nhận trên nguồn chính thức trước khi viện dẫn."
+  },
+  {
+    "id": "tcvn-8867",
+    "short": "TCVN 8867",
+    "code": "TCVN 8867:2011",
+    "title": "Áo đường mềm - Xác định mô đun đàn hồi chung của kết cấu bằng cần đo võng Benkelman",
+    "note": "",
+    "read": "none",
+    "readNote": "Chưa đọc được nội dung; số hiệu, tên và hiệu lực cần xác nhận trên nguồn chính thức trước khi viện dẫn."
+  },
+  {
+    "id": "qcvn-41-2019",
+    "short": "QCVN 41",
+    "code": "QCVN 41:2019/BGTVT",
+    "title": "Quy chuẩn kỹ thuật quốc gia về báo hiệu đường bộ",
+    "note": "",
+    "read": "none",
+    "readNote": "Chưa đọc được nội dung; số hiệu, tên và hiệu lực cần xác nhận trên nguồn chính thức trước khi viện dẫn."
   }
 ]

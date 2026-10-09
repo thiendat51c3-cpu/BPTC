@@ -10,7 +10,12 @@
     "qcvn-04-04",
     "tcvn-9161",
     "tcvn-4055",
-    "qcvn-18"
+    "qcvn-18",
+    "qcvn-01-2019-bct",
+    "tcvn-5178",
+    "tcvn-6963",
+    "tcvn-9361",
+    "tcvn-9362"
   ],
   "prerequisites": [
     "Có hồ sơ thiết kế, biện pháp thi công được chủ đầu tư duyệt; có số liệu địa chất, địa chất thủy văn đầy đủ, kể cả vật cản như bom mìn, rác [4447 · mục 3]",
@@ -74,6 +79,30 @@
         "Hạ mực nước quá nhanh có thể gây lún, nứt công trình lân cận; theo dõi lún",
         "Giếng hạ nước bị tắc, hỏng lọc cần thay kịp thời",
         "Mất điện làm mực nước dâng lại; phải có nguồn dự phòng"
+      ]
+    },
+    {
+      "title": "Thoát nước mặt và nước trong hố móng nền đất đá thông thường",
+      "actions": [
+        "Đối chiếu địa chất thủy văn: xác định nguồn nước vào hố móng (mưa, nước mặt từ sườn dốc, nước ngầm, nước mạch trong khe nứt đá)",
+        "Làm rãnh đỉnh (rãnh chặn nước mặt) quanh phạm vi đào trước khi hạ cao độ, nối thông ra suối hoặc cống thoát, tránh xả về phía mái hố móng",
+        "Bố trí rãnh biên dọc chân mái, độ dốc dọc về phía hố thu; gia cố rãnh nếu đất dễ xói",
+        "Đào hố thu (sump) ở điểm thấp, có lớp lọc đá dăm hoặc rọ chắn để bơm không hút bùn cát",
+        "Chọn công suất và số máy bơm theo lưu lượng nước vào tính từ thiết kế, có máy dự phòng và nguồn điện dự phòng",
+        "Dẫn nước bơm qua hố lắng trước khi xả, không xả thẳng nước đục xuống suối hay khu dân cư hạ lưu",
+        "Dời hố thu, rãnh theo cao độ đào; không để nước ngâm đáy hố móng khi chờ nghiệm thu",
+        "Ghi nhật ký lưu lượng bơm, mực nước hố thu, nước mạch mới xuất hiện để báo thiết kế"
+      ],
+      "requirements": [
+        "Thông số theo thiết kế và bản gốc tiêu chuẩn (chưa có số liệu đối chiếu)"
+      ],
+      "checks": [],
+      "tips": [
+        "Đáy hố móng bị ngâm nước làm nền đất mềm yếu, mất cường độ: ưu tiên đào đến cao độ đúng thiết kế rồi nghiệm thu ngay",
+        "Mưa lớn bất ngờ: chuẩn bị sẵn bơm dự phòng, phủ bạt mái và đáy khi tạm ngừng thi công",
+        "Nước mạch mới xuất hiện trong đá: đánh dấu vị trí, lưu lưu lượng, không tự bịt mà báo thiết kế xử lý",
+        "Rãnh đỉnh chưa làm xong đã đào mái dốc dễ gây xói mái và sạt: làm rãnh đỉnh trước",
+        "Phần hạ mực nước ngầm nền cát chảy theo bước trên chỉ áp dụng cho nền cát; nền đất đá thông thường tính lại theo thiết kế"
       ]
     },
     {
@@ -192,6 +221,101 @@
       ]
     },
     {
+      "title": "Kiểm soát rung động, vật liệu nổ và xử lý mìn câm",
+      "actions": [
+        "Kiểm tra giấy phép, người có chứng chỉ, kho và phương tiện vận chuyển vật liệu nổ công nghiệp theo quy định hiện hành trước khi thi công",
+        "Khảo sát đối tượng cần bảo vệ trong phạm vi ảnh hưởng: nhà dân, đường điện, công trình hiện hữu, bê tông mới đổ, đập đang vận hành",
+        "Thiết kế sơ đồ nổ vi sai, hạn chế lượng thuốc nổ cùng một thời điểm; nổ thử và đo rung để hiệu chỉnh hộ chiếu",
+        "Với biên hố móng và mái đá: dùng nổ mìn tạo biên hoặc nổ phá trước để giữ ổn định đá mái, không phá hoại đá nền",
+        "Lắp máy đo rung tại các điểm bảo vệ, ghi giá trị mỗi vụ nổ và so với ngưỡng cho phép theo quy định và thiết kế",
+        "Sau mỗi vụ nổ: chờ khói bụi tan, đợi thời gian theo quy định rồi mới cho người vào kiểm tra bãi nổ",
+        "Phát hiện mìn câm: cấm làm việc trong vùng, đánh dấu, xử lý theo quy trình của chỉ huy nổ mìn và ghi biên bản",
+        "Bãi nổ, bãi tập kết đá sau nổ: dọn đá văng, kiểm tra mái có đá lỏng, đá treo trước khi cho máy vào"
+      ],
+      "requirements": [
+        "Thông số theo thiết kế và bản gốc tiêu chuẩn (chưa có số liệu đối chiếu)"
+      ],
+      "checks": [],
+      "tips": [
+        "Nổ gần bê tông mới đổ cần ngưỡng rung chặt hơn; phối hợp với tổ bê tông trước giờ nổ",
+        "Thông báo giờ nổ cho dân cư và chính quyền địa phương, đặt biển cảnh báo đủ xa",
+        "Mìn câm thường xuất hiện khi mạng nổ ướt hoặc đứt: kiểm tra mạng nổ kỹ, ghi sổ số lỗ nạp và số lỗ nổ",
+        "Lưu hồ sơ vật liệu nổ cấp phát, sử dụng, hoàn trả mỗi ngày để đối chiếu",
+        "Số liệu ngưỡng rung chưa có trong tài liệu đã đọc: lấy từ thiết kế và tiêu chuẩn gốc"
+      ]
+    },
+    {
+      "title": "Quản lý vật liệu đào, bãi trữ và bãi thải",
+      "actions": [
+        "Phân loại đất đá đào theo kết quả khảo sát: dùng đắp, dùng làm vật liệu xây lát, hoặc đưa ra bãi thải",
+        "Làm bãi trữ tạm cho đất đá dùng lại, có rãnh thoát nước, che phủ để đất không ngấm ướt; ghi chủng loại từng đống",
+        "Chọn đường vận chuyển, bố trí xe và điểm đổ để không cản trở thoát nước, không đổ lên mái hố móng",
+        "Bãi thải: đổ theo lớp, có đê chắn chân, rãnh thoát nước quanh bãi, ngăn đất đá trôi xuống suối",
+        "Kiểm tra ổn định mái bãi thải sau mưa; không đổ quá cao trình được duyệt",
+        "Tưới nước giảm bụi trên đường và bãi; rửa bánh xe trước khi ra đường công cộng nếu cần",
+        "Nước thải chứa bùn đi qua hố lắng trước khi xả ra môi trường",
+        "Khi kết thúc: san gạt, trồng cỏ hoặc phủ mái bãi thải theo phương án được duyệt"
+      ],
+      "requirements": [
+        "Thông số theo thiết kế và bản gốc tiêu chuẩn (chưa có số liệu đối chiếu)"
+      ],
+      "checks": [],
+      "tips": [
+        "Trộn lẫn đất tốt với đất xấu làm mất nguồn vật liệu đắp: tách đống ngay từ lúc đào",
+        "Bãi thải không có thoát nước là nguyên nhân thường gặp của trượt bãi mùa mưa",
+        "Cân đối khối lượng đào đắp theo tiến độ để giảm vận chuyển hai lần",
+        "Bãi thải gần suối cần kiểm tra ảnh hưởng thoát lũ, không đặt trong dòng chảy lũ"
+      ]
+    },
+    {
+      "title": "Gia cố, bảo vệ và quan trắc mái hố móng",
+      "actions": [
+        "Đối chiếu thiết kế mái, cơ, bậc từng cao độ với địa chất thực tế khi bóc lộ; báo thiết kế nếu có mặt trượt, khe nứt thuận chiều dốc",
+        "Làm rãnh đỉnh mái và rãnh trên các cơ, thoát nước ra ngoài phạm vi mái; gia cố rãnh ở đoạn dốc lớn",
+        "Mái đá: cạy bẩy đá lỏng; theo thiết kế dùng bê tông phun, lưới thép, neo thanh, neo cáp, lỗ thoát nước",
+        "Mái đất: tạo mái đúng độ dốc, phủ cỏ hoặc vật liệu bảo vệ, tường chắn chân hoặc rọ đá khi thiết kế yêu cầu",
+        "Bố trí mốc quan trắc chuyển vị mặt mái và đo định kỳ; ghi nhận vết nứt đỉnh mái, nước thấm",
+        "Đặt mức cảnh báo chuyển vị theo thiết kế; khi vượt thì dừng làm việc dưới mái và báo cáo",
+        "Kiểm tra mái trước mỗi ca và sau mưa lớn; ghi nhật ký tình trạng mái",
+        "Neo, bê tông phun thực hiện theo yêu cầu riêng của các bước gia cố; nghiệm thu từng hạng mục trước khi đào sâu tiếp"
+      ],
+      "requirements": [
+        "Thông số theo thiết kế và bản gốc tiêu chuẩn (chưa có số liệu đối chiếu)"
+      ],
+      "checks": [],
+      "tips": [
+        "Gia cố đi theo tiến độ đào từng cấp, không để mái cao chưa gia cố chờ lâu",
+        "Nước là nguyên nhân chính gây sạt mái: ưu tiên thoát nước trước các biện pháp khác",
+        "Đá phong hóa mạnh biến đổi theo mùa mưa: quan trắc chặt hơn sau mưa",
+        "Không chất tải thiết bị, vật liệu sát mép đỉnh mái",
+        "Liên kết với các bước neo, bê tông phun, khoan phụt trong tài liệu gia cố riêng"
+      ]
+    },
+    {
+      "title": "Xử lý nền sau đào và xác nhận địa chất hố móng",
+      "actions": [
+        "Địa chất viên mô tả, vẽ bản đồ địa chất đáy và mái hố móng ngay sau khi bóc lộ, ghi đới phong hóa, đứt gãy, khe nứt, hang",
+        "Đối chiếu với báo cáo khảo sát; nếu khác biệt đáng kể thì mời thiết kế, tư vấn và chủ đầu tư cùng xem hiện trường",
+        "Nền đá: làm sạch bằng nước, khí nén, loại bỏ đá yếu, bùn sét theo yêu cầu thiết kế trước khi đổ bê tông",
+        "Đới đứt gãy, hang karst: đào sâu theo chỉ dẫn, chèn bê tông (dental concrete) hoặc xử lý khác theo thiết kế",
+        "Nền đất yếu: đào thay, đệm cát, đệm đá dăm hoặc xử lý khác theo thiết kế; đầm kiểm tra",
+        "Khoan phụt gia cố, chống thấm nền theo thiết kế tại các bước khoan phụt riêng",
+        "Thí nghiệm hiện trường (nếu thiết kế yêu cầu) như xuyên, nén tấm, hút nước; lưu kết quả",
+        "Lập biên bản nghiệm thu nền móng có chữ ký các bên, kèm bản đồ địa chất hố móng, trước khi thi công kết cấu"
+      ],
+      "requirements": [
+        "Thông số theo thiết kế và bản gốc tiêu chuẩn (chưa có số liệu đối chiếu)"
+      ],
+      "checks": [],
+      "tips": [
+        "Không đổ bê tông khi chưa có xác nhận địa chất: chụp ảnh đáy móng đã làm sạch làm hồ sơ",
+        "Nền đá ướt, đọng bùn gây giảm liên kết với bê tông: hút khô trước khi đổ",
+        "Phát sinh hang hoặc đới yếu: dừng, đánh dấu, không tự quyết xử lý",
+        "Không để máy đào đi lại làm xáo trộn đáy móng đã hoàn thiện",
+        "Số liệu nghiệm thu nền theo thiết kế và tiêu chuẩn gốc (TCVN 9361, 9362) chưa đối chiếu được"
+      ]
+    },
+    {
       "title": "Hoàn thiện đáy, mái và nghiệm thu hố móng",
       "actions": [
         "Hoàn thiện đáy móng đến cao độ thiết kế bằng thủ công hoặc máy nhỏ, không dùng thuốc nổ",
@@ -222,19 +346,27 @@
     "Gia cố vách đứng tạm thời bằng kết cấu lắp ghép, có thể tái sử dụng; ván và chống gỗ dùng được ít nhất 5 lần [4447 · 4.2]",
     "Cấm đào hàm ếch; cấm người đi lại trong vùng máy đang làm việc; không chất tải sát mép hố [8305 · 6.5]",
     "Nổ mìn theo quy định riêng: sơ tán người, thiết bị, canh gác, báo hiệu",
-    "Có phương án ứng cứu khi sạt lở hoặc sự cố nổ mìn, với liên lạc và sơ cứu sẵn sàng"
+    "Có phương án ứng cứu khi sạt lở hoặc sự cố nổ mìn, với liên lạc và sơ cứu sẵn sàng",
+    "Nổ mìn: kiểm soát rung động và đá văng cho công trình lân cận, bê tông mới đổ; có quy trình xử lý mìn câm",
+    "Mái hố móng và mái đá: cạy bẩy đá lỏng, quan trắc chuyển vị, dừng làm việc dưới mái khi có cảnh báo",
+    "Bãi thải và bãi trữ: kiểm tra ổn định và thoát nước, không đổ vào dòng chảy lũ"
   ],
   "acceptance": [
     "Nghiệm thu công tác chuẩn bị, định vị",
     "Nghiệm thu hố móng sau khi đào và xử lý nền",
     "Nghiệm thu mái dốc, tuyến kênh, kích thước hình học sau đào",
-    "Chỉ chuyển bước khi biên bản nghiệm thu bước trước đã được các bên ký"
+    "Chỉ chuyển bước khi biên bản nghiệm thu bước trước đã được các bên ký",
+    "Nghiệm thu nền móng sau xử lý, kèm bản đồ địa chất hố móng có địa chất viên, thiết kế, giám sát xác nhận",
+    "Nghiệm thu gia cố mái hố móng (rãnh đỉnh, neo, bê tông phun nếu có) theo từng cấp đào"
   ],
   "records": [
     "Biện pháp thi công được duyệt, hộ chiếu nổ mìn",
     "Nhật ký thi công, nhật ký nổ mìn, ghi nhận thay đổi địa chất",
     "Biên bản nghiệm thu, bản vẽ hoàn công, hồ sơ địa chất hố móng",
-    "Ảnh chụp, nhật ký sự cố và xử lý phát sinh địa chất, công trình ngầm"
+    "Ảnh chụp, nhật ký sự cố và xử lý phát sinh địa chất, công trình ngầm",
+    "Bản đồ và mô tả địa chất hố móng, ảnh đáy móng trước khi đổ bê tông",
+    "Nhật ký quan trắc mái và rung động nổ mìn, nhật ký thoát nước hố móng",
+    "Sổ theo dõi bãi trữ và bãi thải, khối lượng đất đá dùng lại"
   ],
-  "note": "Số liệu trích từ phần đã đọc được: TCVN 4447 mục 1 đến 4.2, TCVN 8305, TCVN 11323 mục 4 đến 6, QCVN 04-04:2012 đến mục 8.2.3. Chưa đọc được TCVN 9161 và phần đầm nén, nghiệm thu của TCVN 4447. Mục 11323 Bảng 6 có số liệu mâu thuẫn với 6.2.5.2, cần đối chiếu thiết kế."
+  "note": "Số liệu trích từ phần đã đọc được: TCVN 4447 mục 1 đến 4.2, TCVN 8305, TCVN 11323 mục 4 đến 6, QCVN 04-04:2012 đến mục 8.2.3. Chưa đọc được TCVN 9161 và phần đầm nén, nghiệm thu của TCVN 4447. Mục 11323 Bảng 6 có số liệu mâu thuẫn với 6.2.5.2, cần đối chiếu thiết kế. Các bước thêm sau rà soát (thoát nước hố móng, kiểm soát rung và vật liệu nổ, quản lý vật liệu đào, gia cố mái, xử lý nền sau đào) viết theo thực hành chung, chưa có số liệu tiêu chuẩn đối chiếu; ngưỡng rung, dung sai và yêu cầu nền lấy từ thiết kế và bản gốc tiêu chuẩn."
 }

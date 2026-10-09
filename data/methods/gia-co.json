@@ -11,7 +11,9 @@
     "tcvn-9436",
     "tcvn-11652",
     "tcvn-9906",
-    "tcvn-12634"
+    "tcvn-12634",
+    "tcvn-10335",
+    "tcvn-9157"
   ],
   "prerequisites": [
     "Hồ sơ thiết kế được duyệt; mọi thay đổi cần văn bản đồng ý của thiết kế và chủ đầu tư [8870 · 4.2]",
@@ -46,6 +48,31 @@
         "Đá treo cạy gỡ xong vẫn có thể rơi tiếp: cần theo dõi liên tục khi người làm bên dưới",
         "Xi măng vón cục, cát lẫn bùn: loại bỏ, không đưa vào trộn",
         "Nước ngầm rỉ ra bề mặt: làm ống dẫn tạm, xử lý trước khi phun"
+      ]
+    },
+    {
+      "title": "Thoát nước mái dốc, rào chắn đá lăn và lưới treo mái",
+      "actions": [
+        "Làm rãnh đỉnh mái, rãnh bậc nước, rãnh chân mái theo thiết kế để không cho nước mặt chảy vào mái đang gia cố",
+        "Khoan lỗ thoát nước (ống xuyên, ống đục lỗ bọc lọc) theo hướng, độ dốc nhẹ ra ngoài; nối hệ thống thu nước",
+        "Làm sạch đá lỏng, đá om trên mái đá trước khi gia cố; dọn thực vật rễ lớn",
+        "Lắp lưới treo mái đá (lưới thép hoặc lưới cáp) buộc với neo, đầu lưới có biện pháp cố định đỉnh và chân",
+        "Dựng rào chắn đá lăn, tường chắn đá, rãnh bẫy đá ở chân mái nơi có nguy cơ rơi đá",
+        "Với mái đất: thực hiện đinh đất, tường chắn, rọ đá hoặc giải pháp thiết kế; nối thoát nước sau tường",
+        "Kiểm tra dòng chảy, tắc nghẽn sau mưa đầu tiên và duy tu hệ thống thoát nước"
+      ],
+      "requirements": [
+        "Thông số theo thiết kế và bản gốc tiêu chuẩn (chưa có số liệu đối chiếu)"
+      ],
+      "checks": [
+        "Hạng mục và chỉ tiêu kiểm tra theo thiết kế, chỉ dẫn kỹ thuật dự án (chưa có số liệu đối chiếu)"
+      ],
+      "tips": [
+        "Thoát nước mái thường quyết định tuổi thọ gia cố hơn cả neo hay bê tông phun",
+        "Lỗ thoát nước bị bê tông phun che kín là lỗi hay gặp: đánh dấu và bịt tạm ống trước khi phun",
+        "Rãnh đỉnh phải làm trước khi đào mái cao hơn để tránh xói",
+        "Công nhân không đứng dưới mái khi đang dọn đá hoặc lắp lưới",
+        "Rọ đá cần đúng tiêu chuẩn vật liệu; xem TCVN 10335"
       ]
     },
     {
@@ -128,6 +155,55 @@
         "Kích, đồng hồ không được hiệu chuẩn: kết quả không tin cậy",
         "Nêm khóa không ăn đều: kiểm tra lại, tránh tuột neo",
         "Neo thử không đạt: dừng, báo thiết kế, xem xét lại vật liệu, chiều dài, quy trình"
+      ]
+    },
+    {
+      "title": "Neo đá gia cố mái đá và đập: neo thanh đầy vữa, neo cáp, neo ma sát",
+      "actions": [
+        "Xác định loại neo theo thiết kế: neo thanh đầy vữa, neo cáp dự ứng lực hoặc không dự ứng lực, neo ma sát; hiểu rõ vai trò (neo đá nông hay neo sâu)",
+        "Đánh dấu vị trí, hướng, độ dài neo trên mặt đá, khoan đúng đường kính và góc; thổi sạch lỗ",
+        "Cắt, vệ sinh thanh hoặc bó cáp; lắp vòng đệm, ống dẫn vữa, ống thoát khí, chống ăn mòn theo thiết kế",
+        "Đưa neo vào lỗ, bơm vữa từ đáy lỗ lên miệng cho tới khi vữa trào đều, loại hết khí",
+        "Đợi vữa đạt cường độ yêu cầu trước khi căng hoặc chịu tải",
+        "Với neo dự ứng lực: căng theo cấp, theo lực quy định, khóa đầu neo, bảo vệ đầu neo",
+        "Ghi nhật ký từng neo: số hiệu, độ sâu, thể tích vữa, ngày giờ, người thực hiện"
+      ],
+      "requirements": [
+        "Thông số theo thiết kế và bản gốc tiêu chuẩn (chưa có số liệu đối chiếu)"
+      ],
+      "checks": [
+        "Hạng mục và chỉ tiêu kiểm tra theo thiết kế, chỉ dẫn kỹ thuật dự án (chưa có số liệu đối chiếu)"
+      ],
+      "tips": [
+        "Tiêu chuẩn TCVN 8870 là cho neo trong đất, dùng tham khảo khi làm neo đá; yêu cầu neo đá lấy từ thiết kế",
+        "Neo cáp hoặc neo dài cần ống dẫn vữa dự phòng để bơm bổ sung",
+        "Vữa thiếu khí thoát làm neo rỗng: nhìn vữa trào ra miệng lỗ để chắc chắn",
+        "Bảo vệ chống ăn mòn đầu neo và vùng nước thấm; xem TCVN 9346 (cần đối chiếu)",
+        "Không tăng lực quá lực cho phép của vật liệu neo"
+      ]
+    },
+    {
+      "title": "Thử kéo neo đá và nghiệm thu theo tỷ lệ",
+      "actions": [
+        "Lập chương trình thử kéo: số neo thử, tỷ lệ thử trên tổng số, loại thử (thử nghiệm, thử nghiệm thu) theo thiết kế",
+        "Kiểm tra kích, đồng hồ áp lực đã hiệu chuẩn; dựng giá đo chuyển vị độc lập với neo",
+        "Gia tải theo từng cấp, giữ mỗi cấp và đọc chuyển vị theo thời gian quy định",
+        "Vẽ đường lực - chuyển vị, phân tích chuyển vị đàn hồi, dư và độ trượt",
+        "Đối chiếu kết quả với tiêu chí thiết kế; đánh giá neo đạt hoặc không đạt",
+        "Neo không đạt: xác định nguyên nhân, xử lý (bơm lại, thay neo, thêm neo) và thử lại; báo thiết kế nếu tỷ lệ không đạt cao",
+        "Lập biên bản thử kéo, có chữ ký các bên, đính kèm biểu đồ"
+      ],
+      "requirements": [
+        "Thông số theo thiết kế và bản gốc tiêu chuẩn (chưa có số liệu đối chiếu)"
+      ],
+      "checks": [
+        "Hạng mục và chỉ tiêu kiểm tra theo thiết kế, chỉ dẫn kỹ thuật dự án (chưa có số liệu đối chiếu)"
+      ],
+      "tips": [
+        "Chọn neo thử ngẫu nhiên ở những vùng địa chất khác nhau, không chỉ chỗ đá tốt",
+        "Thử khi vữa đủ tuổi; thử sớm cho kết quả sai",
+        "Giá đo chuyển vị đặt trên đá ổn định để không đo cả dịch chuyển của giá",
+        "Thiết bị gia tải bảo đảm an toàn: không đứng sau trục kích khi gia tải"
       ]
     },
     {
@@ -227,7 +303,7 @@
         "Geosynthetic clay liner trải trên lớp đất dính dày tối thiểu 1 m và phủ lớp bảo vệ dày tối thiểu 1 m; géomembrane phải neo ở đầu trên chống trượt [8297 · 10.3.2]",
         "Đắp dôi mái kênh tối thiểu 15 cm để tu chỉnh; không dùng gầu xúc vuốt mái [8305 · 6.3]",
         "Gia cố taluy bằng đá: đá có cường độ nén trên 40 MPa; khe co giãn cách nhau 10-15 m, rộng 20-30 mm; chân khay sâu tối thiểu 1,0 m dưới cao độ bị xói [9436 · 10.3]",
-        "Trồng cỏ: gieo khoảng 200 g cho 100 m²; kiểm tra sau 6 tháng, cây chết không quá 10%, không có mảng chết trên 1 m² [9436 · 10.2]",
+        "Trồng cỏ: lượng hạt gieo ghi trong nguồn tóm tắt là khoảng 200 g cho 100 m² (nghi sai đơn vị, chưa đối chiếu, theo thiết kế); kiểm tra sau 6 tháng, cây chết không quá 10%, không có mảng chết trên 1 m² [9436 · 10.2]",
         "Dung sai tầng phòng hộ: bề dày ±50 mm, cao độ mặt ±30 mm, độ bằng phẳng 50 mm (thước 2 m) [9436 · bảng 4-5]"
       ],
       "checks": [
@@ -240,25 +316,81 @@
         "Thiếu chân khay hoặc chân khay nông nên bị xói chân: kiểm tra cao độ đáy chân khay",
         "Cỏ chết do thiếu nước ban đầu: tưới và theo dõi định kỳ"
       ]
+    },
+    {
+      "title": "Cọc xi măng đất jet-grouting và cừ chống thấm trong gia cố nền, mái",
+      "actions": [
+        "Xác định hạng mục theo thiết kế: jet-grouting (cọc, tường, khối gia cố) hoặc cừ chống thấm (cừ thép, cừ nhựa, cừ bê tông...)",
+        "Thi công thử một số cọc hoặc đoạn cừ để xác nhận thông số (áp lực, tốc độ rút cần, lượng vữa; hoặc lực đóng, độ kín khe)",
+        "Jet-grouting: định vị tim, khoan tới độ sâu, phun cắt và trộn đất bằng vữa áp lực cao, rút cần đều; xử lý vữa hồi",
+        "Kiểm soát chuyển vị công trình lân cận, trồi đất khi phun; điều chỉnh thông số",
+        "Cừ chống thấm: định vị tuyến, đóng hoặc ép theo thứ tự, kiểm tra thẳng đứng, khóa nối kín khe",
+        "Lấy mẫu lõi cọc xi măng đất, thử nén; kiểm tra chất lượng cừ, khe nối theo thiết kế",
+        "Hoàn thiện đầu cọc, đầu cừ, nối với kết cấu bê tông hoặc lớp chống thấm liền kề"
+      ],
+      "requirements": [
+        "Thông số theo thiết kế và bản gốc tiêu chuẩn (chưa có số liệu đối chiếu)"
+      ],
+      "checks": [
+        "Hạng mục và chỉ tiêu kiểm tra theo thiết kế, chỉ dẫn kỹ thuật dự án (chưa có số liệu đối chiếu)"
+      ],
+      "tips": [
+        "TCVN 9906 và TCVN 12634 chưa đọc chi tiết trong bộ dữ liệu này: lấy thông số từ thiết kế và bản gốc",
+        "Vữa hồi từ jet-grouting cần có hố thu và nơi xử lý, tránh làm bẩn mặt bằng",
+        "Phun gián đoạn để lại mối nối yếu: ghi đầy đủ ngưng nghỉ và nối tiếp",
+        "Cừ lệch tim hở khóa là điểm thấm; sửa ngay khi phát hiện"
+      ]
+    },
+    {
+      "title": "Quan trắc mái dốc sau gia cố và bảo vệ chống ăn mòn",
+      "actions": [
+        "Lắp các mốc chuyển vị, ống đo nghiêng, đầu đo áp lực nước theo thiết kế sau khi gia cố",
+        "Đo gốc ngay sau hoàn thành; xác định tần suất đo theo thiết kế (dày sau thi công và sau mưa lớn)",
+        "Quan sát vết nứt mới, nước thấm, lỗ thoát nước, đầu neo; chụp ảnh định kỳ cùng góc",
+        "Phân tích xu hướng chuyển vị, so với ngưỡng cảnh báo; nêu các mức xử lý khi vượt ngưỡng",
+        "Kiểm tra lớp bảo vệ chống ăn mòn đầu neo, thanh neo, lưới thép; sửa chữa chỗ hư",
+        "Lập báo cáo quan trắc định kỳ, bàn giao cho đơn vị quản lý vận hành cùng hồ sơ hoàn công"
+      ],
+      "requirements": [
+        "Thông số theo thiết kế và bản gốc tiêu chuẩn (chưa có số liệu đối chiếu)"
+      ],
+      "checks": [
+        "Hạng mục và chỉ tiêu kiểm tra theo thiết kế, chỉ dẫn kỹ thuật dự án (chưa có số liệu đối chiếu)"
+      ],
+      "tips": [
+        "Ngưỡng cảnh báo phải có trong thiết kế; không có thì yêu cầu bổ sung",
+        "Mưa lớn là thời điểm nguy cơ cao: đo ngay sau mưa",
+        "Hệ thoát nước mái bị tắc làm tăng áp lực nước và gây hư hại nhanh",
+        "Bàn giao rõ ai quan trắc tiếp sau thi công"
+      ]
     }
   ],
   "safety": [
     "Làm việc trên cao, trên mái dốc: dây an toàn, giàn giáo, đường lên xuống; dừng khi mưa lớn",
     "Kiểm soát bụi, bật nảy bê tông phun: kính, mặt nạ, quần áo bảo hộ; thợ phun có chứng chỉ chuyên môn [14180]",
     "Thiết bị áp lực (máy phun, bơm vữa, kích căng): kiểm tra ống, khớp nối, đồng hồ áp lực cấp chính xác 2 trở lên trước ca [8870 · 5.2]",
-    "Khu vực bên dưới mái đang gia cố được rào, cấm người; có tín hiệu liên lạc giữa người trên cao và người điều khiển máy"
+    "Khu vực bên dưới mái đang gia cố được rào, cấm người; có tín hiệu liên lạc giữa người trên cao và người điều khiển máy",
+    "Neo và thanh căng: không đứng sau trục kích khi gia tải; kiểm soát tốc độ tăng lực; rào chắn vùng căng",
+    "Mái đá: dọn đá om từ trên xuống, không làm việc đồng thời nhiều tầng trên cùng một đứng",
+    "Jet-grouting: kiểm soát áp lực cao, ống dẫn, vữa hồi; kiểm soát hố thu vữa thải"
   ],
   "acceptance": [
     "Nghiệm thu từng neo: vị trí, chiều sâu lỗ, bó cáp, bơm vữa, căng thép, thử kéo [8870 · 6.3]",
     "Nghiệm thu bê tông phun: chiều dày, cường độ, độ bám dính",
     "Nghiệm thu tầng lọc, lớp bảo vệ mái, khe nối",
-    "Các điểm dừng kiểm tra (bề mặt, lỗ khoan, neo, cốt thép, trước khi phun) được ký xác nhận trước khi chuyển bước"
+    "Các điểm dừng kiểm tra (bề mặt, lỗ khoan, neo, cốt thép, trước khi phun) được ký xác nhận trước khi chuyển bước",
+    "Nghiệm thu hệ thoát nước mái, lưới treo, rào chắn đá",
+    "Nghiệm thu thử kéo neo đá theo tỷ lệ thiết kế",
+    "Nghiệm thu cọc xi măng đất, cừ chống thấm (nếu có) và kết quả quan trắc mái"
   ],
   "records": [
     "Chứng chỉ vật liệu, biên bản nghiệm thu vật liệu, kết quả thí nghiệm vữa, bê tông phun",
     "Biên bản kéo thử neo, báo cáo địa chất, nhật ký thi công [8870 · 6.3]",
     "Biên bản nghiệm thu từng phần, bản vẽ hoàn công",
-    "Nhật ký từng lỗ khoan, từng neo; ảnh chụp các giai đoạn che khuất trước khi phun hoặc lấp"
+    "Nhật ký từng lỗ khoan, từng neo; ảnh chụp các giai đoạn che khuất trước khi phun hoặc lấp",
+    "Nhật ký từng neo đá, biên bản và biểu đồ thử kéo",
+    "Hồ sơ thi công jet-grouting, cừ chống thấm (thông số phun, mẫu lõi)",
+    "Số liệu quan trắc mái dốc sau gia cố"
   ],
   "note": "TCVN 8870 là tiêu chuẩn giao thông (neo trong đất), TCVN 13509 là tiêu chuẩn hầm giao thông, đều chỉ dùng tham khảo cho thủy lợi, thủy điện. Bảng 2 của TCVN 13509 bị lỗi định dạng khi đọc nên các giá trị cường độ cần đối chiếu bản gốc. Chưa đọc được TCVN 11652 (bê tông mái dốc), 9906 (jet-grouting), 12634 (cừ chống thấm)."
 }

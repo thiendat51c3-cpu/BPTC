@@ -9,7 +9,8 @@
     "tcvn-9149",
     "tcvn-9906",
     "tcvn-9157",
-    "tcvn-4055"
+    "tcvn-4055",
+    "tcvn-12634"
   ],
   "prerequisites": [
     "Có thiết kế khoan phụt: sơ đồ lỗ, chiều sâu, áp lực, tỷ lệ vữa, tiêu chuẩn kết thúc",
@@ -63,6 +64,30 @@
       ]
     },
     {
+      "title": "Phân loại phụt, trình tự đợt lỗ và phương pháp phụt",
+      "actions": [
+        "Xác định loại phụt theo thiết kế: phụt màn chống thấm, phụt gia cố, phụt tiếp xúc bê tông - đá, phụt lấp đầy sau vỏ hầm",
+        "Bố trí lỗ theo đợt: đợt đầu (lỗ thưa), đợt giữa, đợt cuối (lỗ xen kẽ); đợt sau chỉ khoan khi đợt trước đã phụt xong theo thiết kế",
+        "Chọn phương pháp phụt: từ trên xuống hay từ dưới lên, dùng nút bịt hoặc phụt chia đoạn, theo địa chất và thiết kế",
+        "Xác định chiều dài đoạn phụt, vị trí đặt nút, thứ tự phụt giữa các hàng lỗ theo thiết kế",
+        "Lập sơ đồ đánh số lỗ và biểu mẫu nhật ký thống nhất để truy xuất từng đoạn phụt",
+        "Điều chỉnh sơ đồ lỗ, đợt lỗ khi kết quả phụt thử hoặc lượng nhận vữa khác dự kiến, có xác nhận của thiết kế",
+        "Thống nhất tiêu chuẩn kết thúc và mức áp lực cho từng đợt trước khi bắt đầu phụt đại trà"
+      ],
+      "requirements": [
+        "Thông số theo thiết kế và bản gốc tiêu chuẩn (chưa có số liệu đối chiếu)"
+      ],
+      "checks": [
+        "Hạng mục và chỉ tiêu kiểm tra theo thiết kế, chỉ dẫn kỹ thuật dự án (chưa có số liệu đối chiếu)"
+      ],
+      "tips": [
+        "Thứ tự đợt lỗ giúp lỗ sau kiểm tra gián tiếp hiệu quả của lỗ trước: lượng nhận vữa giảm dần là dấu hiệu tốt",
+        "Phụt hàng hạ lưu trước hay hàng thượng lưu trước tùy thiết kế; không áp dụng máy móc cách của đê (TCVN 8644)",
+        "Phụt tiếp xúc cần áp lực thấp; không dùng áp lực của phụt màn sâu",
+        "Lập mặt bằng phân khu để các tổ khoan và phụt không cản nhau"
+      ]
+    },
+    {
       "title": "Khoan lỗ, ép nước thí nghiệm",
       "actions": [
         "Định vị lỗ theo sơ đồ thiết kế, đóng cọc mốc, đánh số lỗ; thứ tự thi công theo từng hàng, đánh số từ hạ lưu đến thượng lưu",
@@ -109,6 +134,54 @@
         "Vữa trào sang lỗ khác: dừng, bịt lỗ bị ảnh hưởng, xử lý rồi phụt tiếp theo hướng dẫn thiết kế",
         "Phải ghi chép tại chỗ, không bổ sung sau; số liệu khớp giữa người vận hành máy và người ghi nhật ký",
         "Sự cố bất thường (mất vữa không kiểm soát, nền biến dạng): dừng, báo chủ đầu tư và thiết kế theo yêu cầu"
+      ]
+    },
+    {
+      "title": "Kiểm soát nâng nền, mất vữa, hang karst và vữa đặc biệt",
+      "actions": [
+        "Đặt thiết bị đo nâng nền (đồng hồ so, mốc đo) ở khu vực nhạy cảm; đo liên tục khi phụt áp lực lớn",
+        "Tăng áp lực theo cấp, theo lưu lượng nhận vữa; dừng hoặc giảm áp ngay khi thấy nâng nền, nứt, vữa trào bề mặt",
+        "Vữa trào ra khe, mặt bê tông: bịt khe, giảm áp, đổi vữa đặc hơn hoặc phụt gián đoạn",
+        "Mất vữa lớn, gặp hang karst hoặc khe rộng: dùng vữa đặc, vữa có cát, vữa có phụ gia, phụt gián đoạn, hoặc lấp hang theo thiết kế",
+        "Đối với khe mịn: dùng vữa ổn định, siêu mịn hoặc vữa hóa chất nếu thiết kế cho phép",
+        "Ghi lại mọi sự cố, lượng vữa mất, vị trí, biện pháp xử lý; báo thiết kế để bổ sung lỗ",
+        "Chờ vữa ninh kết rồi khoan lại hoặc kiểm tra lỗ đã xử lý"
+      ],
+      "requirements": [
+        "Thông số theo thiết kế và bản gốc tiêu chuẩn (chưa có số liệu đối chiếu)"
+      ],
+      "checks": [
+        "Hạng mục và chỉ tiêu kiểm tra theo thiết kế, chỉ dẫn kỹ thuật dự án (chưa có số liệu đối chiếu)"
+      ],
+      "tips": [
+        "Áp lực tối đa phụ thuộc chiều dày đá phủ và lớp gia tải: không đặt từ kinh nghiệm",
+        "Phụ gia và vữa hóa chất cần thí nghiệm tương thích với xi măng và môi trường nước ngầm",
+        "Tránh dừng bơm đột ngột trong đoạn đang nhận vữa lớn, vữa lắng làm tắc",
+        "Vật tư dự phòng (cát, phụ gia, nút bịt) có sẵn tại hiện trường"
+      ]
+    },
+    {
+      "title": "Ghi chép tự động, biểu đồ Lugeon và điều kiện kết thúc phụt",
+      "actions": [
+        "Dùng thiết bị ghi tự động áp lực, lưu lượng, lượng vữa theo thời gian cho từng đoạn nếu thiết kế yêu cầu",
+        "Hiệu chuẩn đồng hồ áp lực, đồng hồ lưu lượng định kỳ; ghi hồ sơ hiệu chuẩn",
+        "Ghi nhật ký tay song song để đối chiếu khi dữ liệu điện tử lỗi",
+        "Ép nước thí nghiệm từng đoạn, tính độ thấm (Lugeon hoặc đơn vị thiết kế dùng); vẽ biểu đồ theo độ sâu",
+        "So sánh độ thấm giữa các đợt lỗ; kỳ vọng giảm dần từ đợt đầu tới đợt cuối",
+        "Áp dụng điều kiện kết thúc phụt theo thiết kế (lưu lượng nhận vữa nhỏ ở áp lực thiết kế trong thời gian quy định)",
+        "Lưu trữ dữ liệu, biểu đồ, bảng tổng hợp theo lỗ để làm cơ sở nghiệm thu"
+      ],
+      "requirements": [
+        "Thông số theo thiết kế và bản gốc tiêu chuẩn (chưa có số liệu đối chiếu)"
+      ],
+      "checks": [
+        "Hạng mục và chỉ tiêu kiểm tra theo thiết kế, chỉ dẫn kỹ thuật dự án (chưa có số liệu đối chiếu)"
+      ],
+      "tips": [
+        "Đơn vị độ thấm cần thống nhất giữa thiết kế, thí nghiệm và nghiệm thu; xem TCVN 9149",
+        "Ghi tự động không thay thế người kiểm soát hiện trường",
+        "Dữ liệu lệch bất thường (áp lực đột ngột giảm) cho thấy rò ống, vỡ nút hoặc nứt đá",
+        "Giữ nguyên bản dữ liệu thô, không chỉnh sửa"
       ]
     },
     {
@@ -169,6 +242,78 @@
       ]
     },
     {
+      "title": "Cọc xi măng đất jet-grouting làm tường chống thấm hoặc gia cố nền",
+      "actions": [
+        "Xác nhận thiết kế: vị trí, đường kính, độ sâu, độ chồng giữa cọc, loại vữa theo TCVN 9906",
+        "Khảo sát địa chất tại tuyến, kiểm tra vật cản ngầm, công trình lân cận",
+        "Làm cọc thử để xác định thông số (áp lực, lưu lượng, tốc độ rút cần, tỷ lệ nước/xi măng) theo thiết kế",
+        "Định vị cọc, khoan tới độ sâu, phun cắt đất, rút cần đều; xử lý vữa hồi lưu",
+        "Thi công theo thứ tự cọc cách quãng để tránh ảnh hưởng nhau, nối với cọc liền kề đạt độ chồng",
+        "Kiểm tra chất lượng: khoan lấy lõi, thử nén, thử thấm, kiểm tra độ liên tục tường",
+        "Lập hồ sơ từng cọc: thông số, thời gian, sự cố, vữa dùng"
+      ],
+      "requirements": [
+        "Thông số theo thiết kế và bản gốc tiêu chuẩn (chưa có số liệu đối chiếu)"
+      ],
+      "checks": [
+        "Hạng mục và chỉ tiêu kiểm tra theo thiết kế, chỉ dẫn kỹ thuật dự án (chưa có số liệu đối chiếu)"
+      ],
+      "tips": [
+        "TCVN 9906 chưa đọc chi tiết trong bộ dữ liệu: lấy số liệu từ thiết kế và bản gốc",
+        "Cọc lệch tim hoặc nghiêng làm hở mối nối tường chống thấm",
+        "Đất sét dẻo hoặc cuội lớn làm giảm đường kính cọc thực tế: cần cọc thử",
+        "Vữa hồi cần hố thu và phương án xử lý"
+      ]
+    },
+    {
+      "title": "Cừ chống thấm",
+      "actions": [
+        "Xác nhận loại cừ và tuyến cừ theo thiết kế, theo TCVN 12634",
+        "Kiểm tra vật liệu cừ (chiều dài, chất lượng khóa nối) trước khi thi công",
+        "Định vị tuyến, dựng khung dẫn hướng để cừ thẳng tim",
+        "Đóng, ép hoặc rung hạ cừ tới cao độ thiết kế, kiểm tra thẳng đứng và khóa nối từng thanh",
+        "Gặp vật cản, đá cứng: dừng, báo, xử lý theo biện pháp thiết kế đã duyệt",
+        "Hoàn thiện đầu cừ, nối với kết cấu liền kề, xử lý khe để bảo đảm kín nước",
+        "Kiểm tra kín nước và chất lượng theo yêu cầu thiết kế; ghi nhật ký từng cừ"
+      ],
+      "requirements": [
+        "Thông số theo thiết kế và bản gốc tiêu chuẩn (chưa có số liệu đối chiếu)"
+      ],
+      "checks": [
+        "Hạng mục và chỉ tiêu kiểm tra theo thiết kế, chỉ dẫn kỹ thuật dự án (chưa có số liệu đối chiếu)"
+      ],
+      "tips": [
+        "TCVN 12634 chưa đọc chi tiết trong bộ dữ liệu: lấy yêu cầu từ thiết kế và bản gốc",
+        "Rung đóng có thể ảnh hưởng công trình lân cận: theo dõi rung",
+        "Cừ bị tuột khóa là điểm rò: kiểm tra đoạn đóng đầu tiên cẩn thận",
+        "Ghi vị trí cừ gãy hoặc không xuống đủ độ sâu để xử lý"
+      ]
+    },
+    {
+      "title": "Giếng giảm áp",
+      "actions": [
+        "Xác nhận vị trí, số lượng, độ sâu, cấu tạo giếng theo thiết kế và TCVN 9157",
+        "Khoan tạo lỗ, giữ thành lỗ, kiểm soát bùn khoan để không làm tắc tầng thấm",
+        "Lắp ống lọc, ống chống, lớp lọc ngược theo cấu tạo thiết kế",
+        "Rửa giếng, bơm thử để làm sạch bùn và xác nhận lưu lượng",
+        "Lắp đầu giếng, thiết bị đo áp lực hoặc đo nước, nối với hệ thống thoát",
+        "Bơm thử, đo hạ thấp mực áp, so với yêu cầu thiết kế",
+        "Lập hồ sơ từng giếng; kiểm tra định kỳ trong quản lý vận hành"
+      ],
+      "requirements": [
+        "Thông số theo thiết kế và bản gốc tiêu chuẩn (chưa có số liệu đối chiếu)"
+      ],
+      "checks": [
+        "Hạng mục và chỉ tiêu kiểm tra theo thiết kế, chỉ dẫn kỹ thuật dự án (chưa có số liệu đối chiếu)"
+      ],
+      "tips": [
+        "TCVN 9157 chưa đọc chi tiết trong bộ dữ liệu: lấy yêu cầu từ thiết kế và bản gốc",
+        "Giếng cần khoan trước khi phụt hay sau tùy thiết kế; tránh vữa phụt làm tắc giếng",
+        "Cát chảy vào giếng cho thấy lọc kém: dừng và xử lý",
+        "Đo áp lực nước nền để xác nhận giếng hoạt động thực sự"
+      ]
+    },
+    {
       "title": "Kiểm tra chất lượng và nghiệm thu",
       "actions": [
         "Lập kế hoạch kiểm tra: vị trí, số lượng lỗ kiểm tra, phương pháp thí nghiệm, thời điểm kiểm tra sau khi vữa đạt cường độ cần thiết",
@@ -200,18 +345,26 @@
     "Khoan phụt trong hầm, hành lang: thông gió, chiếu sáng, thoát nước, bụi xi măng",
     "Trang bị bảo hộ khi tiếp xúc xi măng, vữa: găng, kính, ủng",
     "Cấm đứng hoặc đi lại trên đường ống đang chịu áp; dừng bơm, xả áp trước khi tháo nút bịt hoặc nối ống",
-    "Có người giám sát riêng đồng hồ áp lực và hiệu lệnh dừng bơm khẩn cấp khi thi công"
+    "Có người giám sát riêng đồng hồ áp lực và hiệu lệnh dừng bơm khẩn cấp khi thi công",
+    "Phụt áp lực cao: theo dõi nâng nền, nứt, vữa trào; có người giám sát và quyền dừng bơm",
+    "Jet-grouting: ống áp lực cao, vữa hồi, hố thu thải; kiểm tra khớp nối trước ca",
+    "Giếng giảm áp, cừ: kiểm soát sụt thành lỗ, rung, thiết bị nâng"
   ],
   "acceptance": [
     "Nghiệm thu từng lỗ, từng đợt lỗ khoan phụt",
     "Nghiệm thu kết quả lỗ kiểm tra, độ thấm sau phụt",
-    "Nghiệm thu toàn bộ hạng mục khoan phụt trước khi dâng nước"
+    "Nghiệm thu toàn bộ hạng mục khoan phụt trước khi dâng nước",
+    "Nghiệm thu phân loại đợt lỗ, thứ tự phụt và điều kiện kết thúc theo từng lỗ",
+    "Nghiệm thu cọc xi măng đất, cừ chống thấm, giếng giảm áp (nếu có) theo hồ sơ thí nghiệm kiểm tra"
   ],
   "records": [
     "Kết quả phụt thử, thiết kế điều chỉnh",
     "Nhật ký khoan, nhật ký phụt (áp lực, lưu lượng, lượng vữa), hồ sơ địa chất lỗ khoan",
     "Kết quả ép nước, lỗ kiểm tra, biên bản nghiệm thu",
-    "Biên bản sự cố và cách xử lý (nếu có), ảnh mẫu lõi, ảnh hiện trường theo giai đoạn"
+    "Biên bản sự cố và cách xử lý (nếu có), ảnh mẫu lõi, ảnh hiện trường theo giai đoạn",
+    "Dữ liệu tự ghi áp lực, lưu lượng, biểu đồ độ thấm theo lỗ",
+    "Nhật ký nâng nền, mất vữa, hang karst và biện pháp xử lý",
+    "Hồ sơ jet-grouting, cừ chống thấm, giếng giảm áp (thông số, chất lượng)"
   ],
   "note": "Phần khoan phụt nền đá: TCVN 8645:2011 và 14TCN 82:1995 chỉ đọc được các mục đầu (phạm vi, điều kiện, phụt thử, thứ tự). Các thông số áp lực, tỷ lệ vữa, tiêu chuẩn kết thúc cho nền đá nằm sau tường phí, hãy lấy từ bản gốc và thiết kế. Một nguồn ghi có bản TCVN 8645 mới hơn (2019), cần kiểm tra. Phần gia cố đê (TCVN 8644) đọc được khá đầy đủ."
 }

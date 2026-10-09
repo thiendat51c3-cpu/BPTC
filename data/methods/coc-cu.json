@@ -11,7 +11,11 @@
     "tcvn-4453",
     "tcvn-11323",
     "tcvn-12634",
-    "tcvn-5308"
+    "tcvn-5308",
+    "tcvn-10304",
+    "tcvn-7888",
+    "tcvn-9396",
+    "tcvn-9906"
   ],
   "prerequisites": [
     "Có thiết kế cọc, báo cáo địa chất khu vực cọc, mặt bằng định vị trục, biện pháp thi công được duyệt",
@@ -45,6 +49,31 @@
         "Nền yếu làm máy nghiêng, lệch tim cọc; gia cố hoặc lót tấm thép, tấm đan trước khi vào",
         "Bỏ sót đường ống ngầm là nguyên nhân sự cố; hỏi chủ quản lý công trình và dò kiểm tra",
         "Kiểm tra lại tim cọc ngay trước khi khoan, ép vì dấu có thể bị san lấp mất"
+      ]
+    },
+    {
+      "title": "Thi công cọc trong nước và vùng ven sông, hồ, kênh",
+      "actions": [
+        "Khảo sát mực nước, lưu tốc, thủy triều, độ sâu và lớp bùn đáy tại từng vị trí cọc; lập biện pháp theo mùa lũ, kiệt",
+        "Dựng sàn đạo hoặc xà lan thi công đủ tải trọng thiết bị; neo cố định, tính toán chịu dòng chảy, sóng, va tàu bè",
+        "Lập khung dẫn hướng (khung định vị) để giữ đúng vị trí và độ thẳng đứng cọc/ống vách khi thả qua nước",
+        "Đặt ống vách (ống chống) xuyên qua nước và lớp bùn tới lớp đất ổn định, cố định ống vách vào khung dẫn; kiểm tra độ thẳng đứng",
+        "Kiểm soát chênh lệch mực nước trong và ngoài ống vách, duy trì mực dung dịch khoan khi mực nước thay đổi",
+        "Quản lý dung dịch, bùn khoan để không thải ra sông, hồ; thu gom bằng xà lan hoặc bể chứa, vận chuyển đúng nơi quy định",
+        "Cảnh báo giao thông thủy: phao, biển báo, đèn ban đêm; thông báo cơ quan quản lý đường thủy khi cần",
+        "Theo dõi mực nước, dự báo lũ hằng ngày; có kế hoạch di dời thiết bị khi lũ lên"
+      ],
+      "requirements": [
+        "Thông số theo thiết kế và bản gốc tiêu chuẩn (chưa có số liệu đối chiếu)"
+      ],
+      "checks": [
+        "Biên bản kiểm tra sàn đạo, khung dẫn, ống vách và biện pháp xử lý bùn khoan"
+      ],
+      "tips": [
+        "Ống vách bị dòng chảy làm lệch thường không sửa được sau khi khoan; chống đỡ bằng khung dẫn trước",
+        "Lũ và triều làm sàn đạo chịu thêm lực; kiểm tra lại neo mỗi ca khi nước lên",
+        "Cọc hạ khi nước xiết cần đo cao độ đầu cọc theo mốc cố định trên bờ, không đo theo mặt nước",
+        "Người làm việc trên sàn đạo mặc áo phao, có phao cứu sinh và xuồng cứu hộ"
       ]
     },
     {
@@ -252,6 +281,81 @@
       ]
     },
     {
+      "title": "Xử lý đầu cọc và liên kết với đài",
+      "actions": [
+        "Xác định cao độ cắt đầu cọc theo thiết kế, đánh dấu bằng sơn quanh cọc; chừa phần ngàm vào đài và phần bê tông kém chất lượng cần loại",
+        "Cọc khoan nhồi: đập bỏ bê tông lẫn bùn, bê tông yếu ở phần đầu cho tới bê tông tốt, bảo vệ không làm hỏng cốt thép chủ",
+        "Cọc bê tông cốt thép đóng, ép: cắt hoặc đập đầu cọc bằng máy cắt, búa khoan nhẹ; không phá vỡ vết nứt xuống thân cọc",
+        "Nắn thép chủ của cọc vào đài hoặc nối thép chờ theo thiết kế; làm sạch, đặt thép đúng chiều dài neo thiết kế",
+        "Nhổ ống vách khi bê tông còn trong thời gian cho phép, kiểm soát cao độ bê tông trên đầu cọc để còn đủ phần đập bỏ",
+        "Vệ sinh mặt đầu cọc, rửa sạch bụi và nước, đổ lớp bê tông lót đài theo thiết kế",
+        "Kiểm tra đầu cọc sau khi đập: độ nghiêng, vị trí, cao độ; kết quả dùng nghiệm thu cọc trước khi lắp thép đài",
+        "Thu gom bê tông phế thải đúng nơi quy định"
+      ],
+      "requirements": [
+        "Thông số theo thiết kế và bản gốc tiêu chuẩn (chưa có số liệu đối chiếu)"
+      ],
+      "checks": [
+        "Biên bản nghiệm thu đầu cọc (cao độ, vị trí, khuyết tật) trước khi lắp thép đài"
+      ],
+      "tips": [
+        "Dùng máy phá lớn có thể làm nứt thân cọc; ưu tiên cắt hoặc phá nhẹ, nghiệm thu bằng gõ nghe",
+        "Bê tông đầu cọc kém chất lượng chưa loại hết sẽ là điểm yếu của liên kết đài-cọc",
+        "Chiều dài thép chờ và chiều sâu ngàm theo thiết kế; không tự giảm",
+        "Đầu cọc nhổ ống vách vội, bê tông còn lỏng, có thể bị tụt hoặc mất liên kết thép"
+      ]
+    },
+    {
+      "title": "Cọc tre, cừ tràm cho nền đất yếu",
+      "actions": [
+        "Chọn cây tre, tràm thẳng, tuổi và đường kính theo thiết kế; loại cây cong, sâu mọt, gãy; ngâm hoặc xử lý chống mục theo chỉ dẫn",
+        "Chuẩn bị đầu cọc: vát nhọn mũi, đầu trên cắt vuông, có thể đai chống nứt; cắt cọc đúng chiều dài thiết kế",
+        "Định vị cọc theo sơ đồ thiết kế (khoảng cách, mật độ), đánh dấu bằng cọc mốc hoặc dây căng",
+        "Đóng cọc bằng búa tay, búa máy nhỏ hoặc ép đến độ sâu, độ chối thiết kế; giữ cọc thẳng đứng",
+        "Đóng theo trình tự từ ngoài vào trong hoặc theo chỉ dẫn thiết kế để tránh nén chặt đất cục bộ làm cọc trồi",
+        "Cắt đầu cọc đến cao độ thiết kế, đo lại cao độ và vị trí, lập biểu đồ cọc hoàn công",
+        "Rải lớp đá dăm, cát hoặc bê tông lót trên đầu cọc theo thiết kế; tránh để đầu cọc hở và khô",
+        "Chọn cọc thí nghiệm nén theo yêu cầu thiết kế để xác nhận sức chịu tải"
+      ],
+      "requirements": [
+        "Thông số theo thiết kế và bản gốc tiêu chuẩn (chưa có số liệu đối chiếu)"
+      ],
+      "checks": [
+        "Nhật ký đóng cọc, biên bản hoàn công vị trí, cao độ và kết quả thí nghiệm cọc (nếu có)"
+      ],
+      "tips": [
+        "Cọc tre, tràm chỉ phát huy khi đầu cọc nằm dưới mực nước ngầm; theo dõi cao độ nước",
+        "Đóng cọc lệch hoặc gãy khó phát hiện; ghi nhật ký độ chối, độ sâu mỗi cọc",
+        "Mật độ cọc theo thiết kế; kiểm đếm số cọc trên từng ô diện tích",
+        "Xử lý mục, mọt cho cọc trước khi thi công trong môi trường nước mặn, phèn theo chỉ dẫn thiết kế"
+      ]
+    },
+    {
+      "title": "Cọc bê tông ly tâm dự ứng lực (PC, PHC) và cọc ống thép",
+      "actions": [
+        "Kiểm tra cọc khi nhập: nhãn mác, ngày sản xuất, kích thước, vết nứt, bê tông mặt, đầu cọc và bản mã; đối chiếu chứng chỉ chất lượng",
+        "Xếp kê, vận chuyển bằng vị trí móc theo hướng dẫn nhà sản xuất; tránh va đập, uốn nhiều điểm",
+        "Dựng cọc vào máy ép hoặc búa, căn thẳng đứng bằng hai máy kinh vĩ hoặc quả dọi; đặt đệm đầu cọc phù hợp",
+        "Hạ cọc bằng ép tĩnh hoặc đóng theo thiết kế; theo dõi lực ép/độ chối, ghi từng đoạn",
+        "Nối đoạn cọc bằng hàn bản mã đối xứng, thợ hàn có chứng chỉ; làm sạch, kiểm tra mối hàn, thời gian nguội theo chỉ dẫn nhà sản xuất",
+        "Cọc ống thép: kiểm tra độ tròn, chiều dày; chống ăn mòn theo thiết kế; nối bằng hàn đối đầu, kiểm tra không phá hủy theo yêu cầu",
+        "Xử lý đầu cọc, bịt mũi (nếu có), đổ ruột cọc bằng bê tông và lồng thép liên kết đài nếu thiết kế yêu cầu",
+        "Ghi lại cao độ mũi, độ sâu, lực ép của từng cọc, lưu hồ sơ"
+      ],
+      "requirements": [
+        "Thông số theo thiết kế và bản gốc tiêu chuẩn (chưa có số liệu đối chiếu)"
+      ],
+      "checks": [
+        "Hồ sơ từng cọc: lô sản xuất, nhật ký hạ, mối nối, biên bản kiểm tra không phá hủy mối hàn"
+      ],
+      "tips": [
+        "Cọc ly tâm chịu uốn yếu; không để cọc nghiêng lệch khi ép gây gãy",
+        "Mối hàn bản mã cần để nguội tự nhiên, không dội nước",
+        "Đóng/ép trong đất cứng cần thí nghiệm thử đoạn đầu để chọn thiết bị",
+        "Cọc vỡ đầu hoặc nứt ngang phải báo thiết kế trước khi xử lý, loại bỏ nếu cần"
+      ]
+    },
+    {
       "title": "Kiểm tra chất lượng cọc và nghiệm thu",
       "actions": [
         "Lấy mẫu bê tông, kiểm tra thân cọc bằng siêu âm hoặc phương pháp động biến dạng nhỏ (PIT), khoan lõi khi cần",
@@ -290,20 +394,29 @@
     "Cọc mồi thép phải có đầu chụp; khi ép hai đoạn mồi nối tiếp phải có biện pháp an toàn riêng; tuân thủ TCVN 5308:1991 và quy định môi trường [9394 · 9]",
     "Dung dịch bentonite, bùn khoan: thu gom, lắng, vận chuyển đúng nơi quy định; tránh tràn ra mặt bằng và nguồn nước",
     "Thiết bị đóng, rung, ép: kiểm tra đồng hồ áp, van dầu, hệ phản lực; theo dõi rung và lún công trình lân cận",
-    "Giữ khoảng cách an toàn giữa thiết bị thi công và hố đào, mái dốc, đường dây điện"
+    "Giữ khoảng cách an toàn giữa thiết bị thi công và hố đào, mái dốc, đường dây điện",
+    "Thi công trên sàn đạo, xà lan: áo phao, phao cứu sinh, xuồng cứu hộ, đèn tín hiệu; ngừng thi công khi lũ hoặc sóng gió vượt giới hạn an toàn",
+    "Đập, cắt đầu cọc: kính, khẩu trang chống bụi, găng; thép lộ ra có mũ che hoặc rào chắn tránh đâm vào người",
+    "Cọc tre, tràm: chú ý mảnh gai, bụi khi cắt; đóng thủ công bố trí đủ khoảng cách giữa các nhóm đóng"
   ],
   "acceptance": [
     "Nghiệm thu từng lỗ khoan (độ sâu, đường kính, cặn lắng) và lồng thép trước khi đổ bê tông",
     "Nghiệm thu từng cọc (cao độ, vị trí, kết quả kiểm tra thân cọc), sau đó nghiệm thu nhóm cọc, đài cọc",
     "Nghiệm thu kết quả thử tải theo thiết kế",
-    "Cọc bất thường hoặc không đạt được xử lý theo phương án thiết kế phê duyệt và nghiệm thu lại"
+    "Cọc bất thường hoặc không đạt được xử lý theo phương án thiết kế phê duyệt và nghiệm thu lại",
+    "Nghiệm thu sàn đạo, ống vách, khung dẫn trước khi khoan tại vị trí trong nước",
+    "Nghiệm thu đầu cọc sau khi xử lý và trước khi lắp thép đài",
+    "Nghiệm thu lô cọc ly tâm, cọc tre, tràm khi nhập và nghiệm thu cao độ, độ chối từng cọc"
   ],
   "records": [
     "Biên bản định vị trục; nhật ký khoan, đóng, ép từng cọc",
     "Kết quả thí nghiệm dung dịch, bê tông, cốt thép, mối hàn",
     "Biên bản kiểm tra thân cọc, thử tải, xử lý cọc lỗi; hồ sơ hoàn công",
     "Hồ sơ nghiệm thu lưu suốt tuổi thọ thiết kế công trình [9394 · 8.6, 8.7]",
-    "Ảnh chụp các công đoạn chính: hố khoan, lồng thép, đổ bê tông, mối nối cọc"
+    "Ảnh chụp các công đoạn chính: hố khoan, lồng thép, đổ bê tông, mối nối cọc",
+    "Nhật ký mực nước, biện pháp thi công trong nước, biên bản xử lý bùn khoan",
+    "Biên bản nghiệm thu đầu cọc, ảnh trước và sau khi xử lý",
+    "Nhật ký đóng cọc tre, tràm, hồ sơ lô cọc ly tâm, biên bản kiểm tra mối hàn nối cọc"
   ],
   "note": "Mức đọc: TCVN 9395:2012 đọc được phần lớn nội dung qua một bản PDF và đối chiếu một phần với bản web (mục 1, 6-12; Bảng 1, 3, 4); số mục lấy theo thân văn bản, mục lục web đánh số khác. Chưa đối chiếu: độ thẳng đứng trong Bảng 3, cặn lắng cọc ma sát (12.2.1), tỷ lệ kiểm tra Bảng 5, mức 20% khối lượng bê tông (10.5). TCVN 9394:2012 chỉ đọc được bản web bị khóa một phần; các Bảng 2, 3, 5, 7, 10, 11 và phần cừ chưa đọc được. TCVN 9393, 9397, 9361, 12634 chưa đọc. Phần cừ thép lấy từ TCVN 11323:2020 (mục 5.3, 6.2.4) nên chỉ áp dụng trực tiếp cho hố móng vùng cát chảy, cần đối chiếu khi dùng cho trường hợp khác. Số liệu dùng làm tham khảo, phải đối chiếu bản gốc và thiết kế dự án."
 }

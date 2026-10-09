@@ -9,7 +9,11 @@
     "tcvn-13509",
     "tcvn-8870",
     "tcvn-4055",
-    "qcvn-18"
+    "qcvn-18",
+    "tcvn-9159",
+    "tcvn-9407",
+    "tcvn-8828",
+    "tcvn-11652"
   ],
   "prerequisites": [
     "Chỉ thi công khi đồ án thiết kế tổ chức thi công đã được phê duyệt [4528 · 1.4]",
@@ -95,6 +99,31 @@
         "Không đổi phương án đào theo ý thợ khi chưa có thiết kế hoặc tư vấn đồng ý",
         "Mở rộng vòm khi bê tông đoạn trước chưa đủ cường độ dễ gây nứt: kiểm tra phiếu thí nghiệm trước khi chuyển đoạn",
         "Chụp ảnh, ghi chép gương mỗi chu kỳ để làm cơ sở xử lý khi có sự cố"
+      ]
+    },
+    {
+      "title": "Dự báo địa chất trước gương và khoan thăm dò",
+      "actions": [
+        "Đối chiếu mô tả địa chất thực tế từng chu kỳ với mặt cắt địa chất thiết kế để nhận biết sớm vị trí sắp gặp đới đứt gãy, đá yếu, đới nước",
+        "Lập kế hoạch khoan thăm dò dẫn trước gương (khoan thăm dò ngắn thường xuyên, khoan dài tại đoạn nghi ngờ) theo chỉ dẫn thiết kế",
+        "Khi khoan thăm dò, ghi tốc độ khoan, màu nước và mùn khoan, mất nước, lưu lượng và áp lực nước chảy ra từ lỗ",
+        "Lấy lõi hoặc quan sát mùn khoan để xác định loại đá, mức nứt nẻ, mức phong hóa; kết hợp phương pháp địa vật lý nếu thiết kế yêu cầu",
+        "Đo khí độc, khí nổ ngay tại lỗ thăm dò đối với vùng nghi ngờ có khí",
+        "Lập bản ghi dự báo cho từng đoạn kế tiếp: loại đá dự kiến, rủi ro (sập, nước phụt, đá ép), biện pháp chống đỡ tương ứng",
+        "Báo thiết kế và chủ đầu tư khi dự báo khác hồ sơ khảo sát; chỉ tiếp tục đào sau khi có quyết định về chống đỡ và cách đào"
+      ],
+      "requirements": [
+        "Thông số theo thiết kế và bản gốc tiêu chuẩn (chưa có số liệu đối chiếu)"
+      ],
+      "checks": [
+        "Hạng mục và chỉ tiêu kiểm tra theo thiết kế, chỉ dẫn kỹ thuật dự án (chưa có số liệu đối chiếu)"
+      ],
+      "tips": [
+        "Khoan thăm dò chỉ có giá trị khi được thực hiện đều đặn; làm tùy hứng thì không đủ báo trước các đới yếu",
+        "Nước ở lỗ thăm dò đổi màu, tăng lưu lượng đột ngột là dấu hiệu gương sắp gặp đới nước hoặc đứt gãy",
+        "Lỗ thăm dò nên khoan có thiết bị chống phụt (nút, van) sẵn để xử lý khi nước hoặc bùn chảy mạnh",
+        "Dán sơ đồ dự báo ở khu vực gương cho tổ thi công nắm rủi ro từng đoạn",
+        "Số liệu thăm dò và lõi giữ lại làm căn cứ khi tranh chấp địa chất giữa các bên"
       ]
     },
     {
@@ -184,6 +213,79 @@
       ]
     },
     {
+      "title": "Chống đỡ theo phân loại đá và chu kỳ đào - chống",
+      "actions": [
+        "Xác định loại đá tại gương bằng hệ phân loại mà thiết kế sử dụng (ví dụ RMR, Q hoặc phân loại theo hồ sơ dự án); mỗi chu kỳ có phiếu mô tả gương",
+        "Tra bảng chống đỡ thiết kế tương ứng với loại đá: loại và mật độ neo, bê tông phun, lưới, khung thép",
+        "Quy định rõ chu kỳ đào - chống: chiều dài mỗi bước đào tối đa theo loại đá, khoảng cách tối đa từ gương tới đoạn đã chống",
+        "Với đá yếu: giảm bước đào, chia gương, chừa lõi đất đá giữ gương hoặc dùng ống vòm, neo mặt gương theo thiết kế",
+        "Phun bê tông bịt mặt đá ngay sau nổ, sau đó chống chính; không để gương trần quá lâu",
+        "Khi loại đá thực tế kém hơn thiết kế: nâng cấp chống đỡ tạm thời theo thẩm quyền được giao, báo thiết kế bổ sung",
+        "Ghi vào nhật ký loại đá, loại chống đỡ áp dụng và lý do thay đổi (nếu có)"
+      ],
+      "requirements": [
+        "Thông số theo thiết kế và bản gốc tiêu chuẩn (chưa có số liệu đối chiếu)"
+      ],
+      "checks": [
+        "Hạng mục và chỉ tiêu kiểm tra theo thiết kế, chỉ dẫn kỹ thuật dự án (chưa có số liệu đối chiếu)"
+      ],
+      "tips": [
+        "Không dùng chung một kiểu chống cho mọi loại đá: tốn kém ở đá tốt, thiếu an toàn ở đá yếu",
+        "Phân loại đá do kỹ sư địa chất và thi công cùng xác nhận tại gương trước khi nổ tiếp",
+        "Tiêu chuẩn TCVN 4528:1988 dùng hệ phân loại cũ; hệ phân loại hiện đại cần theo chỉ dẫn kỹ thuật dự án",
+        "Đá phong hóa và nước ngầm làm cấp đá tụt nhanh sau khi mở gương: kiểm tra lại sau mỗi chu kỳ"
+      ]
+    },
+    {
+      "title": "Quan trắc biến dạng hầm và hội tụ",
+      "actions": [
+        "Bố trí các mặt cắt quan trắc theo thiết kế: điểm đo trên nóc, vách, và nền nếu cần; gắn mốc ngay sau khi chống",
+        "Đo ban đầu (đo gốc) càng sớm càng tốt, ghi thời điểm so với lúc đào và vị trí gương",
+        "Đo hội tụ, lún nóc bằng thước đo hội tụ hoặc máy toàn đạc; đo thêm biến dạng neo, tải neo, áp lực bê tông phun nếu thiết kế có",
+        "Tần suất đo dày ngay sau đào, thưa dần khi biến dạng ổn định; tần suất cụ thể theo thiết kế",
+        "Vẽ biểu đồ biến dạng theo thời gian và theo khoảng cách gương; so sánh với ngưỡng cảnh báo trong thiết kế",
+        "Khi vượt ngưỡng cảnh báo: dừng đào đoạn liên quan, kiểm tra, chống bổ sung, báo thiết kế theo trình tự đã định",
+        "Lưu toàn bộ số liệu, đồ thị trong hồ sơ; chỉ cho phép làm vỏ hầm khi biến dạng đã ổn định theo tiêu chí của thiết kế"
+      ],
+      "requirements": [
+        "Thông số theo thiết kế và bản gốc tiêu chuẩn (chưa có số liệu đối chiếu)"
+      ],
+      "checks": [
+        "Hạng mục và chỉ tiêu kiểm tra theo thiết kế, chỉ dẫn kỹ thuật dự án (chưa có số liệu đối chiếu)"
+      ],
+      "tips": [
+        "Mốc phải được bảo vệ khỏi xe máy và nổ mìn; mốc hỏng làm mất chuỗi số liệu",
+        "Đo đúng giờ và cùng người, cùng thiết bị để giảm sai số",
+        "Nhìn xu hướng (tốc độ biến dạng) quan trọng hơn con số tức thời",
+        "Biến dạng không tắt dần cho thấy chống đỡ không đủ: không đợi đến lúc nứt bê tông phun mới xử lý",
+        "Phổ biến ngưỡng cảnh báo và quy trình xử lý tới tổ trưởng và chỉ huy ca"
+      ]
+    },
+    {
+      "title": "Xử lý sự cố địa chất: đới đứt gãy, nước phụt, đá sập, đá ép, khí độc",
+      "actions": [
+        "Chuẩn bị sẵn phương án xử lý cho từng loại sự cố, được thiết kế và tư vấn duyệt, trước khi gặp đới yếu",
+        "Đới đứt gãy, đá vỡ nát: giảm bước đào, gia cố trước gương (ống vòm, neo mặt gương, phụt vữa gia cố trước gương) theo thiết kế, chống kín ngay",
+        "Nước phụt, nước lớn: khoan thoát nước, bơm tăng cường, phụt vữa chặn nước trước gương, bảo vệ thiết bị và điện",
+        "Đá sập nóc: sơ tán, rào khu vực, kiểm tra từ phía an toàn, xử lý lấp hốc rỗng sau khi ổn định rồi chống đỡ lại",
+        "Đá ép (biến dạng lớn theo thời gian): theo dõi hội tụ, áp dụng chống mềm hoặc khoảng giãn theo thiết kế",
+        "Gặp khí độc, khí nổ: ngừng việc, thông gió tăng cường, đo khí, cấm lửa và thiết bị không chống nổ",
+        "Lập biên bản sự cố, ghi nguyên nhân và biện pháp xử lý; chủ đầu tư và thiết kế xác nhận trước khi tiếp tục"
+      ],
+      "requirements": [
+        "Thông số theo thiết kế và bản gốc tiêu chuẩn (chưa có số liệu đối chiếu)"
+      ],
+      "checks": [
+        "Hạng mục và chỉ tiêu kiểm tra theo thiết kế, chỉ dẫn kỹ thuật dự án (chưa có số liệu đối chiếu)"
+      ],
+      "tips": [
+        "Diễn tập sự cố định kỳ để mọi người biết đường thoát và hiệu lệnh",
+        "Vật tư dự phòng (ống vòm, vữa, thiết bị bơm) để gần gương, không để khi sự cố mới tìm",
+        "Không tự ý xử lý quá khả năng: dừng, rút người, báo cáo",
+        "Nước chảy mang theo cát bùn thường báo hiệu sập sắp xảy ra"
+      ]
+    },
+    {
       "title": "Vận chuyển, thoát nước, điện chiếu sáng trong hầm",
       "actions": [
         "Rải đường goòng hoặc đường ô tô theo cao độ, độ dốc thiết kế; chèn nền chắc, nối ray đúng quy cách",
@@ -206,6 +308,30 @@
         "Cáp điện bị đá văng hoặc xe va: treo cao, bảo vệ cáp, kiểm tra cách điện định kỳ",
         "Xe máy chạy ngược chiều trong hầm hẹp dễ tai nạn: quy định chiều đi và tín hiệu rõ ràng",
         "Bụi và khí xả xe làm tăng khí độc: kiểm tra thông gió, bảo dưỡng động cơ"
+      ]
+    },
+    {
+      "title": "Đào hang lớn, nhà máy ngầm và hầm đặc biệt",
+      "actions": [
+        "Thi công theo thiết kế phân tầng, phân đoạn: hầm dẫn trước, mở rộng vòm, đào tách từng cấp; không tự ý đổi trình tự",
+        "Đào vòm theo trình tự thiết kế (đào dẫn, mở rộng); chống vòm trước khi đào hạ tầng",
+        "Dùng nổ mìn tạo biên, nổ mìn vi sai, hạn chế rung để bảo vệ đá biên và công trình lân cận",
+        "Lắp neo cáp, neo thanh dài và hệ chống đa tầng theo thiết kế; quan trắc biến dạng hang và dịch chuyển vách chặt chẽ",
+        "Bố trí đường vào, hầm xiên, giếng, hầm thông gió cho từng tầng đào; quản lý vận chuyển đá thải",
+        "Với giếng điều áp, hầm xiên, hầm áp lực: theo biện pháp riêng được duyệt; lót thép và chèn vữa theo thiết kế",
+        "Cập nhật mô hình địa chất, đối chiếu với số liệu quan trắc sau mỗi cấp đào"
+      ],
+      "requirements": [
+        "Thông số theo thiết kế và bản gốc tiêu chuẩn (chưa có số liệu đối chiếu)"
+      ],
+      "checks": [
+        "Hạng mục và chỉ tiêu kiểm tra theo thiết kế, chỉ dẫn kỹ thuật dự án (chưa có số liệu đối chiếu)"
+      ],
+      "tips": [
+        "Hang lớn không dùng được chu kỳ đào - chống của hầm nhỏ: cần biện pháp thi công riêng của dự án",
+        "Rung nổ đo bằng máy; ngưỡng cho phép theo thiết kế và quy định",
+        "Phối hợp nhiều gương cùng lúc cần điều độ chặt về thông gió, nổ mìn, giao thông",
+        "Sắp xếp để vỏ bê tông, lắp đặt thiết bị không cản trở các tầng đào còn lại"
       ]
     },
     {
@@ -237,6 +363,31 @@
         "Mạch ngừng thi công xử lý kém gây thấm: làm nhám, vệ sinh, tưới ẩm trước khi đổ tiếp",
         "Phối hợp cung ứng bê tông và vận chuyển để tránh ngắt quãng"
       ]
+    },
+    {
+      "title": "Khe thi công, băng cản nước, thoát nước sau vỏ và kiểm tra khoảng rỗng",
+      "actions": [
+        "Chia đoạn đổ vỏ theo thiết kế; sắp xếp khe thi công và khe biến dạng đúng vị trí, xử lý mặt tiếp xúc khe",
+        "Lắp băng cản nước (PVC hoặc loại thiết kế yêu cầu) đúng tim, giữ cố định, không rách, không gập khi đổ bê tông",
+        "Đặt lớp chống thấm, hệ thoát nước sau vỏ (ống, màng) theo thiết kế, nối với rãnh thoát hầm",
+        "Phân biệt vữa chèn tiếp xúc nóc và vữa gia cố sau vỏ theo thiết kế; chèn theo thứ tự và áp lực quy định",
+        "Kiểm tra khoảng rỗng sau vỏ bằng gõ, khoan kiểm tra hoặc phương pháp đo theo thiết kế; chèn bổ sung chỗ rỗng",
+        "Với hầm áp lực: lắp lót thép, hàn, kiểm tra mối hàn, chèn vữa sau lót theo thiết kế; thử áp theo yêu cầu",
+        "Bảo dưỡng vỏ bê tông theo quy trình thống nhất với phần bê tông của dự án, ghi nhật ký"
+      ],
+      "requirements": [
+        "Thông số theo thiết kế; tham chiếu bê tông thủy công và khớp nối [TCVN 9159, 9407 · chưa đọc, cần đối chiếu bản gốc]"
+      ],
+      "checks": [
+        "Hạng mục và chỉ tiêu kiểm tra theo thiết kế, chỉ dẫn kỹ thuật dự án (chưa có số liệu đối chiếu)"
+      ],
+      "tips": [
+        "Băng cản nước bị gập hoặc rách là nguyên nhân rò rỉ phổ biến: kiểm tra từng đoạn trước khi đổ",
+        "Ống chèn vữa và ống thoát khí phải đặt trước khi đổ; thiếu thì không chèn được nóc",
+        "Không dùng vữa chèn quá áp lực cho vỏ mỏng",
+        "Ghi lại vị trí chèn, lượng vữa, áp lực của mỗi đoạn",
+        "Nghiệm thu khe, băng, thoát nước trước khi lấp che khuất"
+      ]
     }
   ],
   "safety": [
@@ -244,19 +395,26 @@
     "Không đào quá dài mà chưa chống đỡ theo thiết kế; kiểm tra gương, vòm, nhặt đá om sau mỗi lần nổ",
     "Điện hạ thế, chiếu sáng, bơm thoát nước phải có phương án dự phòng",
     "Quy phạm an toàn lao động hầm (QPVN 14:1979, TCVN 2622:1978) được TCVN 4528 viện dẫn nhưng chưa đọc chi tiết [4528 · 1.3]",
-    "Phổ biến và diễn tập phương án thoát hiểm, ứng cứu sập, ngập nước; có bộ cấp cứu và liên hệ y tế gần nhất"
+    "Phổ biến và diễn tập phương án thoát hiểm, ứng cứu sập, ngập nước; có bộ cấp cứu và liên hệ y tế gần nhất",
+    "Gặp đới yếu, nước phụt hoặc khí: dừng, rút người, báo cáo theo phương án sự cố đã duyệt; không tiếp tục khi chưa có xác nhận của thiết kế",
+    "Vượt ngưỡng cảnh báo biến dạng: ngừng đào đoạn liên quan, chống bổ sung và báo thiết kế",
+    "Hang lớn: kiểm soát rung nổ, giao thông đa gương và thông gió từng tầng"
   ],
   "acceptance": [
     "Nghiệm thu từng chu kỳ đào và chống đỡ (điểm dừng kiểm tra)",
     "Nghiệm thu đoạn hầm sau đào hoàn thiện, trước thi công vỏ hầm",
     "Nghiệm thu bê tông phun, neo (xem nhóm Gia cố), vỏ hầm, chèn vữa",
-    "Hồ sơ đo đạc, địa chất từng chu kỳ được ký xác nhận của các bên trước khi chuyển sang chu kỳ tiếp theo"
+    "Hồ sơ đo đạc, địa chất từng chu kỳ được ký xác nhận của các bên trước khi chuyển sang chu kỳ tiếp theo",
+    "Nghiệm thu số liệu quan trắc biến dạng: biến dạng ổn định theo tiêu chí của thiết kế trước khi làm vỏ hầm",
+    "Nghiệm thu băng cản nước, khe, thoát nước sau vỏ trước khi che khuất; nghiệm thu chèn vữa và khoảng rỗng sau vỏ"
   ],
   "records": [
     "Hộ chiếu khoan nổ mìn, nhật ký nổ mìn",
     "Hồ sơ mô tả địa chất gương đào từng chu kỳ, nhật ký thi công",
     "Số liệu đo đạc, quan trắc biến dạng, biên bản nghiệm thu, bản vẽ hoàn công",
-    "Biên bản xử lý sự cố, đá sập, nước phụt hoặc thay đổi thiết kế trong quá trình đào"
+    "Biên bản xử lý sự cố, đá sập, nước phụt hoặc thay đổi thiết kế trong quá trình đào",
+    "Hồ sơ khoan thăm dò trước gương, phiếu phân loại đá từng chu kỳ và loại chống đỡ áp dụng",
+    "Số liệu quan trắc hội tụ, lún nóc, biểu đồ theo thời gian; biên bản sự cố địa chất; hồ sơ kiểm tra khoảng rỗng và chèn vữa"
   ],
   "note": "Chưa tìm thấy tiêu chuẩn thi công riêng cho hầm thủy công. TCVN 4528:1988 là tiêu chuẩn hầm giao thông (đường sắt, ô tô), tiêu chuẩn cũ, chỉ đọc được đến mục 6.30; hãy đối chiếu chỉ dẫn kỹ thuật dự án và tiêu chuẩn mới hơn."
 }

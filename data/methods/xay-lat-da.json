@@ -9,7 +9,8 @@
     "tcvn-4453",
     "tcvn-8218",
     "tcvn-4055",
-    "qcvn-18"
+    "qcvn-18",
+    "tcvn-9159"
   ],
   "prerequisites": [
     "Có thiết kế được duyệt: loại đá, mác vữa, mặt cắt, tầng lọc ngược, loại và kích thước rọ/thảm đá; có bản vẽ thi công đã phê duyệt để lập hồ sơ nghiệm thu [14TCN12 · 7.7]",
@@ -134,6 +135,78 @@
       ]
     },
     {
+      "title": "Lỗ thoát nước, tầng lọc ngược và đắp lưng tường",
+      "actions": [
+        "Đối chiếu bản vẽ thiết kế về vị trí, cao độ, đường kính, độ dốc lỗ thoát nước, vật liệu tầng lọc ngược",
+        "Lắp ống thoát (ống PVC hoặc tương đương) hoặc chừa lỗ khi xây, có độ dốc ra phía ngoài; đầu trong có lưới chắn, bọc vải lọc hoặc đá dăm",
+        "Trải vải địa kỹ thuật (nếu thiết kế dùng) và vật liệu lọc theo thứ tự, từng lớp, bề dày thiết kế; tránh lẫn đất vào lớp lọc",
+        "Đắp lưng tường từng lớp, đầm theo yêu cầu, không đầm máy nặng sát lưng tường mới xây",
+        "Chỉ đắp lưng tường khi vữa đủ cường độ theo thiết kế; thiết kế đắp hai bên đối xứng nếu tường mỏng",
+        "Kiểm tra lỗ thoát thông thoáng trước nghiệm thu; làm sạch cửa ra, chống bùn đất bít cửa",
+        "Nghiệm thu tầng lọc và hệ thoát nước khuất trước khi lấp, chụp ảnh"
+      ],
+      "requirements": [
+        "Thông số theo thiết kế và bản gốc tiêu chuẩn (chưa có số liệu đối chiếu)"
+      ],
+      "checks": [
+        "Biên bản nghiệm thu tầng lọc, lỗ thoát nước và đắp lưng tường"
+      ],
+      "tips": [
+        "Tầng lọc bị đất lấp làm tường chịu áp lực nước, là nguyên nhân thường gặp khi tường nghiêng",
+        "Cửa thoát nước đặt trên mực nước hạ lưu theo thiết kế để thoát được",
+        "Không đắp lưng tường bằng đất sét nhão, vật liệu theo thiết kế",
+        "Theo dõi sau mưa lớn: lỗ thoát chảy là dấu hiệu tốt, khô hoặc đục cần kiểm tra"
+      ]
+    },
+    {
+      "title": "Khe lún, khe nhiệt và chèn khe trong tường xây đá",
+      "actions": [
+        "Xác định vị trí, chiều rộng khe lún, khe nhiệt trên bản vẽ; khe thường đặt tại thay đổi chiều cao, thay đổi nền, theo khoảng cách thiết kế",
+        "Tạo khe thẳng đứng suốt chiều cao tường; dùng tấm ván, tấm xốp hoặc vật liệu tạo khe, tránh vữa lọt vào khe",
+        "Lắp băng chắn nước hoặc vật liệu chống thấm tại khe theo thiết kế (tham khảo TCVN 9159); cố định, không xô lệch khi xây",
+        "Xây hai bên khe độc lập, không để đá hoặc vữa nối qua khe",
+        "Chèn khe bằng vật liệu đàn hồi hoặc matit theo thiết kế sau khi vữa đủ tuổi; làm sạch, mồi mặt khe trước khi chèn",
+        "Kiểm tra độ rộng khe, độ thẳng, mặt khe sạch; ghi vị trí trên sơ đồ khe",
+        "Bảo vệ mặt khe khi lát mái, trát mạch và đắp lưng tường"
+      ],
+      "requirements": [
+        "Thông số theo thiết kế và bản gốc tiêu chuẩn (chưa có số liệu đối chiếu)"
+      ],
+      "checks": [
+        "Biên bản nghiệm thu vị trí, chiều rộng và vật liệu chèn khe"
+      ],
+      "tips": [
+        "Khe không thông suốt thì khi lún tường nứt đúng vị trí không dự tính",
+        "Mạch trát che khe làm mất tác dụng; trát chừa khe và chèn vật liệu đàn hồi",
+        "Chiều rộng, vật liệu khe lấy theo thiết kế; không tự thay đổi",
+        "Kiểm tra khe sau mùa mưa lũ, bổ sung chèn nếu bong"
+      ]
+    },
+    {
+      "title": "Xây đá trong nước và vùng thay đổi mực nước",
+      "actions": [
+        "Xác định mực nước, lưu tốc và chu kỳ thủy triều/lũ tại vị trí xây; chọn mùa thi công theo biện pháp tiêu nước hố móng đã duyệt",
+        "Đảm bảo hố móng khô trong suốt thời gian xây và đủ thời gian đóng rắn vữa; thiết bị bơm dự phòng",
+        "Chọn vữa theo thiết kế (mác, chịu xâm thực nếu cần); xây từng lớp, đá lớn, mạch đầy, không để nước rửa trôi vữa",
+        "Che chắn phần xây mới trước dòng chảy và mưa, bảo dưỡng ẩm đủ thời gian trước khi cho nước tiếp xúc",
+        "Với sân tiêu năng, trụ pin, tường cánh: kiểm soát cao độ, độ dốc, liên kết các hạng mục, chừa thoát nước theo thiết kế",
+        "Xử lý mạch ở vùng mực nước thay đổi: trát mạch bằng vữa tốt, kiểm tra thường xuyên",
+        "Nghiệm thu từng đoạn trước khi nâng mực nước thi công"
+      ],
+      "requirements": [
+        "Thông số theo thiết kế và bản gốc tiêu chuẩn (chưa có số liệu đối chiếu)"
+      ],
+      "checks": [
+        "Biên bản nghiệm thu đoạn xây trong nước (bảo dưỡng, ngày cho nước tiếp xúc)"
+      ],
+      "tips": [
+        "Vữa bị nước rửa trôi khi còn non là lỗi lớn nhất khi xây trong nước",
+        "Không xây khi mực nước biến động nhanh mà chưa có biện pháp bảo vệ",
+        "Ghi mực nước và thời điểm cho nước tiếp xúc vào nhật ký",
+        "Số liệu như tốc độ dòng cho phép, mác vữa lấy theo thiết kế, chưa có số đối chiếu"
+      ]
+    },
+    {
       "title": "Trát mạch và bảo dưỡng",
       "actions": [
         "Đục mạch đến độ sâu yêu cầu, cọ rửa sạch bụi, vụn vữa bằng chổi và nước",
@@ -187,6 +260,30 @@
       ]
     },
     {
+      "title": "Đá hộc thả rối, đá đổ chân kè và tấm bê tông lắp ghép bảo vệ mái",
+      "actions": [
+        "Chuẩn bị mái: đầm chặt, tạo mặt phẳng theo độ dốc thiết kế; trải vải địa kỹ thuật hoặc lớp đệm đá dăm theo thiết kế",
+        "Đào hoặc xây chân khay, đặt đá đổ chân kè theo kích thước, khối lượng thiết kế",
+        "Rải đá hộc thả rối từ dưới lên, xếp ghép đá lớn vào ngoài, giữ chiều dày lớp thiết kế; không để đá nhỏ tập trung một chỗ",
+        "Tấm bê tông lắp ghép: lắp từ chân lên, mạch đều, mối ghép kín, liên kết theo thiết kế; điền khe bằng vữa hoặc vật liệu theo yêu cầu",
+        "Kiểm tra chiều dày lớp đá, mặt bằng, độ dốc; đo kiểm đại diện từng đoạn",
+        "Bảo vệ vải địa không bị rách khi thả đá; chồng mí theo thiết kế",
+        "Nghiệm thu lớp đệm, vải địa trước khi che phủ"
+      ],
+      "requirements": [
+        "Thông số theo thiết kế và bản gốc tiêu chuẩn (chưa có số liệu đối chiếu)"
+      ],
+      "checks": [
+        "Biên bản nghiệm thu mái, lớp đệm, vải địa, chân kè và chiều dày lớp bảo vệ"
+      ],
+      "tips": [
+        "Thả đá từ độ cao lớn làm rách vải; hạ đá sát mặt",
+        "Đá thả rối cần cấp phối đá phù hợp, không dùng đá phong hóa",
+        "Chân kè thiếu ổn định là nguyên nhân hỏng cả mái; kiểm tra kỹ chân khay",
+        "Tham khảo TCVN 9844 và TCVN 8871 về vải địa, cần xác nhận hiệu lực"
+      ]
+    },
+    {
       "title": "Lắp rọ đá, thảm đá bảo vệ mái và chân kè",
       "actions": [
         "Chọn loại rọ, thảm theo thiết kế; kiểm tra nhãn mác, kích thước, lớp mạ hoặc bọc PVC khi nhận hàng",
@@ -220,6 +317,29 @@
       ]
     },
     {
+      "title": "Kiểm tra vữa và mạch vữa tại hiện trường",
+      "actions": [
+        "Lấy mẫu vữa tại hiện trường theo tổ mẫu, bảo dưỡng và thử cường độ theo phương pháp thử vữa",
+        "Dùng súng bật nảy kiểm tra sơ bộ cường độ mạch vữa ở nơi nghi ngờ; kết quả đối chiếu cường độ thiết kế",
+        "Khoan hoặc đục lấy mẫu từ mạch vữa khi cần, nén mẫu theo hướng dẫn",
+        "Đục thử kiểm tra độ đặc chắc mạch, lấp lại bằng vữa cùng mác",
+        "So sánh kết quả với tiêu chí nghiệm thu mạch và thiết kế",
+        "Lập biên bản vị trí không đạt, phương án xử lý (đục xây lại, trám mạch); kiểm tra lại sau xử lý"
+      ],
+      "requirements": [
+        "Thông số theo thiết kế và bản gốc tiêu chuẩn (chưa có số liệu đối chiếu)"
+      ],
+      "checks": [
+        "Biên bản kết quả thử vữa mạch hiện trường"
+      ],
+      "tips": [
+        "Chọn vị trí kiểm tra đại diện cả phần khuất và phần lộ",
+        "Súng bật nảy chỉ tham khảo, cần kết hợp mẫu nén",
+        "Ghi rõ vị trí lấy mẫu trên sơ đồ",
+        "Tiêu chí số liệu theo thiết kế và tiêu chuẩn hiện hành"
+      ]
+    },
+    {
       "title": "Kiểm tra, nghiệm thu",
       "actions": [
         "Đối chiếu thực tế với bản vẽ: bố trí đá, mạch vữa, trát mạch, kích thước, độ đặc chắc mạch (đục thử)",
@@ -249,18 +369,24 @@
     "Bốc xếp đá hộc (20-40 kg/viên) bằng cơ giới hoặc nhiều người; không đứng dưới tải cẩu, dưới mái đang lát",
     "Làm việc sát nước: áo phao, phao cứu sinh, theo dõi mực nước và lũ; thi công mùa lũ cần biện pháp riêng",
     "Dây thép lưới rọ đá sắc: găng, kính; xi măng, vữa: găng, ủng, kính",
-    "Cấm xếp đá, vật liệu sát mép hố, mép mái; có người báo hiệu khi cẩu, vận chuyển đá"
+    "Cấm xếp đá, vật liệu sát mép hố, mép mái; có người báo hiệu khi cẩu, vận chuyển đá",
+    "Xây trong nước, vùng nước thay đổi: áo phao, theo dõi mực nước, bơm dự phòng; không xây khi dòng chảy mạnh chưa che chắn",
+    "Thả đá hộc, lắp tấm bê tông: bãi tập kết ổn định, cẩu đúng tải, không đứng dưới mái đang thả đá"
   ],
   "acceptance": [
     "Nghiệm thu vật liệu đầu vào (đá, xi măng, cát, rọ đá, vải địa kỹ thuật)",
     "Nghiệm thu nền, tầng lọc trước khi xây, lát hoặc lắp rọ (công việc khuất)",
-    "Nghiệm thu từng đoạn xây, lát, rọ đá và toàn bộ hạng mục trước khi cho nước tiếp xúc"
+    "Nghiệm thu từng đoạn xây, lát, rọ đá và toàn bộ hạng mục trước khi cho nước tiếp xúc",
+    "Nghiệm thu tầng lọc, lỗ thoát nước, khe lún, khe nhiệt trước khi lấp",
+    "Nghiệm thu đoạn xây trong nước, chân kè, lớp bảo vệ mái và kết quả kiểm tra vữa mạch"
   ],
   "records": [
     "Chứng chỉ, kết quả thử đá, xi măng, cát, vữa (mẫu 28 ngày)",
     "Bản vẽ hoàn công, nhật ký thi công, nhật ký bảo dưỡng",
     "Biên bản nghiệm thu nền, bộ phận khuất, từng hạng mục",
-    "Ảnh các bộ phận khuất trước khi che lấp, biên bản xử lý khuyết tật"
+    "Ảnh các bộ phận khuất trước khi che lấp, biên bản xử lý khuyết tật",
+    "Sơ đồ khe, lỗ thoát nước, tầng lọc và ảnh bộ phận khuất",
+    "Biên bản kết quả kiểm tra vữa hiện trường, nhật ký mực nước khi xây trong nước"
   ],
   "note": "Đọc được khá đầy đủ chữ của 14TCN 12:2002 (một phần nội dung và hầu hết bảng số liệu 3.1, 4.1-4.5, 7.1 bị khóa hoặc lỗi định dạng, chưa đối chiếu), TCVN 4085:2011 mục 1-5 (đến đầu mục 6; chưa thấy mục nghiệm thu), TCVN 10335:2014 từ mục 1 đến 9.1 (từ 9.2 trở đi, gồm phần thi công, nghiệm thu rọ đá, bị khóa). Số liệu 4085 mục 5.2.8, 5.2.11, 5.2.12 có dấu hiệu lỗi đơn vị trong bản đọc, nên không dùng; cần đối chiếu bản gốc. Có TCVN 4085:2025 (Thi công kết cấu khối xây - Yêu cầu kỹ thuật) mới nhưng chưa đọc, chưa đối chiếu. Có bản 14TCN (2005, Bộ NN&PTNT) 'Xây và lát gạch' chưa đọc. Trích dẫn từ trang thuvienphapluat.vn bản xem thử, một số bảng sai lệch."
 }

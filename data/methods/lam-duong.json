@@ -6,7 +6,15 @@
     "tcvn-9436",
     "tcvn-4447",
     "tcvn-9162",
-    "tcvn-4054"
+    "tcvn-4054",
+    "tcvn-8857",
+    "tcvn-8858",
+    "tcvn-8859",
+    "tcvn-8863",
+    "tcvn-8819",
+    "tcvn-8864",
+    "tcvn-8867",
+    "qcvn-41-2019"
   ],
   "prerequisites": [
     "Có hồ sơ thiết kế được duyệt; xác định cấp đường theo cường độ vận chuyển [9162 · 4.1.1]",
@@ -36,6 +44,30 @@
         "Mưa làm nền nhão sau khi bóc: đào đến đâu xử lý đến đó, tránh để nước đọng",
         "Mốc tim bị mất do máy móc: đóng mốc phụ, thường xuyên kiểm tra lại",
         "Đoạn nền yếu cục bộ nên đánh dấu trên bình đồ để theo dõi lún"
+      ]
+    },
+    {
+      "title": "Xử lý nền đất yếu, mái taluy cao và đoạn sạt lở",
+      "actions": [
+        "Xác định đoạn nền đất yếu từ khảo sát: bùn, sét mềm, than bùn, đất hữu cơ; đánh dấu trên bình đồ",
+        "Chọn biện pháp theo thiết kế: đào thay, đệm cát hoặc đá dăm, vải địa kỹ thuật, bấc thấm, gia tải trước",
+        "Đào thay: đào hết đất yếu đến cao độ thiết kế, hút nước, đắp thay bằng vật liệu thích hợp theo lớp và đầm",
+        "Vải địa kỹ thuật: trải phẳng, chồng mép, neo, đắp lớp đầu không để xe nặng chạy trực tiếp lên vải",
+        "Bấc thấm, gia tải: cắm theo lưới thiết kế, quan trắc lún và áp lực nước lỗ rỗng, chỉ dỡ tải khi đạt độ lún cho phép",
+        "Mái taluy đào cao: bạt mái theo cấp, làm cơ, rãnh đỉnh; tại mái đá hoặc đất dễ sạt, gia cố theo thiết kế (rọ đá, bê tông phun, trồng cỏ, tường chắn)",
+        "Đoạn qua sạt lở và bãi thải: chống thấm, thoát nước, tường chắn chân; liên kết tài liệu gia cố",
+        "Lập hồ sơ xử lý nền, mái và nghiệm thu trước khi đắp hoặc thi công lớp tiếp theo"
+      ],
+      "requirements": [
+        "Thông số theo thiết kế và bản gốc tiêu chuẩn (chưa có số liệu đối chiếu)"
+      ],
+      "checks": [],
+      "tips": [
+        "Nền yếu cục bộ bị bỏ sót làm đường lún lệch về sau: khảo sát bổ sung khi bóc phong hóa",
+        "Gia tải thiếu thời gian là nguyên nhân phổ biến của lún sau thi công: theo dõi số liệu lún",
+        "Vải địa kỹ thuật chọn theo thiết kế, không thay loại tùy ý",
+        "Mái taluy cao cần thoát nước tốt hơn là gia cố nặng: ưu tiên rãnh đỉnh, rãnh bậc",
+        "Số liệu xử lý nền yếu theo thiết kế và tiêu chuẩn riêng (chưa đọc được)"
       ]
     },
     {
@@ -93,7 +125,7 @@
         "Đắp dôi ra mép để sau đó gọt, tu chỉnh mái"
       ],
       "requirements": [
-        "Chiều dày lớp ≥ 30 cm theo văn bản nguồn; lớp trên cùng ≥ 10 cm [9436 · 7.3]",
+        "Chiều dày lớp đắp: nguồn tóm tắt ghi 30 cm, lớp trên cùng 10 cm, chưa rõ là tối thiểu hay tối đa (chưa đối chiếu, lấy theo kết quả thi công thử và thiết kế) [9436 · 7.3]",
         "Độ ẩm sai lệch ±2% so với độ ẩm tốt nhất [9436 · 7.3]",
         "Chồng mép đầm 15-20 cm [9436 · 7.3]",
         "Đắp rộng thêm 15-20 cm mỗi bên để gọt mái [9436 · 7.4]",
@@ -135,6 +167,102 @@
       ]
     },
     {
+      "title": "Công trình thoát nước trên đường: cống, ngầm tràn, cầu tạm, tường chắn",
+      "actions": [
+        "Đối chiếu thiết kế các vị trí cống ngang, cống dọc, ngầm tràn, cầu tạm vượt suối, tường chắn, rãnh bậc nước",
+        "Cống tròn, cống hộp: đào móng đến cao độ, làm móng, đặt ống hoặc đổ cống, nối kín, đắp lưng cống đối xứng và đầm kỹ",
+        "Ống bê tông cốt thép: kiểm tra chất lượng ống khi nhập (kích thước, vết nứt), vận chuyển và lắp đặt đúng cách",
+        "Ngầm tràn: tạo mặt tràn đúng cao độ, gia cố chống xói thượng hạ lưu, cọc tiêu, vạch báo mực nước",
+        "Cầu tạm vượt suối: kiểm tra tải trọng thiết kế, móng mố, dầm; dựng lan can, biển báo tải trọng, theo dõi lũ",
+        "Tường chắn, rãnh bậc nước: thi công theo thiết kế, có lỗ thoát nước, lớp lọc sau tường",
+        "Đoạn cửa cống, cửa ra: gia cố chống xói bằng đá lát hoặc rọ đá",
+        "Nghiệm thu từng công trình thoát nước trước khi hoàn thiện nền, mặt đường"
+      ],
+      "requirements": [
+        "Thông số theo thiết kế và bản gốc tiêu chuẩn (chưa có số liệu đối chiếu)"
+      ],
+      "checks": [],
+      "tips": [
+        "Cống đặt thấp hơn đáy suối thì lắng bùn đá, cao hơn thì xói chân cống: chốt cao độ với tình hình thực tế",
+        "Đắp cống chưa đủ độ chặt hai bên là nguyên nhân gây lún, nứt: dùng đầm nhỏ, lớp mỏng",
+        "Ngầm tràn cần tính cả an toàn xe vượt khi nước dâng, có biển báo",
+        "Cầu tạm xác định tải trọng xe nặng thực tế, không vượt thiết kế",
+        "Thông số cống, ống BTCT (TCVN 9113, 9116) và tải cầu theo thiết kế"
+      ]
+    },
+    {
+      "title": "Thi công lớp móng cấp phối đá dăm, cấp phối thiên nhiên",
+      "actions": [
+        "Kiểm tra vật liệu đầu vào: nguồn mỏ, thành phần hạt, chỉ tiêu cơ lý theo thiết kế; thí nghiệm mẫu trước khi nhập",
+        "Nghiệm thu lớp nền hoặc móng dưới: cao độ, độ chặt, độ bằng phẳng trước khi thi công lớp mới",
+        "Thi công thử đoạn đầu để chọn chiều dày lớp, số lượt lu, độ ẩm đầm nén",
+        "Vận chuyển và rải bằng máy rải hoặc máy san, tránh phân tầng hạt; điều chỉnh độ ẩm gần độ ẩm tốt nhất",
+        "Lu sơ bộ, lu lèn chặt, lu hoàn thiện; theo thứ tự và vệt lu quy định trong thi công thử",
+        "Thường xuyên kiểm tra độ dốc ngang, cao độ, độ bằng phẳng khi lu; sửa chỗ lồi lõm khi còn ẩm",
+        "Bảo vệ lớp móng mới: hạn chế xe nặng chạy trên, tưới nước giữ ẩm hoặc rải lớp bảo vệ theo thiết kế",
+        "Nghiệm thu từng lớp (độ chặt, chiều dày, mô đun đàn hồi) trước khi thi công lớp kế tiếp"
+      ],
+      "requirements": [
+        "Thông số theo thiết kế và bản gốc tiêu chuẩn (chưa có số liệu đối chiếu)"
+      ],
+      "checks": [],
+      "tips": [
+        "Phân tầng hạt khi đổ từ xe: đổ gần, san ngay, không để thành đống lớn",
+        "Cấp phối quá khô khó chặt, quá ướt nhão: kiểm tra độ ẩm trước khi lu",
+        "Mưa làm xói và nhão móng: tạo dốc ngang, thoát nước, che phủ nếu có thể",
+        "Đường thi công tạm thường dùng cấp phối thiên nhiên hoặc đá dăm: vẫn cần lu đủ lượt",
+        "Thông số cấp phối và chiều dày lớp theo TCVN 8857, 8858, 8859 (chưa đọc được)"
+      ]
+    },
+    {
+      "title": "Thi công mặt đường láng nhựa và mặt đường nhựa (khi thiết kế yêu cầu)",
+      "actions": [
+        "Kiểm tra lớp móng: khô ráo, sạch, đúng cao độ, độ bằng phẳng trước khi tưới nhựa hoặc rải hỗn hợp",
+        "Vật liệu nhựa, đá, hỗn hợp: kiểm tra chứng chỉ, thí nghiệm; không dùng khi không đạt",
+        "Láng nhựa: tưới nhựa lót hoặc nhựa dính bám đều bằng xe tưới, rải đá, lu từng lượt theo thiết kế",
+        "Bê tông nhựa nóng: vận chuyển có che phủ, kiểm tra nhiệt độ, rải bằng máy, lu sơ bộ, lu chặt, lu hoàn thiện",
+        "Xử lý mối nối dọc và ngang, tiếp giáp giữa các đoạn rải",
+        "Chỉ thi công khi thời tiết khô, nhiệt độ phù hợp; dừng nếu mưa hoặc mặt móng ẩm",
+        "Giao thông cho phép chạy lại sau thời gian bảo dưỡng theo thiết kế",
+        "Kiểm tra độ bằng phẳng, độ nhám, chiều dày và nghiệm thu theo thiết kế"
+      ],
+      "requirements": [
+        "Thông số theo thiết kế và bản gốc tiêu chuẩn (chưa có số liệu đối chiếu)"
+      ],
+      "checks": [],
+      "tips": [
+        "Nhựa tưới không đều tạo vệt thừa, vệt thiếu: kiểm tra xe tưới trước khi bắt đầu",
+        "Nhiệt độ hỗn hợp thấp khi rải làm khó lu: quản lý khâu vận chuyển",
+        "Mối nối là chỗ yếu của mặt đường: xử lý kỹ, cắt thẳng mép",
+        "Mặt đường nhựa trên đường thi công tạm thường không cần; chỉ làm khi thiết kế yêu cầu",
+        "Thông số theo TCVN 8863, 8819 chưa đọc được"
+      ]
+    },
+    {
+      "title": "Kiểm tra chất lượng: độ chặt, mô đun đàn hồi, độ bằng phẳng",
+      "actions": [
+        "Lập kế hoạch kiểm tra theo thiết kế: số điểm, vị trí, phương pháp cho từng lớp nền, móng, mặt",
+        "Độ chặt: kiểm tra bằng phương pháp rót cát, dao đai hoặc phương pháp khác theo thiết kế; lấy mẫu ngẫu nhiên",
+        "Độ ẩm: xác định tại hiện trường và phòng thí nghiệm, so sánh với độ ẩm tốt nhất",
+        "Mô đun đàn hồi: đo bằng cần Benkelman hoặc tấm ép theo tiêu chuẩn đo, ghi vị trí, thời gian đo",
+        "Độ bằng phẳng: đo bằng thước dài 3 m dọc theo tim và mép, ghi khe hở lớn nhất",
+        "Đo cao độ, bề rộng, độ dốc ngang; đối chiếu với dung sai thiết kế",
+        "Chỗ không đạt: xử lý (xới, bù, đầm lại) rồi kiểm tra lại, ghi vào hồ sơ",
+        "Lập biên bản kiểm tra và đính kèm vào hồ sơ nghiệm thu"
+      ],
+      "requirements": [
+        "Thông số theo thiết kế và bản gốc tiêu chuẩn (chưa có số liệu đối chiếu)"
+      ],
+      "checks": [],
+      "tips": [
+        "Lấy mẫu độ chặt tại các vị trí dễ bị bỏ sót (mép, giáp công trình)",
+        "Cần Benkelman nên đo khi mùa khô, tránh đo sau mưa",
+        "Sai lệch độ bằng phẳng nhỏ xử lý ngay khi còn thi công dễ hơn sau khi nghiệm thu",
+        "Mỗi lớp ký biên bản trước khi thi công lớp tiếp theo",
+        "Số lượng điểm kiểm tra: 2 điểm/1.000 m2 là của lớp nền theo TCVN 9436; lớp móng, mặt theo tiêu chuẩn riêng"
+      ]
+    },
+    {
       "title": "Mặt đường và hoàn thiện",
       "actions": [
         "Thi công lớp móng và mặt đường theo cấu tạo thiết kế; vật liệu đã thí nghiệm và được chấp thuận",
@@ -156,22 +284,53 @@
         "Sau khi hoàn thiện, hạn chế xe nặng đi lại khi mặt đường chưa ổn định",
         "Cọc tiêu, biển báo lắp sai vị trí làm ảnh hưởng an toàn: đối chiếu bản vẽ khi lắp"
       ]
+    },
+    {
+      "title": "An toàn giao thông, duy tu đường thi công mùa mưa và chống bụi",
+      "actions": [
+        "Lắp biển báo, cọc tiêu, vạch sơn, gương cầu lồi, hộ lan theo thiết kế và QCVN 41:2019/BGTVT (xác nhận hiệu lực)",
+        "Đoạn thi công cạnh đường đang khai thác: biển báo, rào chắn, đèn tín hiệu, người điều tiết",
+        "Đường cho xe tải nặng và xe tự đổ: quy định tốc độ, tải trọng, tránh nhau, bán kính cong, đoạn dốc",
+        "Đặt biển báo ở các đoạn cua gấp, dốc lớn, cầu tạm, ngầm tràn; bố trí chiếu sáng nơi cần",
+        "Duy tu thường xuyên: san gạt ổ gà, bù lún, thông rãnh, cống trước và sau mưa",
+        "Mùa mưa: chuẩn bị đá dăm, cấp phối bù nền; kiểm tra sạt taluy, nước tràn mặt đường",
+        "Chống bụi: tưới nước theo lịch, chọn thời điểm; xem xét phủ chống bụi tại khu dân cư",
+        "Phân công đội duy tu, ghi nhật ký sự cố đường và biện pháp xử lý"
+      ],
+      "requirements": [
+        "Thông số theo thiết kế và bản gốc tiêu chuẩn (chưa có số liệu đối chiếu)"
+      ],
+      "checks": [],
+      "tips": [
+        "Đoạn đường ngày càng hư dễ gây tai nạn: duy tu liên tục tiết kiệm hơn sửa lớn",
+        "Tốc độ giới hạn nên ghi rõ bằng biển ở mỗi đoạn nguy hiểm",
+        "Mùa mưa là lúc đường dễ hư nhất: lập dự phòng vật liệu và máy tại chỗ",
+        "Cọc tiêu, hộ lan đặt tại cua và mép đường vực sâu là ưu tiên",
+        "Quy chuẩn báo hiệu đường bộ chưa đọc được: kiểm tra trước khi áp dụng"
+      ]
     }
   ],
   "safety": [
     "Biển báo, người điều tiết, rào chắn khi thi công cạnh đường đang khai thác",
     "Máy đầm, máy san hoạt động trên mái dốc: kiểm tra ổn định, tránh lật",
     "Tưới nước chống bụi; không để máy chạy trong vùng sạt lở",
-    "Giám sát khoảng cách an toàn giữa máy và người; có người báo hiệu khi máy lùi hoặc quay đầu"
+    "Giám sát khoảng cách an toàn giữa máy và người; có người báo hiệu khi máy lùi hoặc quay đầu",
+    "Cống, ngầm tràn, cầu tạm: biển báo tải trọng, mực nước, theo dõi lũ; không cho xe vượt khi nước chảy xiết",
+    "Đường xe nặng và tự đổ: giới hạn tốc độ, tải trọng, hộ lan và cọc tiêu tại cua, mép vực"
   ],
   "acceptance": [
     "Nghiệm thu nền, từng lớp đắp, hoàn thiện nền đường",
-    "Nghiệm thu mặt đường, thoát nước, an toàn giao thông"
+    "Nghiệm thu mặt đường, thoát nước, an toàn giao thông",
+    "Nghiệm thu từng lớp áo đường (móng, mặt) theo tiêu chuẩn từng lớp: độ chặt, chiều dày, mô đun đàn hồi, độ bằng phẳng",
+    "Nghiệm thu cống, ngầm tràn, cầu tạm và công trình thoát nước trước khi hoàn thiện"
   ],
   "records": [
     "Kết quả thí nghiệm vật liệu, độ chặt từng lớp",
     "Biên bản thi công thử, nhật ký, hoàn công",
-    "Ảnh hiện trường theo giai đoạn, biên bản xử lý nền yếu và các thay đổi so với thiết kế"
+    "Ảnh hiện trường theo giai đoạn, biên bản xử lý nền yếu và các thay đổi so với thiết kế",
+    "Biên bản kiểm tra độ chặt, mô đun đàn hồi, độ bằng phẳng từng lớp",
+    "Hồ sơ vật liệu móng, mặt đường; hồ sơ cống, ngầm tràn, cầu tạm",
+    "Nhật ký duy tu, sự cố đường thi công mùa mưa"
   ],
-  "note": "Số liệu lấy từ bản tóm tắt TCVN 9436:2012 đọc được trên các trang tổng hợp; một số mục (đào, cải tạo) chưa đọc đầy đủ. Một số thông số (chiều dày lớp, K theo vị trí) cần đối chiếu bản gốc và thiết kế."
+  "note": "Số liệu lấy từ bản tóm tắt TCVN 9436:2012 đọc được trên các trang tổng hợp; một số mục (đào, cải tạo) chưa đọc đầy đủ. Một số thông số (chiều dày lớp, K theo vị trí) cần đối chiếu bản gốc và thiết kế. Các bước thêm sau rà soát (nền yếu và mái taluy, cống ngầm tràn cầu tạm, móng cấp phối, láng nhựa, kiểm tra thí nghiệm, an toàn giao thông và duy tu) là thực hành chung, chưa có số liệu đối chiếu từ tiêu chuẩn; các tiêu chuẩn 8857 đến 8867 và QCVN 41 mới được thêm vào danh mục, chưa đọc được. Cần đối chiếu cách diễn đạt chiều dày lớp trong TCVN 9436 và nguồn sai số của bước \"Mặt đường và hoàn thiện\"."
 }

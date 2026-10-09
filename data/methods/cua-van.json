@@ -10,7 +10,8 @@
     "tcvn-5639",
     "tcvn-4453",
     "tcvn-4055",
-    "qcvn-18"
+    "qcvn-18",
+    "tcvn-8790"
   ],
   "prerequisites": [
     "Gia công, lắp ráp theo hồ sơ thiết kế được cấp có thẩm quyền phê duyệt [8298 · 3.1]",
@@ -98,6 +99,31 @@
         "Bề mặt làm việc của ray dính vữa, bê tông gây mài mòn và kẹt về sau; che chắn và làm sạch ngay",
         "Không hàn đính tùy tiện lên bề mặt làm việc; nếu có phải mài phẳng và kiểm tra lại",
         "Lập sổ theo dõi các sai lệch đo được để đối chiếu khi lắp thân cửa van"
+      ]
+    },
+    {
+      "title": "Lắp cửa van cung (dầm đỡ, gối trục, chốt trụ, cân chỉnh khe hở)",
+      "actions": [
+        "Nghiên cứu bản vẽ chế tạo, hướng dẫn lắp của nhà chế tạo; xác định trình tự lắp, cẩu lắp, vị trí tạm đỡ",
+        "Kiểm tra tim, cao độ gối trục, mố trụ, dầm đỡ, bu lông neo bằng máy trắc đạt; đối chiếu với bản vẽ trước khi lắp",
+        "Lắp gối trục, chốt trụ: vệ sinh, bôi mỡ, căn chỉnh đồng tâm và cùng cao độ giữa các gối theo thiết kế",
+        "Lắp tay đòn, dầm ngang, dầm dọc, bản mặt từng đoạn; liên kết tạm, cân chỉnh trước khi xiết bu lông hoặc hàn",
+        "Hàn hoặc xiết bu lông liên kết theo quy trình (đối xứng, từng lớp), kiểm tra biến dạng sau hàn",
+        "Lắp gioăng đáy, gioăng bên và tấm đệm; chỉnh khe hở, độ ép gioăng đồng đều theo thiết kế",
+        "Quay thử thủ công bằng tời hoặc kích hoạt dẫn động, kiểm tra độ nhẹ và mức tiếp xúc ở các vị trí trên hành trình",
+        "Lập biên bản đo đạc đồng tâm, độ thẳng, khe hở gioăng và các sai lệch so với thiết kế"
+      ],
+      "requirements": [
+        "Thông số theo thiết kế và bản gốc tiêu chuẩn (chưa có số liệu đối chiếu)"
+      ],
+      "checks": [
+        "Biên bản đo đạc lắp đặt cửa van cung (đồng tâm gối, hành trình, khe hở gioăng)"
+      ],
+      "tips": [
+        "Cửa van cung nhạy với độ đồng tâm giữa hai gối; sai lệch gây kẹt và mòn một bên",
+        "Trình tự hàn sai làm biến dạng bản mặt; hàn đối xứng, ghi nhật ký",
+        "Đo kiểm khi nhiệt độ ổn định (sáng sớm) cho thép dài",
+        "Dung sai cụ thể lấy theo bản vẽ nhà chế tạo và tiêu chuẩn; không tự quy định"
       ]
     },
     {
@@ -190,6 +216,57 @@
       ]
     },
     {
+      "title": "Đường ống áp lực: ống lót thép, bê tông bao, bơm vữa tiếp xúc, thử áp lực",
+      "actions": [
+        "Kiểm tra từng đoạn ống khi nhập: kích thước, độ tròn, chiều dày, mối hàn dọc, lớp sơn, chứng chỉ vật liệu",
+        "Định vị đoạn ống theo tim và cao độ, dùng giá đỡ, thanh chống tạm; neo chống đẩy nổi trước khi đổ bê tông bao",
+        "Hàn nối vòng theo quy trình hàn được duyệt, thợ có chứng chỉ, trình tự đối xứng để hạn chế biến dạng; chỉnh độ tròn đầu ống trước khi hàn",
+        "Kiểm tra không phá hủy mối hàn theo tỷ lệ thiết kế (siêu âm, chụp ảnh, thẩm thấu), mối không đạt sửa và kiểm tra lại",
+        "Đổ bê tông bao ống theo từng lớp, đối xứng hai bên để ống không xê dịch; theo dõi biến dạng ống trong khi đổ",
+        "Bơm vữa tiếp xúc giữa ống và bê tông theo lỗ bơm thiết kế, theo áp suất cho phép; sau đó gõ kiểm tra chỗ rỗng và bơm bổ sung",
+        "Thử áp lực ống theo áp suất, thời gian giữ và quy trình của thiết kế; khoanh vùng, xả khí, tăng áp từ từ, kiểm tra mối hàn và rò rỉ",
+        "Súc rửa ống, làm sạch bên trong, sơn lòng ống theo thiết kế, đóng cửa ra vào ống (nếu có) kín"
+      ],
+      "requirements": [
+        "Thông số theo thiết kế và bản gốc tiêu chuẩn (chưa có số liệu đối chiếu)"
+      ],
+      "checks": [
+        "Biên bản kiểm tra không phá hủy mối hàn ống, biên bản bơm vữa tiếp xúc, biên bản thử áp lực"
+      ],
+      "tips": [
+        "Ống bị đẩy nổi hoặc xê dịch khi đổ bê tông là sự cố nghiêm trọng; tính chống đẩy nổi trước khi đổ",
+        "Vữa tiếp xúc bơm sai quy trình để lại rỗng sau ống, gây mất ổn định khi vận hành",
+        "Đồng hồ thử áp phải được kiểm định; người ngoài khu thử áp phải được rút ra",
+        "Áp suất thử, thời gian giữ lấy theo thiết kế và tiêu chuẩn; không tự giảm",
+        "Kiểm tra khí độc, thông gió trước khi người vào trong ống"
+      ]
+    },
+    {
+      "title": "Sơn dặm mối hàn hiện trường và kiểm soát trình tự sơn trước khi hạ cửa, đổ bê tông cấp 2",
+      "actions": [
+        "Lập danh sách vị trí cần sơn dặm: mối hàn hiện trường, chỗ trầy xước, bu lông; chốt thời điểm sơn trước khi hạ cửa vào rãnh và trước khi đổ bê tông cấp 2 các phần khuất",
+        "Làm sạch bề mặt mối hàn: loại xỉ, bắn tóe, mài nhẵn góc cạnh; làm sạch dầu mỡ, bụi, muối",
+        "Làm sạch bằng phun cát hoặc cơ học đến cấp sạch theo thiết kế; thời gian từ làm sạch đến sơn lót càng ngắn càng tốt",
+        "Pha sơn theo tỷ lệ, tuân thủ thời gian sống của sơn pha; sơn lót, các lớp trung gian, lớp phủ theo hệ sơn thiết kế",
+        "Kiểm soát điều kiện khí hậu: không sơn khi mưa, sương, độ ẩm cao hoặc nhiệt độ bề mặt gần điểm sương; theo hướng dẫn của nhà sản xuất sơn",
+        "Đo chiều dày màng sơn khô, kiểm tra lỗ kim, độ bám; sơn bổ sung chỗ không đạt",
+        "Bảo vệ mặt tiếp xúc ray, bề mặt làm việc, gioăng khỏi sơn và vữa; che chắn khi sơn và khi đổ bê tông cấp 2",
+        "Ghi nhật ký sơn: loại sơn, lô, nhiệt độ, độ ẩm, chiều dày từng lớp"
+      ],
+      "requirements": [
+        "Thông số theo thiết kế và bản gốc tiêu chuẩn (chưa có số liệu đối chiếu)"
+      ],
+      "checks": [
+        "Biên bản nghiệm thu sơn (làm sạch, chiều dày, ngoại quan) trước khi hạ cửa và đổ bê tông cấp 2"
+      ],
+      "tips": [
+        "Phần khuất sau khi đổ bê tông cấp 2 không thể sơn lại; nghiệm thu sơn trước khi che",
+        "Thứ tự sơn cần xét lại với bước lắp máy đóng mở, tránh sơn bị trầy khi cẩu lắp",
+        "Sơn quá sớm trên bề mặt ẩm hoặc bẩn làm bong; kiểm tra trước mỗi lớp",
+        "Bảo quản sơn, dung môi đúng nơi, cách xa nguồn lửa khu hàn"
+      ]
+    },
+    {
       "title": "Xử lý bề mặt, sơn bảo vệ",
       "actions": [
         "Chỉ sơn sau khi bộ phận KCS kiểm tra mối hàn, bu lông và xác nhận bề mặt; gắn nhãn kiểm tra",
@@ -211,6 +288,30 @@
         "Các góc cạnh, mép mối hàn hay bị sơn mỏng; sơn dặm riêng tại các vị trí này",
         "Sơn dính lên bề mặt ray, ty cần pit-tông, cao su gây hỏng thiết bị; che chắn trước khi sơn",
         "Bảo quản sơn và dung môi nơi thoáng mát, tránh lửa"
+      ]
+    },
+    {
+      "title": "Thử độ kín nước và thử vận hành đặc biệt",
+      "actions": [
+        "Chuẩn bị chạy thử: kiểm tra mối kín, gioăng, khe hở, vệ sinh rãnh van; có phương án thoát nước nếu gioăng rò",
+        "Đo rò rỉ ở trạng thái đóng, ở các mức cột nước tăng dần; so sánh với mức rò rỉ cho phép của thiết kế",
+        "Xử lý rò rỉ quá mức bằng chỉnh gioăng, siết bu lông, thay gioăng; thử lại sau khi sửa",
+        "Thử đóng mở dưới áp lực hoặc có dòng chảy theo chương trình của thiết kế, khi điều kiện vận hành cho phép",
+        "Thử chức năng tự hạ, dừng khẩn cấp, giới hạn hành trình, bảo vệ quá tải theo thiết kế",
+        "Thử nguồn dự phòng (máy phát, nguồn tay) và thao tác tại chỗ, thao tác từ xa; kiểm tra tín hiệu vị trí, nối đất, chống sét",
+        "Ghi số liệu vào biểu mẫu thử nghiệm, có đại diện thiết kế, nhà chế tạo, giám sát chứng kiến"
+      ],
+      "requirements": [
+        "Thông số theo thiết kế và bản gốc tiêu chuẩn (chưa có số liệu đối chiếu)"
+      ],
+      "checks": [
+        "Biên bản thử độ kín, thử đóng mở đặc biệt và thử nguồn dự phòng có chữ ký các bên"
+      ],
+      "tips": [
+        "Mức rò cho phép và áp lực thử lấy theo thiết kế/nhà chế tạo; không dùng số tham khảo khác",
+        "Thử đóng mở có dòng chảy cần kế hoạch với đơn vị vận hành hạ lưu",
+        "Nguồn dự phòng phải được thử thật, không chỉ kiểm tra bằng mắt",
+        "Chụp ảnh, quay video quá trình thử để lưu hồ sơ"
       ]
     },
     {
@@ -250,21 +351,29 @@
     "Hàn, cắt: phòng cháy, che chắn tia hàn, thợ hàn có chứng chỉ; nối đất máy hàn",
     "Thử áp lực: khoanh vùng, đồng hồ đã kiểm định, tăng áp từ từ, không đứng đối diện đầu ống",
     "Cô lập và khóa nguồn điện, thủy lực khi lắp, chạy thử máy đóng mở; ngăn nước vào rãnh van khi đang lắp",
-    "Có người chỉ huy duy nhất khi cẩu lắp, phối hợp bằng tín hiệu thống nhất"
+    "Có người chỉ huy duy nhất khi cẩu lắp, phối hợp bằng tín hiệu thống nhất",
+    "Sơn, phun cát: khẩu trang lọc bụi/hơi dung môi, kính, quần áo bảo hộ, thông gió trong ống/rãnh; cấm lửa gần sơn và dung môi",
+    "Thử độ kín, thử đóng mở có dòng chảy: giải phóng khu vực hạ lưu, tín hiệu thống nhất, người điều khiển có chứng chỉ"
   ],
   "acceptance": [
     "Nghiệm thu vật liệu, thiết bị khi giao nhận",
     "Nghiệm thu bộ phận đặt sẵn trước khi đổ bê tông cấp 2",
     "Nghiệm thu mối hàn, bu lông, sơn",
     "Nghiệm thu tĩnh, chạy thử không tải, có tải, bàn giao",
-    "Chỉ chuyển bước khi biên bản bước trước đã được các bên ký xác nhận"
+    "Chỉ chuyển bước khi biên bản bước trước đã được các bên ký xác nhận",
+    "Nghiệm thu lắp cửa van cung và đường ống áp lực (đồng tâm, mối hàn, bơm vữa, thử áp)",
+    "Nghiệm thu sơn trước khi hạ cửa và trước khi đổ bê tông cấp 2 phần khuất",
+    "Nghiệm thu thử độ kín và thử vận hành đặc biệt"
   ],
   "records": [
     "Hồ sơ thiết kế, bản vẽ chế tạo, biên bản kiểm tra khi xuất xưởng, chứng chỉ vật liệu",
     "Biên bản nghiệm thu từng phần, bản vẽ hoàn công, nhật ký lắp đặt, thay đổi thiết kế [5639 · 2.2, 8640 · 11.1]",
     "Chứng chỉ thợ hàn, biên bản kiểm tra mối hàn, thử áp lực",
     "Biên bản chạy thử và bàn giao",
-    "Sổ theo dõi sấy que hàn, biểu mẫu lắp đặt và ảnh chụp các công việc khuất"
+    "Sổ theo dõi sấy que hàn, biểu mẫu lắp đặt và ảnh chụp các công việc khuất",
+    "Biên bản đo đạc đồng tâm cửa van cung, biên bản bơm vữa tiếp xúc, thử áp lực đường ống",
+    "Nhật ký sơn (hệ sơn, lô, điều kiện khí hậu, chiều dày màng)",
+    "Biên bản thử độ kín, tự hạ, dừng khẩn cấp, nguồn dự phòng"
   ],
   "note": "Chỉ đọc được bản xem thử trên thuvienphapluat.vn: TCVN 8298:2009 đọc mục 1-8 và đầu mục 9 (9.1.1.1); phần lắp đặt bộ phận đặt sẵn, cửa van cung, nghiệm thu và phụ lục A (dung sai) không đọc được; số liệu chưa đối chiếu. TCVN 8640:2011 và TCVN 8300:2009 đọc một phần (nhiều đoạn, công thức, phụ lục bị khóa). TCVN 5639:1991 đọc mục 1-3. TCVN 6700-1:2016 chỉ đọc phạm vi và cấu trúc. Tiêu chuẩn ngành về cửa van cung (2005, Bộ NN&PTNT) chỉ thấy thông tin thư mục, toàn văn hạn chế; chưa đọc tiêu chuẩn riêng cho cửa van phẳng và lắp đặt đường ống áp lực. TCVN 5017 (thuật ngữ hàn) chỉ thấy tên, không dùng. Các số liệu ghi 'chưa đối chiếu' phải lấy lại từ bản gốc và thiết kế trước khi áp dụng."
 }

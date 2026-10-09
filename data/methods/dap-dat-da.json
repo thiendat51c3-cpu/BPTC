@@ -10,7 +10,13 @@
     "tcvn-10775",
     "tcvn-9166",
     "tcvn-4055",
-    "qcvn-18"
+    "qcvn-18",
+    "tcvn-8216",
+    "nd-114-2018",
+    "tcvn-8644",
+    "tcvn-8645",
+    "tcvn-9906",
+    "tcvn-12634"
   ],
   "prerequisites": [
     "Nhà thầu căn cứ hồ sơ thiết kế, điều kiện thực tế để lập biện pháp thi công, quy trình thi công, tiến độ cho từng hạng mục và tổng mặt bằng; với công trình phức tạp, quy trình chi tiết phải được chủ đầu tư duyệt [8297 · 3.1, 3.2]",
@@ -44,6 +50,30 @@
         "Nước ngầm trồi hoặc mạch nước nhỏ bị bỏ sót làm đất đắp bão hòa: có phương án tiêu nước và ống dẫn tạm",
         "Hố đào xử lý nền chưa dọn hết đất yếu: dùng đào thử, đo kiểm, ghi nhận cao độ mặt đáy",
         "Nền bị xe nặng làm hỏng sau nghiệm thu: bảo vệ nền, hạn chế phương tiện đi lại"
+      ]
+    },
+    {
+      "title": "Xử lý nền sâu và công trình xuyên đập",
+      "actions": [
+        "Đối chiếu thiết kế biện pháp xử lý nền: khoan phụt, tường hào, cọc xi măng đất, cừ, chân khay; xác định thứ tự so với đắp thân đập",
+        "Khoan phụt chống thấm nền: thi công theo tài liệu khoan phụt riêng, thí nghiệm nước, kiểm tra hiệu quả bằng lỗ kiểm tra",
+        "Tường hào chống thấm, cọc xi măng đất, cừ: thi công theo thiết kế, nghiệm thu từng đoạn trước khi đắp lên",
+        "Cống lấy nước, ống xả, tháp van qua đập: thi công trên nền chắc, ống đặt đúng cao độ và độ dốc",
+        "Chống thấm quanh cống: vòng chống thấm (cổ cống), đắp đối xứng hai bên, đầm bằng đầm nhỏ",
+        "Hố tiêu năng, kênh xả sau cống: gia cố chống xói, kiểm tra cao độ, bản vẽ hoàn công",
+        "Lắp đặt thiết bị quan trắc nền (áp lực nước lỗ rỗng, lún) trước khi đắp",
+        "Lập biên bản nghiệm thu xử lý nền sâu và công trình xuyên đập trước khi đắp thân đập"
+      ],
+      "requirements": [
+        "Thông số theo thiết kế và bản gốc tiêu chuẩn (chưa có số liệu đối chiếu)"
+      ],
+      "checks": [],
+      "tips": [
+        "Chỗ tiếp giáp giữa đất đắp và cống là vị trí dễ thấm tập trung: đầm kỹ, đắp theo lớp mỏng, kiểm tra riêng",
+        "Khoan phụt xong chờ cường độ vữa đủ rồi mới đắp lên hoặc đào lân cận",
+        "Phụt vữa nền nên thực hiện trước hoặc ở thời điểm cao trình đắp phù hợp theo thiết kế",
+        "Cổ cống không được bỏ khi thiết kế có yêu cầu",
+        "Khoan phụt theo TCVN 8644, 8645 chỉ đọc được từng phần"
       ]
     },
     {
@@ -151,6 +181,78 @@
       ]
     },
     {
+      "title": "Đắp đập đất nhiều vùng: lõi sét, tầng lọc, chuyển tiếp, vỏ",
+      "actions": [
+        "Nhận thiết kế phân vùng: lõi hoặc tường nghiêng, tầng lọc, vùng chuyển tiếp, vỏ đá hoặc cuội sỏi; xác định vật liệu, chiều dày lớp từng vùng",
+        "Đánh dấu ranh giới các vùng ngoài hiện trường bằng cọc mốc, cao độ; kiểm tra sau mỗi lớp",
+        "Đắp các vùng đồng thời theo lớp, kiểm soát độ chênh cao giữa các vùng theo thiết kế, không để vật liệu vùng này lẫn vào vùng khác",
+        "Tầng lọc, vùng chuyển tiếp: rải bằng thiết bị nhẹ, tránh phân tầng hạt, đầm theo yêu cầu thiết kế",
+        "Lõi sét: kiểm soát độ ẩm, đầm riêng bằng đầm phù hợp; mặt lớp cũ xới nhám trước khi rải lớp mới",
+        "Lấy mẫu độ chặt từng vùng với tần suất theo thiết kế; kiểm tra thành phần hạt của tầng lọc",
+        "Xử lý mối nối ngang và mặt tiếp giáp giữa đắp trước và sau (bậc, dốc thoải) theo thiết kế",
+        "Ghi nhật ký cao độ từng vùng, nhận xét thời tiết, báo cáo hằng ngày"
+      ],
+      "requirements": [
+        "Thông số theo thiết kế và bản gốc tiêu chuẩn (chưa có số liệu đối chiếu)"
+      ],
+      "checks": [],
+      "tips": [
+        "Tầng lọc bị nhiễm mịn mất tác dụng thoát nước: bảo vệ không cho đất lõi tràn vào",
+        "Ranh giới vùng cần dùng máy GPS hoặc toàn đạc kiểm tra thường xuyên",
+        "Độ chênh cao giữa các vùng đắp cần giới hạn để tránh sạt mái hố đào, tránh vật liệu rơi vào vùng khác",
+        "Mỗi vùng dùng đầm riêng, đừng dùng chung loại một đầm cho vật liệu khác nhau",
+        "Tiêu chuẩn đập hỗn hợp đất đá (TCVN 10397) chưa đọc được nội dung"
+      ]
+    },
+    {
+      "title": "Đắp đá đổ và đập hỗn hợp đất đá",
+      "actions": [
+        "Rà soát thiết kế phân vùng đá: vùng chính, vùng chuyển tiếp, vùng đệm, vùng đá bảo vệ mái; yêu cầu cỡ hạt, cường độ đá từng vùng",
+        "Quản lý mỏ đá và nổ mìn để đạt cấp phối yêu cầu; kiểm soát đá quá cỡ, đá phong hóa, nhiều bột",
+        "Thi công thử hiện trường (đầm thử) để chọn chiều dày lớp, số lượt đầm, lượng nước tưới theo vật liệu thực tế",
+        "Rải đá từng lớp bằng máy ủi, đổ lùi để tránh phân tầng; xử lý đá lớn bằng nhặt hoặc đập nhỏ",
+        "Đầm bằng lu rung theo số lượt đã chọn; tưới nước trước khi đầm theo kết quả thi công thử",
+        "Kiểm tra độ chặt thể hiện qua độ lún lớp đầm hoặc đo khối lượng thể tích hiện trường theo phương pháp thiết kế quy định",
+        "Đập hỗn hợp đất đá: phối hợp đắp vùng đất và vùng đá, xử lý mặt tiếp giáp và vùng chuyển tiếp",
+        "Dọn đá lăn, tu chỉnh mái, xếp đá bảo vệ mái theo yêu cầu thiết kế"
+      ],
+      "requirements": [
+        "Thông số theo thiết kế và bản gốc tiêu chuẩn (chưa có số liệu đối chiếu)"
+      ],
+      "checks": [],
+      "tips": [
+        "Đá bị phân tầng khi đổ từ cao: rải bằng đổ gần và san, tránh đổ từ mép",
+        "Đầm thử quyết định thông số cho cả công trình: thử bằng đúng loại đầm sẽ sử dụng",
+        "Tưới nước sau mỗi lớp giúp đá vào khít hơn nhưng cần theo thông số thiết kế",
+        "Đá bột và đá yếu tập trung lại gây lún không đều: kiểm soát tại mỏ",
+        "Số lượt đầm, chiều dày lớp theo thiết kế và tiêu chuẩn gốc, chưa có số liệu đối chiếu"
+      ]
+    },
+    {
+      "title": "Đắp trong mùa mưa, bảo vệ mặt đắp dở và xử lý mối",
+      "actions": [
+        "Lập kế hoạch đắp theo mùa: ưu tiên đắp mùa khô, đạt cao trình vượt lũ thi công trước mùa mưa theo thiết kế",
+        "Chuẩn bị che phủ (bạt, đá), rãnh thoát nước quanh mặt đắp, độ dốc mặt đắp để thoát nước nhanh",
+        "Khi có mưa: dừng rải, lu kín bề mặt, san dốc thoát nước, che chắn; ghi nhật ký",
+        "Sau mưa: kiểm tra độ ẩm, xới bỏ lớp mặt bị ướt, nhão hoặc bong theo thiết kế, thí nghiệm lại trước khi đắp tiếp",
+        "Bảo vệ mặt đắp dở qua mùa lũ: mái, ranh giới, cống thoát, đường tràn tạm theo thiết kế",
+        "Khảo sát mối, tổ mối trong đập đất, nền, bãi vật liệu; xử lý theo quy định và thiết kế (diệt mối, đào, trám)",
+        "Kiểm tra vết nứt, lún, tổ mối, hang động vật khi dừng thi công kéo dài",
+        "Ghi lượng mưa, số ngày ngừng thi công và biện pháp bảo vệ trong nhật ký"
+      ],
+      "requirements": [
+        "Thông số theo thiết kế và bản gốc tiêu chuẩn (chưa có số liệu đối chiếu)"
+      ],
+      "checks": [],
+      "tips": [
+        "Đắp vội trong mưa tạo lớp yếu khó phát hiện: thà dừng còn hơn đắp lại sau",
+        "Mặt lớp đắp dở phải có độ dốc ngang để thoát nước, không để đọng",
+        "Kiểm tra mối từ lúc khảo sát bãi vật liệu, tránh đưa đất có tổ mối vào thân đập",
+        "Cao trình vượt lũ thi công lấy từ thiết kế dẫn dòng, không tự đặt",
+        "Số liệu mùa mưa (±3%) trong TCVN 8297 cần đối chiếu bản gốc"
+      ]
+    },
+    {
       "title": "Sân phủ, chân khay, tường chống thấm, mặt nối, công trình tiếp giáp",
       "actions": [
         "Đo đạc, cắm tim và giới hạn sân phủ, chân khay, tường tâm theo thiết kế; bố trí lớp bảo vệ, tầng lọc phù hợp",
@@ -204,6 +306,54 @@
       ]
     },
     {
+      "title": "Bản mặt bê tông, khe chu vi và băng cản nước (đập đá đổ bản mặt bê tông)",
+      "actions": [
+        "Xác định phạm vi áp dụng: bước này dùng cho đập đá đổ bản mặt bê tông (TCVN 10775); đập đất đồng chất không cần",
+        "Hoàn thiện đệm bản mặt và mái thượng lưu: tu chỉnh, đầm lại, bảo vệ chống xói trước khi thi công bản mặt",
+        "Thi công khe chu vi: kết cấu băng cản nước, vật liệu đệm, nối với bản chân theo thiết kế",
+        "Bản chân (plinth): thi công trên nền đá đã xử lý, liên kết với khoan phụt nền, cao độ và vị trí theo thiết kế",
+        "Lắp cốt thép, băng cản nước các khe dọc và khe ngang; kiểm tra vị trí, hàn nối đúng kỹ thuật",
+        "Đổ bê tông bản mặt bằng ván khuôn trượt theo dải, kiểm soát độ sụt, đầm, bảo dưỡng",
+        "Bảo dưỡng bê tông bản, kiểm tra nứt, xử lý vết nứt theo thiết kế",
+        "Thí nghiệm, nghiệm thu bản mặt, khe chu vi; ghi biên bản và hoàn công"
+      ],
+      "requirements": [
+        "Thông số theo thiết kế và bản gốc tiêu chuẩn (chưa có số liệu đối chiếu)"
+      ],
+      "checks": [],
+      "tips": [
+        "Băng cản nước dễ bị hư khi vận chuyển và lắp: bảo vệ, kiểm tra kỹ trước khi đổ bê tông",
+        "Bê tông bản dễ nứt do co ngót nhiệt: chú ý bảo dưỡng ẩm liên tục",
+        "Bản mặt chỉ thi công khi thân đập đã lún ổn định theo thiết kế; xem kế hoạch theo dõi lún",
+        "Lấy yêu cầu bê tông, băng cản nước từ các tiêu chuẩn bê tông thủy công đã có trong danh mục (xem bê tông)",
+        "TCVN 10775 chưa đọc được nội dung"
+      ]
+    },
+    {
+      "title": "Quan trắc đập trong thi công",
+      "actions": [
+        "Lập chương trình quan trắc theo thiết kế: lún, chuyển vị ngang, áp lực nước lỗ rỗng, thấm, mực nước",
+        "Lắp thiết bị đúng cao độ và vị trí trong quá trình đắp (mốc lún, piezometer, đo thấm); bảo vệ thiết bị khi máy đi lại",
+        "Hiệu chỉnh thiết bị, đo trị số ban đầu và ghi lại trước khi đắp phủ",
+        "Đo theo tần suất và ngưỡng cảnh báo do thiết kế quy định; số liệu trong tài liệu hiện chưa có",
+        "Phân tích sơ bộ số liệu sau mỗi lần đo; so sánh với dự báo thiết kế, phát hiện bất thường",
+        "Khi vượt ngưỡng: dừng đắp, báo cáo thiết kế, kiểm tra nền, vật liệu và tốc độ đắp",
+        "Bảo vệ và duy trì hệ thống quan trắc đến khi bàn giao; ghi đầy đủ nhật ký sự cố thiết bị",
+        "Bàn giao số liệu quan trắc và sơ đồ bố trí cho đơn vị quản lý khi nghiệm thu"
+      ],
+      "requirements": [
+        "Thông số theo thiết kế và bản gốc tiêu chuẩn (chưa có số liệu đối chiếu)"
+      ],
+      "checks": [],
+      "tips": [
+        "Dây cáp thiết bị dễ đứt khi đầm: bố trí rãnh, đệm cát bảo vệ",
+        "Thiết bị lắp muộn thì mất số liệu giai đoạn đầu quan trọng nhất",
+        "Tốc độ lên đập cần liên hệ áp lực nước lỗ rỗng; xem biểu đồ tốc độ lên đập trong hồ sơ",
+        "Quản lý an toàn đập theo Nghị định 114/2018/NĐ-CP: kiểm tra thêm văn bản hiện hành",
+        "Không tự đặt ngưỡng cảnh báo: lấy từ thiết kế"
+      ]
+    },
+    {
       "title": "Quản lý chất lượng, thử tải và nghiệm thu",
       "actions": [
         "Lập kế hoạch kiểm tra chất lượng: vị trí, tần suất lấy mẫu, nhân sự, thiết bị thí nghiệm",
@@ -233,19 +383,26 @@
     "Đường vận chuyển có biển báo, người điều tiết, tưới nước chống bụi",
     "Máy đầm, máy ủi làm việc gần mép mái: chú ý ổn định, tránh lật; không để người đi lại trong vùng máy hoạt động [8305 · 6.5]",
     "Mưa lớn dừng đắp, che phủ mặt đắp, thoát nước ngay [8297 · 9.13]",
-    "Dốc, mép nền, hố đào và mái đập có rào chắn, biển báo; người điều khiển máy được kèm cặp khi làm việc gần người"
+    "Dốc, mép nền, hố đào và mái đập có rào chắn, biển báo; người điều khiển máy được kèm cặp khi làm việc gần người",
+    "Đập đá đổ: kiểm soát đá lăn, mép mái, xe đổ lùi; khu vực lu rung có người báo hiệu",
+    "Mùa lũ: mặt đắp dở có kịch bản bảo vệ, đường thoát nước và sơ tán thiết bị"
   ],
   "acceptance": [
     "Nghiệm thu nền, xử lý nền trước khi đắp",
     "Nghiệm thu từng lớp đắp (độ chặt, độ ẩm) theo điểm dừng kiểm tra",
     "Nghiệm thu mái, kích thước hình học, hệ thống quan trắc",
-    "Biên bản thí nghiệm từng lớp được tổng hợp và ký xác nhận trước khi đắp lớp tiếp theo"
+    "Biên bản thí nghiệm từng lớp được tổng hợp và ký xác nhận trước khi đắp lớp tiếp theo",
+    "Nghiệm thu xử lý nền sâu (khoan phụt, tường hào, cọc xi măng đất), công trình xuyên đập trước khi đắp",
+    "Nghiệm thu giai đoạn thi công đập và bản mặt bê tông (nếu có), kiểm tra an toàn và bàn giao quan trắc"
   ],
   "records": [
     "Kết quả thí nghiệm vật liệu, đầm thử, thí nghiệm hiện trường từng lớp",
     "Nhật ký thi công, biên bản nghiệm thu từng lớp, từng giai đoạn",
     "Bản vẽ hoàn công, số liệu quan trắc",
-    "Sơ đồ vị trí lấy mẫu, biểu đồ theo dõi tốc độ lên đập và lượng mưa ảnh hưởng thi công"
+    "Sơ đồ vị trí lấy mẫu, biểu đồ theo dõi tốc độ lên đập và lượng mưa ảnh hưởng thi công",
+    "Hồ sơ đầm thử, thông số đá đổ (chiều dày lớp, số lượt, nước tưới)",
+    "Hồ sơ bản mặt, khe chu vi, băng cản nước; số liệu quan trắc đập trong thi công",
+    "Nhật ký đắp mùa mưa, khảo sát và xử lý mối"
   ],
-  "note": "TCVN 8297:2009 chỉ đọc được đến mục 14.6 (thiếu mục 15 nghiệm thu, 16 an toàn, Phụ lục C). Các tiêu chuẩn đập hỗn hợp đất đá (TCVN 10397) và đập đá đổ bản mặt bê tông (TCVN 10775) chưa đọc được nội dung."
+  "note": "TCVN 8297:2009 chỉ đọc được đến mục 14.6 (thiếu mục 15 nghiệm thu, 16 an toàn, Phụ lục C). Các tiêu chuẩn đập hỗn hợp đất đá (TCVN 10397) và đập đá đổ bản mặt bê tông (TCVN 10775) chưa đọc được nội dung. Các tiêu chí đối chiếu trong bước \"Đầm nén\" (số mẫu/m2, dung trọng thấp hơn tối đa 0,05 T/m3) lấy từ TCVN 8305 cho kênh đất, không áp dụng cho đập. Các bước thêm sau rà soát là thực hành chung, chưa có số liệu đối chiếu; thông số đá đổ và bản mặt lấy từ thiết kế và TCVN 10397, 10775 (chưa đọc được)."
 }

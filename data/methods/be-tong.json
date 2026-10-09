@@ -12,7 +12,18 @@
     "tcxdvn-305",
     "tcvn-8828",
     "tcvn-9345",
-    "tcvn-11652"
+    "tcvn-11652",
+    "tcvn-9407",
+    "14tcn-59",
+    "tcvn-9159",
+    "tcvn-8218",
+    "tcvn-8219",
+    "tcvn-5574",
+    "tcvn-9343",
+    "tcvn-9340",
+    "tcvn-3116",
+    "tcvn-9334",
+    "tcvn-9335"
   ],
   "prerequisites": [
     "Thiết kế cấp phối được phòng thí nghiệm duyệt; mác ≥ 150 thiết kế tại phòng thí nghiệm [4453 · mục 6]",
@@ -22,6 +33,31 @@
     "Phòng thí nghiệm hiện trường có thiết bị đúc mẫu, bảo dưỡng mẫu và đo độ sụt"
   ],
   "steps": [
+    {
+      "title": "Xử lý bề mặt tiếp giáp nền đá và nghiệm thu nền trước khi đổ",
+      "actions": [
+        "Dọn đá lỏng, đá phong hóa và đá nứt nẻ theo ranh đào thiết kế; bóc đến lớp đá được thiết kế hoặc địa chất công trình xác nhận",
+        "Sửa mặt đá cho bậc, không có mặt dốc ngược hoặc góc nhọn nhô; xử lý riêng đới đứt gãy, vết nứt lớn, hố sâu theo chỉ dẫn thiết kế (đào bỏ, trám bê tông)",
+        "Xử lý nước thấm lộ trên mặt đá: dẫn ra rãnh, ống thoát tạm hoặc bơm; không để nước đọng trên mặt đá khi đổ",
+        "Rửa sạch bằng nước áp lực và thổi khí để loại bùn, bụi, váng dầu, vụn đá; hút khô nước đọng trong các hố trũng",
+        "Giữ mặt đá ẩm nhưng không đọng nước ngay trước khi đổ, hoặc phủ lớp vữa/bê tông lót đệm theo thiết kế",
+        "Trải lớp vữa kết nối hoặc bê tông lót ngay trước lớp bê tông đầu tiên nếu thiết kế yêu cầu, đầm kỹ để sát mặt đá",
+        "Mời thiết kế, địa chất, tư vấn giám sát nghiệm thu nền đá, chụp ảnh và lập bản vẽ hoàn công mặt đá trước khi đổ khối đầu tiên"
+      ],
+      "requirements": [
+        "Thông số theo thiết kế và bản gốc tiêu chuẩn (chưa có số liệu đối chiếu)"
+      ],
+      "checks": [
+        "Biên bản nghiệm thu nền đá (hình dạng, độ sạch, nước thấm) trước khi đổ khối đầu tiên"
+      ],
+      "tips": [
+        "Nền đá chỉ làm sạch qua loa sẽ tạo mặt trượt yếu dưới khối bê tông; nghiệm thu bằng biên bản có chữ ký địa chất",
+        "Mưa hoặc nước ngầm sau khi nghiệm thu làm bẩn lại mặt đá; kiểm tra và rửa lại ngay trước khi đổ",
+        "Chuẩn bị sẵn máy bơm dự phòng tại hố thu nước trong suốt thời gian đổ lớp đầu",
+        "Chụp ảnh từng khoang đổ để đối chiếu khi xảy ra thấm hoặc nứt sau này",
+        "Không để thiết bị nặng chạy trên mặt đá đã làm sạch"
+      ]
+    },
     {
       "title": "Ván khuôn, cốp pha",
       "actions": [
@@ -44,6 +80,31 @@
         "Giằng chống thiếu hoặc nền kê lún dễ gây phình, vỡ cốp pha khi đổ; kiểm tra lại giằng ngay trước khi đổ",
         "Chất chống dính quá nhiều làm bẩn mặt bê tông và mạch ngừng; lau bớt phần dư, che đậy khi mưa",
         "Cử người trực cốp pha trong suốt quá trình đổ để xử lý kịp khi có biến dạng"
+      ]
+    },
+    {
+      "title": "Chi tiết chôn sẵn: ống thoát nước, ống chờ khoan phụt, ống làm mát, hành lang kiểm tra",
+      "actions": [
+        "Đối chiếu bản vẽ vị trí, cao độ, độ dốc của ống thoát nước thân khối, ống chờ khoan phụt, ống quan trắc, ống làm mát và hành lang kiểm tra trước khi lắp cốp pha",
+        "Cố định ống thoát nước và ống chờ bằng khung giữ, thép neo đến cốp pha hoặc cốt thép, không để xê dịch khi đổ và đầm",
+        "Bịt kín đầu ống, đầu bọc bằng nút hoặc nắp để vữa không chảy vào; đánh dấu rõ đầu ống để tìm lại khi hoàn thiện",
+        "Nối ống đúng vật liệu và loại mối nối thiết kế, kiểm tra kín tại mối nối; tránh ống bị bẹp, gập khi đổ và đầm",
+        "Thử thông ống bằng cách thổi khí hoặc cho nước chảy qua trước khi che; ống làm mát thử áp theo chỉ dẫn thiết kế và ghi kết quả",
+        "Lắp lưới chắn, bộ lọc tại đầu thu nước thoát theo thiết kế; hành lang kiểm tra dùng cốp pha lòng cố định, chống đỡ đủ khả năng chịu áp lực bê tông",
+        "Kiểm tra lại ống sau mỗi đợt đổ: thông ống, đầu chờ còn nguyên; nối tiếp ống sang lớp sau đúng vị trí; ghi hồ sơ khuất"
+      ],
+      "requirements": [
+        "Thông số theo thiết kế và bản gốc tiêu chuẩn (chưa có số liệu đối chiếu)"
+      ],
+      "checks": [
+        "Biên bản nghiệm thu ống, ống chờ, hành lang chôn sẵn (vị trí, cố định, thông ống) trước khi đổ"
+      ],
+      "tips": [
+        "Đầm rung chạm vào ống làm xê dịch hoặc vỡ mối nối; dùng vòi đầm nhỏ quanh ống",
+        "Ống thoát nước bị bê tông bịt chỉ phát hiện khi công trình đã chịu nước; thử thông trước khi nghiệm thu che",
+        "Ống làm mát cần dùng ngay sau đổ nên phải xong thử áp trước",
+        "Phân loại, dán nhãn từng loại ống bằng màu hoặc thẻ để tránh nối nhầm",
+        "Hồ sơ vị trí ống nộp cùng hoàn công để quản lý vận hành về sau"
       ]
     },
     {
@@ -132,6 +193,128 @@
       ]
     },
     {
+      "title": "Hạ nhiệt chủ động cho bê tông khối lớn",
+      "actions": [
+        "Lập phương án nhiệt theo thiết kế, đưa vào biện pháp thi công: các biện pháp kết hợp gồm vật liệu, làm lạnh, ống làm mát, trình tự và chiều cao lớp đổ",
+        "Chọn xi măng tỏa nhiệt thấp, dùng phụ gia khoáng (tro bay...) và phụ gia giảm nước theo cấp phối đã thí nghiệm",
+        "Làm mát cốt liệu: che nắng kho chứa, phun nước làm mát đá, dùng nước lạnh hoặc đá vảy trộn thay một phần nước khi thiết kế yêu cầu",
+        "Lắp ống làm mát theo sơ đồ thiết kế (khoảng cách, chiều dài mỗi nhánh), cố định chắc, thử áp trước khi đổ",
+        "Cho nước chạy qua ống theo chế độ thiết kế (lưu lượng, nhiệt độ nước, thời điểm bắt đầu và kết thúc); đảo chiều dòng nếu thiết kế quy định",
+        "Đặt đầu đo nhiệt tại tâm, mặt và gần ống làm mát; ghi nhiệt độ theo chu kỳ thiết kế, vẽ biểu đồ nhiệt từng khối",
+        "So sánh kết quả đo với giới hạn thiết kế; vượt giới hạn thì báo thiết kế điều chỉnh lưu lượng, thời gian làm mát hoặc bảo ôn bề mặt",
+        "Sau khi kết thúc làm mát, bơm vữa lấp đầy ống làm mát theo chỉ dẫn thiết kế và ghi hồ sơ"
+      ],
+      "requirements": [
+        "Thông số theo thiết kế và bản gốc tiêu chuẩn (chưa có số liệu đối chiếu)"
+      ],
+      "checks": [
+        "Biểu đồ nhiệt độ từng khối, lưu lượng nước làm mát, đối chiếu giới hạn thiết kế"
+      ],
+      "tips": [
+        "Nên phân biệt rõ ngưỡng nhiệt của hỗn hợp khi ra khỏi trạm trộn và khi vào khoảng đổ; xem lại ngưỡng trong các bước khối lớn và bê tông nóng, không dùng lẫn",
+        "Chênh nhiệt giữa tâm và bề mặt, giữa nước làm mát và bê tông không nên đột ngột; chỉnh dần theo thiết kế",
+        "Đầu đo nhiệt bị hỏng hoặc không có số liệu thì không thể chứng minh kiểm soát nhiệt; kiểm tra đầu đo trước khi đổ",
+        "Nước làm mát ngưng lâu hoặc ngắt đột ngột gây ứng suất nhiệt; có nguồn bơm dự phòng",
+        "Lưu ý không để nước làm mát rò vào khe hoặc băng chắn nước"
+      ]
+    },
+    {
+      "title": "Bê tông đầm lăn (RCC): san rải, đầm, mạch lớp và khe co ngót",
+      "actions": [
+        "Chỉ áp dụng khi thiết kế chọn RCC; bê tông đầm lăn dùng quy trình và tiêu chuẩn riêng (TCVN 10403), không áp dụng nguyên văn các quy định của bê tông thường",
+        "Làm đoạn đầm thử trước khi thi công đại trà: chọn bề dày lớp rải, số lượt lu, loại lu, độ ẩm hỗn hợp; ghi lại thông số được thiết kế duyệt",
+        "Vận chuyển hỗn hợp bằng xe tải hoặc băng tải, hạn chế phân tầng và mất nước; che chắn khi nắng, mưa",
+        "San rải lớp bằng máy ủi/san theo bề dày thiết kế, tránh phân tầng ở mép, xử lý ngay vùng đá cục tập trung",
+        "Đầm bằng lu rung theo sơ đồ đã thử, xác định độ chặt bằng thiết bị đo; vùng sát cốp pha, góc, quanh cống đầm bằng thiết bị nhỏ",
+        "Xử lý mặt mạch giữa các lớp theo khoảng thời gian chờ: mạch nóng thi công liên tục; mạch lạnh phải làm sạch, tạo nhám và trải vữa hoặc bê tông kết nối theo thiết kế",
+        "Tạo khe co ngót (khe cảm ứng) theo vị trí và cách tạo của thiết kế; lắp băng chắn nước, hệ thoát khe cùng tiến độ nâng lớp",
+        "Bảo dưỡng ẩm mặt lớp đã đầm; ghi nhật ký giờ rải, giờ đầm, nhiệt độ, độ chặt từng lớp"
+      ],
+      "requirements": [
+        "Thông số theo thiết kế và bản gốc tiêu chuẩn (chưa có số liệu đối chiếu)"
+      ],
+      "checks": [
+        "Nhật ký rải, đầm, mạch lớp và kết quả đầm thử được thiết kế phê duyệt"
+      ],
+      "tips": [
+        "Thời gian chờ giữa hai lớp là yếu tố quyết định mạch lạnh; có đồng hồ theo dõi tại từng khoang",
+        "Không cho xe chạy trên mặt vừa đầm quá dễ làm bong, mất nước; làm đường vào riêng",
+        "Mưa làm tăng ẩm hỗn hợp; chuẩn bị bạt che và quy định rõ khi nào dừng đổ",
+        "Mép sát cốp pha thường rỗ vì đầm không đủ; chuẩn bị biện pháp riêng",
+        "Thí nghiệm khoan lấy lõi và thử trên mạch là cách duy nhất đánh giá liên kết lớp; lập kế hoạch sớm"
+      ]
+    },
+    {
+      "title": "Xử lý khe, mạch ngừng, chống thấm khe",
+      "actions": [
+        "Đối chiếu bản vẽ: phân biệt khe thi công/mạch ngừng (liền khối sau khi xử lý), khe co (cắt yếu), khe nhiệt - co giãn, khe lún (cho phép chuyển vị); lập bảng vị trí, loại khe, loại băng chắn nước, vật liệu chèn và chi tiết nối tại giao điểm khe ngang - khe đứng",
+        "Mạch ngừng: đặt đúng vị trí thiết kế cho phép, dựng cốp pha chắn gọn, thẳng góc với trục chịu lực; khi buộc phải ngừng đột xuất thì báo tư vấn giám sát chọn vị trí ít bất lợi về chịu lực và thấm",
+        "Trước khi đổ tiếp: loại bỏ lớp vữa yếu bề mặt, làm nhám, rửa sạch nước và bụi, hút nước đọng; giữ ẩm bề mặt nhưng không đọng nước; tưới hồ xi măng hoặc trải vữa xi măng-cát cùng tỉ lệ rồi đổ ngay lớp mới và đầm kỹ sát mạch",
+        "Khe có băng chắn nước: chọn băng đúng chủng loại (PVC, cao su, thép hoặc đồng) và bề rộng theo thiết kế; kiểm tra băng không rách, không dính dầu, đúng chiều dày; đặt đúng tim khe, một nửa chôn trong khối đổ trước, một nửa nhô ra cho khối đổ sau",
+        "Cố định băng: kẹp giữa hai nửa cốp pha khe hoặc buộc vào cốt thép qua lỗ mép bằng dây mềm, giữ băng thẳng, không gập, không xoắn; bảo vệ phần băng nhô ra khỏi hư hỏng, nắng và dầu mỡ trong thời gian chờ khối sau",
+        "Nối băng: PVC hàn nhiệt bằng dao hàn đúng nhiệt, cắt phẳng, ép hai đầu đến khi nguội; cao su nối bằng ép lưu hóa hoặc keo theo nhà sản xuất; đồng hoặc thép hàn kín theo quy trình hàn; nối chữ T, chữ thập, góc dùng đoạn đúc sẵn hoặc cắt hàn tại xưởng, hạn chế nối ngoài hiện trường",
+        "Đổ và đầm quanh băng: đổ bê tông đều hai bên, đầm dùi kỹ hai phía để không rỗ dưới băng, tránh va rung vào băng; bê tông không quá khô để bao kín băng",
+        "Khe biến dạng: dựng ván khe (tấm xốp, gỗ ép, tấm chuyên dụng) dính sát mặt khối trước, cố định để không xô lệch khi đổ khối sau; chừa rãnh sâu ở mặt khe để xảm vật liệu chèn; không để bê tông, vữa lọt vào khe",
+        "Chèn khe: sau khi bê tông đạt tuổi và mặt khe khô, sạch, bỏ ván tạm; đặt thanh đệm chống dính (nếu có), quét lớp lót rồi xảm matit polyurethane (xảm lạnh) hoặc bitum/nhựa đường (xảm nóng) đúng tỉ lệ sâu/rộng theo thiết kế; che nắng và va chạm khi vật liệu chưa đóng rắn",
+        "Khe có ống thoát nước, giếng hoặc hành lang kiểm tra (đập, công, tràn): đặt ống/khoan thoát nước sau băng chắn nước đúng vị trí, đường kính, độ dốc; bịt tạm đầu ống khi đổ; nối thông với hệ thống thu nước, tránh bê tông bít ống",
+        "Kết cấu có yêu cầu chống thấm cao hoặc đập: sau khi tháo cốp pha và bê tông đủ tuổi, kiểm tra mạch tiếp giáp; khi thiết kế yêu cầu thì khoan phun ép hồ xi măng hoặc vật liệu chống thấm vào mạch"
+      ],
+      "requirements": [
+        "Đợt đổ khối lớn: mỗi đợt cao không quá 1,5 m; đợt trên đổ sau khi đợt dưới xong ít nhất 4 ngày đêm; bề mặt mạch làm nhám, rửa sạch, tưới hồ rồi trải vữa xi măng-cát dày 1-1,5 cm [305 · 6.4.3]",
+        "Chia khối đổ: nên có một cạnh hoặc chiều cao nhỏ hơn 2 m (lớn hơn nếu có cốt thép chống nứt do thiết kế quy định); diện tích lớn thì chia thêm theo mặt bằng; phần đổ sau áp sát phần trước khi phần trước đủ ít nhất 4 ngày đêm [305 · 6.8.3]",
+        "Công trình chống thấm cao như đập thủy lợi: có thể phải khoan phun ép hồ xi măng vào mạch tiếp giáp sau khi dỡ cốp pha [305 · 6.4.3, chú thích]",
+        "Mạch ngừng: tốt nhất không dừng; nếu buộc dừng, vỗ phẳng cho nổi vữa, trước khi đổ tiếp tưới hồ xi măng hoặc vữa cùng tỉ lệ với bê tông [9345 · 5.4.2-5.4.3]",
+        "Khe dãn (cho chuyển vị): cắt đứt hoàn toàn bê tông và cốt thép, bề rộng không nhỏ hơn 20 mm; bề rộng tính theo b1 = e × l với e = 0,4-0,45 mm/m, l là khoảng cách hai khe dãn (m) [9345 · 6.2.2a]",
+        "Khe co (không cho chuyển vị): cắt rãnh xuống độ sâu h thường 10-30 mm với kết cấu mỏng, rộng khoảng 10 mm, cốt thép đi qua; tạo bằng thanh hình thang/tam giác khi đổ hoặc cưa cắt khi bê tông đủ cường độ; tỉ lệ sâu/rộng phần xảm 1/1 hoặc 1,5/1 [9345 · 6.2.2b, 6.2.4.2]",
+        "Khoảng cách tối đa giữa các khe dãn trong khí hậu nóng ẩm: 6-9 m (bê tông không cốt hoặc cốt cấu tạo, chịu khí hậu trực tiếp), 18 m (nếu che bức xạ), 35 m (BTCT chịu bức xạ trực tiếp), 50 m (BTCT được che chắn); khe co 6-9 m với BTCT chịu khí hậu trực tiếp [9345 · 6.2.3] (đây là quy định cho kết cấu thường, không áp cho bê tông khối lớn thủy công; khoảng khe công trình thủy lấy theo thiết kế)",
+        "Thi công khe dãn: dùng hai tấm xốp polystyrene khối lượng thể tích không quá 20 kg/m³; sau khoảng 20-30 phút tháo cốp pha chắn, đặt xốp, đổ tiếp; khi bê tông rắn bỏ tấm xốp trên, xảm matit vào phần trống [9345 · 6.2.4.1]",
+        "Matit xảm: polyurethane (xảm lạnh) hoặc nhựa đường (xảm nóng); bảo vệ khỏi tác động cơ học khi chưa rắn và khỏi bức xạ mặt trời khi sử dụng [9345 · 6.2.4.1]",
+        "Khe dãn yêu cầu ngăn nước cao: dùng màng chắn đàn hồi hoặc băng cách nước phía có nguồn nước; thi công theo chỉ dẫn thiết kế riêng [9345 · 6.2.2c, 6.2.4.3]",
+        "Băng chắn nước PVC: TCVN 9407 áp dụng cho băng PVC dùng ở mối nối kết cấu bê tông có yêu cầu chống thấm, phân loại theo hình dạng mặt cắt (loại phẳng FF, phẳng có gân FC...); chỉ tiêu cơ lý đo theo các TCVN viện dẫn [9407 · mục 1, 3] (chỉ đọc phạm vi và phân loại; chưa đối chiếu giá trị kéo, giãn dài)",
+        "Đập bê tông đầm lăn: khe co giãn, khe thi công phải xử lý đúng kỹ thuật; mặt lớp quá thời gian cho phép phải tạo nhám, tưới hồ hoặc vữa liên kết [10403] (từ trang tóm tắt, chưa đối chiếu điều khoản; khe ngang, khe dọc, băng cản nước, thời gian cho phép chưa đọc được)",
+        "Vị trí mạch ngừng cột, dầm, sàn, tường và cường độ bê tông tối thiểu để đổ tiếp theo TCVN 4453 mục 6.6 chưa đọc được: lấy từ bản gốc hoặc thiết kế",
+        "Cốp pha thành chỉ tháo khi bê tông đủ ít nhất 5 ngày đêm tuổi (khối lớn), nên tháo hai bước [305 · 6.5.2, 6.8.4] (đọc từ trích dẫn)"
+      ],
+      "checks": [
+        "Vị trí, kích thước khe đúng bản vẽ; mặt mạch ngừng sạch, nhám trước khi đổ tiếp",
+        "Băng chắn nước: đặt đúng tim, thẳng, kín, mối nối được kiểm tra từng mối; phần đầu băng không rỗ",
+        "Ống thoát nước, ván khe và rãnh xảm không bị bít, lấp"
+      ],
+      "tips": [
+        "Băng chắn nước chỉ phát huy khi cả hai nửa nằm sâu trong bê tông; băng bị gập hoặc cuộn góc là nguyên nhân thấm phổ biến, nên kiểm tra ngay trước mỗi lần đổ",
+        "Đầm kỹ dưới băng (vùng dễ rỗ tổ ong) và đổ hai bên đều để áp lực lệch không làm gập băng",
+        "Mối nối băng là điểm yếu nhất: hạn chế số mối nối, cắt phẳng, hàn khi sạch bụi, để nguội hoàn toàn, thử kéo nhẹ trước khi đổ; thợ hàn nên được đào tạo hoặc thử mối mẫu",
+        "Dùng thép buộc hoặc kẹp khoảng cách vừa đủ để băng không xô khi đổ; không đóng đinh xuyên băng",
+        "Làm sạch vữa bám trên phần băng nhô ra trước khi đổ khối sau; che phủ tránh nắng lâu làm lão hóa",
+        "Không dùng nước cao áp quá mức hoặc để nước đọng trên mạch; mạch bẩn dầu cốp pha cần rửa kỹ vì dễ gây tách lớp",
+        "Bố trí ván khe sao cho dễ lấy ra; bê tông lọt vào khe làm khe mất tác dụng và nứt khi chuyển vị",
+        "Tại giao điểm các khe nên có chi tiết nối băng được thiết kế sẵn; ghi sơ đồ vị trí khe vào nhật ký để dễ tra khi xử lý rò rỉ"
+      ]
+    },
+    {
+      "title": "Bảo vệ khe khi bảo dưỡng, kiểm tra và nghiệm thu khe",
+      "actions": [
+        "Trong thời gian bảo dưỡng, giữ ẩm đều cả hai phía khe; không cho nước bẩn, vữa, vật liệu rơi vào khe và rãnh xảm; che bảo vệ đầu băng chắn nước nhô ra cho khối đổ sau",
+        "Tránh để khối đổ sau tì đè hoặc chịu tải lên mạch quá sớm; kiểm soát chênh nhiệt hai bên khe theo biểu đồ nhiệt để hạn chế khe mở quá lớn hoặc nứt gần khe",
+        "Sau tháo cốp pha khe: kiểm tra mặt khe, mép rỗ, rò rỉ; sửa khuyết tật cục bộ trước khi xảm; hoàn thiện lớp xảm sau khi bê tông đạt tuổi và mặt khô, sạch",
+        "Thử rò rỉ khe và hệ thoát nước ở giai đoạn thử tải hoặc tích nước theo biện pháp được duyệt; ghi lượng thấm, vị trí ẩm ướt",
+        "Lập hồ sơ riêng cho khe: sơ đồ vị trí, loại băng, lô vật liệu, biên bản hàn nối, ảnh trước khi lấp, kết quả kiểm tra; theo dõi hoạt động của khe sau thời gian sử dụng ban đầu"
+      ],
+      "requirements": [
+        "Nghiệm thu khe: kiểm tra số lượng, vị trí, cấu tạo khe; cốt thép qua khe; khe không bị chèn bởi đá, sỏi, bê tông rơi; theo dõi hoạt động của khe sau một năm [9345 · mục 7]",
+        "Kiểm tra chất lượng liền khối của các phần đổ đã chia nhỏ khối [305 · 6.9.2, 7.1] (đọc từ trích dẫn)",
+        "Số lượng mẫu thử, tiêu chí đạt của băng chắn nước và vật liệu chèn: lấy theo hợp đồng, thiết kế và tiêu chuẩn vật liệu (chưa đối chiếu)"
+      ],
+      "checks": [
+        "Biên bản nghiệm thu khe, băng chắn nước và hệ thoát nước trước khi lấp; ghi nhận rò rỉ khi thử"
+      ],
+      "tips": [
+        "Chụp ảnh băng chắn nước và mối nối trước khi đổ khối sau; về sau không còn dịp kiểm tra",
+        "Rò rỉ nhỏ tại khe nên xử lý sớm bằng bơm vữa hoặc vật liệu chuyên dụng thay vì chờ mùa mưa lũ",
+        "Quan sát khe vào cả mùa nóng và lạnh để thấy biên độ chuyển vị thật; ghi lại để so với thiết kế"
+      ]
+    },
+    {
       "title": "Bảo dưỡng và kiểm soát nhiệt bê tông khối lớn",
       "actions": [
         "Ngay khi mặt bê tông đủ cứng để không bị phá hỏng, phủ ẩm bằng bao tải, vải hoặc phủ nilon, tưới nước duy trì độ ẩm liên tục",
@@ -181,6 +364,32 @@
         "Khuyết tật nhỏ sửa sớm dễ đạt chất lượng hơn; khuyết tật lớn báo thiết kế trước khi xử lý",
         "Không tháo cốp pha khi chưa có người chịu trách nhiệm kỹ thuật xác nhận"
       ]
+    },
+    {
+      "title": "Chẩn đoán và sửa chữa khuyết tật bê tông",
+      "actions": [
+        "Khảo sát và phân loại khuyết tật sau tháo cốp pha: rỗ bề mặt, rỗ sâu, nứt (nứt co ngót, nứt nhiệt, nứt kết cấu), hở cốt thép, nứt tại khe; ghi vị trí, kích thước, chụp ảnh",
+        "Báo thiết kế và tư vấn giám sát với khuyết tật lớn, nứt xuyên, nứt có nước thấm; không tự ý xử lý khi chưa có phương án duyệt",
+        "Xác định chất lượng bê tông tại chỗ nghi ngờ bằng súng bật nảy, siêu âm, khoan lấy lõi nén khi mẫu hiện trường không đạt hoặc có nghi ngờ",
+        "Rỗ nông: đục bỏ phần yếu đến lớp bê tông chắc, rửa sạch, làm ẩm, quét lớp liên kết, trám bằng vữa không co ngót cùng hoặc cao hơn cường độ",
+        "Rỗ sâu hoặc hở cốt thép: đục rộng quanh cốt thép, làm sạch gỉ, xử lý chống gỉ nếu thiết kế yêu cầu, vá bằng bê tông/vữa sửa chữa theo từng lớp",
+        "Vết nứt cần lấp kín: bơm keo epoxy hoặc vật liệu theo thiết kế qua đầu bơm gắn sẵn; vết nứt còn hoạt động xử lý theo khớp co giãn theo chỉ dẫn thiết kế",
+        "Bảo dưỡng phần sửa chữa theo vật liệu sử dụng, kiểm tra lại sau khi sửa (gõ, siêu âm, thử thấm khi cần)",
+        "Lập biên bản xử lý, ảnh trước và sau, nghiệm thu trước khi lấp, che phủ"
+      ],
+      "requirements": [
+        "Thông số theo thiết kế và bản gốc tiêu chuẩn (chưa có số liệu đối chiếu)"
+      ],
+      "checks": [
+        "Biên bản phân loại, phương án và nghiệm thu từng vị trí sửa chữa khuyết tật"
+      ],
+      "tips": [
+        "Khuyết tật xử lý sớm, khi còn tháo cốp pha, tránh nước thấm làm hỏng thêm",
+        "Vật liệu sửa chữa phải tương thích bê tông gốc, có xác nhận của nhà sản xuất và phê duyệt thiết kế",
+        "Nứt nhiệt hoặc nứt kết cấu cần tìm nguyên nhân trước khi trám, nếu không sẽ nứt lại",
+        "Phần trám lớn phải đục có thành đứng, tránh mép mỏng dễ bong",
+        "Không dùng vữa xi măng thường để trám chỗ chịu nước áp lực nếu thiết kế chưa cho phép"
+      ]
     }
   ],
   "safety": [
@@ -188,15 +397,27 @@
     "Điện, thiết bị đầm; cẩu, máy bơm: người điều khiển có chứng chỉ",
     "Thời tiết nóng, mưa: có biện pháp che chắn",
     "Tổ chức tín hiệu thống nhất giữa người điều khiển cẩu, bơm và thợ đổ; cấm đứng dưới vùng bê tông đang cẩu",
-    "Ánh sáng đủ khi đổ ban đêm; sàn công tác có lan can, lối đi an toàn"
+    "Ánh sáng đủ khi đổ ban đêm; sàn công tác có lan can, lối đi an toàn",
+    "Hàn nối băng PVC: thông gió tốt, tránh hít khói; dao hàn nhiệt có người được hướng dẫn, che chắn bỏng. Làm việc trong khe, hành lang, giếng kiểm tra: kiểm tra khí, thông gió, ánh sáng; không đứng trong khe hẹp khi đang đổ hoặc cẩu",
+    "Làm việc trên mặt đá, hố thu nước: kiểm tra đá mồ côi, mái dốc; nước thấm, bơm thoát có phương án điện an toàn",
+    "Bê tông đầm lăn: xe, lu hoạt động trong khoang hẹp cần người điều phối, vùng cấm người đi bộ; thiết bị đo độ chặt có hạt nhân phải do người có chứng chỉ vận hành",
+    "Đục, phá bê tông, bơm keo epoxy: kính, găng, khẩu trang; thông gió khi làm trong khe, hành lang; xử lý keo, dung môi đúng quy định"
   ],
   "acceptance": [
     "Nghiệm thu cốp pha, cốt thép trước đổ; nghiệm thu từng khối đổ và kết cấu hoàn thành",
-    "Nghiệm thu khuyết tật và biện pháp sửa chữa sau tháo cốp pha trước khi lấp, che phủ"
+    "Nghiệm thu khuyết tật và biện pháp sửa chữa sau tháo cốp pha trước khi lấp, che phủ",
+    "Nghiệm thu khe, mạch ngừng, băng chắn nước và hệ thoát nước khe trước khi đổ khối kế tiếp hoặc lấp",
+    "Nghiệm thu nền đá và vệ sinh mặt tiếp giáp trước khi đổ khối đầu tiên",
+    "Nghiệm thu ống thoát nước, ống chờ, ống làm mát chôn sẵn (thông ống, thử áp) trước khi che",
+    "Nghiệm thu từng vị trí sửa chữa khuyết tật và kết quả thử sau sửa"
   ],
   "records": [
     "Phiếu thử cường độ, cấp phối, nhật ký đổ, nhiệt độ, biên bản nghiệm thu",
-    "Nhật ký bảo dưỡng và biểu đồ nhiệt độ từng khối đổ; ảnh hiện trạng trước và sau sửa chữa khuyết tật"
+    "Nhật ký bảo dưỡng và biểu đồ nhiệt độ từng khối đổ; ảnh hiện trạng trước và sau sửa chữa khuyết tật",
+    "Sơ đồ vị trí khe, hồ sơ băng chắn nước (lô vật liệu, biên bản hàn nối, ảnh trước khi đổ) và biên bản xử lý mạch ngừng từng khối đổ",
+    "Biên bản nghiệm thu nền đá, ảnh và bản vẽ hoàn công mặt đá",
+    "Sơ đồ ống chôn sẵn, biên bản thử thông ống và thử áp ống làm mát; số liệu nhiệt độ và lưu lượng nước làm mát",
+    "Nhật ký RCC (thông số đầm thử, thời gian giữa lớp, độ chặt); hồ sơ khuyết tật và sửa chữa"
   ],
-  "note": "TCVN 10403, 14334, 11652 chỉ đọc được trang tóm tắt. Số liệu khối lớn lấy từ TCXDVN 305:2004 (tiền nhiệm 14334, chưa rõ còn hiệu lực), nên đối chiếu 14334. TCVN 4453 mục 6.4-6.9 (chiều dày lớp, mạch ngừng, bảo dưỡng) chưa đọc được."
+  "note": "TCVN 10403, 14334, 11652 chỉ đọc được trang tóm tắt. Số liệu khối lớn lấy từ TCXDVN 305:2004 (tiền nhiệm 14334, chưa rõ còn hiệu lực), nên đối chiếu 14334. TCVN 4453 mục 6.4-6.9 (chiều dày lớp, mạch ngừng, bảo dưỡng) chưa đọc được. Phần khe: TCXDVN 305 đọc từ trích dẫn mục 6.4.3, 6.8.3; TCVN 9345 mục 6.2, 5.4, 7 đọc từ bản hiển thị một phần; TCVN 9407 chỉ đọc phạm vi và phân loại; TCVN 4453 mục 6.6, 10403, 14TCN 59 phần khe chưa đọc được."
 }
