@@ -423,51 +423,6 @@
     "readNote": "Đọc được mục 1-9.1; từ 9.2 trở đi (kể cả thi công, nghiệm thu) bị khóa."
   },
   {
-    "id": "tcvn-8298",
-    "short": "8298",
-    "code": "TCVN 8298:2009",
-    "title": "Công trình thủy lợi - Yêu cầu kỹ thuật trong chế tạo và lắp ráp thiết bị cơ khí, kết cấu thép",
-    "note": "Áp dụng cho máy đóng mở, cửa van, lưới chắn rác, đường ống dẫn nước.",
-    "read": "partial",
-    "readNote": "Đọc được mục 1-8 và 9.1.1.1; phần lắp đặt còn lại, nghiệm thu và phụ lục A không đọc được."
-  },
-  {
-    "id": "tcvn-8640",
-    "short": "8640",
-    "code": "TCVN 8640:2011",
-    "title": "Công trình thủy lợi - Máy đóng mở kiểu cáp - Yêu cầu kỹ thuật",
-    "note": "Chưa rõ hiệu lực hiện hành.",
-    "read": "partial",
-    "readNote": "Đọc được phạm vi, mục 8.3 lắp đặt, chạy thử, nghiệm thu; công thức, bảng E.1, F.1 không đọc được."
-  },
-  {
-    "id": "tcvn-8300",
-    "short": "8300",
-    "code": "TCVN 8300:2009",
-    "title": "Công trình thủy lợi - Máy đóng mở kiểu xi lanh thủy lực",
-    "note": "Chưa rõ hiệu lực hiện hành.",
-    "read": "partial",
-    "readNote": "Đọc được một số điều 3, 4, 5.3, 6; nhiều điều và công thức bị khóa."
-  },
-  {
-    "id": "tcvn-6700-1",
-    "short": "6700-1",
-    "code": "TCVN 6700-1:2016 (ISO 9606-1:2012)",
-    "title": "Kiểm tra chấp nhận thợ hàn - Hàn nóng chảy - Phần 1: Thép",
-    "note": "Thay thế TCVN 6700-1:2000.",
-    "read": "partial",
-    "readNote": "Chỉ đọc phạm vi và cấu trúc các điều; chưa thấy thời hạn hiệu lực chứng chỉ."
-  },
-  {
-    "id": "tcvn-5639",
-    "short": "5639",
-    "code": "TCVN 5639:1991",
-    "title": "Nghiệm thu thiết bị đã lắp đặt xong",
-    "note": "Tiêu chuẩn cũ, kiểm tra hiệu lực.",
-    "read": "partial",
-    "readNote": "Đọc được mục 1-3 (giai đoạn nghiệm thu tĩnh, chạy thử không tải, có tải; trách nhiệm)."
-  },
-  {
     "id": "tcxdvn-305",
     "short": "305",
     "code": "TCXDVN 305:2004",
@@ -763,5 +718,41 @@
     "note": "",
     "read": "none",
     "readNote": "Chưa đọc được nội dung; số hiệu, tên và hiệu lực cần xác nhận trên nguồn chính thức trước khi viện dẫn."
+  },
+  {
+    "id": "tcvn-4244",
+    "short": "4244",
+    "code": "TCVN 4244",
+    "title": "Thiết bị nâng - Thiết kế, chế tạo và kiểm tra kỹ thuật",
+    "note": "Yêu cầu về thiết bị nâng.",
+    "read": "none",
+    "readNote": "Chưa đọc được nội dung; chỉ biết tên qua danh mục viện dẫn. Số hiệu, tên chưa xác minh, cần kiểm tra trên bản gốc."
+  },
+  {
+    "id": "qcvn-07-2012",
+    "short": "QCVN 7",
+    "code": "QCVN 7:2012/BLĐTBXH",
+    "title": "An toàn lao động đối với thiết bị nâng",
+    "note": "Được QCVN 18:2021/BXD viện dẫn (mục 1.3.1).",
+    "read": "none",
+    "readNote": "Chưa đọc được nội dung; chỉ biết tên qua danh mục viện dẫn. Số hiệu, tên chưa xác minh, cần kiểm tra trên bản gốc."
+  },
+  {
+    "id": "qcvn-03-2011",
+    "short": "QCVN 3",
+    "code": "QCVN 03:2011/BLĐTBXH",
+    "title": "An toàn lao động đối với máy hàn điện và công việc hàn điện",
+    "note": "Được QCVN 18:2021/BXD viện dẫn (mục 1.3.1).",
+    "read": "none",
+    "readNote": "Chưa đọc được nội dung; chỉ biết tên qua danh mục viện dẫn. Số hiệu, tên chưa xác minh, cần kiểm tra trên bản gốc."
+  },
+  {
+    "id": "qcvn-17-2013",
+    "short": "QCVN 17",
+    "code": "QCVN 17:2013/BLĐTBXH",
+    "title": "An toàn lao động đối với công việc hàn hơi",
+    "note": "Được QCVN 18:2021/BXD viện dẫn (mục 1.3.1).",
+    "read": "none",
+    "readNote": "Chưa đọc được nội dung; chỉ biết tên qua danh mục viện dẫn. Số hiệu, tên chưa xác minh, cần kiểm tra trên bản gốc."
   }
 ]

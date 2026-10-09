@@ -1,0 +1,649 @@
+{
+  "id": "may-xay-dung",
+  "title": "Máy xây dựng thường dùng",
+  "scope": "Các loại máy thi công phổ biến trên công trường thủy lợi, thủy điện: công dụng, điều kiện dùng, kiểm tra trước vận hành, vận hành an toàn, bảo dưỡng.",
+  "standards": [
+    "qcvn-18",
+    "tcvn-4055",
+    "tcvn-4447",
+    "tcvn-4244",
+    "qcvn-07-2012",
+    "qcvn-03-2011",
+    "qcvn-17-2013"
+  ],
+  "prerequisites": [
+    "Có biện pháp thi công được duyệt xác định loại máy, vị trí, tuyến đường vận chuyển, vùng nguy hiểm",
+    "Máy có đủ hồ sơ của nhà sản xuất, kiểm định (nếu thuộc diện) và người vận hành đủ điều kiện [QCVN 18:2021/BXD · 2.1.1.5(b),(c)]",
+    "Mặt bằng, nền đặt máy, đường vào đã được chuẩn bị và kiểm tra",
+    "Có quy chế giao ca, nhật ký máy và người phụ trách an toàn"
+  ],
+  "steps": [
+    {
+      "title": "Máy đào gầu nghịch (máy xúc)",
+      "actions": [
+        "Dùng đào hố móng, kênh, mương, đào đất đá mềm, xúc đất lên xe; gắn thêm đầu búa phá hoặc gầu chuyên dụng khi cần",
+        "Chọn cỡ máy theo khối lượng, độ sâu, tầm với đào, mặt bằng làm việc và loại xe vận chuyển đi kèm",
+        "Đánh dấu tim, cao độ đào; có người chỉ huy/hiệu lệnh khi đào gần công trình ngầm, mép hố, taluy",
+        "Đào theo từng lớp, chừa lớp bảo vệ cao độ đáy móng để hoàn thiện bằng thủ công hoặc gầu phẳng",
+        "Bố trí vị trí xe tự đổ sao cho góc quay nhỏ, tải đầy xe đều, không đổ lên mép hố",
+        "Đào đúng độ dốc mái thiết kế, không đào hàm ếch; di chuyển máy ra xa mép hố khi nghỉ ca"
+      ],
+      "requirements": [
+        "Máy mua hoặc thuê phải kèm hồ sơ: hướng dẫn của nhà sản xuất về lắp đặt, thử nghiệm, vận hành, bảo trì; chứng nhận xuất xứ, chất lượng; chứng nhận hợp chuẩn/hợp quy (nếu có); kiểm định định kỳ (nếu có quy định) [QCVN 18:2021/BXD · 2.1.1.5(b)]",
+        "Thiết bị có yêu cầu nghiêm ngặt về an toàn, vệ sinh lao động phải được kiểm định theo pháp luật về ATVSLĐ [QCVN 18:2021/BXD · 2.1.1.5(c)]",
+        "Đã xác định công trình ngầm, đường điện trên cao trong phạm vi làm việc trước khi đào (theo hồ sơ thiết kế và biện pháp thi công)",
+        "Nền đặt máy đủ khả năng chịu lực, cách mép hố một khoảng an toàn do biện pháp thi công xác định",
+        "Người vận hành được đào tạo, được giao nhiệm vụ, có chứng chỉ/thẻ an toàn theo loại máy khi pháp luật yêu cầu (chưa có số liệu đối chiếu điều khoản cụ thể)",
+        "Thông số, giới hạn vận hành cụ thể: theo hồ sơ kỹ thuật của nhà sản xuất và quy định hiện hành (chưa có số liệu đối chiếu)"
+      ],
+      "checks": [
+        "Dầu máy, dầu thủy lực, nước làm mát, nhiên liệu",
+        "Hệ thống phanh, xích/bánh, còi, đèn, gương, đèn cảnh báo lùi",
+        "Ống thủy lực, xy lanh, chốt gầu, răng gầu có rạn, rò rỉ",
+        "Khu vực quay có rào chắn, không có người"
+      ],
+      "tips": [
+        "Lỗi thường gặp: đào sát chân máy, nền yếu gây lật; khắc phục bằng tấm đệm và giữ khoảng cách mép hố",
+        "Quay gầu qua đầu xe đang chờ rất nguy hiểm, nên đổ từ bên cạnh/phía sau cabin",
+        "Đầu búa phá dùng sai (đập liên tục khi không chạm đá) làm hỏng cần, xy lanh",
+        "Bôi mỡ chốt, vệ sinh lọc gió và lọc nhiên liệu đúng chu kỳ ghi trong sổ máy",
+        "Dùng gầu đúng loại (gầu đất, gầu đá, gầu vét) để giảm mòn và tăng hiệu quả"
+      ]
+    },
+    {
+      "title": "Máy ủi",
+      "actions": [
+        "Dùng san gạt, tạo mặt bằng, mở đường tạm, đẩy đất ra bãi thải, rải đất đắp thành lớp trước khi lu lèn",
+        "Chọn máy ủi bánh xích cho nền yếu, dốc; chọn cỡ lưỡi ủi theo cự ly đẩy và khối lượng",
+        "Cự ly đẩy xa nên phối hợp ô tô tự đổ; ủi theo luống, tránh tạo rãnh sâu",
+        "Rải đất đắp thành lớp mỏng đều theo chiều dày thiết kế, phối hợp lu đầm ngay sau khi rải",
+        "Khi làm việc trên mái dốc ủi theo phương dọc dốc, tránh ngang dốc lệch",
+        "Hạ lưỡi ủi xuống đất khi dừng máy"
+      ],
+      "requirements": [
+        "Máy mua hoặc thuê phải kèm hồ sơ: hướng dẫn của nhà sản xuất về lắp đặt, thử nghiệm, vận hành, bảo trì; chứng nhận xuất xứ, chất lượng; chứng nhận hợp chuẩn/hợp quy (nếu có); kiểm định định kỳ (nếu có quy định) [QCVN 18:2021/BXD · 2.1.1.5(b)]",
+        "Thiết bị có yêu cầu nghiêm ngặt về an toàn, vệ sinh lao động phải được kiểm định theo pháp luật về ATVSLĐ [QCVN 18:2021/BXD · 2.1.1.5(c)]",
+        "Có người chỉ huy khi làm việc gần mép hố, bờ dốc, taluy cao",
+        "Người ngoài được cảnh báo không đứng phía trước lưỡi và sau máy",
+        "Người vận hành được đào tạo, được giao nhiệm vụ, có chứng chỉ/thẻ an toàn theo loại máy khi pháp luật yêu cầu (chưa có số liệu đối chiếu điều khoản cụ thể)",
+        "Thông số, giới hạn vận hành cụ thể: theo hồ sơ kỹ thuật của nhà sản xuất và quy định hiện hành (chưa có số liệu đối chiếu)"
+      ],
+      "checks": [
+        "Dầu, nước, nhiên liệu, độ căng xích",
+        "Phanh, ly hợp, còi lùi, đèn",
+        "Lưỡi ủi, xy lanh nâng hạ, ống thủy lực rò rỉ",
+        "Khung bảo vệ cabin"
+      ],
+      "tips": [
+        "Không ủi khi tầm nhìn bị che bụi/sương mù",
+        "Tránh quay vòng gấp trên nền cứng làm mòn bánh xích nhanh",
+        "Đào chân lưỡi quá sâu làm mặt bằng gồ ghề, tốn công san lại",
+        "Vệ sinh bùn đất ở bộ phận gầm xích sau mỗi ca",
+        "Khi để lâu phải hạ lưỡi, rút chìa khóa, kéo phanh đỗ"
+      ]
+    },
+    {
+      "title": "Máy san",
+      "actions": [
+        "Dùng san phẳng mặt đường công vụ, hoàn thiện mặt bằng, tạo mái dốc nhẹ, hoàn thiện lớp đá cấp phối",
+        "Chọn máy san khi cần độ phẳng và thoát nước tốt; không thay máy ủi cho khối lượng đẩy lớn",
+        "Căn tim, cao độ bằng cọc mốc; san theo luống, đi tới lùi đều",
+        "Phối hợp xe nước để giữ độ ẩm thích hợp và lu để lèn ngay sau san",
+        "Làm việc theo thứ tự: cắt, kéo đất, san phẳng, lu lèn",
+        "Khi gặp mưa phải dừng, tránh san trên mặt đất quá ướt"
+      ],
+      "requirements": [
+        "Máy mua hoặc thuê phải kèm hồ sơ: hướng dẫn của nhà sản xuất về lắp đặt, thử nghiệm, vận hành, bảo trì; chứng nhận xuất xứ, chất lượng; chứng nhận hợp chuẩn/hợp quy (nếu có); kiểm định định kỳ (nếu có quy định) [QCVN 18:2021/BXD · 2.1.1.5(b)]",
+        "Thiết bị có yêu cầu nghiêm ngặt về an toàn, vệ sinh lao động phải được kiểm định theo pháp luật về ATVSLĐ [QCVN 18:2021/BXD · 2.1.1.5(c)]",
+        "Vị trí làm việc phải có tầm nhìn tốt; có biển báo và người cảnh giới khi làm trên đường đang có xe qua lại",
+        "Người vận hành được đào tạo, được giao nhiệm vụ, có chứng chỉ/thẻ an toàn theo loại máy khi pháp luật yêu cầu (chưa có số liệu đối chiếu điều khoản cụ thể)",
+        "Thông số, giới hạn vận hành cụ thể: theo hồ sơ kỹ thuật của nhà sản xuất và quy định hiện hành (chưa có số liệu đối chiếu)"
+      ],
+      "checks": [
+        "Dầu, nước, nhiên liệu, áp suất lốp",
+        "Phanh, hệ thống lái, còi, đèn",
+        "Lưỡi san, ổ xoay, xy lanh",
+        "Cảnh báo lùi"
+      ],
+      "tips": [
+        "San khi độ ẩm không phù hợp dễ gây lượn sóng mặt",
+        "Đi nhanh quá làm mặt đường lượn sóng",
+        "Lưỡi mòn không đều nên đảo hoặc thay đúng thời điểm",
+        "Hạ lưỡi xuống đất khi đỗ",
+        "Bảo dưỡng ổ xoay lưỡi theo sổ máy"
+      ]
+    },
+    {
+      "title": "Máy xúc lật",
+      "actions": [
+        "Dùng xúc, vận chuyển ngắn, đổ vật liệu rời (cát, đá, đất) vào ô tô, phễu cấp liệu trạm trộn",
+        "Chọn dung tích gầu theo xe tự đổ phối hợp để đủ số gầu đầy xe, tránh xúc thiếu hoặc rơi vãi",
+        "Xúc ở sườn đống liệu, tiến thẳng, nâng gầu khi di chuyển thấp để giữ ổn định",
+        "Đổ vào xe từ phía bên, giữ khoảng cách an toàn với thành thùng",
+        "Phối hợp trạm trộn: cân đối tốc độ cấp liệu với công suất trạm",
+        "Khi dừng hạ gầu xuống nền, kéo phanh"
+      ],
+      "requirements": [
+        "Máy mua hoặc thuê phải kèm hồ sơ: hướng dẫn của nhà sản xuất về lắp đặt, thử nghiệm, vận hành, bảo trì; chứng nhận xuất xứ, chất lượng; chứng nhận hợp chuẩn/hợp quy (nếu có); kiểm định định kỳ (nếu có quy định) [QCVN 18:2021/BXD · 2.1.1.5(b)]",
+        "Thiết bị có yêu cầu nghiêm ngặt về an toàn, vệ sinh lao động phải được kiểm định theo pháp luật về ATVSLĐ [QCVN 18:2021/BXD · 2.1.1.5(c)]",
+        "Khu vực xúc có người chỉ huy, giới hạn người ra vào",
+        "Nền bãi chứa ổn định, đống liệu không cao quá mức an toàn của biện pháp thi công",
+        "Người vận hành được đào tạo, được giao nhiệm vụ, có chứng chỉ/thẻ an toàn theo loại máy khi pháp luật yêu cầu (chưa có số liệu đối chiếu điều khoản cụ thể)",
+        "Thông số, giới hạn vận hành cụ thể: theo hồ sơ kỹ thuật của nhà sản xuất và quy định hiện hành (chưa có số liệu đối chiếu)"
+      ],
+      "checks": [
+        "Dầu, nước, nhiên liệu, lốp",
+        "Phanh, trợ lái, còi, đèn, gương",
+        "Gầu, xy lanh, chốt, khớp gấp khúc",
+        "Dây an toàn"
+      ],
+      "tips": [
+        "Chạy với gầu nâng cao dễ lật",
+        "Xúc quá tải gầu gây mòn khớp và tăng tiêu hao nhiên liệu",
+        "Lốp bị cắt do đá nhọn nên giữ bãi sạch",
+        "Không tăng giảm số đột ngột khi đang mang tải",
+        "Vệ sinh két nước, lọc gió nhiều bụi"
+      ]
+    },
+    {
+      "title": "Ô tô tự đổ",
+      "actions": [
+        "Vận chuyển đất, đá, vật liệu từ nơi đào đến bãi đắp, bãi thải",
+        "Chọn trọng tải xe phù hợp máy xúc và điều kiện đường, cầu tạm trên tuyến",
+        "Xếp tải đều, không quá tải, không vượt chiều cao cho phép",
+        "Bố trí đường một chiều, biển báo, tốc độ giới hạn trên công trường",
+        "Khi đổ phải cho thùng ben nâng trên nền bằng phẳng, có người chỉ dẫn lùi",
+        "Rửa lốp xe khi ra đường công cộng để tránh bẩn đường"
+      ],
+      "requirements": [
+        "Máy mua hoặc thuê phải kèm hồ sơ: hướng dẫn của nhà sản xuất về lắp đặt, thử nghiệm, vận hành, bảo trì; chứng nhận xuất xứ, chất lượng; chứng nhận hợp chuẩn/hợp quy (nếu có); kiểm định định kỳ (nếu có quy định) [QCVN 18:2021/BXD · 2.1.1.5(b)]",
+        "Thiết bị có yêu cầu nghiêm ngặt về an toàn, vệ sinh lao động phải được kiểm định theo pháp luật về ATVSLĐ [QCVN 18:2021/BXD · 2.1.1.5(c)]",
+        "Xe có đăng ký, đăng kiểm còn hiệu lực theo quy định giao thông (chưa có số liệu đối chiếu)",
+        "Lái xe có giấy phép lái xe đúng hạng",
+        "Người vận hành được đào tạo, được giao nhiệm vụ, có chứng chỉ/thẻ an toàn theo loại máy khi pháp luật yêu cầu (chưa có số liệu đối chiếu điều khoản cụ thể)",
+        "Thông số, giới hạn vận hành cụ thể: theo hồ sơ kỹ thuật của nhà sản xuất và quy định hiện hành (chưa có số liệu đối chiếu)"
+      ],
+      "checks": [
+        "Phanh, lái, lốp, đèn, còi lùi",
+        "Hệ thống nâng ben, chốt khóa thùng",
+        "Dầu, nước, nhiên liệu",
+        "Giấy tờ xe"
+      ],
+      "tips": [
+        "Không nâng ben khi xe nghiêng hoặc nền yếu",
+        "Không chạy khi ben chưa hạ hết",
+        "Chất tải lệch gây mòn lốp và hỏng nhíp",
+        "Kiểm tra áp suất lốp theo catalog",
+        "Giữ đường vận chuyển bằng phẳng, tưới ẩm giảm bụi"
+      ]
+    },
+    {
+      "title": "Máy lu (lu rung, lu bánh lốp, lu chân cừu)",
+      "actions": [
+        "Dùng lèn chặt đất đắp đập, đê, nền đường; chọn loại lu theo vật liệu (lu chân cừu cho đất dính, lu rung cho đất rời và đá, lu bánh lốp cho hoàn thiện)",
+        "Thông số lu (số lượt, tốc độ, chiều dày lớp) xác định bằng đầm thử theo thiết kế, không áp số chung",
+        "Lu từ mép vào giữa, vệt sau chồng lên vệt trước theo chỉ dẫn của biện pháp thi công",
+        "Duy trì độ ẩm vật liệu gần độ ẩm tốt nhất của thí nghiệm đầm nén",
+        "Vùng sát công trình bê tông, cống dùng đầm cóc/đầm nhỏ thay lu",
+        "Lấy mẫu kiểm tra độ chặt sau khi lu từng lớp trước khi đắp lớp tiếp theo"
+      ],
+      "requirements": [
+        "Máy mua hoặc thuê phải kèm hồ sơ: hướng dẫn của nhà sản xuất về lắp đặt, thử nghiệm, vận hành, bảo trì; chứng nhận xuất xứ, chất lượng; chứng nhận hợp chuẩn/hợp quy (nếu có); kiểm định định kỳ (nếu có quy định) [QCVN 18:2021/BXD · 2.1.1.5(b)]",
+        "Thiết bị có yêu cầu nghiêm ngặt về an toàn, vệ sinh lao động phải được kiểm định theo pháp luật về ATVSLĐ [QCVN 18:2021/BXD · 2.1.1.5(c)]",
+        "Lu thử để chọn thông số, được tư vấn giám sát chấp thuận",
+        "Không dùng lu rung gần công trình nhạy cảm với rung khi chưa đánh giá ảnh hưởng",
+        "Người vận hành được đào tạo, được giao nhiệm vụ, có chứng chỉ/thẻ an toàn theo loại máy khi pháp luật yêu cầu (chưa có số liệu đối chiếu điều khoản cụ thể)",
+        "Thông số, giới hạn vận hành cụ thể: theo hồ sơ kỹ thuật của nhà sản xuất và quy định hiện hành (chưa có số liệu đối chiếu)"
+      ],
+      "checks": [
+        "Dầu, nước phun làm sạch trống",
+        "Phanh, lái, còi, đèn",
+        "Bộ gạt vệ sinh trống, chân cừu mòn/gãy",
+        "Chế độ rung, tần số theo hồ sơ máy"
+      ],
+      "tips": [
+        "Lu quá nhiều lượt trên vật liệu ướt gây cao su",
+        "Dừng rung trước khi dừng máy để tránh lõm mặt",
+        "Lu trên mái dốc cần có biện pháp chống trượt, dây neo hoặc tời kéo",
+        "Vệ sinh dính đất ở trống và lốp",
+        "Ghi số lượt lu, độ ẩm, kết quả độ chặt vào nhật ký"
+      ]
+    },
+    {
+      "title": "Đầm cóc và đầm bàn",
+      "actions": [
+        "Dùng đầm vùng hẹp, sát tường, quanh cống, hố móng nhỏ mà lu không vào được",
+        "Đầm cóc cho đất rời, đất dính; đầm bàn cho đá dăm, bê tông nhựa, lớp mỏng",
+        "Rải lớp mỏng hơn lu, đầm đều từ ngoài vào trong",
+        "Chiều dày lớp, số lượt đầm xác định bằng đầm thử",
+        "Đầm đối xứng hai bên cống, tường để tránh lệch áp lực",
+        "Mang kính, nút tai, găng, giày bảo hộ"
+      ],
+      "requirements": [
+        "Máy mua hoặc thuê phải kèm hồ sơ: hướng dẫn của nhà sản xuất về lắp đặt, thử nghiệm, vận hành, bảo trì; chứng nhận xuất xứ, chất lượng; chứng nhận hợp chuẩn/hợp quy (nếu có); kiểm định định kỳ (nếu có quy định) [QCVN 18:2021/BXD · 2.1.1.5(b)]",
+        "Thiết bị có yêu cầu nghiêm ngặt về an toàn, vệ sinh lao động phải được kiểm định theo pháp luật về ATVSLĐ [QCVN 18:2021/BXD · 2.1.1.5(c)]",
+        "Thợ đầm được hướng dẫn kỹ thuật an toàn với máy rung",
+        "Người vận hành được đào tạo, được giao nhiệm vụ, có chứng chỉ/thẻ an toàn theo loại máy khi pháp luật yêu cầu (chưa có số liệu đối chiếu điều khoản cụ thể)",
+        "Thông số, giới hạn vận hành cụ thể: theo hồ sơ kỹ thuật của nhà sản xuất và quy định hiện hành (chưa có số liệu đối chiếu)"
+      ],
+      "checks": [
+        "Dây điện, dây mồi nhiên liệu, bu lông",
+        "Lò xo, đế đầm, lọc gió",
+        "Dầu động cơ",
+        "Tay cầm chống rung"
+      ],
+      "tips": [
+        "Không nghiêng đầm quá mức gây gãy cần",
+        "Làm việc lâu gây rung tay, cần luân phiên người",
+        "Đầm bàn dễ nảy khi gặp đá lớn",
+        "Làm sạch bùn bám sau ca",
+        "Dùng đúng loại nhiên liệu của nhà sản xuất"
+      ]
+    },
+    {
+      "title": "Cần trục (bánh xích, bánh lốp) và cẩu tháp",
+      "actions": [
+        "Dùng nâng hạ cấu kiện thép, cốt thép, ván khuôn, thiết bị, đổ bê tông bằng thùng",
+        "Chọn cần trục theo trọng lượng, bán kính, độ cao và điều kiện nền; tra biểu đồ tải của nhà sản xuất",
+        "Lập biện pháp nâng hạ, xác định vùng nguy hiểm, người báo hiệu, tín hiệu",
+        "Cẩu tháp phải có thiết kế móng, lắp dựng, tháo dỡ theo hồ sơ nhà sản xuất do người có năng lực thực hiện",
+        "Chọn cáp, móc, xích, dây treo đúng loại, còn hạn kiểm tra",
+        "Dừng nâng khi gió mạnh, mưa to, tầm nhìn kém theo giới hạn của nhà sản xuất"
+      ],
+      "requirements": [
+        "Máy mua hoặc thuê phải kèm hồ sơ: hướng dẫn của nhà sản xuất về lắp đặt, thử nghiệm, vận hành, bảo trì; chứng nhận xuất xứ, chất lượng; chứng nhận hợp chuẩn/hợp quy (nếu có); kiểm định định kỳ (nếu có quy định) [QCVN 18:2021/BXD · 2.1.1.5(b)]",
+        "Thiết bị nâng áp dụng quy chuẩn an toàn riêng, được QCVN 18:2021/BXD viện dẫn là QCVN 7:2012/BLĐTBXH [QCVN 18:2021/BXD · 1.3.1]; yêu cầu cụ thể xem văn bản gốc (chưa đọc được nội dung)",
+        "Thiết bị có yêu cầu nghiêm ngặt về an toàn, vệ sinh lao động phải được kiểm định theo pháp luật về ATVSLĐ [QCVN 18:2021/BXD · 2.1.1.5(c)]",
+        "Thiết bị nâng có kiểm định an toàn còn hiệu lực trước khi đưa vào sử dụng",
+        "Nền đặt cần trục được gia cố, kê chân chống đúng hướng dẫn",
+        "Người vận hành, người buộc cáp, báo hiệu được huấn luyện, có chứng chỉ phù hợp",
+        "Người vận hành được đào tạo, được giao nhiệm vụ, có chứng chỉ/thẻ an toàn theo loại máy khi pháp luật yêu cầu (chưa có số liệu đối chiếu điều khoản cụ thể)",
+        "Thông số, giới hạn vận hành cụ thể: theo hồ sơ kỹ thuật của nhà sản xuất và quy định hiện hành (chưa có số liệu đối chiếu)"
+      ],
+      "checks": [
+        "Cáp, móc, khóa, phanh, giới hạn quá tải và giới hạn hành trình",
+        "Chân chống, nền kê, độ thăng bằng",
+        "Chuông báo, đèn, còi, thông tin liên lạc",
+        "Dây buộc hàng, vật treo"
+      ],
+      "tips": [
+        "Quá tải, nghiêng, kéo xiên là nguyên nhân tai nạn thường gặp",
+        "Người không được đứng dưới tải hoặc trong vòng quay đối trọng",
+        "Cẩu tháp kiểm tra dây chằng, bu lông giằng định kỳ",
+        "Bôi mỡ cáp, vệ sinh bánh puly",
+        "Ghi sổ giao ca và biên bản kiểm tra kỹ thuật"
+      ]
+    },
+    {
+      "title": "Máy khoan (xoay đập thủy lực, khoan neo, khoan nhồi, khoan phụt)",
+      "actions": [
+        "Khoan xoay đập thủy lực khoan đá nổ mìn, hố bơm; khoan neo cho neo đá, neo đất; khoan nhồi cho cọc; khoan phụt xử lý nền",
+        "Chọn máy theo đường kính, chiều sâu, độ cứng đá, độ nghiêng và không gian làm việc (hành lang, hầm)",
+        "Định vị lỗ, căn góc, chiều sâu theo sơ đồ khoan của thiết kế",
+        "Dùng nước hoặc khí để thổi mùn, ghi nhật ký lỗ khoan, thay đổi địa chất",
+        "Ống chống/vữa sét giữ vách đối với khoan nhồi theo thiết kế",
+        "Bàn giao lỗ cho công tác phụt, đặt lồng thép hoặc neo theo trình tự"
+      ],
+      "requirements": [
+        "Máy mua hoặc thuê phải kèm hồ sơ: hướng dẫn của nhà sản xuất về lắp đặt, thử nghiệm, vận hành, bảo trì; chứng nhận xuất xứ, chất lượng; chứng nhận hợp chuẩn/hợp quy (nếu có); kiểm định định kỳ (nếu có quy định) [QCVN 18:2021/BXD · 2.1.1.5(b)]",
+        "Thiết bị có yêu cầu nghiêm ngặt về an toàn, vệ sinh lao động phải được kiểm định theo pháp luật về ATVSLĐ [QCVN 18:2021/BXD · 2.1.1.5(c)]",
+        "Sàn khoan, giá khoan được cố định, neo giữ chắc",
+        "Hầm, hành lang khoan có thông gió, chiếu sáng, thoát nước",
+        "Khoan phụt theo hồ sơ khoan phụt và các quy định chuyên ngành đã nêu ở nhóm Khoan phun",
+        "Người vận hành được đào tạo, được giao nhiệm vụ, có chứng chỉ/thẻ an toàn theo loại máy khi pháp luật yêu cầu (chưa có số liệu đối chiếu điều khoản cụ thể)",
+        "Thông số, giới hạn vận hành cụ thể: theo hồ sơ kỹ thuật của nhà sản xuất và quy định hiện hành (chưa có số liệu đối chiếu)"
+      ],
+      "checks": [
+        "Ống dẫn khí, nước, thủy lực, bộ nối",
+        "Cần khoan, mũi khoan, ống chống",
+        "Giá đỡ, kẹp, neo máy",
+        "Đèn, bụi, che chắn"
+      ],
+      "tips": [
+        "Rung quá lớn thường do mòn mũi hoặc cần cong",
+        "Lấy mẫu lõi, ghi vị trí lỗ rõ ràng",
+        "Giữ lỗ khoan sạch trước khi phụt",
+        "Kiểm tra đường ống nén khí rò rỉ",
+        "Bôi trơn bộ búa đập đúng loại dầu"
+      ]
+    },
+    {
+      "title": "Trạm trộn bê tông và xe bồn",
+      "actions": [
+        "Trạm trộn cấp bê tông tại chỗ; xe bồn chở bê tông ra khối đổ",
+        "Chọn công suất trạm theo cường độ đổ lớn nhất và cự ly vận chuyển",
+        "Cân đong cốt liệu, xi măng, nước, phụ gia theo cấp phối thiết kế",
+        "Vận chuyển liên tục, không để bê tông phân tầng, ninh kết trước khi đổ",
+        "Phối hợp bơm bê tông, cần trục và nhân công tại khối đổ",
+        "Rửa trạm và xe bồn sau ca, xử lý nước thải"
+      ],
+      "requirements": [
+        "Máy mua hoặc thuê phải kèm hồ sơ: hướng dẫn của nhà sản xuất về lắp đặt, thử nghiệm, vận hành, bảo trì; chứng nhận xuất xứ, chất lượng; chứng nhận hợp chuẩn/hợp quy (nếu có); kiểm định định kỳ (nếu có quy định) [QCVN 18:2021/BXD · 2.1.1.5(b)]",
+        "Thiết bị có yêu cầu nghiêm ngặt về an toàn, vệ sinh lao động phải được kiểm định theo pháp luật về ATVSLĐ [QCVN 18:2021/BXD · 2.1.1.5(c)]",
+        "Cân đong được hiệu chuẩn, kiểm định theo quy định (chưa có số liệu đối chiếu)",
+        "Cấp phối được phòng thí nghiệm hiện trường thiết kế và duyệt",
+        "Hệ thống điện của trạm có nối đất và bảo vệ an toàn",
+        "Người vận hành được đào tạo, được giao nhiệm vụ, có chứng chỉ/thẻ an toàn theo loại máy khi pháp luật yêu cầu (chưa có số liệu đối chiếu điều khoản cụ thể)",
+        "Thông số, giới hạn vận hành cụ thể: theo hồ sơ kỹ thuật của nhà sản xuất và quy định hiện hành (chưa có số liệu đối chiếu)"
+      ],
+      "checks": [
+        "Cân đong, băng tải, silô, ống nước",
+        "Mô tơ, động cơ trộn, cánh trộn",
+        "Xe bồn: tang quay, cửa xả, phanh, lái",
+        "Phụ gia, kho xi măng"
+      ],
+      "tips": [
+        "Độ sụt thay đổi do độ ẩm cát, kiểm tra thường xuyên",
+        "Cánh trộn mòn làm trộn không đều",
+        "Xe bồn không chờ quá lâu tại hiện trường",
+        "Vệ sinh trạm cuối ca, tránh bê tông đóng cứng",
+        "Lấy mẫu thí nghiệm theo quy định của nhóm bê tông"
+      ]
+    },
+    {
+      "title": "Máy bơm bê tông",
+      "actions": [
+        "Dùng đưa bê tông đến vị trí xa, cao, khó tiếp cận",
+        "Chọn bơm cố định hoặc bơm cần theo khối đổ và tầm với",
+        "Bơm nước, vữa mồi bôi trơn đường ống trước khi bơm bê tông",
+        "Cấp bê tông liên tục từ xe bồn, độ sụt phù hợp để bơm",
+        "Cố định đường ống, cút nối bằng gối đỡ chắc chắn",
+        "Xả sạch ống khi kết thúc, xử lý nước và vữa rửa ống"
+      ],
+      "requirements": [
+        "Máy mua hoặc thuê phải kèm hồ sơ: hướng dẫn của nhà sản xuất về lắp đặt, thử nghiệm, vận hành, bảo trì; chứng nhận xuất xứ, chất lượng; chứng nhận hợp chuẩn/hợp quy (nếu có); kiểm định định kỳ (nếu có quy định) [QCVN 18:2021/BXD · 2.1.1.5(b)]",
+        "Thiết bị có yêu cầu nghiêm ngặt về an toàn, vệ sinh lao động phải được kiểm định theo pháp luật về ATVSLĐ [QCVN 18:2021/BXD · 2.1.1.5(c)]",
+        "Chân chống bơm cần đặt trên nền đủ cứng, trải tấm kê theo chỉ dẫn nhà sản xuất",
+        "Khoảng cách an toàn tới đường điện trên cao theo quy định (chưa có số liệu đối chiếu)",
+        "Người vận hành được đào tạo, được giao nhiệm vụ, có chứng chỉ/thẻ an toàn theo loại máy khi pháp luật yêu cầu (chưa có số liệu đối chiếu điều khoản cụ thể)",
+        "Thông số, giới hạn vận hành cụ thể: theo hồ sơ kỹ thuật của nhà sản xuất và quy định hiện hành (chưa có số liệu đối chiếu)"
+      ],
+      "checks": [
+        "Ống, khớp nối, kẹp, van",
+        "Hệ thống thủy lực, cần, chân chống",
+        "Phễu, lưới chắn",
+        "Nước, dầu"
+      ],
+      "tips": [
+        "Tắc ống do cấp phối kém, độ sụt thấp, gián đoạn bơm",
+        "Không dùng ống mòn mỏng, nổ ống gây tai nạn",
+        "Cần bơm xoay phải có người quan sát",
+        "Rửa ống kịp thời tránh bê tông đóng rắn",
+        "Bảo dưỡng piston, van đúng chu kỳ"
+      ]
+    },
+    {
+      "title": "Máy đầm dùi",
+      "actions": [
+        "Dùng đầm chặt bê tông trong khối đổ, kết cấu cốt thép dày",
+        "Chọn kích thước dùi theo mật độ cốt thép và chiều dày lớp",
+        "Đưa dùi thẳng đứng, đều theo lưới điểm, thò sâu vào lớp dưới",
+        "Rút dùi từ từ, không kéo ngang bê tông",
+        "Không chạm cốt thép, ván khuôn quá nhiều",
+        "Phối hợp tốc độ đổ để đầm kịp từng lớp"
+      ],
+      "requirements": [
+        "Máy mua hoặc thuê phải kèm hồ sơ: hướng dẫn của nhà sản xuất về lắp đặt, thử nghiệm, vận hành, bảo trì; chứng nhận xuất xứ, chất lượng; chứng nhận hợp chuẩn/hợp quy (nếu có); kiểm định định kỳ (nếu có quy định) [QCVN 18:2021/BXD · 2.1.1.5(b)]",
+        "Thiết bị có yêu cầu nghiêm ngặt về an toàn, vệ sinh lao động phải được kiểm định theo pháp luật về ATVSLĐ [QCVN 18:2021/BXD · 2.1.1.5(c)]",
+        "Dây điện cách điện tốt, có thiết bị chống rò điện, nối đất khi dùng điện",
+        "Công nhân dùng ủng, găng cách điện",
+        "Người vận hành được đào tạo, được giao nhiệm vụ, có chứng chỉ/thẻ an toàn theo loại máy khi pháp luật yêu cầu (chưa có số liệu đối chiếu điều khoản cụ thể)",
+        "Thông số, giới hạn vận hành cụ thể: theo hồ sơ kỹ thuật của nhà sản xuất và quy định hiện hành (chưa có số liệu đối chiếu)"
+      ],
+      "checks": [
+        "Dây điện, phích cắm, vỏ máy",
+        "Động cơ, trục mềm, dùi",
+        "Dây nguồn không bị đè",
+        "Thiết bị chống giật"
+      ],
+      "tips": [
+        "Đầm thiếu gây rỗ, đầm quá gây phân tầng",
+        "Không đầm khi dùi khô quá lâu gây nóng",
+        "Dự phòng dùi để thay khi hỏng",
+        "Vệ sinh dùi ngay sau ca, tránh bê tông đóng cứng",
+        "Bảo quản dây khô ráo"
+      ]
+    },
+    {
+      "title": "Máy bơm nước",
+      "actions": [
+        "Dùng hạ nước hố móng, tiêu nước mưa, cấp nước thi công",
+        "Chọn bơm theo lưu lượng, cột nước, đặc tính nước (cặn, bùn)",
+        "Đặt bơm trên bệ vững, ống hút có lưới lọc, ống đẩy có van",
+        "Bố trí hố thu, rãnh dẫn hợp lý, bơm dự phòng",
+        "Đẩy nước ra nơi không ảnh hưởng công trình, xử lý nước đục theo quy định",
+        "Theo dõi mực nước hố móng, bơm liên tục khi cần"
+      ],
+      "requirements": [
+        "Máy mua hoặc thuê phải kèm hồ sơ: hướng dẫn của nhà sản xuất về lắp đặt, thử nghiệm, vận hành, bảo trì; chứng nhận xuất xứ, chất lượng; chứng nhận hợp chuẩn/hợp quy (nếu có); kiểm định định kỳ (nếu có quy định) [QCVN 18:2021/BXD · 2.1.1.5(b)]",
+        "Thiết bị có yêu cầu nghiêm ngặt về an toàn, vệ sinh lao động phải được kiểm định theo pháp luật về ATVSLĐ [QCVN 18:2021/BXD · 2.1.1.5(c)]",
+        "Bơm điện có nối đất, thiết bị chống giật",
+        "Bơm chạy dầu đặt nơi thoáng, chống cháy",
+        "Người vận hành được đào tạo, được giao nhiệm vụ, có chứng chỉ/thẻ an toàn theo loại máy khi pháp luật yêu cầu (chưa có số liệu đối chiếu điều khoản cụ thể)",
+        "Thông số, giới hạn vận hành cụ thể: theo hồ sơ kỹ thuật của nhà sản xuất và quy định hiện hành (chưa có số liệu đối chiếu)"
+      ],
+      "checks": [
+        "Dầu, nhiên liệu",
+        "Ống hút, ống đẩy, mối nối",
+        "Van một chiều, lưới lọc",
+        "Dây điện"
+      ],
+      "tips": [
+        "Bơm chạy khô làm hỏng phớt, mồi nước trước",
+        "Ống hút lọt khí làm mất áp",
+        "Bùn cát làm mòn cánh, dùng bơm bùn khi cần",
+        "Bơm dự phòng sẵn sàng khi mưa lũ",
+        "Vệ sinh lưới lọc thường xuyên"
+      ]
+    },
+    {
+      "title": "Máy phát điện",
+      "actions": [
+        "Dùng cấp điện cho công trường khi chưa có lưới hoặc mất điện",
+        "Chọn công suất theo tổng phụ tải và dòng khởi động của động cơ (theo catalog)",
+        "Đặt trên nền bằng phẳng, thoáng, có mái che, cách xa nơi chứa nhiên liệu",
+        "Nối đất, lắp aptomat, tủ phân phối đúng thiết kế điện",
+        "Khởi động không tải, nâng tải dần, không quá tải",
+        "Thông báo trước khi cấp điện để người liên quan biết"
+      ],
+      "requirements": [
+        "Máy mua hoặc thuê phải kèm hồ sơ: hướng dẫn của nhà sản xuất về lắp đặt, thử nghiệm, vận hành, bảo trì; chứng nhận xuất xứ, chất lượng; chứng nhận hợp chuẩn/hợp quy (nếu có); kiểm định định kỳ (nếu có quy định) [QCVN 18:2021/BXD · 2.1.1.5(b)]",
+        "Thiết bị có yêu cầu nghiêm ngặt về an toàn, vệ sinh lao động phải được kiểm định theo pháp luật về ATVSLĐ [QCVN 18:2021/BXD · 2.1.1.5(c)]",
+        "Việc đấu nối hệ thống điện do người có chuyên môn thực hiện, có khóa chuyển nguồn tránh phát ngược lưới",
+        "Có bình chữa cháy tại chỗ",
+        "Người vận hành được đào tạo, được giao nhiệm vụ, có chứng chỉ/thẻ an toàn theo loại máy khi pháp luật yêu cầu (chưa có số liệu đối chiếu điều khoản cụ thể)",
+        "Thông số, giới hạn vận hành cụ thể: theo hồ sơ kỹ thuật của nhà sản xuất và quy định hiện hành (chưa có số liệu đối chiếu)"
+      ],
+      "checks": [
+        "Dầu, nước, nhiên liệu, ắc quy",
+        "Ống xả, nối đất, dây cáp",
+        "Đồng hồ áp, điện",
+        "Bình chữa cháy"
+      ],
+      "tips": [
+        "Quá tải gây ngắt và hỏng máy",
+        "Chạy không tải kéo dài hại động cơ",
+        "Khói xả cần thoát ra ngoài, không đặt trong nơi kín",
+        "Dự trữ nhiên liệu an toàn",
+        "Chạy thử định kỳ máy dự phòng"
+      ]
+    },
+    {
+      "title": "Máy nén khí",
+      "actions": [
+        "Dùng cấp khí cho búa khoan, búa phá, phun vữa, thổi sạch",
+        "Chọn lưu lượng, áp suất theo tổng số thiết bị dùng khí (catalog)",
+        "Đặt ở nơi thoáng, khô ráo, nền ổn định",
+        "Ống dẫn chắc chắn, tránh gấp khúc, có van xả nước ngưng",
+        "Xả khí trước khi tháo ống, không hướng khí vào người",
+        "Bình khí là thiết bị áp lực, kiểm định theo quy định"
+      ],
+      "requirements": [
+        "Máy mua hoặc thuê phải kèm hồ sơ: hướng dẫn của nhà sản xuất về lắp đặt, thử nghiệm, vận hành, bảo trì; chứng nhận xuất xứ, chất lượng; chứng nhận hợp chuẩn/hợp quy (nếu có); kiểm định định kỳ (nếu có quy định) [QCVN 18:2021/BXD · 2.1.1.5(b)]",
+        "Thiết bị có yêu cầu nghiêm ngặt về an toàn, vệ sinh lao động phải được kiểm định theo pháp luật về ATVSLĐ [QCVN 18:2021/BXD · 2.1.1.5(c)]",
+        "Bình chứa khí, van an toàn, áp kế được kiểm định, hiệu chuẩn (chưa có số liệu đối chiếu điều khoản)",
+        "Người vận hành được đào tạo, được giao nhiệm vụ, có chứng chỉ/thẻ an toàn theo loại máy khi pháp luật yêu cầu (chưa có số liệu đối chiếu điều khoản cụ thể)",
+        "Thông số, giới hạn vận hành cụ thể: theo hồ sơ kỹ thuật của nhà sản xuất và quy định hiện hành (chưa có số liệu đối chiếu)"
+      ],
+      "checks": [
+        "Van an toàn, áp kế",
+        "Dầu máy, lọc gió",
+        "Ống, khớp nối",
+        "Xả nước đọng bình"
+      ],
+      "tips": [
+        "Không chỉnh van an toàn tùy tiện",
+        "Nước ngưng đọng làm rỉ bình",
+        "Chạy quá nóng do bẩn két làm mát",
+        "Thay lọc gió, dầu đúng chu kỳ",
+        "Ghi sổ kiểm tra bình áp lực"
+      ]
+    },
+    {
+      "title": "Máy hàn",
+      "actions": [
+        "Dùng hàn cốt thép, kết cấu thép, ống, đường ray, thiết bị",
+        "Chọn phương pháp hàn (hồ quang, khí) và que hàn theo vật liệu và thiết kế",
+        "Thợ hàn có chứng chỉ, mối hàn quan trọng có quy trình hàn",
+        "Che chắn tia hồ quang, thông gió khu hàn, dọn vật dễ cháy",
+        "Hàn trong hầm, thùng kín cần quy định riêng về thông gió",
+        "Kiểm tra mối hàn theo yêu cầu thiết kế"
+      ],
+      "requirements": [
+        "Máy mua hoặc thuê phải kèm hồ sơ: hướng dẫn của nhà sản xuất về lắp đặt, thử nghiệm, vận hành, bảo trì; chứng nhận xuất xứ, chất lượng; chứng nhận hợp chuẩn/hợp quy (nếu có); kiểm định định kỳ (nếu có quy định) [QCVN 18:2021/BXD · 2.1.1.5(b)]",
+        "Máy hàn điện và công việc hàn điện có quy chuẩn an toàn riêng QCVN 03:2011/BLĐTBXH; hàn hơi theo QCVN 17:2013/BLĐTBXH, được viện dẫn tại [QCVN 18:2021/BXD · 1.3.1]; yêu cầu chi tiết xem văn bản gốc (chưa đọc được nội dung)",
+        "Thiết bị có yêu cầu nghiêm ngặt về an toàn, vệ sinh lao động phải được kiểm định theo pháp luật về ATVSLĐ [QCVN 18:2021/BXD · 2.1.1.5(c)]",
+        "Thợ hàn được đào tạo, có chứng chỉ hàn theo yêu cầu (xem TCVN 6700-1 trong danh mục tiêu chuẩn)",
+        "Người vận hành được đào tạo, được giao nhiệm vụ, có chứng chỉ/thẻ an toàn theo loại máy khi pháp luật yêu cầu (chưa có số liệu đối chiếu điều khoản cụ thể)",
+        "Thông số, giới hạn vận hành cụ thể: theo hồ sơ kỹ thuật của nhà sản xuất và quy định hiện hành (chưa có số liệu đối chiếu)"
+      ],
+      "checks": [
+        "Dây hàn, kẹp mát, vỏ cách điện",
+        "Chai khí, van, ống (hàn hơi)",
+        "Bình chữa cháy",
+        "Kính, găng, quần áo hàn"
+      ],
+      "tips": [
+        "Không hàn gần vật liệu dễ cháy khi chưa che chắn",
+        "Dây hàn hỏng cách điện gây giật",
+        "Chai khí để thẳng đứng, cố định, cách xa lửa",
+        "Bảo quản que hàn khô",
+        "Cấm hàn khi mưa nếu không có mái che"
+      ]
+    },
+    {
+      "title": "Máy cắt, uốn thép",
+      "actions": [
+        "Dùng gia công cốt thép tại xưởng hoặc bãi cốt thép",
+        "Chọn máy theo đường kính thép, loại thép (theo catalog)",
+        "Cắt, uốn đúng bản vẽ gia công, đánh dấu nhãn từng loại",
+        "Kiểm tra bán kính uốn, kích thước sau uốn theo thiết kế",
+        "Xếp thép thành phẩm phân loại, kê chống gỉ",
+        "Che mưa nắng khu gia công"
+      ],
+      "requirements": [
+        "Máy mua hoặc thuê phải kèm hồ sơ: hướng dẫn của nhà sản xuất về lắp đặt, thử nghiệm, vận hành, bảo trì; chứng nhận xuất xứ, chất lượng; chứng nhận hợp chuẩn/hợp quy (nếu có); kiểm định định kỳ (nếu có quy định) [QCVN 18:2021/BXD · 2.1.1.5(b)]",
+        "Thiết bị có yêu cầu nghiêm ngặt về an toàn, vệ sinh lao động phải được kiểm định theo pháp luật về ATVSLĐ [QCVN 18:2021/BXD · 2.1.1.5(c)]",
+        "Máy có che chắn bộ phận chuyển động, nối đất, nút dừng khẩn cấp",
+        "Người vận hành được đào tạo, được giao nhiệm vụ, có chứng chỉ/thẻ an toàn theo loại máy khi pháp luật yêu cầu (chưa có số liệu đối chiếu điều khoản cụ thể)",
+        "Thông số, giới hạn vận hành cụ thể: theo hồ sơ kỹ thuật của nhà sản xuất và quy định hiện hành (chưa có số liệu đối chiếu)"
+      ],
+      "checks": [
+        "Dao cắt, trục uốn, che chắn",
+        "Dây điện, nút dừng",
+        "Nền kê",
+        "Đĩa cắt (nếu có)"
+      ],
+      "tips": [
+        "Không đưa thép vượt khả năng máy",
+        "Không đứng trong vùng quay của thanh uốn",
+        "Dao mòn phải thay kịp thời",
+        "Lau chùi, bôi trơn các trục",
+        "Dọn phế liệu thép sau ca"
+      ]
+    },
+    {
+      "title": "Búa phá và búa rung đóng cọc",
+      "actions": [
+        "Búa phá gắn máy đào để phá bê tông, đá; búa rung/ búa đóng cọc ván thép, cọc",
+        "Chọn thiết bị theo loại cọc, địa chất, ảnh hưởng rung tới công trình lân cận",
+        "Định vị tim cọc, giá búa thẳng đứng, đóng thử để xác định điều kiện dừng",
+        "Theo dõi độ lệch, độ chối, ghi nhật ký từng cọc",
+        "Phối hợp cần trục để dựng cọc và giữ cọc",
+        "Cảnh giới, che chắn mảnh vỡ khi phá"
+      ],
+      "requirements": [
+        "Máy mua hoặc thuê phải kèm hồ sơ: hướng dẫn của nhà sản xuất về lắp đặt, thử nghiệm, vận hành, bảo trì; chứng nhận xuất xứ, chất lượng; chứng nhận hợp chuẩn/hợp quy (nếu có); kiểm định định kỳ (nếu có quy định) [QCVN 18:2021/BXD · 2.1.1.5(b)]",
+        "Thiết bị có yêu cầu nghiêm ngặt về an toàn, vệ sinh lao động phải được kiểm định theo pháp luật về ATVSLĐ [QCVN 18:2021/BXD · 2.1.1.5(c)]",
+        "Giá búa, cần trục kèm có kiểm định (nếu thuộc thiết bị nâng); đánh giá rung đối với công trình lân cận (chưa có số liệu đối chiếu)",
+        "Người vận hành được đào tạo, được giao nhiệm vụ, có chứng chỉ/thẻ an toàn theo loại máy khi pháp luật yêu cầu (chưa có số liệu đối chiếu điều khoản cụ thể)",
+        "Thông số, giới hạn vận hành cụ thể: theo hồ sơ kỹ thuật của nhà sản xuất và quy định hiện hành (chưa có số liệu đối chiếu)"
+      ],
+      "checks": [
+        "Búa, kẹp cọc, dây cáp",
+        "Hệ thống thủy lực",
+        "Giá búa thẳng",
+        "Chân đế, nền"
+      ],
+      "tips": [
+        "Không đóng cọc lệch tim làm gãy cọc",
+        "Dừng ngay khi có dấu hiệu bất thường",
+        "Tiếng ồn lớn, dùng nút tai",
+        "Thay dụng cụ đúng lúc",
+        "Theo dõi sổ nhật ký đóng cọc"
+      ]
+    },
+    {
+      "title": "Máy rải và phun bê tông",
+      "actions": [
+        "Máy rải: rải lớp mặt, lớp vật liệu đường; máy phun bê tông dùng cho vòm hầm, mái dốc, gia cố bề mặt",
+        "Chọn công nghệ phun ướt hoặc khô, cốt liệu và phụ gia theo thiết kế",
+        "Chuẩn bị bề mặt: dọn sạch, tưới ẩm, đặt lưới thép, mốc chiều dày",
+        "Phun từ dưới lên, vòi vuông góc bề mặt, khoảng cách thích hợp",
+        "Giữ ẩm, bảo dưỡng lớp phun theo yêu cầu thiết kế",
+        "Xử lý bật nảy, thu hồi vật liệu bật nảy theo quy định"
+      ],
+      "requirements": [
+        "Máy mua hoặc thuê phải kèm hồ sơ: hướng dẫn của nhà sản xuất về lắp đặt, thử nghiệm, vận hành, bảo trì; chứng nhận xuất xứ, chất lượng; chứng nhận hợp chuẩn/hợp quy (nếu có); kiểm định định kỳ (nếu có quy định) [QCVN 18:2021/BXD · 2.1.1.5(b)]",
+        "Thiết bị có yêu cầu nghiêm ngặt về an toàn, vệ sinh lao động phải được kiểm định theo pháp luật về ATVSLĐ [QCVN 18:2021/BXD · 2.1.1.5(c)]",
+        "Trong hầm cần thông gió, chiếu sáng, giàn giáo vững; thợ phun mang kính, khẩu trang chống bụi",
+        "Người vận hành được đào tạo, được giao nhiệm vụ, có chứng chỉ/thẻ an toàn theo loại máy khi pháp luật yêu cầu (chưa có số liệu đối chiếu điều khoản cụ thể)",
+        "Thông số, giới hạn vận hành cụ thể: theo hồ sơ kỹ thuật của nhà sản xuất và quy định hiện hành (chưa có số liệu đối chiếu)"
+      ],
+      "checks": [
+        "Ống dẫn, vòi phun, máy nén khí",
+        "Phễu cấp liệu, ghép nối",
+        "Phụ gia, nước",
+        "Che chắn bụi"
+      ],
+      "tips": [
+        "Phun ướt dễ tắc ống khi cấp liệu gián đoạn",
+        "Bật nảy nhiều gây lãng phí, kiểm tra góc phun",
+        "Bảo dưỡng lớp phun đúng yêu cầu",
+        "Rửa máy ngay sau ca",
+        "Thay ống mòn trước khi nổ"
+      ]
+    }
+  ],
+  "safety": [
+    "Chỉ người được giao và đủ điều kiện mới vận hành máy; không chở người trên máy sai quy định",
+    "Cảnh giới vùng làm việc của máy; không đứng trong tầm quay, dưới tải nâng, hoặc ở mép hố, taluy",
+    "Dừng ngay khi gặp thời tiết xấu, nền sụt lún, sự cố bất thường",
+    "Cắt nguồn, khóa nhãn khi sửa chữa, bảo dưỡng",
+    "Có bình chữa cháy, hộp cứu thương, sơ đồ liên lạc khẩn cấp"
+  ],
+  "acceptance": [
+    "Kiểm tra hồ sơ máy: nguồn gốc, hướng dẫn, kiểm định/chứng nhận còn hiệu lực [QCVN 18:2021/BXD · 2.1.1.5(b),(c)]",
+    "Chạy thử không tải và có tải, kiểm tra các thiết bị an toàn, phanh, còi, giới hạn",
+    "Kiểm tra giấy tờ, chứng chỉ người vận hành",
+    "Lập biên bản cho phép đưa máy vào công trường, có xác nhận của chỉ huy trưởng và cán bộ an toàn"
+  ],
+  "records": [
+    "Sổ nhật ký máy: giờ làm việc, nhiên liệu, sự cố, bảo dưỡng",
+    "Hồ sơ kiểm định, chứng nhận hợp quy, hiệu chuẩn",
+    "Biên bản kiểm tra trước vận hành, giao ca",
+    "Danh sách, chứng chỉ người vận hành",
+    "Biên bản nghiệm thu đưa máy vào sử dụng"
+  ],
+  "note": "Đây là hướng dẫn chung. Công suất, tải trọng, áp lực, giới hạn vận hành và chu kỳ bảo dưỡng cụ thể phải theo catalog và hồ sơ kỹ thuật của nhà sản xuất; điều khoản pháp lý chi tiết cần đối chiếu văn bản hiện hành. Chỉ các điều khoản có nhãn [số hiệu · mục] mới được đọc từ nguồn."
+}

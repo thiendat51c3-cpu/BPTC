@@ -1,6 +1,6 @@
 {
   "title": "Biện pháp thi công thủy lợi, thủy điện",
-  "version": "1.4",
+  "version": "1.5",
   "updated": "2026-10-09",
   "disclaimer": "Nội dung do Claude tổng hợp, chỉ để tham khảo. Cần đối chiếu bản gốc tiêu chuẩn và hồ sơ thiết kế trước khi áp dụng.",
   "groups": [
@@ -71,10 +71,10 @@
       "summary": "Xây lát đá, rọ đá, bảo vệ mái"
     },
     {
-      "id": "cua-van",
-      "title": "Cửa van, thiết bị cơ khí",
-      "icon": "⚙️",
-      "summary": "Lắp đặt cửa van, máy đóng mở, thiết bị thủy công"
+      "id": "may-xay-dung",
+      "title": "Máy xây dựng thường dùng",
+      "icon": "🚜",
+      "summary": "Máy đào, ủi, lu, cẩu, bơm, khoan, trạm trộn..."
     }
   ]
 }
