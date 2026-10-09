@@ -119,7 +119,7 @@
       ]),
       box,
       el('div', { class: 'grid' }, cards),
-      el('div', { class: 'note', text: state.index.disclaimer })
+      el('div', { class: 'disclaimer', text: state.index.disclaimer })
     );
   }
 
@@ -151,6 +151,7 @@
         st.actions && st.actions.length ? el('h4', { text: 'Trình tự thực hiện' }) : null, st.actions && st.actions.length ? list(st.actions) : null,
         st.requirements && st.requirements.length ? el('h4', { text: 'Yêu cầu kỹ thuật' }) : null, st.requirements && st.requirements.length ? list(st.requirements) : null,
         st.checks && st.checks.length ? el('h4', { text: 'Kiểm tra, nghiệm thu' }) : null, st.checks && st.checks.length ? list(st.checks) : null,
+        st.tips && st.tips.length ? el('h4', { class: 'tiph', text: 'Lưu ý hiện trường (kinh nghiệm chung, không phải điều khoản)' }) : null, st.tips && st.tips.length ? el('div', { class: 'tips' }, [list(st.tips)]) : null,
         noteBox(id, i),
         btn
       ]);
@@ -177,7 +178,7 @@
       section('Nghiệm thu', m.acceptance),
       section('Hồ sơ cần lập', m.records),
       m.note ? el('div', { class: 'note', text: m.note }) : null,
-      el('div', { class: 'note', text: state.index.disclaimer })
+      el('div', { class: 'disclaimer', text: state.index.disclaimer })
     );
   }
 
@@ -230,7 +231,7 @@
       var m = state.methods[g.id];
       if (!m) return;
       m.steps.forEach(function (st, i) {
-        var text = [st.title].concat(st.actions || [], st.requirements || [], st.checks || []).join(' ');
+        var text = [st.title].concat(st.actions || [], st.requirements || [], st.checks || [], st.tips || []).join(' ');
         rows.push({ href: '#/g/' + g.id, title: (i + 1) + '. ' + st.title, sub: g.title, text: text });
       });
       ['safety', 'acceptance', 'records', 'prerequisites'].forEach(function (k) {
@@ -268,7 +269,7 @@
     setChrome('Giới thiệu', { tab: 'about' });
     appEl.replaceChildren(
       el('div', { class: 'hero' }, [el('h2', { text: state.index.title }), el('p', { text: 'Phiên bản ' + state.index.version + ', cập nhật ' + state.index.updated })]),
-      el('div', { class: 'note', text: state.index.disclaimer }),
+      el('div', { class: 'disclaimer', text: state.index.disclaimer }),
       section('Cách dùng', [
         'Chọn hạng mục ở trang chính, mở từng bước để xem trình tự, yêu cầu và kiểm tra.',
         'Bấm "Đánh dấu đã làm xong" để theo dõi tiến độ, dữ liệu lưu trong trình duyệt của máy bạn.',

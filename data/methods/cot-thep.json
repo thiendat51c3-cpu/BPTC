@@ -2,71 +2,131 @@
   "id": "cot-thep",
   "title": "Công tác cốt thép",
   "scope": "Gia công, hàn, nối, lắp dựng, nghiệm thu cốt thép bê tông cốt thép thủy công. Căn cứ TCVN 4453.",
-  "standards": ["tcvn-4453", "tcvn-4055", "tcvn-9115"],
+  "standards": [
+    "tcvn-4453",
+    "tcvn-4055",
+    "tcvn-9115"
+  ],
   "prerequisites": [
     "Thép có chứng chỉ chất lượng của nhà sản xuất; thí nghiệm lại theo lô nếu yêu cầu",
     "Bản vẽ thi công cốt thép, bảng thống kê được duyệt",
-    "Bãi gia công khô ráo, thép xếp kê cao, phân loại"
+    "Bãi gia công khô ráo, thép xếp kê cao, phân loại",
+    "Thợ hàn, thợ gia công có chứng chỉ hoặc được đào tạo, đã hàn thử đạt",
+    "Máy cắt, uốn, hàn được kiểm tra an toàn và hoạt động tốt"
   ],
   "steps": [
     {
       "title": "Kiểm tra, bảo quản cốt thép",
       "actions": [
-        "Kiểm tra chủng loại, đường kính, hình dạng, gỉ",
-        "Làm sạch gỉ, dầu mỡ, bùn đất"
+        "Đối chiếu từng lô thép với chứng chỉ nhà sản xuất: chủng loại, đường kính, số hiệu lô; đánh dấu lô",
+        "Kiểm tra bằng mắt: gỉ, vảy, dầu mỡ, bùn đất, cong vênh, hình dạng gờ",
+        "Lấy mẫu theo lô để thử cơ lý nếu yêu cầu, đánh dấu và niêm phong mẫu",
+        "Làm sạch gỉ, dầu mỡ, bùn đất bằng bàn chải sắt, chải cơ hoặc phun cát; thép không đạt thì loại bỏ",
+        "Xếp thép trên giá kê cao, phân loại theo chủng loại và đường kính, có biển nhận dạng, che mưa",
+        "Lập biên bản kiểm tra vật liệu đầu vào"
       ],
       "requirements": [
         "Mức hao hụt tiết diện do làm sạch gỉ ≤ 2% đường kính [4453 · mục 4]",
         "Lô 100 thanh lấy 5 thanh kiểm tra [4453 · mục 4]"
       ],
-      "checks": ["Lập biên bản kiểm tra vật liệu đầu vào"]
+      "checks": [
+        "Lập biên bản kiểm tra vật liệu đầu vào"
+      ],
+      "tips": [
+        "Thép không rõ nguồn gốc hoặc không có chứng chỉ không được đưa vào sử dụng",
+        "Trộn lẫn các chủng loại gần giống nhau là lỗi hay gặp; ghi nhãn rõ trên từng bó",
+        "Thép để tiếp xúc đất, mưa lâu ngày gỉ nhanh; kê cao, che bạt",
+        "Kiểm tra lại gỉ trước khi lắp dựng nếu thép để lâu ngoài trời"
+      ]
     },
     {
       "title": "Cắt, uốn, gia công",
       "actions": [
-        "Cắt, uốn theo bảng thống kê; kiểm tra mẫu đầu tiên của mỗi chủng loại"
+        "Lập bảng cắt từ bản vẽ thi công, đối chiếu với bảng thống kê để tối ưu hao hụt",
+        "Cắt, uốn theo bảng thống kê; kiểm tra mẫu đầu tiên của mỗi chủng loại",
+        "Điều chỉnh dưỡng, cữ chặn trên máy cắt, bàn uốn để các thanh đồng đều; cắt thép bằng máy, không cắt bằng hàn hơi khi không cho phép",
+        "Uốn nguội từ từ, không uốn lại thanh đã uốn nếu không cho phép; bán kính uốn theo thiết kế",
+        "Kiểm tra mẫu từng chủng loại, sau đó kiểm tra ngẫu nhiên; thanh sai lệch thì loại hoặc sửa",
+        "Đánh dấu, bó thanh theo cấu kiện và vị trí, chuyển tới nơi lắp dựng"
       ],
       "requirements": [
         "Sai lệch chiều dài thanh cắt: 5 mm/m và tổng 20 mm [4453 · mục 4]"
       ],
-      "checks": ["Kiểm tra kích thước đoạn uốn, móc, sai lệch"]
+      "checks": [
+        "Kiểm tra kích thước đoạn uốn, móc, sai lệch"
+      ],
+      "tips": [
+        "Mẫu đầu tiên sai sẽ nhân lỗi cho cả lô; duyệt mẫu trước khi gia công hàng loạt",
+        "Uốn thép nhanh, đột ngột dễ nứt chỗ uốn; theo dõi mặt ngoài sau khi uốn",
+        "Bó thanh có nhãn rõ vị trí, tránh nhầm khi lắp dựng",
+        "Ghi lại thép thừa, thép vụn để quản lý vật tư"
+      ]
     },
     {
       "title": "Hàn và nối cốt thép",
       "actions": [
-        "Hàn thử; kiểm tra mối hàn; nối buộc hoặc nối hàn theo thiết kế"
+        "Chọn phương pháp nối (buộc, hàn) theo thiết kế; bố trí vị trí mối nối so le, tránh vùng chịu lực lớn nhất",
+        "Hàn thử mẫu cùng điều kiện thực tế, thợ hàn có chứng chỉ; thử kéo, thử uốn trước khi hàn đại trà",
+        "Chuẩn bị đầu thanh sạch, thẳng trục; lắp ghép đúng, kẹp giữ chắc trước khi hàn",
+        "Hàn đúng chế độ đã thử, hàn từng lớp, làm sạch xỉ giữa các lớp; để nguội tự nhiên, không làm nguội nhanh",
+        "Kiểm tra mối hàn bằng mắt từng mối, lấy mẫu thử cơ lý theo quy định",
+        "Nối buộc: dùng dây thép buộc chắc, đủ vòng, đảm bảo chiều dài nối theo thiết kế; kiểm tra lại tỷ lệ mối nối trên một mặt cắt"
       ],
       "requirements": [
         "Mối hàn: cứ 100 mối lấy 5 mẫu kiểm tra kích thước + 3 mẫu thử kéo + 3 mẫu thử uốn [4453 · mục 5]",
         "Nối buộc: không quá 25% diện tích thép trơn, không quá 50% thép có gờ trong một mặt cắt [4453 · mục 5]",
         "Chiều dài nối buộc ≥ 250 mm (vùng kéo), ≥ 200 mm (vùng nén), và theo thiết kế [4453 · mục 5]"
       ],
-      "checks": ["Kết quả thử kéo, thử uốn mẫu mối hàn"]
+      "checks": [
+        "Kết quả thử kéo, thử uốn mẫu mối hàn"
+      ],
+      "tips": [
+        "Mối hàn có rỗ, ngậm xỉ, cháy chân là lỗi phổ biến; làm sạch và hàn đúng chế độ",
+        "Đầu thanh cong, lệch trục làm giảm khả năng truyền lực; nắn thẳng trước khi nối",
+        "Mối nối tập trung cùng một mặt cắt làm yếu kết cấu; đánh dấu và bố trí so le",
+        "Mối hàn không đạt thì cắt bỏ, hàn lại, không vá",
+        "Hàn ở nơi gió, mưa cần che chắn để bảo đảm chất lượng"
+      ]
     },
     {
       "title": "Lắp dựng, cố định cốt thép",
       "actions": [
-        "Đặt con kê, buộc/hàn định vị, kiểm tra lớp bảo vệ",
-        "Lắp đặt thép chờ, chi tiết chôn sẵn đúng vị trí"
+        "Vạch dấu vị trí thanh trên cốp pha hoặc dưỡng, lắp thanh chủ trước, sau đó đai theo đúng bước",
+        "Đặt con kê đúng vị trí, vật liệu phù hợp, chắc chắn để giữ lớp bảo vệ; kê cả mặt dưới và mặt bên",
+        "Buộc hoặc hàn định vị tại các giao điểm; buộc kiểu so le để lưới không xô lệch",
+        "Lắp đặt thép chờ, chi tiết chôn sẵn đúng vị trí, cố định chắc để không xê dịch khi đổ bê tông",
+        "Kiểm tra khoảng cách, số lượng thanh, đường kính, lớp bảo vệ bằng thước; đối chiếu với bản vẽ",
+        "Làm sạch bụi, bẩn, vụn buộc trước khi đóng cốp pha kín; lập biên bản nghiệm thu cốt thép"
       ],
       "requirements": [
         "Con kê đặt cách nhau ≤ 1 m [4453 · mục 5]",
         "Sai lệch lớp bảo vệ: 3 mm (lớp bảo vệ nhỏ) / 5 mm [4453 · mục 5]",
         "Buộc hoặc hàn ≥ 50% số giao điểm; góc đai buộc 100% [4453 · mục 5]"
       ],
-      "checks": ["Nghiệm thu cốt thép trước khi đóng cốp pha kín và đổ bê tông"]
+      "checks": [
+        "Nghiệm thu cốt thép trước khi đóng cốp pha kín và đổ bê tông"
+      ],
+      "tips": [
+        "Con kê bằng vật liệu không phù hợp hoặc bị tuột khi đổ làm lớp bảo vệ không đảm bảo; cố định chắc",
+        "Công nhân đi lại trên lưới thép làm xô lệch; làm lối đi riêng, kê ván",
+        "Thép chờ bị lệch hoặc quên là lỗi khó sửa; kiểm tra lại ngay trước khi đổ",
+        "Dây buộc thừa, đầu thép nhô gần mặt cốp pha gây hở thép; bẻ vào trong",
+        "Cần kiểm tra lại sau khi lắp ván khuôn và trước khi đổ vì cốt thép có thể bị xê dịch"
+      ]
     }
   ],
   "safety": [
     "Găng tay, kính khi cắt, hàn, uốn; che chắn khi hàn; phòng cháy",
     "Vận chuyển, cẩu thép: dùng thiết bị phù hợp, không đứng dưới tải",
-    "Giàn giáo, sàn công tác khi lắp dựng trên cao"
+    "Giàn giáo, sàn công tác khi lắp dựng trên cao",
+    "Nối dây điện máy hàn gọn, cách điện, không nằm trong vùng nước đọng"
   ],
   "acceptance": [
     "Nghiệm thu cốt thép (chủng loại, vị trí, lớp bảo vệ, mối nối) trước đổ bê tông, lập biên bản"
   ],
   "records": [
-    "Chứng chỉ thép, kết quả thí nghiệm, biên bản nghiệm thu cốt thép"
+    "Chứng chỉ thép, kết quả thí nghiệm, biên bản nghiệm thu cốt thép",
+    "Biên bản hàn thử, bản vẽ hoàn công cốt thép khi cần"
   ],
   "note": "TCVN 4453:1995 chỉ đọc được một phần; điều khoản ghi là 'mục' cần đối chiếu bản gốc. Các số liệu là bản tóm tắt."
 }

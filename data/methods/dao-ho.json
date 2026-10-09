@@ -2,21 +2,33 @@
   "id": "dao-ho",
   "title": "Công tác đào đất đá hở",
   "scope": "Đào hố móng, hào, kênh, mặt bằng và đào đá bằng khoan nổ mìn lộ thiên cho công trình thủy lợi, thủy điện.",
-  "standards": ["tcvn-4447", "tcvn-8305", "tcvn-11323", "tcvn-9903", "qcvn-04-04", "tcvn-9161", "tcvn-4055", "qcvn-18"],
+  "standards": [
+    "tcvn-4447",
+    "tcvn-8305",
+    "tcvn-11323",
+    "tcvn-9903",
+    "qcvn-04-04",
+    "tcvn-9161",
+    "tcvn-4055",
+    "qcvn-18"
+  ],
   "prerequisites": [
     "Có hồ sơ thiết kế, biện pháp thi công được chủ đầu tư duyệt; có số liệu địa chất, địa chất thủy văn đầy đủ, kể cả vật cản như bom mìn, rác [4447 · mục 3]",
     "Đã cân đối khối lượng đào, đắp có tính lún và hao hụt khi vận chuyển; đất thừa đổ bãi thải được duyệt, không gây ngập úng hay cản thoát lũ [4447 · mục 2-3]",
     "Đã xác định công trình ngầm, đường dây trong phạm vi đào [4447 · 4.2]",
-    "Nổ mìn: chỉ thi công khi có đồ án thiết kế và hộ chiếu nổ mìn được duyệt [04-04 · 4.1]"
+    "Nổ mìn: chỉ thi công khi có đồ án thiết kế và hộ chiếu nổ mìn được duyệt [04-04 · 4.1]",
+    "Đã phổ biến biện pháp thi công và an toàn cho tổ đội, bố trí người giám sát an toàn tại hiện trường"
   ],
   "steps": [
     {
       "title": "Chuẩn bị mặt bằng, định vị, tiêu nước mặt",
       "actions": [
-        "Giải phóng mặt bằng: chặt cây, đào gốc rễ, dọn đá mồ côi quá cỡ",
-        "Bóc lớp đất màu, trữ và bảo vệ để dùng lại",
-        "Định vị bằng máy trắc địa, dựng khuôn, có cọc phụ được bảo vệ",
-        "Làm hệ thống tiêu nước mặt trước khi đào hố móng"
+        "Khảo sát hiện trạng: ranh giới, cây cối, công trình ngầm, đường điện, vật cản, hướng thoát nước; đối chiếu hồ sơ thiết kế",
+        "Giải phóng mặt bằng: chặt cây, đào gốc rễ, dọn đá mồ côi quá cỡ, phá dỡ công trình cũ theo biện pháp được duyệt",
+        "Bóc lớp đất màu, trữ ở bãi riêng và bảo vệ để dùng lại",
+        "Định vị bằng máy trắc địa, dựng khuôn, đóng cọc mốc; có cọc phụ được bảo vệ ngoài vùng thi công",
+        "Làm hệ thống tiêu nước mặt (mương, rãnh, hố thu) trước khi đào hố móng",
+        "Làm đường vận chuyển tạm, bố trí bãi thải, bãi tập kết, biển báo theo biện pháp thi công"
       ],
       "requirements": [
         "Đất mượn tạm phải phục hồi trong vòng ba tháng sau khi bàn giao công trình [4447 · mục 3]",
@@ -25,13 +37,26 @@
         "Bán kính cong tối thiểu đường tạm: 15 m (xe hai cầu dưới 30 tấn), 20 m (xe ba cầu); dốc không nên quá 0,08, cứ khoảng 600 m dốc có đoạn nghỉ dài ít nhất 50 m, dốc không quá 0,03 [4447 · mục 3]",
         "Đất đắp không đầm nén phải cộng thêm tỷ lệ lún theo bảng của tiêu chuẩn [4447 · mục 3]"
       ],
-      "checks": ["Kiểm tra mốc, cọc định vị, bàn giao mặt bằng", "Nghiệm thu công tác chuẩn bị"]
+      "checks": [
+        "Kiểm tra mốc, cọc định vị, bàn giao mặt bằng",
+        "Nghiệm thu công tác chuẩn bị"
+      ],
+      "tips": [
+        "Cọc mốc dễ bị máy làm mất; có cọc phụ và kiểm tra thường xuyên",
+        "Lớp đất màu trộn lẫn với đất đào khó tái sử dụng; tách riêng ngay từ đầu",
+        "Mương tiêu làm sau khi đào hố thường không kịp mùa mưa; làm trước",
+        "Đường tạm cần thoát nước và duy tu, nếu không sẽ lầy khi mưa gây chậm tiến độ"
+      ]
     },
     {
       "title": "Hạ mực nước ngầm, xử lý nền cát chảy (nếu có)",
       "actions": [
+        "Thu thập số liệu mực nước ngầm, địa chất thủy văn; xác định mức cần hạ và thời gian duy trì",
         "Chọn biện pháp theo chiều sâu hố H: đào hở có rãnh tiêu mặt, giếng hạ mực nước (theo TCVN 9903), cừ thép, tường đất xi măng, cừ bê tông cốt thép, tường hào bentonite",
-        "Cừ phải đóng trước khi làm công trình tiêu nước"
+        "Cừ phải đóng trước khi làm công trình tiêu nước",
+        "Lắp đặt hệ thống hạ mực nước, thử vận hành, kiểm tra mực nước trong giếng quan trắc",
+        "Theo dõi mực nước ngầm, lưu lượng bơm, độ đục nước bơm trong suốt quá trình đào",
+        "Xử lý ngay khi có dấu hiệu cát chảy, xói ngầm; dự phòng bơm và nguồn điện"
       ],
       "requirements": [
         "Mực nước ngầm duy trì thấp hơn đáy móng công trình ít nhất 0,5 m [11323 · 4.3b]",
@@ -40,14 +65,27 @@
         "Rãnh tiêu mặt: rãnh chính sâu khoảng 1 m, rãnh nhánh sâu 0,3-0,5 m, độ dốc 0,002 [11323 · 5.1]",
         "Cừ lệch thẳng đứng khoảng 2‰; mũi cừ chênh tối đa 0,5 m; phải bịt kín khe hở khép [11323 · 6.2.4.2]"
       ],
-      "checks": ["Quan trắc mực nước ngầm hằng ngày", "Theo dõi lún, nứt khu vực xung quanh hố đào"]
+      "checks": [
+        "Quan trắc mực nước ngầm hằng ngày",
+        "Theo dõi lún, nứt khu vực xung quanh hố đào"
+      ],
+      "tips": [
+        "Bơm ra nước đục, nhiều cát là dấu hiệu xói ngầm; dừng và kiểm tra ngay",
+        "Hạ mực nước quá nhanh có thể gây lún, nứt công trình lân cận; theo dõi lún",
+        "Giếng hạ nước bị tắc, hỏng lọc cần thay kịp thời",
+        "Mất điện làm mực nước dâng lại; phải có nguồn dự phòng"
+      ]
     },
     {
       "title": "Đào đất theo lớp",
       "actions": [
-        "Đào từ trên xuống bằng máy, vận chuyển đến bãi thải hoặc bãi tập kết",
+        "Kiểm tra mặt bằng, mốc, mức nước, thiết bị; thông báo lịch đào cho các bên",
+        "Đào từ trên xuống bằng máy theo từng lớp, vận chuyển đến bãi thải hoặc bãi tập kết đã duyệt",
         "Với nền cát chảy, đào từng lớp từ phía cạnh ngắn về phía hố thu nước",
-        "Để lại lớp bảo vệ đáy hố móng, không đào sát cao độ thiết kế"
+        "Kiểm tra cao độ, mái dốc bằng máy thủy bình sau mỗi lớp; sửa mái đúng thiết kế",
+        "Để lại lớp bảo vệ đáy hố móng, không đào sát cao độ thiết kế; đào nốt bằng máy nhỏ hoặc thủ công trước khi thi công kết cấu",
+        "Xử lý đáy hố quá sâu bằng vật liệu thích hợp, đầm chặt theo thiết kế",
+        "Che phủ đáy và mái khi chưa thi công tiếp, nhất là khi mưa"
       ],
       "requirements": [
         "Đào thẳng đứng không chống chỉ khi trên mực nước ngầm, không có công trình lân cận và chiều sâu không vượt: cát, sỏi khoảng 1,00 m; cát pha khoảng 1,25 m; đất thịt, sét khoảng 1,50 m [4447 · 4.2]",
@@ -58,24 +96,49 @@
         "Không để quá sâu: đào quá thì lấp bằng đá hỗn hợp; nền đá cứng lấp cát, sỏi hoặc đá hỗn hợp rồi đầm chặt [4447 · 4.1, 4.2]",
         "Đào lớp tối đa 1 m mỗi lớp trong nền cát chảy, mái theo Bảng 1 của tiêu chuẩn [11323 · 6.2.2.2]"
       ],
-      "checks": ["Kiểm tra mái dốc, cơ, cao độ theo từng lớp", "Đo khối lượng định kỳ"]
+      "checks": [
+        "Kiểm tra mái dốc, cơ, cao độ theo từng lớp",
+        "Đo khối lượng định kỳ"
+      ],
+      "tips": [
+        "Đào sát cao độ bằng máy làm xáo trộn đất nền; chừa lớp bảo vệ",
+        "Mái hố chưa ổn định thì không cho người, máy tập trung dưới chân mái",
+        "Đất đào chất sát mép hố tăng tải trọng, dễ gây sạt; chất xa mép",
+        "Quan sát vết nứt đỉnh mái, nước rỉ, đây là dấu hiệu sạt trượt",
+        "Đáy hố ngâm nước lâu bị mềm yếu; tiêu nước và đào nốt rồi thi công ngay"
+      ]
     },
     {
       "title": "Đào gần công trình ngầm và xử lý phát sinh",
       "actions": [
-        "Xin giấy phép và có giám sát khi đào gần hệ thống kỹ thuật ngầm đang hoạt động",
-        "Phát hiện công trình ngầm hoặc di chỉ không có trong thiết kế: dừng ngay, rào khu vực, báo cơ quan liên quan"
+        "Trước khi đào, xác định vị trí, độ sâu công trình ngầm bằng hồ sơ và thiết bị dò, đào hố thăm dò khi cần",
+        "Xin giấy phép, có đại diện đơn vị quản lý công trình ngầm giám sát, đánh dấu tuyến trên mặt đất",
+        "Máy đào làm việc ngoài khoảng cách an toàn; phần gần công trình đào thủ công",
+        "Chống đỡ hoặc treo giữ tuyến ngầm lộ ra theo hướng dẫn đơn vị quản lý",
+        "Phát hiện công trình ngầm hoặc di chỉ không có trong thiết kế: dừng ngay, rào khu vực, báo cơ quan liên quan",
+        "Ghi nhận, bổ sung vào hồ sơ và chỉ tiếp tục khi có chỉ dẫn"
       ],
       "requirements": [
         "Gầu máy chỉ làm việc khi cách vách hệ thống hơn 2 m theo phương ngang và hơn 1 m so với đáy; phần còn lại đào thủ công [4447 · 4.2]"
       ],
-      "checks": ["Ghi nhật ký, lập biên bản xử lý phát sinh"]
+      "checks": [
+        "Ghi nhật ký, lập biên bản xử lý phát sinh"
+      ],
+      "tips": [
+        "Không tin hoàn toàn vào bản vẽ cũ; luôn dò và đào thăm dò",
+        "Cáp điện, ống khí hư hỏng gây nguy hiểm lớn; có biển báo và giám sát",
+        "Ghi lại vị trí thực tế để lập bản vẽ hoàn công"
+      ]
     },
     {
       "title": "Đào kênh đất",
       "actions": [
-        "Phóng mẫu mặt cắt ngang, đào theo từng đoạn, chừa lớp dự trữ để sửa mái",
-        "Bờ đất đổ làm rãnh tiêu có gia cố"
+        "Nhận mốc tuyến, khảo sát, phóng tim, phóng mép mặt cắt bằng cọc",
+        "Phóng mẫu mặt cắt ngang bằng khung mẫu, kiểm tra thường xuyên trong khi đào",
+        "Đào theo từng đoạn, chừa lớp dự trữ để sửa mái, kiểm tra cao trình đáy và mái bằng thủy bình",
+        "Đổ đất đào đúng vị trí đã duyệt, tạo bờ đất; làm rãnh tiêu có gia cố",
+        "Sửa mái, hoàn thiện đáy bằng máy hoặc thủ công đến thiết kế",
+        "Kiểm tra mặt cắt, cao độ, bề rộng, độ dốc; lập biên bản và bản vẽ hoàn công"
       ],
       "requirements": [
         "Áp dụng cho kênh có lưu lượng thiết kế từ 300 L/s trở lên hoặc phục vụ từ 150 ha trở lên [8305 · 1.2]",
@@ -85,15 +148,26 @@
         "Đào cơ giới chừa dự trữ tối thiểu 15 cm để sửa mái; không đổ đất đào về phía sườn cao [8305 · mục 6.1]",
         "Sai số cho phép (cơ giới hoặc thủ công kết hợp): tim kênh ±300 mm; rộng đáy +100/-0 mm; cao trình đáy +0/-50 mm; hệ số mái +10%/-0; độ dốc đáy ±10% [8305 · bảng sai số]"
       ],
-      "checks": ["Đo mặt cắt, bình đồ khi vận tốc dòng chảy không quá 0,3 m/s [8305 · mục 8]"]
+      "checks": [
+        "Đo mặt cắt, bình đồ khi vận tốc dòng chảy không quá 0,3 m/s [8305 · mục 8]"
+      ],
+      "tips": [
+        "Mái kênh sửa muộn dễ sạt; sửa ngay sau khi đào",
+        "Đổ đất sai chỗ cản thoát nước, gây ngập; theo biện pháp",
+        "Đất đào dưới đáy chưa sửa lún hoặc nước đọng; làm rãnh tiêu tạm",
+        "Khu vực sườn dốc cần rãnh thoát nước phía trên, tránh nước mặt chảy xuống kênh"
+      ]
     },
     {
       "title": "Đào đá bằng khoan nổ mìn",
       "actions": [
-        "Lập hộ chiếu nổ mìn, xác định vùng nguy hiểm; hội đồng nghiệm thu công tác chuẩn bị chấp thuận trước khi nổ",
-        "Khoan, kiểm tra kích thước lỗ (đường cản chân tầng, khoảng cách, góc nghiêng), làm sạch mạt khoan, nạp mìn, lấp bua bằng vật liệu rời mịn",
-        "Nổ mìn tạo biên bảo vệ mái; chừa lớp bảo vệ đáy và mái",
-        "Ghi nhận thay đổi địa chất gặp phải trong thi công"
+        "Lập hộ chiếu nổ mìn, xác định vùng nguy hiểm, bố trí canh gác, báo hiệu; hội đồng nghiệm thu công tác chuẩn bị chấp thuận trước khi nổ",
+        "Định vị lỗ khoan theo sơ đồ, kiểm tra thiết bị khoan, vật liệu nổ, phương tiện nổ",
+        "Khoan, kiểm tra kích thước lỗ (đường cản chân tầng, khoảng cách, góc nghiêng), làm sạch mạt khoan",
+        "Nạo lỗ, kiểm tra nước, nạp mìn theo hộ chiếu, lấp bua bằng vật liệu rời mịn",
+        "Đấu nối mạng nổ, kiểm tra, sơ tán người và thiết bị khỏi vùng nguy hiểm, gọi nổ",
+        "Sau nổ: chờ khói tan, kiểm tra mìn câm, an toàn mái, xử lý đá treo",
+        "Nổ mìn tạo biên bảo vệ mái; chừa lớp bảo vệ đáy và mái, ghi nhận thay đổi địa chất, lập nhật ký nổ mìn"
       ],
       "requirements": [
         "Lỗ khoan đã khoan mà gặp nước ngầm hoặc địa chất phức tạp phải nạp ngay [04-04 · 4.8]",
@@ -108,20 +182,38 @@
       "checks": [
         "Kiểm tra sau nổ: mìn câm, đá treo",
         "Đánh giá hiệu quả lớp bảo vệ bằng ít nhất hai trong bốn cách: quan sát bề mặt đá, giếng quan sát và thí nghiệm thấm, khoan lấy mẫu kết hợp thí nghiệm thấm, địa vật lý [04-04 · 5.1.7]"
+      ],
+      "tips": [
+        "Chỉ người có chứng chỉ mới được nạp, nối, nổ mìn; có chỉ huy duy nhất",
+        "Lỗ khoan lệch hướng làm đá om, nổ không đạt; kiểm tra góc khoan",
+        "Mìn câm phải xử lý theo quy định, không được tiếp tục thi công trong vùng",
+        "Mái đá sau nổ có đá treo; hạ đá trước khi cho người vào",
+        "Nổ gần công trình cần quan trắc rung, đối chiếu giới hạn thiết kế"
       ]
     },
     {
       "title": "Hoàn thiện đáy, mái và nghiệm thu hố móng",
       "actions": [
-        "Hoàn thiện đáy móng đến cao độ thiết kế bằng thủ công hoặc máy nhỏ, làm sạch, xử lý nứt, hang hốc, lớp phong hóa",
-        "Mô tả địa chất mặt hố móng, so sánh hồ sơ thiết kế; mời thiết kế xác nhận nền",
-        "Đo hoàn công, lập biên bản nghiệm thu"
+        "Hoàn thiện đáy móng đến cao độ thiết kế bằng thủ công hoặc máy nhỏ, không dùng thuốc nổ",
+        "Làm sạch đáy: bóc lớp phong hóa, đá rời, bùn, rửa bằng nước hoặc khí nén theo thiết kế",
+        "Xử lý nứt, hang hốc, lớp yếu theo chỉ dẫn thiết kế (đục, nhồi vữa, bê tông)",
+        "Mô tả địa chất mặt hố móng, so sánh với hồ sơ thiết kế; mời thiết kế xác nhận nền",
+        "Đo hoàn công cao độ, kích thước, mái; lập bản vẽ",
+        "Lập biên bản nghiệm thu, chỉ chuyển bước thi công kết cấu sau khi các bên ký"
       ],
       "requirements": [
         "Dung sai nghiệm thu hố móng cát chảy: cao độ đáy -10 cm; rộng, dài ±20 cm; tim ±20 cm; mái 10%; mương, hố thu: đáy -10 cm, rộng ±10 cm, độ dốc 15% [11323 · bảng 2, 3]",
         "Chỉ chuyển bước sau khi nghiệm thu đạt"
       ],
-      "checks": ["Biên bản nghiệm thu công việc đào đất đá, bản vẽ hoàn công"]
+      "checks": [
+        "Biên bản nghiệm thu công việc đào đất đá, bản vẽ hoàn công"
+      ],
+      "tips": [
+        "Nền bị ngâm nước, khô nứt làm giảm sức chịu tải; thi công kết cấu ngay sau nghiệm thu",
+        "Mô tả địa chất bằng ảnh có tỷ lệ, sơ đồ vị trí để lưu hồ sơ",
+        "Phát hiện đất yếu, đứt gãy khác thiết kế phải báo ngay, không tự xử lý",
+        "Dọn sạch đá rời, bụi bẩn trước khi đổ bê tông để đảm bảo liên kết"
+      ]
     }
   ],
   "safety": [
@@ -129,17 +221,20 @@
     "Kiểm tra mái dốc, vách hố đào trước mỗi ca và sau mưa lớn",
     "Gia cố vách đứng tạm thời bằng kết cấu lắp ghép, có thể tái sử dụng; ván và chống gỗ dùng được ít nhất 5 lần [4447 · 4.2]",
     "Cấm đào hàm ếch; cấm người đi lại trong vùng máy đang làm việc; không chất tải sát mép hố [8305 · 6.5]",
-    "Nổ mìn theo quy định riêng: sơ tán người, thiết bị, canh gác, báo hiệu"
+    "Nổ mìn theo quy định riêng: sơ tán người, thiết bị, canh gác, báo hiệu",
+    "Có phương án ứng cứu khi sạt lở hoặc sự cố nổ mìn, với liên lạc và sơ cứu sẵn sàng"
   ],
   "acceptance": [
     "Nghiệm thu công tác chuẩn bị, định vị",
     "Nghiệm thu hố móng sau khi đào và xử lý nền",
-    "Nghiệm thu mái dốc, tuyến kênh, kích thước hình học sau đào"
+    "Nghiệm thu mái dốc, tuyến kênh, kích thước hình học sau đào",
+    "Chỉ chuyển bước khi biên bản nghiệm thu bước trước đã được các bên ký"
   ],
   "records": [
     "Biện pháp thi công được duyệt, hộ chiếu nổ mìn",
     "Nhật ký thi công, nhật ký nổ mìn, ghi nhận thay đổi địa chất",
-    "Biên bản nghiệm thu, bản vẽ hoàn công, hồ sơ địa chất hố móng"
+    "Biên bản nghiệm thu, bản vẽ hoàn công, hồ sơ địa chất hố móng",
+    "Ảnh chụp, nhật ký sự cố và xử lý phát sinh địa chất, công trình ngầm"
   ],
   "note": "Số liệu trích từ phần đã đọc được: TCVN 4447 mục 1 đến 4.2, TCVN 8305, TCVN 11323 mục 4 đến 6, QCVN 04-04:2012 đến mục 8.2.3. Chưa đọc được TCVN 9161 và phần đầm nén, nghiệm thu của TCVN 4447. Mục 11323 Bảng 6 có số liệu mâu thuẫn với 6.2.5.2, cần đối chiếu thiết kế."
 }

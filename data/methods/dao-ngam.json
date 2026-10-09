@@ -2,20 +2,33 @@
   "id": "dao-ngam",
   "title": "Công tác đào ngầm",
   "scope": "Đào hầm dẫn nước, hầm tháo lũ, hầm thi công, nhà máy ngầm bằng khoan nổ mìn trong đá, kèm chống đỡ, thông gió, thoát nước và làm vỏ hầm.",
-  "standards": ["tcvn-4528", "qcvn-04-04", "tcvn-9161", "tcvn-13509", "tcvn-8870", "tcvn-4055", "qcvn-18"],
+  "standards": [
+    "tcvn-4528",
+    "qcvn-04-04",
+    "tcvn-9161",
+    "tcvn-13509",
+    "tcvn-8870",
+    "tcvn-4055",
+    "qcvn-18"
+  ],
   "prerequisites": [
     "Chỉ thi công khi đồ án thiết kế tổ chức thi công đã được phê duyệt [4528 · 1.4]",
     "Có thiết kế hầm, phân loại đá, sơ đồ chống đỡ tạm và vĩnh cửu, hộ chiếu khoan nổ mìn được duyệt [04-04 · 4.1]",
     "Có hệ thống điện (lưới 6-10 kV qua máy biến áp), cấp khí nén, cấp thoát nước, thông gió, chiếu sáng [4528 · 1.7, 6]",
     "Có điện thoại hoặc phương tiện thông báo liên tục suốt thời gian thi công; dây điện treo cao, không đặt trên nền [4528 · 1.8]",
-    "Phải ghi địa chất, địa chất thủy văn thực tế vào nhật ký; sai khác thiết kế phải báo ngay chủ đầu tư và thiết kế [4528 · 1.9]"
+    "Phải ghi địa chất, địa chất thủy văn thực tế vào nhật ký; sai khác thiết kế phải báo ngay chủ đầu tư và thiết kế [4528 · 1.9]",
+    "Tổ chức nhân lực có chứng chỉ phù hợp (thợ mìn, thợ vận hành thiết bị), kho vật liệu nổ được cấp phép và quản lý theo quy định"
   ],
   "steps": [
     {
       "title": "Đo đạc định tuyến, dẫn tim hầm",
       "actions": [
-        "Lập lưới khống chế, đường chuyền trên mặt đất, truyền tim qua cửa hầm hoặc giếng",
-        "Thiết lập đường chuyền dưới đất theo tiến độ đào"
+        "Nhận bàn giao mốc, tọa độ, cao độ từ chủ đầu tư; kiểm tra lại các mốc khống chế trước khi dùng",
+        "Lập lưới khống chế, đường chuyền trên mặt đất; truyền tim và cao độ vào hầm qua cửa hầm hoặc giếng, đo lặp để đối chiếu",
+        "Bảo vệ, rào và đánh dấu mốc ngoài cửa hầm, tránh xe máy va chạm hoặc nổ mìn làm xê dịch",
+        "Thiết lập đường chuyền dưới đất bám theo tiến độ đào; mốc cố định trên nóc hoặc vách, có biển số rõ ràng",
+        "Dùng máy toàn đạc, tia laze định hướng để cắm tim, cao độ và sơ đồ lỗ mìn lên gương cho từng chu kỳ",
+        "Đo kiểm độc lập hai lượt, lập hồ sơ số liệu; sai khác vượt cho phép thì dừng đào để tìm nguyên nhân"
       ],
       "requirements": [
         "Đường chuyền cơ bản cho hầm dài đến 1 km: cạnh 100-300 m; sai số khép tối đa 1/35.000 (hầm từ 500 m) hoặc 1/20.000 (hầm dưới 500 m) [4528 · 2.5]",
@@ -23,26 +36,50 @@
         "Đường chuyền dưới đất: cạnh cơ bản 40-120 m, cạnh chi tiết 20-60 m; mốc đặt cao hơn mặt đường xe chạy [4528 · 2.12-2.14]",
         "Kiểm tra đo đạc sau mỗi 5 m đào; lệch tim tại điểm thông hầm tối đa ±100 mm [4528 · 2.19, 2.20]"
       ],
-      "checks": ["Kiểm tra tim, cao độ gương đào sau mỗi chu kỳ"]
+      "checks": [
+        "Kiểm tra tim, cao độ gương đào sau mỗi chu kỳ"
+      ],
+      "tips": [
+        "Sai số tích lũy do đường chuyền dưới đất kéo dài: định kỳ đo lại từ mốc ngoài hầm và đo kiểm bằng tổ khác",
+        "Mốc bị rung nổ, va chạm làm lệch: gắn mốc chắc vào đá, kiểm tra mốc trước khi dùng sau mỗi đợt nổ lớn",
+        "Hầm đào từ hai đầu: đo kiểm chéo thường xuyên trước khi hai gương tiến gần nhau",
+        "Ghi rõ tim, cao độ lên vách hầm để thợ khoan và thợ chống tự kiểm tra được"
+      ]
     },
     {
       "title": "Thi công cửa hầm và giếng (nếu có)",
       "actions": [
-        "Đào, gia cố mái dốc khu vực cửa hầm; làm mũ cửa hầm, thoát nước đỉnh mái",
-        "Chọn giếng theo hệ số kiên cố fkp và nước ngầm"
+        "Khảo sát lại địa hình, địa chất khu vực cửa hầm; đánh dấu phạm vi đào, rào chắn và làm đường công vụ",
+        "Đào mái cửa hầm từ trên xuống, gia cố từng đợt theo thiết kế; làm rãnh thoát nước đỉnh mái trước khi đào sâu",
+        "Cạy gỡ đá lỏng, đá treo trên mái; neo, phun hoặc lưới chắn tùy cấp đá",
+        "Làm mũ cửa hầm, đoạn hầm ban đầu có chống đỡ mạnh hơn; chỉ vào đào ngầm sau khi nghiệm thu mái",
+        "Với giếng: chọn loại giếng theo địa chất và nước ngầm; lắp tời, thang, thông gió, thoát nước, điện trước khi đào sâu",
+        "Đào giếng theo từng đợt, gia cố vách kịp thời; đo lệch tâm và độ thẳng đứng thường xuyên"
       ],
       "requirements": [
         "Giếng không vách cho đá rất cứng (fkp ≥ 8); giếng gia cố vách vữa xi măng cho đất cứng, đá nứt nẻ, lưu lượng nước dưới 5 m³/h (fkp ≥ 2); giếng chìm vỏ bê tông lắp ghép cho đất yếu, cát [4528 · 3.3]",
         "Giếng chìm hạ từng bước 10-15 cm, kiểm tra vị trí không quá 1 m một lần [4528 · 3.8, 3.9]",
         "Bơm đặt cách mặt nước không quá 8 m, bơm liên tục; gió đẩy xuống giếng tốc độ trong ống không quá 6 m/s [4528 · 3.4, 3.13]"
       ],
-      "checks": ["Kiểm tra mái cửa hầm ổn định trước khi vào đào ngầm"]
+      "checks": [
+        "Kiểm tra mái cửa hầm ổn định trước khi vào đào ngầm"
+      ],
+      "tips": [
+        "Cửa hầm là nơi dễ sạt nhất: quan sát khe nứt, nước rỉ chân mái sau mỗi trận mưa",
+        "Đừng đào hầm vào sâu khi chưa có đoạn đầu chống đỡ vững",
+        "Nước mặt chảy vào cửa hầm: làm rãnh chặn và đê bao từ sớm",
+        "Giếng thiếu thông gió và dễ có khí độc: đo khí trước khi người xuống"
+      ]
     },
     {
       "title": "Chọn phương pháp đào theo cấp đá",
       "actions": [
-        "Đào toàn mặt cắt hoặc đào bậc thang, đào vòm trước theo thiết kế",
-        "Mở rộng vòm theo từng đoạn, đổ bê tông vòm theo tiến độ"
+        "Đối chiếu hồ sơ phân loại đá với địa chất lộ ra ở gương; lập biên bản khi có khác biệt",
+        "Chọn sơ đồ đào (toàn mặt cắt, bậc thang, vòm trước) phù hợp cấp đá, kích thước hầm và thiết bị hiện có",
+        "Lập sơ đồ đoạn đào, đoạn chống đỡ, đoạn đổ bê tông và trình tự mở rộng; phổ biến cho toàn tổ đội",
+        "Với phương án vòm trước: đào vòm, chống đỡ, đổ bê tông vòm rồi mới mở rộng phần dưới theo từng đoạn",
+        "Mỗi lần mở rộng chỉ làm trong đoạn đã được tính toán; không mở nhiều đoạn cùng lúc",
+        "Khi đá yếu hơn dự kiến: dừng, báo thiết kế và chủ đầu tư để đổi phương pháp hoặc tăng chống đỡ"
       ],
       "requirements": [
         "Đất mềm (fkp ≤ 0,6) đào thủ công hoặc búa hơi ép; fkp 0,6-3 dùng búa hơi ép; fkp 3-25 dùng máy khoan và nổ phá [4528 · 4.2]",
@@ -50,14 +87,27 @@
         "Phương pháp vòm trước áp dụng cho hầm dài tối đa 300 m [4528 · 4.6]",
         "Mở rộng vòm mỗi đoạn không quá 10 m; đoạn tiếp theo chỉ làm khi bê tông đoạn trước đạt 60% cường độ thiết kế [4528 · 4.8]"
       ],
-      "checks": ["Mô tả địa chất gương đào từng chu kỳ, so với hồ sơ thiết kế"]
+      "checks": [
+        "Mô tả địa chất gương đào từng chu kỳ, so với hồ sơ thiết kế"
+      ],
+      "tips": [
+        "Phân loại đá nhìn bằng mắt dễ sai: kết hợp mô tả thực tế gương, nước ngầm, khe nứt và hồ sơ khoan địa chất",
+        "Không đổi phương án đào theo ý thợ khi chưa có thiết kế hoặc tư vấn đồng ý",
+        "Mở rộng vòm khi bê tông đoạn trước chưa đủ cường độ dễ gây nứt: kiểm tra phiếu thí nghiệm trước khi chuyển đoạn",
+        "Chụp ảnh, ghi chép gương mỗi chu kỳ để làm cơ sở xử lý khi có sự cố"
+      ]
     },
     {
       "title": "Khoan lỗ mìn, nạp mìn, nổ mìn",
       "actions": [
-        "Vẽ sơ đồ lỗ lên gương theo hộ chiếu; khoan bằng jumbo hoặc khoan tay",
-        "Kiểm tra lỗ, làm sạch mạt khoan, nạp mìn, đấu mạng, sơ tán rồi nổ",
-        "Nổ mìn tạo biên để giảm phá hoại đá xung quanh hầm"
+        "Duyệt hộ chiếu khoan nổ cho chu kỳ; thợ mìn kiểm tra giấy phép, kho thuốc, vật liệu nổ trước khi mang vào hầm",
+        "Vẽ sơ đồ lỗ lên gương bằng sơn, đánh dấu từng loại lỗ (lỗ phá, lỗ biên, lỗ nâng, lỗ phụ) theo hộ chiếu",
+        "Đưa jumbo hoặc khoan tay vào vị trí, kê chắc, khoan đúng hướng và độ sâu; ghi lại lỗ khoan lệch hoặc gặp khe",
+        "Thổi sạch mạt khoan, kiểm tra từng lỗ bằng que đo; lỗ sai thì khoan bổ sung hoặc xử lý",
+        "Nạp mìn theo thứ tự kíp, lượng thuốc và bua đã định; đấu mạng nổ, đo thông mạch; chỉ nạp khi gương đã được gỡ đá treo",
+        "Sơ tán toàn bộ người và thiết bị ra vị trí an toàn, đặt gác cảnh giới, báo hiệu rồi mới nổ",
+        "Sau nổ: chờ thông gió, kiểm tra mìn câm, khói độc và đá treo trước khi cho người vào",
+        "Ghi nhật ký nổ: số lỗ, lượng thuốc, kết quả, mìn câm, đá văng, rung động và sự cố"
       ],
       "requirements": [
         "Áp lực khí nén không nhỏ hơn 6 daN/cm² (5 daN/cm² nếu độ ẩm trên 80%) [4528 · 4.17]",
@@ -66,13 +116,27 @@
         "Hầm đào trong đất đá mềm bằng cơ giới: đào lẹm không vượt thiết kế quá 50 mm [4528 · 4.20]",
         "Hộ chiếu nổ mìn, kiểm tra lỗ trước nạp, ghi nhận thay đổi địa chất theo quy chuẩn khoan nổ mìn [04-04 · 4.1, 4.7, 4.9, 8.1.2]"
       ],
-      "checks": ["Kiểm tra số lượng, chiều sâu, độ lệch lỗ khoan trước khi nạp", "Ghi nhật ký nổ mìn từng chu kỳ"]
+      "checks": [
+        "Kiểm tra số lượng, chiều sâu, độ lệch lỗ khoan trước khi nạp",
+        "Ghi nhật ký nổ mìn từng chu kỳ"
+      ],
+      "tips": [
+        "Lỗ khoan lệch hoặc không đủ sâu làm mặt gương gồ ghề, nổ không hết: kiểm tra lỗ bằng thước, sửa trước khi nạp",
+        "Đá biên bị phá quá mức (đào lẹm): kiểm tra thuốc biên, khoảng cách lỗ biên, điều chỉnh theo kết quả thực tế",
+        "Mìn câm: không khoan lại trong lỗ cũ; xử lý theo quy trình của thợ mìn có chuyên môn",
+        "Mưa, ẩm hoặc nước trong lỗ làm kíp, thuốc hỏng: kiểm tra loại thuốc phù hợp điều kiện ẩm",
+        "Không dùng đèn trần hoặc nguồn lửa gần vật liệu nổ; kiểm soát chặt số kíp, thuốc mang vào và trả lại"
+      ]
     },
     {
       "title": "Thông gió, kiểm tra an toàn sau nổ, bốc xúc",
       "actions": [
-        "Thông gió đẩy khói, bụi, khí độc; kiểm tra mìn câm, nhặt đá om, gỡ đá treo",
-        "Chống đỡ nóc hầm trước khi bốc xúc; bốc xúc, vận chuyển đá ra bãi thải"
+        "Duy trì quạt gió; sau nổ chờ thời gian thông gió rồi đo khí độc, khí cháy, oxy tại gương trước khi vào",
+        "Cử người có kinh nghiệm vào kiểm tra gương: tìm mìn câm, đá om, đá treo; dùng gậy dài cạy gỡ từ chỗ an toàn",
+        "Chống đỡ, ván lát nóc hầm theo thiết kế tại vùng đá yếu trước khi bốc xúc",
+        "Điều thiết bị bốc xúc vào, có người chỉ huy và tín hiệu rõ ràng; đá được xúc ra theo hướng đã định",
+        "Vận chuyển đá ra bãi thải theo tuyến định sẵn; không để đá rơi vãi làm hỏng đường hay lấp rãnh nước",
+        "Sau bốc xúc: dọn sạch gương, đo lại tim, cao độ, mặt cắt; ghi kết quả và chuẩn bị chống đỡ"
       ],
       "requirements": [
         "Chỉ bốc xúc sau khi thông khói mìn 15 phút và nồng độ khí độc xuống dưới giới hạn cho phép [4528 · 6.9]",
@@ -80,37 +144,80 @@
         "Trước khi bốc xúc phải chống đỡ và lát ván nóc hầm, dùng gậy dài đẩy đá rời [4528 · 4.30]",
         "Thông gió duy trì liên tục, kể cả khi tạm ngừng thi công; miệng ống gió cách gương không quá 10 m; vùng có khí nổ, khí cháy phải hút gió ra [4528 · 6.25, 6.27, 6.29]"
       ],
-      "checks": ["Đo khí tại gương theo quy định", "Kiểm tra tim, cao độ, mặt cắt hầm sau mỗi chu kỳ"]
+      "checks": [
+        "Đo khí tại gương theo quy định",
+        "Kiểm tra tim, cao độ, mặt cắt hầm sau mỗi chu kỳ"
+      ],
+      "tips": [
+        "Khói mìn và bụi nặng dễ đọng ở gương: kiểm tra miệng ống gió, rách ống, gập ống",
+        "Đừng vào gương chỉ vì thấy hết khói: khí độc không nhìn thấy, phải đo",
+        "Đá om dễ rơi sau khi người vào: gỡ đá lỏng cẩn thận và quan sát trần liên tục",
+        "Máy bốc xúc không được làm hỏng đường ống, cáp điện và mốc đo: bố trí người hướng dẫn",
+        "Công nhân không đứng dưới vùng chưa chống đỡ; tổ chức ca làm việc hợp lý để giảm mệt mỏi"
+      ]
     },
     {
       "title": "Chống đỡ tạm và gia cố ngay sau đào",
       "actions": [
-        "Chống đỡ bằng thép hình, neo, lưới thép, bê tông phun theo cấp đá và thiết kế",
-        "Phun bê tông theo nhóm Gia cố; báo thiết kế khi đá yếu hơn dự kiến"
+        "Căn cứ cấp đá thực tế và sơ đồ thiết kế để chọn loại chống đỡ cho đoạn vừa đào; báo thiết kế khi thực tế khác dự kiến",
+        "Phun lớp bê tông bịt kín mặt đá ngay sau đào nếu thiết kế yêu cầu, để hạn chế phong hóa và bong tróc",
+        "Khoan, lắp neo đúng vị trí, hướng; bơm vữa neo hoặc xiết đai ốc theo loại neo",
+        "Treo lưới thép, buộc vào neo; dựng khung thép đúng tim, nối với nhau bằng thanh giằng và chèn chặt vào đá",
+        "Phun bê tông theo từng lớp, vòi phun đưa dần từ chân lên đỉnh, bù đầy các chỗ lõm quanh khung",
+        "Đo biến dạng hầm ngay sau chống đỡ theo mặt cắt quan trắc, đối chiếu với giá trị cảnh báo",
+        "Chống đỡ bổ sung ngay khi có dấu hiệu nứt bê tông phun, biến dạng khung, rơi đá hoặc nước chảy mạnh"
       ],
       "requirements": [
         "Thép hình cho đào toàn mặt cắt; vì chống bê tông hoặc lắp ghép cho hang dẫn trên 10 m²; gỗ cho hang dẫn từ 10 m² trở xuống, cột và dầm đường kính tối thiểu 18 cm, gỗ chống và giằng tối thiểu 12 cm, ván tối thiểu 5 cm [4528 · 4.29]",
         "Bu lông neo: sai lệch khoảng cách tối đa ±10%, góc nghiêng lỗ tối đa 10° [4528 · 4.31]",
         "Bê tông phun mỗi lớp hoàn thiện: tường 7-10 cm, vòm 5-7 cm [13509 · 7.4.1.7]"
       ],
-      "checks": ["Kiểm tra chất lượng neo, bê tông phun (xem nhóm Gia cố)"]
+      "checks": [
+        "Kiểm tra chất lượng neo, bê tông phun (xem nhóm Gia cố)"
+      ],
+      "tips": [
+        "Chậm chống đỡ là nguyên nhân thường gặp của sập nóc: không để gương tiến xa hơn đoạn đã chống",
+        "Neo không bám vữa hoặc lỗ khoan bẩn khiến neo mất tác dụng: thử kéo mẫu theo thiết kế",
+        "Khung thép bị lệch hoặc không chèn chặt thì không làm việc cùng đá: chèn và phun lấp khe hở",
+        "Bê tông phun bật nảy nhiều hoặc rỗng: điều chỉnh khoảng cách vòi, góc phun, độ ẩm; đục sửa chỗ rỗng",
+        "Số đo biến dạng tăng nhanh thì dừng đào, báo thiết kế"
+      ]
     },
     {
       "title": "Vận chuyển, thoát nước, điện chiếu sáng trong hầm",
       "actions": [
-        "Bố trí đường vận chuyển (goòng hoặc ô tô), rãnh thoát nước, trạm bơm, điện, chiếu sáng"
+        "Rải đường goòng hoặc đường ô tô theo cao độ, độ dốc thiết kế; chèn nền chắc, nối ray đúng quy cách",
+        "Làm rãnh thoát nước dọc hầm, hố tụ, trạm bơm tại những điểm trũng; dẫn nước ra ngoài hầm",
+        "Treo cáp điện trên vách, đúng vị trí, có cầu dao tự động; bố trí đèn chiếu sáng theo khu vực thi công",
+        "Lắp biển báo, gương cầu, vị trí tránh xe; bố trí điểm quay đầu, chỗ dừng chờ",
+        "Kiểm tra máy bơm, đường ống, dây điện, hệ thống đèn đầu mỗi ca; có bơm và nguồn dự phòng",
+        "Vệ sinh đường vận chuyển, thông rãnh sau mỗi chu kỳ nổ và bốc xúc"
       ],
       "requirements": [
         "Đường goòng: ray 24 kg/m cho đầu máy kéo, 15 kg/m cho goòng đẩy tay; bán kính cong tối thiểu 6 m (đẩy tay), 15 m (đầu máy); độ dốc tối đa 3% [4528 · 6.3-6.6]",
         "Rãnh thoát nước tự chảy dốc tối thiểu 3%; lưu lượng nước từ 5 m³/h trở lên phải dùng bơm và hố tụ, tối thiểu 2 máy bơm mỗi trạm [4528 · 6.11, 6.12]",
         "Chiếu sáng khu đang thi công 12-36 V; khu đã hoàn thành 110-220 V [4528 · 6.22]"
       ],
-      "checks": ["Kiểm tra đường vận chuyển, bơm, điện mỗi ca"]
+      "checks": [
+        "Kiểm tra đường vận chuyển, bơm, điện mỗi ca"
+      ],
+      "tips": [
+        "Nước đọng chân gương làm hỏng đường và gây sụt nền: bơm liên tục, kiểm tra hố tụ",
+        "Cáp điện bị đá văng hoặc xe va: treo cao, bảo vệ cáp, kiểm tra cách điện định kỳ",
+        "Xe máy chạy ngược chiều trong hầm hẹp dễ tai nạn: quy định chiều đi và tín hiệu rõ ràng",
+        "Bụi và khí xả xe làm tăng khí độc: kiểm tra thông gió, bảo dưỡng động cơ"
+      ]
     },
     {
       "title": "Làm vỏ hầm và chèn vữa sau vỏ",
       "actions": [
-        "Lắp ván khuôn, đổ bê tông vỏ hầm theo đoạn, bảo dưỡng, bơm vữa chèn sau vỏ"
+        "Nghiệm thu mặt cắt hầm, loại bỏ đá lẹm vào mặt cắt thiết kế, xử lý đá lồi trước khi lắp ván khuôn",
+        "Dọn sạch đáy hầm, tiêu nước, xử lý nền đáy theo thiết kế; lắp cốt thép, thanh chống, mốc cao độ",
+        "Lắp ván khuôn vỏ hầm theo đoạn, kiểm tra tim, cao độ, độ kín khít, chống trôi và chống đẩy nổi",
+        "Đổ bê tông liên tục, đầm đều, chú ý góc, vị trí đỉnh vòm; chừa ống bơm vữa và lỗ kiểm tra theo thiết kế",
+        "Tháo ván khuôn đúng thời điểm, bảo dưỡng ẩm theo quy định; xử lý khuyết tật bề mặt",
+        "Bơm vữa chèn sau vỏ theo từng đoạn và thứ tự thiết kế; theo dõi áp lực, lượng vữa, quan sát vỏ hầm",
+        "Lập hồ sơ từng đoạn, nghiệm thu và hoàn công"
       ],
       "requirements": [
         "Ván khuôn võng tối đa 1/400 khẩu độ; độ lồi lõm bề mặt tối đa 40 mm; khe ghép tối đa 10 mm [4528 · 5.3]",
@@ -119,24 +226,37 @@
         "Chèn khe rỗng lớn hơn 0,5 m bằng bê tông hoặc đá rồi bơm vữa [4528 · 5.18]",
         "Bơm vữa theo đoạn 20-30 m khi bê tông đạt cường độ thiết kế; áp lực không quá 4 at; kết thúc khi vữa ngừng chảy 10-15 phút [4528 · 5.20, 5.21]"
       ],
-      "checks": ["Nghiệm thu mặt cắt hầm trước khi thi công vỏ hầm", "Nghiệm thu từng đoạn vỏ hầm, hoàn công"]
+      "checks": [
+        "Nghiệm thu mặt cắt hầm trước khi thi công vỏ hầm",
+        "Nghiệm thu từng đoạn vỏ hầm, hoàn công"
+      ],
+      "tips": [
+        "Đỉnh vòm khó đổ đầy, dễ để lại khe rỗng: bố trí cửa đổ, ống bơm và kiểm tra bằng gõ hoặc khoan kiểm tra",
+        "Ván khuôn trôi hoặc võng khi đổ: gia cố chống đỡ, đổ đối xứng hai bên",
+        "Bơm vữa quá nhanh hoặc quá áp lực làm nứt vỏ: tăng dần áp lực, theo dõi liên tục",
+        "Mạch ngừng thi công xử lý kém gây thấm: làm nhám, vệ sinh, tưới ẩm trước khi đổ tiếp",
+        "Phối hợp cung ứng bê tông và vận chuyển để tránh ngắt quãng"
+      ]
     }
   ],
   "safety": [
     "Luôn có đường thoát hiểm, thông tin liên lạc liên tục, đo khí độc và khí nổ trước khi vào gương [4528 · 1.8, 6.9]",
     "Không đào quá dài mà chưa chống đỡ theo thiết kế; kiểm tra gương, vòm, nhặt đá om sau mỗi lần nổ",
     "Điện hạ thế, chiếu sáng, bơm thoát nước phải có phương án dự phòng",
-    "Quy phạm an toàn lao động hầm (QPVN 14:1979, TCVN 2622:1978) được TCVN 4528 viện dẫn nhưng chưa đọc chi tiết [4528 · 1.3]"
+    "Quy phạm an toàn lao động hầm (QPVN 14:1979, TCVN 2622:1978) được TCVN 4528 viện dẫn nhưng chưa đọc chi tiết [4528 · 1.3]",
+    "Phổ biến và diễn tập phương án thoát hiểm, ứng cứu sập, ngập nước; có bộ cấp cứu và liên hệ y tế gần nhất"
   ],
   "acceptance": [
     "Nghiệm thu từng chu kỳ đào và chống đỡ (điểm dừng kiểm tra)",
     "Nghiệm thu đoạn hầm sau đào hoàn thiện, trước thi công vỏ hầm",
-    "Nghiệm thu bê tông phun, neo (xem nhóm Gia cố), vỏ hầm, chèn vữa"
+    "Nghiệm thu bê tông phun, neo (xem nhóm Gia cố), vỏ hầm, chèn vữa",
+    "Hồ sơ đo đạc, địa chất từng chu kỳ được ký xác nhận của các bên trước khi chuyển sang chu kỳ tiếp theo"
   ],
   "records": [
     "Hộ chiếu khoan nổ mìn, nhật ký nổ mìn",
     "Hồ sơ mô tả địa chất gương đào từng chu kỳ, nhật ký thi công",
-    "Số liệu đo đạc, quan trắc biến dạng, biên bản nghiệm thu, bản vẽ hoàn công"
+    "Số liệu đo đạc, quan trắc biến dạng, biên bản nghiệm thu, bản vẽ hoàn công",
+    "Biên bản xử lý sự cố, đá sập, nước phụt hoặc thay đổi thiết kế trong quá trình đào"
   ],
   "note": "Chưa tìm thấy tiêu chuẩn thi công riêng cho hầm thủy công. TCVN 4528:1988 là tiêu chuẩn hầm giao thông (đường sắt, ô tô), tiêu chuẩn cũ, chỉ đọc được đến mục 6.30; hãy đối chiếu chỉ dẫn kỹ thuật dự án và tiêu chuẩn mới hơn."
 }

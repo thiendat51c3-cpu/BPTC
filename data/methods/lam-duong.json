@@ -2,7 +2,12 @@
   "id": "lam-duong",
   "title": "Công tác làm đường (đường thi công, đường quản lý, đường công vụ)",
   "scope": "Nền đường đắp/đào, mặt đường cấp phối, đường quản lý vận hành công trình thủy lợi; đường thi công tạm. Căn cứ TCVN 9436 (nền đường), 4447, 9162.",
-  "standards": ["tcvn-9436", "tcvn-4447", "tcvn-9162", "tcvn-4054"],
+  "standards": [
+    "tcvn-9436",
+    "tcvn-4447",
+    "tcvn-9162",
+    "tcvn-4054"
+  ],
   "prerequisites": [
     "Có hồ sơ thiết kế được duyệt; xác định cấp đường theo cường độ vận chuyển [9162 · 4.1.1]",
     "Nếu kết hợp đường quản lý, áp dụng TCVN 4054:2005 [9162 · 4.1.3]",
@@ -12,43 +17,80 @@
     {
       "title": "Chuẩn bị mặt bằng, xử lý nền",
       "actions": [
-        "Định vị tim, mép nền; dọn cây, bóc lớp hữu cơ",
-        "Xử lý nền yếu, dốc ngang lớn (đánh cấp), tạo bằng phẳng trước khi đắp"
+        "Nhận bàn giao mặt bằng, mốc tim, cao độ; lập lại hệ thống mốc phụ ngoài phạm vi thi công để khôi phục khi cần",
+        "Phát quang, dọn cây, chuyển ra khỏi phạm vi; đào bỏ gốc rễ và lớp hữu cơ",
+        "Làm hệ thống thoát nước tạm (rãnh, cống tạm) để bảo đảm nền không đọng nước",
+        "Với nền yếu: xử lý theo thiết kế (đào thay, gia cố) rồi đầm kiểm tra",
+        "Với mái dốc ngang lớn: đánh cấp từ dưới lên, mỗi cấp đầm lại trước khi đắp lớp đầu tiên",
+        "Nghiệm thu nền về cao độ, độ chặt, độ ẩm; được chấp thuận mới đắp"
       ],
       "requirements": [
         "Mặt nền sau xử lý phải bằng phẳng, đạt độ chặt theo thiết kế [9436 · 4.2]",
         "Mái dốc tự nhiên lớn: đánh cấp trước khi đắp; chiều rộng bậc, độ dốc theo mục xử lý mái dốc [9436 · 7.2]"
       ],
-      "checks": ["Nghiệm thu nền trước khi đắp (cao độ, độ chặt, độ ẩm)"]
+      "checks": [
+        "Nghiệm thu nền trước khi đắp (cao độ, độ chặt, độ ẩm)"
+      ],
+      "tips": [
+        "Còn sót rễ cây, lớp hữu cơ dưới nền gây lún không đều sau này: kiểm tra kỹ trước khi nghiệm thu nền",
+        "Mưa làm nền nhão sau khi bóc: đào đến đâu xử lý đến đó, tránh để nước đọng",
+        "Mốc tim bị mất do máy móc: đóng mốc phụ, thường xuyên kiểm tra lại",
+        "Đoạn nền yếu cục bộ nên đánh dấu trên bình đồ để theo dõi lún"
+      ]
     },
     {
       "title": "Chọn vật liệu đắp",
       "actions": [
-        "Lấy mẫu thí nghiệm tại mỏ; loại đất không đạt",
-        "Kiểm soát cỡ hạt lớn nhất"
+        "Khảo sát mỏ đất, lấy mẫu đại diện ở các tầng, thí nghiệm thành phần hạt, độ ẩm, chỉ tiêu đầm nén",
+        "Loại trừ các loại đất không phù hợp (đất hữu cơ, bùn, đất có muối tan, đất trương nở mạnh) và đất lẫn tạp chất",
+        "Kiểm soát cỡ hạt lớn nhất: sàng hoặc nhặt đá quá cỡ tại mỏ hoặc khi rải",
+        "Điều chỉnh độ ẩm ở mỏ hoặc tại bãi tập kết nếu cần, trước khi vận chuyển",
+        "Chỉ cho vận chuyển đất từ mỏ đã được chấp thuận; lập biên bản vật liệu"
       ],
       "requirements": [
         "Cấm dùng các loại đất không phù hợp (đất hữu cơ, bùn, đất có muối tan, đất trương nở mạnh, v.v.) cho nền đắp [9436 · 5.1]",
         "Kích thước hạt lớn nhất: 100 mm (lớp thường) và 150 mm (theo điều khoản), theo thiết kế [9436 · 5.4]"
       ],
-      "checks": ["Thí nghiệm thành phần hạt, độ ẩm, chỉ tiêu đầm nén"]
+      "checks": [
+        "Thí nghiệm thành phần hạt, độ ẩm, chỉ tiêu đầm nén"
+      ],
+      "tips": [
+        "Đất trong mỏ không đồng nhất: phân tầng khai thác và lấy mẫu định kỳ trong quá trình thi công",
+        "Xe chở đất lẫn tạp chất, lẫn đất xấu: kiểm tra ngay tại điểm đổ và loại bỏ",
+        "Đất quá ướt về mùa mưa: phơi, trộn hoặc dừng khai thác, không đem đắp thẳng"
+      ]
     },
     {
       "title": "Thi công thử",
       "actions": [
-        "Thi công đoạn thử để chọn máy đầm, số lượt, chiều dày lớp, độ ẩm"
+        "Chọn đoạn thử có điều kiện đại diện, rải đất theo vật liệu và chiều dày dự kiến",
+        "Dùng chính loại máy đầm, máy rải, máy san sẽ dùng thi công đại trà",
+        "Thử nhiều tổ hợp số lượt, chiều dày lớp, độ ẩm; mỗi tổ hợp kiểm tra độ chặt",
+        "Chọn tổ hợp đạt độ chặt thiết kế với hiệu quả hợp lý nhất, lập quy trình thi công cho đoạn đại trà",
+        "Trình kết quả thi công thử, được chấp thuận mới thi công đại trà"
       ],
       "requirements": [
         "Thi công thử trên đoạn khoảng 100 m trước khi đại trà [9436 · 6.5-6.7]"
       ],
-      "checks": ["Kết quả thi công thử được duyệt"]
+      "checks": [
+        "Kết quả thi công thử được duyệt"
+      ],
+      "tips": [
+        "Không thi công thử bằng máy nhỏ rồi đại trà bằng máy lớn: kết quả sẽ không còn đúng",
+        "Ghi rõ thời tiết, độ ẩm khi thử; thay đổi lớn về độ ẩm cần thử lại",
+        "Giữ đoạn thử làm mẫu cho công nhân và giám sát đối chiếu trong quá trình thi công"
+      ]
     },
     {
       "title": "Đắp và đầm lớp nền đường",
       "actions": [
-        "Rải theo lớp, san phẳng có độ dốc thoát nước, đầm từ mép vào tim",
-        "Xử lý mối nối giữa các lớp, các đoạn thi công",
-        "Đắp dôi để sau đó tu chỉnh mái"
+        "Rải đất từng lớp bằng máy ủi hoặc máy san, san phẳng có độ dốc để thoát nước",
+        "Điều chỉnh độ ẩm bằng tưới hoặc phơi, rồi mới đầm",
+        "Đầm từ mép vào tim, lượt sau chồng lên lượt trước, máy đầm chạy đều tốc độ",
+        "Xử lý kỹ mối nối giữa các lớp (xới nhám mặt lớp cũ nếu cần) và giữa các đoạn thi công (đánh bậc)",
+        "Đắp tiếp giáp công trình (cống, mố) bằng đầm nhỏ, đắp đối xứng hai bên, tránh gây lệch công trình",
+        "Lấy mẫu kiểm tra độ chặt từng lớp; đạt mới rải lớp tiếp theo",
+        "Đắp dôi ra mép để sau đó gọt, tu chỉnh mái"
       ],
       "requirements": [
         "Chiều dày lớp ≥ 30 cm theo văn bản nguồn; lớp trên cùng ≥ 10 cm [9436 · 7.3]",
@@ -58,36 +100,69 @@
         "Đắp tiếp giáp công trình (cống, mố): L = H + 3-5 m, độ chặt K ≥ 0,98 hoặc 0,95 tùy vị trí [9436 · 7.6]",
         "Kiểm tra độ chặt: 2 điểm/1.000 m² mỗi lớp [9436 · 7.3]"
       ],
-      "checks": ["Kiểm tra độ chặt từng lớp, độ ẩm, cao độ, độ bằng phẳng"]
+      "checks": [
+        "Kiểm tra độ chặt từng lớp, độ ẩm, cao độ, độ bằng phẳng"
+      ],
+      "tips": [
+        "Lớp đất trên bị bong, tróc: xới lại, điều chỉnh độ ẩm rồi đầm lại",
+        "Đất bị đầm quá nhiều hoặc quá ướt gây hiện tượng nhão nền (cao su): ngừng đầm, hong khô hoặc thay đất",
+        "Mưa bất chợt: lu kín mặt, san thoát nước, chỉ đắp tiếp sau khi kiểm tra lại độ ẩm",
+        "Chỗ giáp cống, mố dễ bị đầm không đủ: tăng cường kiểm tra, dùng đầm nhỏ, đắp thành lớp mỏng",
+        "Không để xe tải chạy loạn trên lớp mới đầm, chỉ định tuyến di chuyển"
+      ]
     },
     {
       "title": "Nền đường đào, rãnh thoát nước",
       "actions": [
-        "Đào theo mái dốc thiết kế, bạt mái, làm rãnh biên, rãnh đỉnh",
-        "Đầm lại đáy nền đào nếu cần"
+        "Đào theo mái thiết kế bằng máy đào, từ trên xuống, để lại phần dự phòng để gọt mái",
+        "Bạt mái, sửa mái bằng tay hoặc máy; xử lý chỗ đất yếu, đá lộ theo chỉ dẫn thiết kế",
+        "Làm rãnh đỉnh, rãnh biên theo tuyến và độ dốc thiết kế, nối thông ra chỗ thoát nước",
+        "Kiểm tra đáy nền đào; nếu không đạt thì đầm lại hoặc xử lý theo thiết kế",
+        "Vận chuyển, đổ đất thừa tại bãi thải quy định, không đổ lên mái, rãnh"
       ],
       "requirements": [
         "Yêu cầu nền đường đào, độ chặt đáy nền và rãnh: xem mục 8 của TCVN 9436 (chưa tổng hợp được số liệu cụ thể)",
         "Bề rộng nền, bán kính cong, độ dốc dọc: theo TCVN 4447 mục 3 và thiết kế"
       ],
-      "checks": ["Kiểm tra cao độ, mái, rãnh thoát nước"]
+      "checks": [
+        "Kiểm tra cao độ, mái, rãnh thoát nước"
+      ],
+      "tips": [
+        "Mái đào không ổn định khi mưa: làm rãnh đỉnh sớm, che chắn, thi công theo từng đoạn ngắn",
+        "Rãnh thoát nước bị tắc làm xói mái: làm thông, làm nối với cống, suối",
+        "Gặp địa chất khác bản vẽ (mạch nước, đá, đất yếu) thì dừng, báo thiết kế",
+        "Đào quá sâu so với cao độ thiết kế gây khó xử lý: đào chừa dự phòng, đào chốt cuối ngay trước khi thi công lớp tiếp theo"
+      ]
     },
     {
       "title": "Mặt đường và hoàn thiện",
       "actions": [
-        "Thi công lớp móng, mặt đường cấp phối hoặc theo thiết kế",
-        "Hoàn thiện lề, mái, cọc tiêu, biển báo"
+        "Thi công lớp móng và mặt đường theo cấu tạo thiết kế; vật liệu đã thí nghiệm và được chấp thuận",
+        "Rải từng lớp, san phẳng đúng độ dốc ngang, điều chỉnh độ ẩm, đầm đến yêu cầu",
+        "Hoàn thiện lề đường, mái taluy, rãnh dọc, cống thoát nước",
+        "Lắp cọc tiêu, biển báo theo thiết kế",
+        "Đo hoàn công, kiểm tra sai số hình học, độ bằng phẳng, độ dốc; sửa chỗ chưa đạt",
+        "Dọn dẹp mặt bằng, tập hợp hồ sơ nghiệm thu"
       ],
       "requirements": [
         "Sai số cho phép về kích thước hình học, độ bằng phẳng, độ dốc: theo Bảng 1 của TCVN 9436"
       ],
-      "checks": ["Đo hoàn công, kiểm tra sai số theo Bảng 1 [9436 · Bảng 1]"]
+      "checks": [
+        "Đo hoàn công, kiểm tra sai số theo Bảng 1 [9436 · Bảng 1]"
+      ],
+      "tips": [
+        "Mặt đường bị hằn bánh, bong tróc sau mưa thường do thoát nước kém: chú ý độ dốc ngang, rãnh, lề",
+        "Vật liệu cấp phối bị phân tầng khi rải: rải đều, tránh đổ đống rồi san xa",
+        "Sau khi hoàn thiện, hạn chế xe nặng đi lại khi mặt đường chưa ổn định",
+        "Cọc tiêu, biển báo lắp sai vị trí làm ảnh hưởng an toàn: đối chiếu bản vẽ khi lắp"
+      ]
     }
   ],
   "safety": [
     "Biển báo, người điều tiết, rào chắn khi thi công cạnh đường đang khai thác",
     "Máy đầm, máy san hoạt động trên mái dốc: kiểm tra ổn định, tránh lật",
-    "Tưới nước chống bụi; không để máy chạy trong vùng sạt lở"
+    "Tưới nước chống bụi; không để máy chạy trong vùng sạt lở",
+    "Giám sát khoảng cách an toàn giữa máy và người; có người báo hiệu khi máy lùi hoặc quay đầu"
   ],
   "acceptance": [
     "Nghiệm thu nền, từng lớp đắp, hoàn thiện nền đường",
@@ -95,7 +170,8 @@
   ],
   "records": [
     "Kết quả thí nghiệm vật liệu, độ chặt từng lớp",
-    "Biên bản thi công thử, nhật ký, hoàn công"
+    "Biên bản thi công thử, nhật ký, hoàn công",
+    "Ảnh hiện trường theo giai đoạn, biên bản xử lý nền yếu và các thay đổi so với thiết kế"
   ],
   "note": "Số liệu lấy từ bản tóm tắt TCVN 9436:2012 đọc được trên các trang tổng hợp; một số mục (đào, cải tạo) chưa đọc đầy đủ. Một số thông số (chiều dày lớp, K theo vị trí) cần đối chiếu bản gốc và thiết kế."
 }

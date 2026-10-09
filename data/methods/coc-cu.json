@@ -17,16 +17,20 @@
     "Có thiết kế cọc, báo cáo địa chất khu vực cọc, mặt bằng định vị trục, biện pháp thi công được duyệt",
     "Cọc khoan nhồi theo TCVN 9395 áp dụng cho cọc bê tông cốt thép đường kính từ 60 cm; không áp dụng cho nền đặc biệt như vùng hang cacxtơ hoặc mái đá nghiêng [9395 · 1]",
     "Đóng và ép cọc theo TCVN 9394 không áp dụng cho nền đặc biệt (hang cacxtơ, mái đá nghiêng, đá cứng); các trường hợp đó làm theo thiết kế hoặc được chủ đầu tư chấp thuận [9394 · 1]",
-    "Mốc định vị đặt cách trục ngoài cùng của móng không ít hơn 10 m; sai lệch trục so với thiết kế không quá 1 cm trên 100 m chiều dài tuyến [9394 · 4.2]"
+    "Mốc định vị đặt cách trục ngoài cùng của móng không ít hơn 10 m; sai lệch trục so với thiết kế không quá 1 cm trên 100 m chiều dài tuyến [9394 · 4.2]",
+    "Có phương án xử lý sự cố (sập thành hố, cọc nghiêng, gãy cọc, vướng vật cản) và phương án quan trắc công trình lân cận",
+    "Thợ vận hành, thợ hàn, thợ cẩu có chứng chỉ phù hợp"
   ],
   "steps": [
     {
       "title": "Chuẩn bị mặt bằng, định vị và chọn thiết bị",
       "actions": [
-        "San mặt bằng, làm đường cho thiết bị, hệ thống thoát nước, bể chứa dung dịch (với cọc khoan nhồi)",
-        "Định vị tim cọc theo mốc đã kiểm tra, đánh dấu và lập biên bản",
-        "Chọn thiết bị khoan, búa đóng, máy ép theo thiết kế, địa chất và sức chịu tải",
-        "Đánh giá ảnh hưởng của đóng, ép, rung đến công trình và mái hố móng lân cận"
+        "San mặt bằng, làm đường cho thiết bị (kiểm tra nền đủ chịu tải của máy khoan, cẩu, máy ép), hệ thống thoát nước, bể chứa dung dịch (với cọc khoan nhồi)",
+        "Khảo sát công trình ngầm, đường dây trên cao, nhà cửa lân cận; xử lý hoặc có biện pháp bảo vệ trước khi vào thi công",
+        "Định vị tim cọc theo mốc đã kiểm tra, đánh dấu bằng cọc gỗ hoặc thép, lập biên bản và có xác nhận giám sát",
+        "Chọn thiết bị khoan, búa đóng, máy ép theo thiết kế, địa chất và sức chịu tải; kiểm tra hồ sơ kiểm định, chạy thử trước khi vào ca",
+        "Đánh giá ảnh hưởng của đóng, ép, rung đến công trình và mái hố móng lân cận; lập phương án quan trắc",
+        "Lập trình tự thi công cọc và sơ đồ di chuyển thiết bị, tránh gây chuyển vị cọc đã hạ"
       ],
       "requirements": [
         "Định vị mốc: cách trục ngoài cùng của móng không ít hơn 10 m; lệch trục không quá 1 cm trên 100 m tuyến [9394 · 4.2]",
@@ -35,14 +39,24 @@
       "checks": [
         "Biên bản định vị trục cọc",
         "Kiểm tra đồng hồ đo áp, van dầu và chứng chỉ kiểm định thiết bị ép"
+      ],
+      "tips": [
+        "Mốc định vị phải đặt ngoài vùng ảnh hưởng của thi công và kiểm tra lại định kỳ vì dễ bị xê dịch",
+        "Nền yếu làm máy nghiêng, lệch tim cọc; gia cố hoặc lót tấm thép, tấm đan trước khi vào",
+        "Bỏ sót đường ống ngầm là nguyên nhân sự cố; hỏi chủ quản lý công trình và dò kiểm tra",
+        "Kiểm tra lại tim cọc ngay trước khi khoan, ép vì dấu có thể bị san lấp mất"
       ]
     },
     {
       "title": "Khoan tạo lỗ và giữ thành bằng dung dịch (cọc khoan nhồi)",
       "actions": [
         "Hạ ống chống tạm, khoan đến cao độ thiết kế, lấy mẫu đất đối chiếu địa chất",
+        "Căn chỉnh máy khoan thẳng tâm, đặt ống chống thẳng đứng, kiểm tra bằng dây dọi hoặc máy kinh vĩ theo hai phương",
         "Chuẩn bị, kiểm tra dung dịch bentonite trước khi khoan; bổ sung liên tục để giữ mực dung dịch trong hố",
-        "Theo dõi mực nước ngầm và độ ổn định thành hố"
+        "Khoan với tốc độ phù hợp lớp đất, không ép mũi khoan quá mức; theo dõi mô men, tiếng máy, tình trạng bùn trả về",
+        "Theo dõi mực nước ngầm và độ ổn định thành hố; ghi cao độ chuyển lớp đất, đối chiếu với hồ sơ địa chất",
+        "Khi gặp lớp lạ hoặc sự cố (sập thành, mất dung dịch, vướng vật cản), dừng khoan, báo giám sát và xử lý theo phương án",
+        "Ghi nhật ký khoan liên tục từng cọc"
       ],
       "requirements": [
         "Dung dịch bentonite mới trộn (Bảng 1): khối lượng riêng 1,05-1,15 g/cm³; độ nhớt 18-45 s; hàm lượng cát dưới 6%; tỷ lệ chất keo trên 95%; lượng mất nước dưới 30 mL/30 phút; độ dày áo sét 1-3 mm sau 30 phút; pH 7-9 [9395 · bảng 1]",
@@ -54,14 +68,23 @@
       "checks": [
         "Nhật ký khoan, hồ sơ địa chất từng cọc",
         "Kết quả thí nghiệm dung dịch bentonite theo lô"
+      ],
+      "tips": [
+        "Mực dung dịch tụt nhanh báo hiệu mất dung dịch hoặc sập thành; bổ sung ngay và báo xử lý",
+        "Để hố khoan hở lâu làm thành hố yếu đi và tăng cặn đáy; rút ngắn thời gian từ khoan xong đến đổ bê tông",
+        "Dung dịch bị nhiễm bẩn, nhiễm xi măng mất tính chất; thí nghiệm lại hoặc thay mới",
+        "Không để bùn khoan tràn ra mặt bằng, gây trơn trượt và ô nhiễm"
       ]
     },
     {
       "title": "Kiểm tra lỗ khoan và làm sạch đáy",
       "actions": [
         "Đo độ sâu, đường kính, độ thẳng đứng hố khoan; kiểm tra cao độ đáy",
+        "Dùng thước dây có quả dọi hoặc thiết bị đo chuyên dụng để xác định chiều sâu, ghi cùng thời điểm đo",
         "Thổi rửa hoặc dùng khí nâng, bơm hút làm sạch cặn đáy, bổ sung dung dịch sạch",
-        "Đo lại cặn lắng sau khi hạ lồng thép và ngay trước khi đổ bê tông"
+        "Lấy mẫu dung dịch gần đáy, thí nghiệm các chỉ tiêu và so sánh với yêu cầu",
+        "Đo lại cặn lắng sau khi hạ lồng thép và ngay trước khi đổ bê tông",
+        "Chỉ chuyển bước khi giám sát xác nhận hố đạt, ký biên bản nghiệm thu hố khoan"
       ],
       "requirements": [
         "Cặn lắng đáy hố cho phép: cọc chống không quá 5 cm; cọc ma sát kết hợp chống không quá 10 cm (giá trị cọc ma sát từ một nguồn, chưa đối chiếu lần hai) [9395 · 12.2.1]",
@@ -70,14 +93,24 @@
       ],
       "checks": [
         "Biên bản nghiệm thu hố khoan: độ sâu, đường kính, cặn lắng, dung dịch"
+      ],
+      "tips": [
+        "Cặn đáy dày làm giảm sức chịu tải mũi cọc; không bỏ qua bước làm sạch lần hai",
+        "Thời gian chờ giữa làm sạch và đổ bê tông kéo dài làm cặn lắng lại; phối hợp nhịp xe bê tông sẵn sàng",
+        "Đo cặn cần cùng một phương pháp để so sánh được, tránh sai khác giữa các lần đo",
+        "Khi thổi rửa cần giữ mực dung dịch, tránh gây sập thành hố"
       ]
     },
     {
       "title": "Gia công và hạ lồng thép (cọc khoan nhồi)",
       "actions": [
         "Gia công lồng thép có thép gia cường, cốt đai, con kê giữ lớp bảo hộ, móc treo hoặc guốc đáy",
+        "Gia công trên bệ phẳng, kiểm tra khoảng cách cốt chủ, đai, đường kính lồng bằng dưỡng trước khi hàn hoặc buộc cố định",
         "Gắn ống siêu âm vào lồng thép nếu thiết kế yêu cầu, bịt đáy ống",
-        "Hạ lồng thép thẳng đứng, nối đoạn và treo đúng cao độ, kiểm tra không chạm thành hố"
+        "Cẩu lồng thép bằng nhiều điểm treo để không biến dạng; kiểm tra móc cẩu, cáp trước khi cẩu",
+        "Hạ lồng thẳng đứng, nhẹ nhàng, không va thành hố; nối đoạn trên miệng hố, kiểm tra thẳng trục",
+        "Treo đúng cao độ bằng móc treo hoặc thanh treo, cố định chống lồng nổi hoặc tụt khi đổ",
+        "Đo cao độ đỉnh lồng, lập biên bản nghiệm thu lồng thép"
       ],
       "requirements": [
         "Vòng gia cường cách nhau khoảng 2,5-3,0 m; con kê thường khoảng 5 cm [9395 · 8.3, 8.4]",
@@ -89,15 +122,25 @@
       "checks": [
         "Nghiệm thu lồng thép trước khi hạ",
         "Kiểm tra cao độ đỉnh lồng sau khi hạ"
+      ],
+      "tips": [
+        "Con kê thiếu hoặc lệch khiến lồng chạm thành hố, lớp bảo hộ không đảm bảo; kiểm tra bố trí đều quanh chu vi",
+        "Lồng bị lệch tâm hoặc nổi khi đổ bê tông: cố định đầu lồng chắc, đổ bê tông không quá mạnh gây đẩy lồng",
+        "Ống siêu âm bị đọng bê tông hoặc tắc làm mất khả năng kiểm tra; bịt kín đầu ống, nhét nút nhẹ",
+        "Lồng hạ chậm trễ gây tăng cặn lắng; chuẩn bị sẵn khi hố được duyệt"
       ]
     },
     {
       "title": "Đổ bê tông cọc khoan nhồi và rút ống chống",
       "actions": [
         "Lắp ống đổ (tremie) và phễu, đặt nút ngăn tiếp xúc dung dịch",
+        "Kiểm tra lại cặn lắng và dung dịch sau khi lắp ống đổ; nếu cần thổi rửa lại trước khi đổ",
+        "Kiểm tra từng xe bê tông: phiếu giao hàng, thời gian, độ sụt, lấy mẫu theo quy định",
         "Đổ bê tông liên tục, đo độ sụt từng xe, đo độ dâng bê tông sau mỗi xe để vẽ đường đổ",
+        "Cắt ống đổ từng đoạn khi bê tông dâng, giữ đáy ống luôn ngập trong bê tông; không rút ống ra khỏi bê tông",
         "Rút dần ống đổ và ống chống, giữ đáy ống ngập trong bê tông",
-        "Lấp phần hố trên đầu cọc và cắm biển báo"
+        "Lấp phần hố trên đầu cọc và cắm biển báo",
+        "Rửa sạch thiết bị, thu gom bê tông và dung dịch tràn; hoàn thiện biên bản đổ"
       ],
       "requirements": [
         "Bê tông có độ sụt 18-20 cm [9395 · 10.1]",
@@ -110,15 +153,25 @@
       "checks": [
         "Lấy mẫu bê tông mỗi cọc theo quy định",
         "Biên bản đổ bê tông từng cọc: đường đổ, thể tích, thời gian"
+      ],
+      "tips": [
+        "Đứt quãng khi đổ gây bê tông phân lớp, lẫn bùn; bố trí đủ xe, máy bơm dự phòng và liên hệ trạm trộn",
+        "Rút ống đổ khỏi bê tông làm lọt bùn vào thân cọc; theo dõi cao độ bê tông thường xuyên",
+        "Tránh rung ống chống quá mạnh khi rút gây sập thành hoặc lệch lồng",
+        "Đường đổ so với lý thuyết lệch lớn là dấu hiệu sập thành hoặc thất thoát; báo ngay giám sát",
+        "Cắm biển và che chắn đầu cọc để người, thiết bị không rơi xuống"
       ]
     },
     {
       "title": "Cọc bê tông cốt thép và cọc thép: vận chuyển, nối cọc, chọn thiết bị",
       "actions": [
         "Kiểm tra cọc trước khi hạ: kích thước, độ cong, độ vuông góc đầu cọc, chứng chỉ",
+        "Cọc có vết nứt, sứt mẻ, lộ cốt thép phải loại hoặc xử lý theo chỉ dẫn thiết kế",
         "Kê, cẩu cọc đúng vị trí móc cẩu; không lăn hoặc kéo cọc bằng dây",
+        "Vận chuyển cọc bằng phương tiện phù hợp, chèn chặt, tránh va đập; xếp tại bãi nền phẳng, đủ gối kê",
         "Nối cọc bằng hàn theo bản mã thiết kế, kiểm tra trục cọc theo hai phương vuông góc",
-        "Chọn búa, máy rung, máy ép theo sức chịu tải thiết kế và địa chất"
+        "Thợ hàn có chứng chỉ, que hàn phù hợp; để nguội tự nhiên, kiểm tra mối hàn bằng mắt trước khi hạ tiếp",
+        "Chọn búa, máy rung, máy ép theo sức chịu tải thiết kế và địa chất; kiểm tra đệm đầu cọc, mũ cọc"
       ],
       "requirements": [
         "Cọc bê tông cốt thép phải kê bằng gỗ dưới móc cẩu; cấm lăn hoặc kéo cọc bằng dây [9394 · 4.3]",
@@ -130,15 +183,24 @@
       "checks": [
         "Biên bản kiểm tra cọc trước khi hạ",
         "Kiểm tra mối hàn nối cọc"
+      ],
+      "tips": [
+        "Cẩu cọc sai điểm gây nứt thân cọc; đánh dấu vị trí móc cẩu trên cọc từ nhà máy",
+        "Cọc đầu không phẳng, không vuông góc làm lệch tải và vỡ đầu cọc khi đóng; kiểm tra trước khi hạ",
+        "Mối hàn nối vội vàng, tạo lỗ rỗ, thiếu chiều dài: nguyên nhân phổ biến gây gãy cọc; giám sát từng mối",
+        "Búa quá nhỏ hoặc quá lớn so với cọc đều gây hư hỏng; so sánh với tính toán chọn búa"
       ]
     },
     {
       "title": "Hạ cọc: ép tĩnh, đóng hoặc rung",
       "actions": [
         "Ép tĩnh: lắp hệ phản lực, căn tim thiết bị trùng tim cọc, chạy thử với 10-15% tải thiết kế",
+        "Đặt đoạn cọc đầu vào đúng tim, kiểm tra độ thẳng đứng bằng hai máy hoặc dây dọi theo hai phương trước khi ép",
         "Đóng hoặc rung: kiểm tra mũ cọc, ghi số nhát búa theo mét, đo độ chối ở loạt cuối",
+        "Hạ đều, không dừng giữa chừng không cần thiết; theo dõi độ thẳng đứng, nếu nghiêng thì dừng và điều chỉnh",
         "Ghi lực ép (ép) hoặc số nhát, độ chối (đóng) cho từng cọc; xử lý ngay khi gặp chướng ngại hoặc cọc nghiêng",
-        "Dừng khi đạt điều kiện dừng theo thiết kế và tiêu chuẩn"
+        "Nối đoạn tiếp theo đúng quy trình, hạ tiếp sau khi mối nối đạt",
+        "Dừng khi đạt điều kiện dừng theo thiết kế và tiêu chuẩn; đo cao độ đỉnh cọc, ký biên bản"
       ],
       "requirements": [
         "Ép tĩnh: công suất thiết bị không nhỏ hơn 1,4 lần lực ép lớn nhất; hệ phản lực nặng không nhỏ hơn 1,1 lần lực ép lớn nhất; đồng hồ đo áp và van dầu có chứng chỉ kiểm định còn hiệu lực [9394 · 7]",
@@ -152,15 +214,24 @@
       "checks": [
         "Nhật ký đóng, ép từng cọc: lực ép, nhát búa, độ chối, cao độ mũi cọc",
         "Báo cáo xử lý cọc bất thường"
+      ],
+      "tips": [
+        "Cọc nghiêng, gặp vật cản: không cố ép hay đóng thêm, dừng và báo thiết kế xử lý",
+        "Đóng nhiều cọc gần nhau gây trồi đất và đẩy cọc lân cận; tuân thủ trình tự hạ theo thiết kế, theo dõi cao độ cọc đã hạ",
+        "Đồng hồ áp hư hoặc hết hạn kiểm định làm số liệu sai; kiểm tra trước mỗi ca",
+        "Ghi nhật ký tại chỗ, đúng thời điểm, không ghi bù về sau"
       ]
     },
     {
       "title": "Thi công cừ thép (tường chắn nước hố móng)",
       "actions": [
         "Định vị tuyến cừ, đặt khung dẫn hướng, kiểm tra khóa nối cừ",
+        "Chọn và kiểm tra cừ trước khi hạ: thẳng, khóa nối không méo, không rỉ nặng; bôi trơn khóa nếu cần",
         "Đóng hoặc rung cừ theo trình tự, kiểm tra độ thẳng đứng và chênh cao đầu cừ",
+        "Ghim cừ đầu tiên, các cừ sau hạ theo từng cặp hoặc cụm đã được duyệt, hạ đều để giảm xoắn",
         "Bịt kín khóa nối, bịt chỗ hợp long còn hở",
-        "Khi có lớp bịt đáy bằng xi măng đất hoặc bê tông dưới nước: thi công theo thiết kế, đào bên trong cừ sau khi tường đạt điều kiện"
+        "Khi có lớp bịt đáy bằng xi măng đất hoặc bê tông dưới nước: thi công theo thiết kế, đào bên trong cừ sau khi tường đạt điều kiện",
+        "Đặt giằng, chống ngang theo thiết kế khi đào; quan trắc chuyển vị cừ trong suốt quá trình đào hố móng"
       ],
       "requirements": [
         "Cừ thép đóng theo TCVN 9394; quy trình của nhà thầu phải được kiểm tra, chấp thuận; cừ đóng trước khi tiêu nước mặt và nước ngầm [11323 · 6.2.4.1]",
@@ -172,14 +243,22 @@
       "checks": [
         "Nghiệm thu tuyến, cao độ, độ kín của tường cừ",
         "Theo dõi chuyển vị cừ khi đào hố móng"
+      ],
+      "tips": [
+        "Cừ bị xoắn hoặc chạy lệch tuyến: dùng khung dẫn hướng chắc và kiểm tra thường xuyên",
+        "Khóa nối mất kín gây thấm; phát hiện sớm khi rút nước và bịt kịp thời",
+        "Cừ chạm vật cản cứng dễ cong; xử lý hoặc loại bỏ vật cản trước khi hạ",
+        "Không đào quá sâu khi chưa lắp giằng chống theo thiết kế"
       ]
     },
     {
       "title": "Kiểm tra chất lượng cọc và nghiệm thu",
       "actions": [
         "Lấy mẫu bê tông, kiểm tra thân cọc bằng siêu âm hoặc phương pháp động biến dạng nhỏ (PIT), khoan lõi khi cần",
+        "Chọn cọc kiểm tra theo thiết kế và yêu cầu giám sát, ưu tiên cọc có dấu hiệu bất thường trong nhật ký",
         "Khoan kiểm tra tiếp xúc mũi cọc với đất ở các cọc được chọn",
-        "Thử tĩnh hoặc động sức chịu tải theo thiết kế",
+        "Thử tĩnh hoặc động sức chịu tải theo thiết kế: chuẩn bị hệ phản lực, thiết bị đo, lập chương trình thử tải",
+        "Đánh giá kết quả, so với tiêu chí thiết kế; cọc không đạt thì lập phương án xử lý và được thiết kế phê duyệt",
         "Lập hồ sơ nghiệm thu từng cọc và toàn bộ nhóm cọc, hoàn công vị trí và cao độ"
       ],
       "requirements": [
@@ -196,6 +275,12 @@
       "checks": [
         "Biên bản nghiệm thu từng cọc",
         "Báo cáo kiểm tra toàn khối, thử tải, xử lý cọc lỗi"
+      ],
+      "tips": [
+        "Thử tải chỉ tiến hành khi bê tông đạt cường độ theo yêu cầu; không thử sớm",
+        "Cọc bất thường trong thi công nên được kiểm tra trước, không chờ hết đợt",
+        "Hồ sơ từng cọc thiếu sẽ khó nghiệm thu; bổ sung hồ sơ ngay khi hoàn thành từng cọc",
+        "Kết quả kiểm tra bất thường phải báo ngay thiết kế và chủ đầu tư"
       ]
     }
   ],
@@ -204,18 +289,21 @@
     "Cẩu lồng thép, cọc, ống chống: kiểm tra cáp, móc cẩu; người đứng ngoài tầm với của vật cẩu",
     "Cọc mồi thép phải có đầu chụp; khi ép hai đoạn mồi nối tiếp phải có biện pháp an toàn riêng; tuân thủ TCVN 5308:1991 và quy định môi trường [9394 · 9]",
     "Dung dịch bentonite, bùn khoan: thu gom, lắng, vận chuyển đúng nơi quy định; tránh tràn ra mặt bằng và nguồn nước",
-    "Thiết bị đóng, rung, ép: kiểm tra đồng hồ áp, van dầu, hệ phản lực; theo dõi rung và lún công trình lân cận"
+    "Thiết bị đóng, rung, ép: kiểm tra đồng hồ áp, van dầu, hệ phản lực; theo dõi rung và lún công trình lân cận",
+    "Giữ khoảng cách an toàn giữa thiết bị thi công và hố đào, mái dốc, đường dây điện"
   ],
   "acceptance": [
     "Nghiệm thu từng lỗ khoan (độ sâu, đường kính, cặn lắng) và lồng thép trước khi đổ bê tông",
     "Nghiệm thu từng cọc (cao độ, vị trí, kết quả kiểm tra thân cọc), sau đó nghiệm thu nhóm cọc, đài cọc",
-    "Nghiệm thu kết quả thử tải theo thiết kế"
+    "Nghiệm thu kết quả thử tải theo thiết kế",
+    "Cọc bất thường hoặc không đạt được xử lý theo phương án thiết kế phê duyệt và nghiệm thu lại"
   ],
   "records": [
     "Biên bản định vị trục; nhật ký khoan, đóng, ép từng cọc",
     "Kết quả thí nghiệm dung dịch, bê tông, cốt thép, mối hàn",
     "Biên bản kiểm tra thân cọc, thử tải, xử lý cọc lỗi; hồ sơ hoàn công",
-    "Hồ sơ nghiệm thu lưu suốt tuổi thọ thiết kế công trình [9394 · 8.6, 8.7]"
+    "Hồ sơ nghiệm thu lưu suốt tuổi thọ thiết kế công trình [9394 · 8.6, 8.7]",
+    "Ảnh chụp các công đoạn chính: hố khoan, lồng thép, đổ bê tông, mối nối cọc"
   ],
   "note": "Mức đọc: TCVN 9395:2012 đọc được phần lớn nội dung qua một bản PDF và đối chiếu một phần với bản web (mục 1, 6-12; Bảng 1, 3, 4); số mục lấy theo thân văn bản, mục lục web đánh số khác. Chưa đối chiếu: độ thẳng đứng trong Bảng 3, cặn lắng cọc ma sát (12.2.1), tỷ lệ kiểm tra Bảng 5, mức 20% khối lượng bê tông (10.5). TCVN 9394:2012 chỉ đọc được bản web bị khóa một phần; các Bảng 2, 3, 5, 7, 10, 11 và phần cừ chưa đọc được. TCVN 9393, 9397, 9361, 12634 chưa đọc. Phần cừ thép lấy từ TCVN 11323:2020 (mục 5.3, 6.2.4) nên chỉ áp dụng trực tiếp cho hố móng vùng cát chảy, cần đối chiếu khi dùng cho trường hợp khác. Số liệu dùng làm tham khảo, phải đối chiếu bản gốc và thiết kế dự án."
 }

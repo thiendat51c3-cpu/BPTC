@@ -17,25 +17,44 @@
   "prerequisites": [
     "Thiết kế cấp phối được phòng thí nghiệm duyệt; mác ≥ 150 thiết kế tại phòng thí nghiệm [4453 · mục 6]",
     "Cốp pha, cốt thép đã nghiệm thu; vệ sinh bề mặt đổ",
-    "Kế hoạch đổ, nhân lực, thiết bị, nguồn dự phòng"
+    "Kế hoạch đổ, nhân lực, thiết bị, nguồn dự phòng",
+    "Có biện pháp thi công bê tông được duyệt, gồm sơ đồ đổ, chia khối, đường vận chuyển và phương án khi sự cố (mất điện, hỏng máy, mưa)",
+    "Phòng thí nghiệm hiện trường có thiết bị đúc mẫu, bảo dưỡng mẫu và đo độ sụt"
   ],
   "steps": [
     {
       "title": "Ván khuôn, cốp pha",
       "actions": [
-        "Lắp cốp pha chắc, kín khít, đúng hình dáng; chống đỡ ổn định"
+        "Lập sơ đồ chia khoang, vị trí ván khuôn, hệ giằng, chống và cây chống xiên từ bản vẽ thi công; phổ biến cho tổ thợ trước khi lắp",
+        "Định vị tim, mép kết cấu bằng máy toàn đạc hoặc thước, đánh dấu mép chân cốp pha trên bề mặt đã vệ sinh",
+        "Lắp từng tấm theo thứ tự từ chân lên đỉnh, ghép khít mối, dùng thanh giằng, ty, nẹp ngang và dọc cố định; chân cốp pha tựa trên nền ổn định",
+        "Chống đỡ bằng giàn giáo, cột chống có chân đế vững, giằng ngang và giằng chéo; kê chống trên nền đã được đầm hoặc lót tấm kê",
+        "Chèn kín khe hở, dán băng keo hoặc trám vữa chỗ mối nối để chống mất nước xi măng; đặt cữ chắn đối với chi tiết chôn sẵn, lỗ chờ",
+        "Quét chất chống dính đều, mỏng lên mặt cốp pha tiếp xúc bê tông, không để dính vào cốt thép",
+        "Kiểm tra lại hình học, cao độ, độ thẳng đứng, độ ổn định bằng máy và dây dọi; lập biên bản trước khi chuyển bước"
       ],
       "requirements": [
         "Sai lệch cho phép của cốp pha theo Bảng 2 của TCVN 4453"
       ],
       "checks": [
         "Nghiệm thu cốp pha trước khi đổ"
+      ],
+      "tips": [
+        "Lỗi thường gặp: chân cốp pha hở, mất vữa gây rỗ chân; phòng ngừa bằng chèn kín và ép sát nền",
+        "Giằng chống thiếu hoặc nền kê lún dễ gây phình, vỡ cốp pha khi đổ; kiểm tra lại giằng ngay trước khi đổ",
+        "Chất chống dính quá nhiều làm bẩn mặt bê tông và mạch ngừng; lau bớt phần dư, che đậy khi mưa",
+        "Cử người trực cốp pha trong suốt quá trình đổ để xử lý kịp khi có biến dạng"
       ]
     },
     {
       "title": "Chuẩn bị vật liệu, trộn bê tông",
       "actions": [
-        "Cân đong theo cấp phối, trộn đều, kiểm tra độ sụt"
+        "Kiểm tra cốt liệu, xi măng, nước, phụ gia (nếu có) đúng chủng loại và có chứng chỉ; độ ẩm cốt liệu được xác định để hiệu chỉnh lượng nước",
+        "Hiệu chuẩn trạm trộn hoặc cân đong, lập phiếu cấp phối hiện trường theo phòng thí nghiệm duyệt",
+        "Nạp liệu đúng trình tự: cốt liệu, xi măng, sau đó nước và phụ gia; trộn đủ thời gian cho đồng nhất màu và độ sệt",
+        "Kiểm tra độ sụt từng mẻ đầu và định kỳ sau đó; mẻ không đạt thì loại bỏ hoặc điều chỉnh theo hướng dẫn của phòng thí nghiệm, không tự ý thêm nước",
+        "Lấy mẫu thử cường độ tại điểm đổ, ghi ký hiệu, ngày đúc, vị trí kết cấu; dưỡng hộ mẫu theo quy định",
+        "Vệ sinh máy trộn, thùng chứa sau ca; ghi nhật ký trộn"
       ],
       "requirements": [
         "Sai số cân đong: xi măng 1%, cốt liệu 3%, nước 1% [4453 · mục 6]",
@@ -44,13 +63,25 @@
       ],
       "checks": [
         "Độ sụt, lấy mẫu thử cường độ"
+      ],
+      "tips": [
+        "Không thêm nước tại hiện trường để dễ đổ vì làm giảm cường độ và tăng co ngót",
+        "Độ ẩm cốt liệu thay đổi sau mưa: hiệu chỉnh lại lượng nước trước khi trộn",
+        "Kiểm tra cân định kỳ và khi nghi ngờ sai số; ghi lại kết quả hiệu chuẩn",
+        "Mẫu thử phải được lấy ngẫu nhiên, đại diện cho khối đổ, tránh chỉ lấy mẻ tốt"
       ]
     },
     {
       "title": "Vận chuyển, đổ và đầm",
       "actions": [
-        "Đổ theo lớp, đầm đúng kỹ thuật; tránh phân tầng",
-        "Khối lớn: chia khối, đổ theo lớp"
+        "Bố trí tổ đổ: người điều khiển bơm hoặc cẩu, thợ đổ, thợ đầm, người trực cốp pha và cốt thép, người ghi nhật ký; thống nhất tín hiệu liên lạc",
+        "Tưới ẩm bề mặt nền hoặc mạch cũ, loại bỏ nước đọng trước khi đổ; kiểm tra lần cuối cốp pha, cốt thép, chi tiết chôn sẵn",
+        "Vận chuyển bằng phương tiện kín, sạch, tránh rung lắc gây phân tầng; kiểm tra độ sụt tại điểm đổ trước khi nhận xe",
+        "Đổ theo lớp từ xa đến gần, thả bê tông thấp, dùng ống voi hoặc máng khi cao rơi lớn để tránh phân tầng",
+        "Đầm dùi lần lượt, cắm thẳng và rút từ từ, đầm xuyên vào lớp dưới, không đầm lên cốt thép và cốp pha; dừng khi mặt bê tông ngừng sụt, nổi hồ và hết bọt khí",
+        "Đổ liên tục trong một khối; nếu buộc dừng thì xử lý mạch ngừng đúng vị trí cho phép theo thiết kế",
+        "Khối lớn: đổ theo sơ đồ chia khối đã duyệt, lớp sau đổ khi lớp trước còn khả năng liên kết",
+        "Hoàn thiện mặt, kiểm tra cao độ; ghi nhật ký đổ gồm thời gian, thể tích, nhiệt độ, mẫu thử"
       ],
       "requirements": [
         "Thời gian lưu hỗn hợp khi vận chuyển (không phụ gia): trên 30°C 30 phút; 20-30°C 45 phút; 10-20°C 60 phút; 5-10°C 90 phút [4453 · Bảng 14]",
@@ -61,13 +92,25 @@
       ],
       "checks": [
         "Kiểm tra độ sụt, nhiệt độ hỗn hợp, mẫu thử"
+      ],
+      "tips": [
+        "Đầm thiếu gây rỗ tổ ong; đầm quá lâu gây phân tầng, nổi nước xi măng; quan sát mặt bê tông để quyết định",
+        "Không dùng đầm dùi để dịch chuyển bê tông đi xa vì dễ phân tầng",
+        "Chuẩn bị máy đầm và nguồn điện dự phòng; kiểm tra thời tiết, có bạt che khi mưa",
+        "Xe chờ lâu: kiểm tra lại độ sụt và thời gian lưu trước khi đổ, loại bỏ mẻ không đạt",
+        "Mạch ngừng làm nhám và vệ sinh sạch bụi, váng xi măng trước khi đổ tiếp"
       ]
     },
     {
       "title": "Đổ bê tông khối lớn, kiểm soát nhiệt",
       "actions": [
-        "Chia khối, đổ theo lớp mỏng, đo nhiệt tại tâm và sát mặt ngoài",
-        "Che nắng, cách nhiệt, xử lý mạch ngừng bằng vữa"
+        "Lập sơ đồ chia khối, lớp, thứ tự đổ và vị trí đặt đầu đo nhiệt trước khi đổ; chuẩn bị thiết bị đo, cáp và máy ghi",
+        "Chuẩn bị nguồn vật liệu, đá, nước và biện pháp hạ nhiệt (che nắng, làm lạnh cốt liệu, nước lạnh) theo mùa",
+        "Chôn đầu đo nhiệt đúng các điểm yêu cầu trước khi đổ, cố định cáp không bị đầm làm hỏng",
+        "Đổ từng lớp mỏng liên tục, mỗi lớp trải đều và đầm kỹ; khống chế thời gian giữa các lớp để tránh mạch lạnh",
+        "Che nắng, che gió và cách nhiệt bề mặt ngay sau đổ; xử lý mạch ngừng bằng làm nhám, rửa sạch và trải vữa",
+        "Đo và ghi nhiệt độ bê tông, môi trường theo chu kỳ, lập biểu đồ nhiệt từng khối",
+        "Đối chiếu chênh nhiệt giữa tâm và mặt; khi vượt ngưỡng cảnh báo thì bổ sung giữ nhiệt hoặc làm mát theo phương án đã duyệt"
       ],
       "requirements": [
         "Nhiệt độ hỗn hợp khi đổ ≤ 25°C, tốt nhất ≤ 20°C [305 · 6.7.1c]",
@@ -80,12 +123,22 @@
       ],
       "checks": [
         "Biểu đồ nhiệt độ từng khối, kiểm tra nứt sau tháo cốp pha"
+      ],
+      "tips": [
+        "Hỏng đầu đo hoặc cáp đứt khi đầm là lỗi phổ biến; bảo vệ cáp và kiểm tra thông mạch sau khi đổ lớp đầu",
+        "Đổ chậm giữa các lớp dễ tạo mạch lạnh; tính toán năng lực trạm trộn và xe vận chuyển trước khi đổ",
+        "Bóc cốp pha hoặc che phủ đột ngột làm chênh nhiệt tăng, gây nứt; giữ che phủ tới khi chênh nhiệt giảm",
+        "Đổ ban đêm hoặc sáng sớm trong mùa nóng giúp giảm nhiệt độ hỗn hợp"
       ]
     },
     {
       "title": "Bảo dưỡng và kiểm soát nhiệt bê tông khối lớn",
       "actions": [
-        "Giữ ẩm, che phủ; đo nhiệt độ bê tông và môi trường"
+        "Ngay khi mặt bê tông đủ cứng để không bị phá hỏng, phủ ẩm bằng bao tải, vải hoặc phủ nilon, tưới nước duy trì độ ẩm liên tục",
+        "Khối lớn: giữ nhiệt bề mặt bằng lớp cách nhiệt hoặc bạt, điều chỉnh theo kết quả đo nhiệt giữa tâm và mặt",
+        "Đo nhiệt độ bê tông và môi trường theo chu kỳ, ghi nhật ký, vẽ biểu đồ phát triển nhiệt",
+        "Hạn chế người và thiết bị đi lại, rung chấn, va đập lên bê tông còn non; che mưa cho mặt chưa cứng",
+        "Giám sát bảo dưỡng theo ca, giao trách nhiệm người phụ trách cụ thể; kết thúc bảo dưỡng khi đủ thời gian yêu cầu và được xác nhận"
       ],
       "requirements": [
         "Bắt đầu bảo dưỡng ngay sau hoàn thiện, liên tục [8828 · 4.1, 6.1]",
@@ -97,12 +150,23 @@
       ],
       "checks": [
         "Nhật ký nhiệt độ"
+      ],
+      "tips": [
+        "Tưới nước lạnh đột ngột lên bê tông còn nóng có thể gây nứt do sốc nhiệt; dùng nước phù hợp nhiệt độ hoặc phủ ẩm trước",
+        "Bề mặt bị khô sớm gây nứt co ngót dẻo; kiểm tra thường xuyên vào giờ nắng gắt và gió lớn",
+        "Bảo dưỡng ngắt quãng là lỗi hay gặp vào cuối tuần, ngày nghỉ; phân ca duy trì liên tục",
+        "Ghi đầy đủ nhật ký nhiệt, đây là căn cứ xử lý khi phát hiện nứt"
       ]
     },
     {
       "title": "Tháo cốp pha, nghiệm thu",
       "actions": [
-        "Tháo theo cường độ đạt; kiểm tra khuyết tật, sửa chữa"
+        "Xác định thời điểm tháo dựa trên kết quả mẫu bảo dưỡng hiện trường và yêu cầu thiết kế, không chỉ dựa vào số ngày",
+        "Lập phiếu cho phép tháo, thống nhất thứ tự tháo: bộ phận không chịu lực trước, bộ phận chịu lực sau; cần đỡ tạm nếu có",
+        "Tháo nhẹ nhàng từ trên xuống, tránh va đập, bẩy mạnh làm sứt mép; phân loại, làm sạch cốp pha tái sử dụng",
+        "Quan sát mặt bê tông sau tháo, ghi nhận rỗ, nứt, lệch hình học, hở cốt thép; chụp ảnh lưu hồ sơ",
+        "Sửa chữa khuyết tật theo biện pháp được duyệt (đục bỏ phần yếu, vệ sinh, trám vữa hoặc bê tông sửa chữa), tiếp tục bảo dưỡng phần sửa",
+        "Đo kiểm hình học, lập biên bản nghiệm thu khối đổ"
       ],
       "requirements": [
         "Cốp pha không chịu lực tháo khi cường độ > 50 N/cm² [4453 · mục 6]",
@@ -110,19 +174,29 @@
       ],
       "checks": [
         "Cường độ mẫu hiện trường, hình học, khuyết tật; nghiệm thu"
+      ],
+      "tips": [
+        "Tháo sớm gây sứt cạnh, võng, nứt; chờ kết quả mẫu nén hiện trường",
+        "Chống lại hoặc giữ chống an toàn cho kết cấu chịu lực tại những vị trí thiết kế yêu cầu",
+        "Khuyết tật nhỏ sửa sớm dễ đạt chất lượng hơn; khuyết tật lớn báo thiết kế trước khi xử lý",
+        "Không tháo cốp pha khi chưa có người chịu trách nhiệm kỹ thuật xác nhận"
       ]
     }
   ],
   "safety": [
     "Giàn giáo, sàn công tác, chống đỡ cốp pha tính toán chắc chắn",
     "Điện, thiết bị đầm; cẩu, máy bơm: người điều khiển có chứng chỉ",
-    "Thời tiết nóng, mưa: có biện pháp che chắn"
+    "Thời tiết nóng, mưa: có biện pháp che chắn",
+    "Tổ chức tín hiệu thống nhất giữa người điều khiển cẩu, bơm và thợ đổ; cấm đứng dưới vùng bê tông đang cẩu",
+    "Ánh sáng đủ khi đổ ban đêm; sàn công tác có lan can, lối đi an toàn"
   ],
   "acceptance": [
-    "Nghiệm thu cốp pha, cốt thép trước đổ; nghiệm thu từng khối đổ và kết cấu hoàn thành"
+    "Nghiệm thu cốp pha, cốt thép trước đổ; nghiệm thu từng khối đổ và kết cấu hoàn thành",
+    "Nghiệm thu khuyết tật và biện pháp sửa chữa sau tháo cốp pha trước khi lấp, che phủ"
   ],
   "records": [
-    "Phiếu thử cường độ, cấp phối, nhật ký đổ, nhiệt độ, biên bản nghiệm thu"
+    "Phiếu thử cường độ, cấp phối, nhật ký đổ, nhiệt độ, biên bản nghiệm thu",
+    "Nhật ký bảo dưỡng và biểu đồ nhiệt độ từng khối đổ; ảnh hiện trạng trước và sau sửa chữa khuyết tật"
   ],
   "note": "TCVN 10403, 14334, 11652 chỉ đọc được trang tóm tắt. Số liệu khối lớn lấy từ TCXDVN 305:2004 (tiền nhiệm 14334, chưa rõ còn hiệu lực), nên đối chiếu 14334. TCVN 4453 mục 6.4-6.9 (chiều dày lớp, mạch ngừng, bảo dưỡng) chưa đọc được."
 }
