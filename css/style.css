@@ -92,3 +92,6 @@ mark{background:#ffe08a;color:#000;border-radius:3px;padding:0 1px}
 .read{display:block;margin-top:6px;font-size:.85em;font-weight:600}
 .read-full{color:#1b7a3a}.read-partial{color:#a06100}.read-none{color:#b3261e}
 .chip-none{opacity:.75;border:1px dashed currentColor}
+
+.notebox{width:100%;box-sizing:border-box;font:inherit;font-size:16px;padding:8px 10px;border:1px solid var(--line,#cbd5e1);border-radius:8px;background:transparent;color:inherit;resize:vertical}
+@media print{.noterow:has(textarea:placeholder-shown){display:none}}

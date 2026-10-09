@@ -1,39 +1,497 @@
 [
-  {"id":"tcvn-4447","short":"4447","code":"TCVN 4447:2012","title":"Công tác đất - Thi công và nghiệm thu","note":"Áp dụng cho đào, đắp theo phương pháp khô, ướt và khoan nổ mìn.","read":"partial","readNote":"Đọc được mục 1 đến 4.2 (chuẩn bị, san mặt bằng, đào hào hố móng). Chưa đọc được phần đầm nén và nghiệm thu; một số bảng bị lỗi."},
-  {"id":"tcvn-4055","short":"4055","code":"TCVN 4055:2012","title":"Tổ chức thi công","note":"Nguyên tắc lập thiết kế tổ chức thi công, biện pháp thi công.","read":"none","readNote":""},
-  {"id":"tcvn-9361","short":"9361","code":"TCVN 9361:2012","title":"Công tác nền móng - Thi công và nghiệm thu","note":"","read":"none","readNote":""},
-  {"id":"tcvn-8305","short":"8305","code":"TCVN 8305:2009","title":"Công trình thủy lợi - Kênh đất - Yêu cầu kỹ thuật trong thi công và nghiệm thu","note":"Đào, đắp kênh, tiêu nước, kiểm tra và nghiệm thu. Áp dụng cho kênh từ 300 L/s hoặc từ 150 ha.","read":"full","readNote":"Đọc được phần lớn nội dung; một số điều (6.2.3, 6.3.2...) bị ẩn trên trang nguồn."},
-  {"id":"tcvn-11323","short":"11323","code":"TCVN 11323:2020","title":"Công trình thủy lợi - Hố móng trong vùng cát chảy - Thi công và nghiệm thu","note":"Hố móng nền cát có nguy cơ cát chảy, hạ mực nước ngầm.","read":"partial","readNote":"Đọc được mục 4 đến 6 và các bảng dung sai; chưa thấy phần quan trắc. Bảng 6 có số liệu mâu thuẫn với 6.2.5.2, cần đối chiếu."},
-  {"id":"tcvn-9903","short":"9903","code":"TCVN 9903:2014","title":"Công trình thủy lợi - Yêu cầu thiết kế, thi công và nghiệm thu hạ mực nước ngầm","note":"Được TCVN 11323 viện dẫn. Kiểm tra năm ban hành trên bản gốc.","read":"none","readNote":""},
-  {"id":"tcvn-9161","short":"9161","code":"TCVN 9161:2012","title":"Công trình thủy lợi - Khoan nổ mìn đào đá - Phương pháp thiết kế, thi công và nghiệm thu","note":"Tiêu chuẩn chính cho đào đá bằng nổ mìn, đi cùng QCVN 04-04:2012/BNNPTNT.","read":"none","readNote":"Chưa mở được nội dung. Số liệu nổ mìn trong app lấy từ QCVN 04-04:2012/BNNPTNT."},
-  {"id":"qcvn-04-04","short":"04-04","code":"QCVN 04-04:2012/BNNPTNT","title":"Công trình thủy lợi - Khoan nổ mìn đào đá - Yêu cầu kỹ thuật","note":"Ban hành theo Thông tư 27/2012/TT-BNNPTNT. Chưa rõ hiệu lực hiện hành.","read":"partial","readNote":"Đọc được đến mục 8.2.3. Chưa thấy mục nghiệm thu riêng và con số khoảng cách an toàn cụ thể."},
-  {"id":"qcvn-18","short":"18","code":"QCVN 18:2021/BXD","title":"Quy chuẩn kỹ thuật quốc gia về an toàn trong xây dựng","note":"Quy chuẩn bắt buộc về an toàn thi công.","read":"none","readNote":""},
-  {"id":"tcvn-4528","short":"4528","code":"TCVN 4528:1988","title":"Hầm đường sắt và hầm đường ô tô - Quy phạm thi công, nghiệm thu","note":"Tiêu chuẩn hầm giao thông, dùng tham khảo cho đào hầm thủy công khi chưa có tiêu chuẩn riêng. Tiêu chuẩn cũ, cần kiểm tra hiệu lực.","read":"partial","readNote":"Đọc được đến mục 6.30. Chưa có mục an toàn chi tiết và nghiệm thu đầy đủ."},
-  {"id":"tcvn-13509","short":"13509","code":"TCVN 13509:2022","title":"Bê tông phun trong công trình hầm giao thông - Yêu cầu kỹ thuật, thi công và nghiệm thu","note":"Có thể áp dụng cho công trình ngầm khác, mái dốc, kênh mương.","read":"partial","readNote":"Đọc được đến mục 8.1.1. Một số bảng (Bảng 2) bị lỗi định dạng, cần đối chiếu bản gốc."},
-  {"id":"tcvn-14180","short":"14180","code":"TCVN 14180:2024","title":"Bê tông phun - Chuẩn bị mẫu khoan cắt từ tấm thử","note":"Lấy mẫu kiểm tra bê tông phun.","read":"none","readNote":""},
-  {"id":"tcvn-8870","short":"8870","code":"TCVN 8870:2011","title":"Thi công và nghiệm thu neo trong đất dùng trong công trình giao thông vận tải","note":"Neo gia cố mái dốc, dùng tham khảo cho neo thủy lợi, thủy điện.","read":"partial","readNote":"Đọc được phần lớn mục 4 đến 6; phụ lục A, B, D và mục 6.4 chưa đầy đủ."},
-  {"id":"tcvn-8645","short":"8645","code":"TCVN 8645:2011","title":"Công trình thủy lợi - Yêu cầu kỹ thuật khoan phụt xi măng vào nền đá","note":"Thay cho 14TCN 82:1995. Một nguồn ghi có bản thay thế mới hơn (2019), cần kiểm tra.","read":"partial","readNote":"Chỉ đọc được mục 1 và 2 (phạm vi, thuật ngữ). Nội dung thi công nằm sau tường phí."},
-  {"id":"14tcn-82","short":"14TCN82","code":"14TCN 82:1995","title":"Công trình thủy lợi - Tiêu chuẩn kỹ thuật khoan phụt xi măng vào nền đá","note":"Tiêu chuẩn ngành cũ, đã được TCVN 8645:2011 thay thế. Chỉ dùng đối chiếu.","read":"partial","readNote":"Chỉ đọc được mục 1 đến 4.1."},
-  {"id":"tcvn-8644","short":"8644","code":"TCVN 8644:2011","title":"Công trình thủy lợi - Yêu cầu kỹ thuật khoan phụt vữa gia cố đê","note":"Khoan phụt vữa sét - xi măng cho thân đê, đập đất.","read":"partial","readNote":"Đọc được phần lớn mục 1 đến 7 và một phần phụ lục."},
-  {"id":"tcvn-9149","short":"9149","code":"TCVN 9149:2024","title":"Công trình thủy lợi - Xác định độ thấm nước của đá bằng thí nghiệm ép nước vào lỗ khoan","note":"Thí nghiệm ép nước (Lugeon), thay TCVN 9149:2012.","read":"none","readNote":""},
-  {"id":"tcvn-9906","short":"9906","code":"TCVN 9906:2014","title":"Công trình thủy lợi - Cọc xi măng đất thi công theo phương pháp Jet-Grouting","note":"Xử lý nền đất yếu. Kiểm tra năm ban hành trên bản gốc.","read":"none","readNote":""},
-  {"id":"tcvn-9157","short":"9157","code":"TCVN 9157:2012","title":"Công trình thủy lợi - Giếng giảm áp - Yêu cầu thi công và kiểm tra nghiệm thu","note":"","read":"none","readNote":""},
-  {"id":"tcvn-12634","short":"12634","code":"TCVN 12634","title":"Công trình thủy lợi - Cừ chống thấm - Thi công và nghiệm thu","note":"Kiểm tra năm ban hành trên bản gốc.","read":"none","readNote":""},
-  {"id":"tcvn-8297","short":"8297","code":"TCVN 8297:2009","title":"Công trình thủy lợi - Đập đất - Yêu cầu kỹ thuật trong thi công bằng phương pháp đầm nén","note":"Các tiêu chuẩn mới viện dẫn với tên Đập đất đầm nén - Thi công và nghiệm thu. Kiểm tra phiên bản hiện hành.","read":"partial","readNote":"Đọc được đến mục 14.6. Thiếu mục 15 (nghiệm thu), mục 16 (an toàn) và Phụ lục C (đầm thử)."},
-  {"id":"tcvn-10397","short":"10397","code":"TCVN 10397:2015","title":"Công trình thủy lợi - Đập hỗn hợp đất đá đầm nén - Thi công, nghiệm thu","note":"","read":"none","readNote":""},
-  {"id":"tcvn-10775","short":"10775","code":"TCVN 10775:2015","title":"Công trình thủy lợi - Đập đá đổ bản mặt bê tông - Thi công và nghiệm thu","note":"","read":"none","readNote":""},
-  {"id":"tcvn-9166","short":"9166","code":"TCVN 9166:2012","title":"Công trình thủy lợi - Yêu cầu kỹ thuật thi công bằng biện pháp đầm nén nhẹ","note":"","read":"none","readNote":""},
-  {"id":"tcvn-9162","short":"9162","code":"TCVN 9162:2012","title":"Công trình thủy lợi - Đường thi công - Yêu cầu thiết kế","note":"Phân cấp đường thi công; nếu kết hợp làm đường quản lý thì cấp thiết kế theo TCVN 4054:2005.","read":"partial","readNote":"Chỉ có đoạn trích mục 4.1 từ kết quả tìm kiếm."},
-  {"id":"tcvn-4054","short":"4054","code":"TCVN 4054:2005","title":"Đường ô tô - Yêu cầu thiết kế","note":"Dùng cho đường vận hành, quản lý vĩnh cửu.","read":"none","readNote":""},
-  {"id":"tcvn-9436","short":"9436","code":"TCVN 9436:2012","title":"Nền đường ô tô - Thi công và nghiệm thu","note":"Nền đắp, nền đào, nửa đào nửa đắp, đoạn thi công thử, gia cố taluy.","read":"full","readNote":"Đọc được gần đủ các mục 1 đến 10. Bảng 2 (độ chặt K) và Bảng 3 (CBR) bị lỗi định dạng ở một số dòng."},
-  {"id":"tcvn-4453","short":"4453","code":"TCVN 4453:1995","title":"Kết cấu bê tông và bê tông cốt thép toàn khối - Quy phạm thi công và nghiệm thu","note":"Đã có dự thảo TCVN 4453:202x thay thế. Kiểm tra hiệu lực hiện hành.","read":"partial","readNote":"Đọc được đến giữa mục 6.3. Chưa có phần đổ, đầm, bảo dưỡng bê tông."},
-  {"id":"tcvn-1651","short":"1651","code":"TCVN 1651","title":"Thép cốt bê tông","note":"Phiên bản hiện hành tách thành nhiều phần (thép thanh tròn trơn, thép thanh vằn). Kiểm tra năm ban hành.","read":"none","readNote":""},
-  {"id":"tcvn-5724","short":"5724","code":"TCVN 5724:1993","title":"Kết cấu bê tông và bê tông cốt thép - Điều kiện kỹ thuật tối thiểu để thi công và nghiệm thu","note":"Có các mục gia công, đặt, neo, hàn cốt thép.","read":"none","readNote":""},
-  {"id":"tcvn-8218","short":"8218","code":"TCVN 8218:2009","title":"Bê tông thủy công - Yêu cầu kỹ thuật","note":"","read":"none","readNote":""},
-  {"id":"tcvn-8219","short":"8219","code":"TCVN 8219:2009","title":"Hỗn hợp bê tông thủy công và bê tông thủy công - Phương pháp thử","note":"Không bao gồm bê tông đầm lăn.","read":"none","readNote":""},
-  {"id":"tcvn-11652","short":"11652","code":"TCVN 11652:2016","title":"Công trình thủy lợi - Thi công và nghiệm thu kết cấu bê tông và bê tông cốt thép trên mái dốc","note":"","read":"none","readNote":"Trang nguồn không tải được nội dung."},
-  {"id":"tcvn-14334","short":"14334","code":"TCVN 14334:2025","title":"Kết cấu bê tông khối lớn - Thi công và nghiệm thu","note":"Kiểm soát nhiệt độ, hạn chế nứt do ứng suất nhiệt. Áp dụng cho bê tông B20 đến B70, không áp dụng cho đập bê tông đầm lăn.","read":"partial","readNote":"Chỉ đọc được phạm vi và bản tóm tắt chung; các giới hạn nhiệt độ cụ thể nằm sau tường phí."},
-  {"id":"tcvn-10403","short":"10403","code":"TCVN 10403:2015","title":"Công trình thủy lợi - Đập bê tông đầm lăn - Thi công và nghiệm thu","note":"","read":"none","readNote":"Chỉ đọc được bản tóm tắt chung của trang web, chưa có điều khoản chi tiết."},
-  {"id":"tcvn-9159","short":"9159","code":"TCVN 9159:2012","title":"Công trình thủy lợi - Khớp nối biến dạng - Yêu cầu thi công và nghiệm thu","note":"","read":"none","readNote":""},
-  {"id":"tcvn-9115","short":"9115","code":"TCVN 9115","title":"Kết cấu bê tông và bê tông cốt thép lắp ghép - Thi công và nghiệm thu","note":"Kiểm tra năm ban hành (có bản 2012 và 2019).","read":"none","readNote":""}
+  {
+    "id": "tcvn-4447",
+    "short": "4447",
+    "code": "TCVN 4447:2012",
+    "title": "Công tác đất - Thi công và nghiệm thu",
+    "note": "Áp dụng cho đào, đắp theo phương pháp khô, ướt và khoan nổ mìn.",
+    "read": "partial",
+    "readNote": "Đọc được mục 1 đến 4.2 (chuẩn bị, san mặt bằng, đào hào hố móng). Chưa đọc được phần đầm nén và nghiệm thu; một số bảng bị lỗi."
+  },
+  {
+    "id": "tcvn-4055",
+    "short": "4055",
+    "code": "TCVN 4055:2012",
+    "title": "Tổ chức thi công",
+    "note": "Nguyên tắc lập thiết kế tổ chức thi công, biện pháp thi công.",
+    "read": "none",
+    "readNote": ""
+  },
+  {
+    "id": "tcvn-9361",
+    "short": "9361",
+    "code": "TCVN 9361:2012",
+    "title": "Công tác nền móng - Thi công và nghiệm thu",
+    "note": "",
+    "read": "none",
+    "readNote": ""
+  },
+  {
+    "id": "tcvn-8305",
+    "short": "8305",
+    "code": "TCVN 8305:2009",
+    "title": "Công trình thủy lợi - Kênh đất - Yêu cầu kỹ thuật trong thi công và nghiệm thu",
+    "note": "Đào, đắp kênh, tiêu nước, kiểm tra và nghiệm thu. Áp dụng cho kênh từ 300 L/s hoặc từ 150 ha.",
+    "read": "full",
+    "readNote": "Đọc được phần lớn nội dung; một số điều (6.2.3, 6.3.2...) bị ẩn trên trang nguồn."
+  },
+  {
+    "id": "tcvn-11323",
+    "short": "11323",
+    "code": "TCVN 11323:2020",
+    "title": "Công trình thủy lợi - Hố móng trong vùng cát chảy - Thi công và nghiệm thu",
+    "note": "Hố móng nền cát có nguy cơ cát chảy, hạ mực nước ngầm.",
+    "read": "partial",
+    "readNote": "Đọc được mục 4 đến 6 và các bảng dung sai; chưa thấy phần quan trắc. Bảng 6 có số liệu mâu thuẫn với 6.2.5.2, cần đối chiếu. Áp dụng trực tiếp cho hố móng nền cát chảy."
+  },
+  {
+    "id": "tcvn-9903",
+    "short": "9903",
+    "code": "TCVN 9903:2014",
+    "title": "Công trình thủy lợi - Yêu cầu thiết kế, thi công và nghiệm thu hạ mực nước ngầm",
+    "note": "Được TCVN 11323 viện dẫn. Kiểm tra năm ban hành trên bản gốc.",
+    "read": "none",
+    "readNote": ""
+  },
+  {
+    "id": "tcvn-9161",
+    "short": "9161",
+    "code": "TCVN 9161:2012",
+    "title": "Công trình thủy lợi - Khoan nổ mìn đào đá - Phương pháp thiết kế, thi công và nghiệm thu",
+    "note": "Tiêu chuẩn chính cho đào đá bằng nổ mìn, đi cùng QCVN 04-04:2012/BNNPTNT.",
+    "read": "none",
+    "readNote": "Chưa mở được nội dung. Số liệu nổ mìn trong app lấy từ QCVN 04-04:2012/BNNPTNT."
+  },
+  {
+    "id": "qcvn-04-04",
+    "short": "04-04",
+    "code": "QCVN 04-04:2012/BNNPTNT",
+    "title": "Công trình thủy lợi - Khoan nổ mìn đào đá - Yêu cầu kỹ thuật",
+    "note": "Ban hành theo Thông tư 27/2012/TT-BNNPTNT. Chưa rõ hiệu lực hiện hành.",
+    "read": "partial",
+    "readNote": "Đọc được đến mục 8.2.3. Chưa thấy mục nghiệm thu riêng và con số khoảng cách an toàn cụ thể."
+  },
+  {
+    "id": "qcvn-18",
+    "short": "18",
+    "code": "QCVN 18:2021/BXD",
+    "title": "Quy chuẩn kỹ thuật quốc gia về an toàn trong xây dựng",
+    "note": "Quy chuẩn bắt buộc về an toàn thi công.",
+    "read": "none",
+    "readNote": ""
+  },
+  {
+    "id": "tcvn-4528",
+    "short": "4528",
+    "code": "TCVN 4528:1988",
+    "title": "Hầm đường sắt và hầm đường ô tô - Quy phạm thi công, nghiệm thu",
+    "note": "Tiêu chuẩn hầm giao thông, dùng tham khảo cho đào hầm thủy công khi chưa có tiêu chuẩn riêng. Tiêu chuẩn cũ, cần kiểm tra hiệu lực.",
+    "read": "partial",
+    "readNote": "Đọc được đến mục 6.30. Chưa có mục an toàn chi tiết và nghiệm thu đầy đủ."
+  },
+  {
+    "id": "tcvn-13509",
+    "short": "13509",
+    "code": "TCVN 13509:2022",
+    "title": "Bê tông phun trong công trình hầm giao thông - Yêu cầu kỹ thuật, thi công và nghiệm thu",
+    "note": "Có thể áp dụng cho công trình ngầm khác, mái dốc, kênh mương.",
+    "read": "partial",
+    "readNote": "Đọc được đến mục 8.1.1. Một số bảng (Bảng 2) bị lỗi định dạng, cần đối chiếu bản gốc."
+  },
+  {
+    "id": "tcvn-14180",
+    "short": "14180",
+    "code": "TCVN 14180:2024",
+    "title": "Bê tông phun - Chuẩn bị mẫu khoan cắt từ tấm thử",
+    "note": "Lấy mẫu kiểm tra bê tông phun.",
+    "read": "none",
+    "readNote": ""
+  },
+  {
+    "id": "tcvn-8870",
+    "short": "8870",
+    "code": "TCVN 8870:2011",
+    "title": "Thi công và nghiệm thu neo trong đất dùng trong công trình giao thông vận tải",
+    "note": "Neo gia cố mái dốc, dùng tham khảo cho neo thủy lợi, thủy điện.",
+    "read": "partial",
+    "readNote": "Đọc được phần lớn mục 4 đến 6; phụ lục A, B, D và mục 6.4 chưa đầy đủ."
+  },
+  {
+    "id": "tcvn-8645",
+    "short": "8645",
+    "code": "TCVN 8645:2011",
+    "title": "Công trình thủy lợi - Yêu cầu kỹ thuật khoan phụt xi măng vào nền đá",
+    "note": "Thay cho 14TCN 82:1995. Một nguồn ghi có bản thay thế mới hơn (2019), cần kiểm tra.",
+    "read": "partial",
+    "readNote": "Chỉ đọc được mục 1 và 2 (phạm vi, thuật ngữ). Nội dung thi công nằm sau tường phí."
+  },
+  {
+    "id": "14tcn-82",
+    "short": "14TCN82",
+    "code": "14TCN 82:1995",
+    "title": "Công trình thủy lợi - Tiêu chuẩn kỹ thuật khoan phụt xi măng vào nền đá",
+    "note": "Tiêu chuẩn ngành cũ, đã được TCVN 8645:2011 thay thế. Chỉ dùng đối chiếu.",
+    "read": "partial",
+    "readNote": "Chỉ đọc được mục 1 đến 4.1."
+  },
+  {
+    "id": "tcvn-8644",
+    "short": "8644",
+    "code": "TCVN 8644:2011",
+    "title": "Công trình thủy lợi - Yêu cầu kỹ thuật khoan phụt vữa gia cố đê",
+    "note": "Khoan phụt vữa sét - xi măng cho thân đê, đập đất.",
+    "read": "partial",
+    "readNote": "Đọc được phần lớn mục 1 đến 7 và một phần phụ lục."
+  },
+  {
+    "id": "tcvn-9149",
+    "short": "9149",
+    "code": "TCVN 9149:2024",
+    "title": "Công trình thủy lợi - Xác định độ thấm nước của đá bằng thí nghiệm ép nước vào lỗ khoan",
+    "note": "Thí nghiệm ép nước (Lugeon), thay TCVN 9149:2012.",
+    "read": "none",
+    "readNote": ""
+  },
+  {
+    "id": "tcvn-9906",
+    "short": "9906",
+    "code": "TCVN 9906:2014",
+    "title": "Công trình thủy lợi - Cọc xi măng đất thi công theo phương pháp Jet-Grouting",
+    "note": "Xử lý nền đất yếu. Kiểm tra năm ban hành trên bản gốc.",
+    "read": "none",
+    "readNote": ""
+  },
+  {
+    "id": "tcvn-9157",
+    "short": "9157",
+    "code": "TCVN 9157:2012",
+    "title": "Công trình thủy lợi - Giếng giảm áp - Yêu cầu thi công và kiểm tra nghiệm thu",
+    "note": "",
+    "read": "none",
+    "readNote": ""
+  },
+  {
+    "id": "tcvn-12634",
+    "short": "12634",
+    "code": "TCVN 12634",
+    "title": "Công trình thủy lợi - Cừ chống thấm - Thi công và nghiệm thu",
+    "note": "Kiểm tra năm ban hành trên bản gốc.",
+    "read": "none",
+    "readNote": ""
+  },
+  {
+    "id": "tcvn-8297",
+    "short": "8297",
+    "code": "TCVN 8297:2009",
+    "title": "Công trình thủy lợi - Đập đất - Yêu cầu kỹ thuật trong thi công bằng phương pháp đầm nén",
+    "note": "Các tiêu chuẩn mới viện dẫn với tên Đập đất đầm nén - Thi công và nghiệm thu. Kiểm tra phiên bản hiện hành.",
+    "read": "partial",
+    "readNote": "Đọc được đến mục 14.6. Thiếu mục 15 (nghiệm thu), mục 16 (an toàn) và Phụ lục C (đầm thử)."
+  },
+  {
+    "id": "tcvn-10397",
+    "short": "10397",
+    "code": "TCVN 10397:2015",
+    "title": "Công trình thủy lợi - Đập hỗn hợp đất đá đầm nén - Thi công, nghiệm thu",
+    "note": "",
+    "read": "none",
+    "readNote": ""
+  },
+  {
+    "id": "tcvn-10775",
+    "short": "10775",
+    "code": "TCVN 10775:2015",
+    "title": "Công trình thủy lợi - Đập đá đổ bản mặt bê tông - Thi công và nghiệm thu",
+    "note": "",
+    "read": "none",
+    "readNote": ""
+  },
+  {
+    "id": "tcvn-9166",
+    "short": "9166",
+    "code": "TCVN 9166:2012",
+    "title": "Công trình thủy lợi - Yêu cầu kỹ thuật thi công bằng biện pháp đầm nén nhẹ",
+    "note": "",
+    "read": "none",
+    "readNote": ""
+  },
+  {
+    "id": "tcvn-9162",
+    "short": "9162",
+    "code": "TCVN 9162:2012",
+    "title": "Công trình thủy lợi - Đường thi công - Yêu cầu thiết kế",
+    "note": "Phân cấp đường thi công; nếu kết hợp làm đường quản lý thì cấp thiết kế theo TCVN 4054:2005.",
+    "read": "partial",
+    "readNote": "Chỉ có đoạn trích mục 4.1 từ kết quả tìm kiếm."
+  },
+  {
+    "id": "tcvn-4054",
+    "short": "4054",
+    "code": "TCVN 4054:2005",
+    "title": "Đường ô tô - Yêu cầu thiết kế",
+    "note": "Dùng cho đường vận hành, quản lý vĩnh cửu.",
+    "read": "none",
+    "readNote": ""
+  },
+  {
+    "id": "tcvn-9436",
+    "short": "9436",
+    "code": "TCVN 9436:2012",
+    "title": "Nền đường ô tô - Thi công và nghiệm thu",
+    "note": "Nền đắp, nền đào, nửa đào nửa đắp, đoạn thi công thử, gia cố taluy.",
+    "read": "full",
+    "readNote": "Đọc được gần đủ các mục 1 đến 10. Bảng 2 (độ chặt K) và Bảng 3 (CBR) bị lỗi định dạng ở một số dòng."
+  },
+  {
+    "id": "tcvn-4453",
+    "short": "4453",
+    "code": "TCVN 4453:1995",
+    "title": "Kết cấu bê tông và bê tông cốt thép toàn khối - Quy phạm thi công và nghiệm thu",
+    "note": "Đã có dự thảo TCVN 4453:202x thay thế. Kiểm tra hiệu lực hiện hành.",
+    "read": "partial",
+    "readNote": "Đọc được đến giữa mục 6.3. Chưa có phần đổ, đầm, bảo dưỡng bê tông."
+  },
+  {
+    "id": "tcvn-1651",
+    "short": "1651",
+    "code": "TCVN 1651",
+    "title": "Thép cốt bê tông",
+    "note": "Phiên bản hiện hành tách thành nhiều phần (thép thanh tròn trơn, thép thanh vằn). Kiểm tra năm ban hành.",
+    "read": "none",
+    "readNote": ""
+  },
+  {
+    "id": "tcvn-5724",
+    "short": "5724",
+    "code": "TCVN 5724:1993",
+    "title": "Kết cấu bê tông và bê tông cốt thép - Điều kiện kỹ thuật tối thiểu để thi công và nghiệm thu",
+    "note": "Có các mục gia công, đặt, neo, hàn cốt thép.",
+    "read": "none",
+    "readNote": ""
+  },
+  {
+    "id": "tcvn-8218",
+    "short": "8218",
+    "code": "TCVN 8218:2009",
+    "title": "Bê tông thủy công - Yêu cầu kỹ thuật",
+    "note": "",
+    "read": "none",
+    "readNote": ""
+  },
+  {
+    "id": "tcvn-8219",
+    "short": "8219",
+    "code": "TCVN 8219:2009",
+    "title": "Hỗn hợp bê tông thủy công và bê tông thủy công - Phương pháp thử",
+    "note": "Không bao gồm bê tông đầm lăn.",
+    "read": "none",
+    "readNote": ""
+  },
+  {
+    "id": "tcvn-11652",
+    "short": "11652",
+    "code": "TCVN 11652:2016",
+    "title": "Công trình thủy lợi - Thi công và nghiệm thu kết cấu bê tông và bê tông cốt thép trên mái dốc",
+    "note": "",
+    "read": "none",
+    "readNote": "Trang nguồn không tải được nội dung."
+  },
+  {
+    "id": "tcvn-14334",
+    "short": "14334",
+    "code": "TCVN 14334:2025",
+    "title": "Kết cấu bê tông khối lớn - Thi công và nghiệm thu",
+    "note": "Kiểm soát nhiệt độ, hạn chế nứt do ứng suất nhiệt. Áp dụng cho bê tông B20 đến B70, không áp dụng cho đập bê tông đầm lăn.",
+    "read": "partial",
+    "readNote": "Chỉ đọc được phạm vi và bản tóm tắt chung; các giới hạn nhiệt độ cụ thể nằm sau tường phí."
+  },
+  {
+    "id": "tcvn-10403",
+    "short": "10403",
+    "code": "TCVN 10403:2015",
+    "title": "Công trình thủy lợi - Đập bê tông đầm lăn - Thi công và nghiệm thu",
+    "note": "",
+    "read": "none",
+    "readNote": "Chỉ đọc được bản tóm tắt chung của trang web, chưa có điều khoản chi tiết."
+  },
+  {
+    "id": "tcvn-9159",
+    "short": "9159",
+    "code": "TCVN 9159:2012",
+    "title": "Công trình thủy lợi - Khớp nối biến dạng - Yêu cầu thi công và nghiệm thu",
+    "note": "",
+    "read": "none",
+    "readNote": ""
+  },
+  {
+    "id": "tcvn-9115",
+    "short": "9115",
+    "code": "TCVN 9115",
+    "title": "Kết cấu bê tông và bê tông cốt thép lắp ghép - Thi công và nghiệm thu",
+    "note": "Kiểm tra năm ban hành (có bản 2012 và 2019).",
+    "read": "none",
+    "readNote": ""
+  },
+  {
+    "id": "qcvn-04-05",
+    "short": "QCVN 04-05",
+    "code": "QCVN 04-05:2012/BNNPTNT",
+    "title": "Công trình thủy lợi - Các quy định chủ yếu về thiết kế",
+    "note": "Quy định cấp công trình tạm, tần suất thiết kế dẫn dòng và ngăn dòng. Thay thế TCXDVN 285-2002.",
+    "read": "partial",
+    "readNote": "Đọc được mục 3.2.8, 5.2.8 (Bảng 7), 5.2.10, 5.2.11 qua bản web bị cắt, chưa đối chiếu bản gốc; chưa đọc Bảng 8 (5.2.9)."
+  },
+  {
+    "id": "tcvn-9160",
+    "short": "9160",
+    "code": "TCVN 9160:2012",
+    "title": "Công trình thủy lợi - Yêu cầu thiết kế dẫn dòng trong xây dựng",
+    "note": "Thay thế 14TCN 57-88; áp dụng cho dẫn dòng thi công công trình thủy lợi, thủy điện. Viện dẫn TCVN 8216, 9137, 9150, 9152, TCXDVN 356, 390, TCVN 5308.",
+    "read": "partial",
+    "readNote": "Chỉ đọc được phạm vi (mục 1), thuật ngữ 3.1-3.3 và danh mục viện dẫn. Phần yêu cầu thiết kế (tần suất, đê quây, ngăn dòng, tiêu nước) bị khóa, chưa đối chiếu."
+  },
+  {
+    "id": "tcvn-9395",
+    "short": "9395",
+    "code": "TCVN 9395:2012",
+    "title": "Cọc khoan nhồi - Thi công và nghiệm thu",
+    "note": "Cọc khoan nhồi bê tông cốt thép đường kính từ 60 cm.",
+    "read": "partial",
+    "readNote": "Đọc được phần lớn mục 1, 6-12 và Bảng 1, 3, 4. Bảng 3 (độ thẳng đứng), Bảng 5 (tỷ lệ kiểm tra), cặn lắng cọc ma sát và mục 10.5 cần đối chiếu; Phụ lục A, B, C chưa đọc."
+  },
+  {
+    "id": "tcvn-9394",
+    "short": "9394",
+    "code": "TCVN 9394:2012",
+    "title": "Đóng và ép cọc - Thi công và nghiệm thu",
+    "note": "Áp dụng cho công trình xây dựng, giao thông, thủy lợi.",
+    "read": "partial",
+    "readNote": "Đọc được mục 1, 4-9 qua bản web bị khóa một phần; Bảng 2, 3, 5, 7, 10, 11, công thức 6.2, 6.11 và phần cừ chưa đọc được."
+  },
+  {
+    "id": "tcvn-9393",
+    "short": "9393",
+    "code": "TCVN 9393:2012",
+    "title": "Cọc - Phương pháp thử nghiệm hiện trường bằng tải trọng tĩnh ép dọc trục",
+    "note": "Được TCVN 9394 viện dẫn cho thử nén tĩnh. Kiểm tra tên và năm trên bản gốc.",
+    "read": "none",
+    "readNote": "Chưa đọc được nội dung."
+  },
+  {
+    "id": "tcvn-9397",
+    "short": "9397",
+    "code": "TCVN 9397:2012",
+    "title": "Cọc - Kiểm tra khuyết tật bằng phương pháp động biến dạng nhỏ",
+    "note": "Phương pháp PIT. Kiểm tra tên trên bản gốc.",
+    "read": "none",
+    "readNote": "Chưa đọc được nội dung."
+  },
+  {
+    "id": "tcvn-5308",
+    "short": "5308",
+    "code": "TCVN 5308:1991",
+    "title": "Quy phạm kỹ thuật an toàn trong xây dựng",
+    "note": "Được TCVN 9394 và 11323 viện dẫn về an toàn. Kiểm tra tên và hiệu lực trên bản gốc (có QCVN 18:2021/BXD).",
+    "read": "none",
+    "readNote": "Chưa đọc được nội dung."
+  },
+  {
+    "id": "14tcn-12",
+    "short": "14TCN 12",
+    "code": "14TCN 12:2002",
+    "title": "Công trình thủy lợi - Xây và lát đá - Yêu cầu kỹ thuật thi công và nghiệm thu",
+    "note": "Ban hành theo QĐ 44/2002/QĐ-BNN ngày 04/06/2002. Chưa rõ hiệu lực hiện hành.",
+    "read": "partial",
+    "readNote": "Đọc được phần chữ các mục 1-7 (đá, vữa, xây, lát, nghiệm thu); các bảng 3.1, 4.1-4.5, 7.1, phụ lục A bị lỗi hoặc khóa."
+  },
+  {
+    "id": "tcvn-4085",
+    "short": "4085",
+    "code": "TCVN 4085:2011",
+    "title": "Kết cấu gạch đá - Tiêu chuẩn thi công và nghiệm thu",
+    "note": "Có bản mới TCVN 4085:2025 'Thi công kết cấu khối xây - Yêu cầu kỹ thuật' chưa đọc, cần kiểm tra bản hiện hành.",
+    "read": "partial",
+    "readNote": "Đọc được mục 1-5 (phần đá hộc 5.2); một số số liệu 5.2.8, 5.2.11, 5.2.12 nghi lỗi đơn vị; chưa thấy mục nghiệm thu."
+  },
+  {
+    "id": "tcvn-10335",
+    "short": "10335",
+    "code": "TCVN 10335:2014",
+    "title": "Rọ đá, thảm đá, sản phẩm mắt lưới lục giác xoắn kép dùng trong công trình đường thủy",
+    "note": "Phạm vi chính là công trình đường thủy; thủy lợi chỉ tham khảo.",
+    "read": "partial",
+    "readNote": "Đọc được mục 1-9.1; từ 9.2 trở đi (kể cả thi công, nghiệm thu) bị khóa."
+  },
+  {
+    "id": "tcvn-8298",
+    "short": "8298",
+    "code": "TCVN 8298:2009",
+    "title": "Công trình thủy lợi - Yêu cầu kỹ thuật trong chế tạo và lắp ráp thiết bị cơ khí, kết cấu thép",
+    "note": "Áp dụng cho máy đóng mở, cửa van, lưới chắn rác, đường ống dẫn nước.",
+    "read": "partial",
+    "readNote": "Đọc được mục 1-8 và 9.1.1.1; phần lắp đặt còn lại, nghiệm thu và phụ lục A không đọc được."
+  },
+  {
+    "id": "tcvn-8640",
+    "short": "8640",
+    "code": "TCVN 8640:2011",
+    "title": "Công trình thủy lợi - Máy đóng mở kiểu cáp - Yêu cầu kỹ thuật",
+    "note": "Chưa rõ hiệu lực hiện hành.",
+    "read": "partial",
+    "readNote": "Đọc được phạm vi, mục 8.3 lắp đặt, chạy thử, nghiệm thu; công thức, bảng E.1, F.1 không đọc được."
+  },
+  {
+    "id": "tcvn-8300",
+    "short": "8300",
+    "code": "TCVN 8300:2009",
+    "title": "Công trình thủy lợi - Máy đóng mở kiểu xi lanh thủy lực",
+    "note": "Chưa rõ hiệu lực hiện hành.",
+    "read": "partial",
+    "readNote": "Đọc được một số điều 3, 4, 5.3, 6; nhiều điều và công thức bị khóa."
+  },
+  {
+    "id": "tcvn-6700-1",
+    "short": "6700-1",
+    "code": "TCVN 6700-1:2016 (ISO 9606-1:2012)",
+    "title": "Kiểm tra chấp nhận thợ hàn - Hàn nóng chảy - Phần 1: Thép",
+    "note": "Thay thế TCVN 6700-1:2000.",
+    "read": "partial",
+    "readNote": "Chỉ đọc phạm vi và cấu trúc các điều; chưa thấy thời hạn hiệu lực chứng chỉ."
+  },
+  {
+    "id": "tcvn-5639",
+    "short": "5639",
+    "code": "TCVN 5639:1991",
+    "title": "Nghiệm thu thiết bị đã lắp đặt xong",
+    "note": "Tiêu chuẩn cũ, kiểm tra hiệu lực.",
+    "read": "partial",
+    "readNote": "Đọc được mục 1-3 (giai đoạn nghiệm thu tĩnh, chạy thử không tải, có tải; trách nhiệm)."
+  },
+  {
+    "id": "tcxdvn-305",
+    "short": "305",
+    "code": "TCXDVN 305:2004",
+    "title": "Bê tông khối lớn - Quy phạm thi công và nghiệm thu",
+    "note": "Tiêu chuẩn tiền nhiệm của TCVN 14334; chưa rõ còn hiệu lực hay không, dùng tham chiếu.",
+    "read": "partial",
+    "readNote": "Đọc được phần lớn mục 6 (thi công); bảng và công thức hiển thị lỗi."
+  },
+  {
+    "id": "tcvn-8828",
+    "short": "8828",
+    "code": "TCVN 8828:2011",
+    "title": "Bê tông - Yêu cầu bảo dưỡng ẩm tự nhiên",
+    "note": "Thời gian bảo dưỡng ẩm.",
+    "read": "partial",
+    "readNote": "Bảng 2 (số ngày bảo dưỡng bê tông thường) bị lỗi, chưa đọc được."
+  },
+  {
+    "id": "tcvn-9345",
+    "short": "9345",
+    "code": "TCVN 9345:2012",
+    "title": "Kết cấu bê tông và bê tông cốt thép - Hướng dẫn kỹ thuật phòng chống nứt dưới tác động của khí hậu nóng ẩm",
+    "note": "Đổ và bảo dưỡng bê tông trời nóng.",
+    "read": "partial",
+    "readNote": "Đọc được các mục 5.3-5.5 từ bản hiển thị một phần."
+  }
 ]

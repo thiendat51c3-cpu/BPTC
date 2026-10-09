@@ -51,6 +51,14 @@
     if (last < t.length) out.push(document.createTextNode(t.slice(last)));
     return out;
   }
+  /* ghi chú riêng của người dùng cho từng bước, lưu trong trình duyệt */
+  function noteBox(gid, i) {
+    var key = 'bptc-note-' + gid, all = safeStore(key) || {};
+    var ta = el('textarea', { class: 'notebox', rows: '2', placeholder: 'Ghi chú riêng của bạn cho bước này (lưu trên máy)...' });
+    ta.value = all[i] || '';
+    ta.addEventListener('input', function () { all[i] = ta.value; safeStore(key, all); });
+    return el('div', { class: 'noterow' }, [el('h4', { text: 'Ghi chú của bạn' }), ta]);
+  }
   var READ = { full: 'Đã đọc nội dung chính', partial: 'Chỉ đọc được một phần', none: 'Chưa đọc được nội dung chi tiết' };
   function section(title, items) {
     if (!items || !items.length) return null;
@@ -143,6 +151,7 @@
         st.actions && st.actions.length ? el('h4', { text: 'Trình tự thực hiện' }) : null, st.actions && st.actions.length ? list(st.actions) : null,
         st.requirements && st.requirements.length ? el('h4', { text: 'Yêu cầu kỹ thuật' }) : null, st.requirements && st.requirements.length ? list(st.requirements) : null,
         st.checks && st.checks.length ? el('h4', { text: 'Kiểm tra, nghiệm thu' }) : null, st.checks && st.checks.length ? list(st.checks) : null,
+        noteBox(id, i),
         btn
       ]);
       d.appendChild(el('summary', null, [

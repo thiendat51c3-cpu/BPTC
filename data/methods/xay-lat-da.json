@@ -1,0 +1,192 @@
+{
+  "id": "xay-lat-da",
+  "title": "Xây đá, lát đá, rọ đá - thảm đá bảo vệ mái",
+  "scope": "Xây đá hộc, đá đẽo bằng vữa (tường cánh, móng, trụ, tường chắn, sân tiêu năng); lát đá khan hoặc lát đá vữa bảo vệ mái; rọ đá, thảm đá bảo vệ mái, chân kè trong công trình thủy lợi.",
+  "standards": [
+    "14tcn-12",
+    "tcvn-4085",
+    "tcvn-10335",
+    "tcvn-4453",
+    "tcvn-8218",
+    "tcvn-4055",
+    "qcvn-18"
+  ],
+  "prerequisites": [
+    "Có thiết kế được duyệt: loại đá, mác vữa, mặt cắt, tầng lọc ngược, loại và kích thước rọ/thảm đá; có bản vẽ thi công đã phê duyệt để lập hồ sơ nghiệm thu [14TCN12 · 7.7]",
+    "Vật liệu đá, xi măng, cát có chứng nhận chất lượng khi giao nhận; nghi ngờ thì thử lại [14TCN12 · 7.1]",
+    "Mốc cao độ, trục tuyến được lập biên bản nghiệm thu trước khi xây; đáy hố móng được kiểm tra trước khi xây, gặp đất nhão phải báo thiết kế xử lý [4085 · 4.1.2, 4.1.3]",
+    "Với rọ đá/thảm đá: đã chọn loại lưới, đường kính dây, lớp mạ hoặc bọc PVC theo thiết kế; sản phẩm có nhãn mác, nhà sản xuất cung cấp chứng nhận [10335 · 5.3.2]"
+  ],
+  "steps": [
+    {
+      "title": "Chọn và kiểm tra đá xây, đá lát",
+      "actions": [
+        "Chọn đá cứng, đặc chắc, không nứt, không hà; loại đá phát tiếng đục hoặc có vỉa canxi mềm",
+        "Rửa sạch đất bám trước khi dùng; phân loại đá hộc, đá chẻ, đá đẽo theo vị trí sử dụng",
+        "Lấy mẫu thử cường độ nén và khối lượng thể tích khi nghi ngờ hoặc thiết kế yêu cầu"
+      ],
+      "requirements": [
+        "Khuyến nghị cường độ nén tối thiểu 85 MPa và khối lượng thể tích tối thiểu 2.400 kg/m³ nếu thiết kế không quy định khác [14TCN12 · 3.1]",
+        "Đá hộc nổ mìn, khối lượng 20-40 kg, dùng cho tường cánh, móng, trụ pin, tường chắn, lát mái, sân tiêu năng [14TCN12 · 3.2.1]",
+        "Đá đẽo vừa: lồi lõm mặt không quá 10 mm, cạnh ngắn nhất 15 cm, góc không nhỏ hơn 60° [14TCN12 · 3.2.3]",
+        "Giá trị chi tiết ở Bảng 3.1 (chỉ tiêu cơ lý theo loại đá) chưa đọc được rõ, chưa đối chiếu"
+      ],
+      "checks": [
+        "Phiếu kiểm tra hình dạng, kích thước đá",
+        "Kết quả thử cường độ nén, khối lượng thể tích (nếu có)"
+      ]
+    },
+    {
+      "title": "Chuẩn bị nền, hố móng và tầng lọc",
+      "actions": [
+        "Bóc bỏ đất hữu cơ, bùn, rác; nền đá cạo sạch, xử lý khe rỗng bằng bê tông hoặc vữa",
+        "Làm khô hoặc ngăn nước ngầm trước khi xây",
+        "Nếu xây trên tầng lọc ngược, rải lớp bê tông hạt nhỏ hoặc vữa bao trước khi xây",
+        "Đáy móng đá hộc dọn sạch, san phẳng; hàng đầu và góc dùng đá lớn, phẳng đáy"
+      ],
+      "requirements": [
+        "Nền đất hữu cơ, bùn phải bóc bỏ; trên tầng lọc ngược rải lớp xi măng - bê tông hạt nhỏ dày 4-5 cm [14TCN12 · 5.1]",
+        "Chênh cao giữa các phần móng liền kề không quá 1,2 m [4085 · 5.1.3]",
+        "Hố sâu từ 1 m trở lên cần biện pháp bảo vệ thành hố [4085 · 4.1.6]"
+      ],
+      "checks": [
+        "Biên bản nghiệm thu nền móng, hố móng trước khi xây",
+        "Cao độ, tim tuyến so với bản vẽ"
+      ]
+    },
+    {
+      "title": "Chuẩn bị và kiểm tra vữa xây, lát",
+      "actions": [
+        "Dùng vữa thủy công đạt mác thiết kế; chọn loại xi măng phù hợp môi trường (sunfat, ngập nước, nước khoáng)",
+        "Cân đong, trộn bằng máy với vữa mác từ 7,5 trở lên; trộn tay chỉ cho khối lượng ít, mác thấp",
+        "Không đổ vữa trực tiếp xuống đất; dùng hết trước khi xi măng đông kết; vữa phân tầng phải trộn lại",
+        "Che nắng, mưa cho vữa"
+      ],
+      "requirements": [
+        "Cát: cỡ hạt lớn nhất không quá 2,5 mm cho đá đẽo; không quá 5 mm cho đá hộc [14TCN12 · 4.2.3]",
+        "Sai số cân đong không vượt ±2% khối lượng từng vật liệu [14TCN12 · 4.3.2]",
+        "Vữa mác dưới 7,5 và khối lượng ít mới trộn tay [14TCN12 · 4.3.2]",
+        "Đo độ lưu động ít nhất 2 lần mỗi ca; mùa nóng, gió khô thử thêm giữ nước và độ phân tầng [14TCN12 · 4.4]",
+        "Mỗi 50 m³ vữa đúc một nhóm 3 mẫu thử cường độ 28 ngày [14TCN12 · 4.4]",
+        "Thời gian đông kết (Bảng 4.5), yêu cầu xi măng theo mác vữa (Bảng 4.1, 4.2) chưa đọc được, chưa đối chiếu"
+      ],
+      "checks": [
+        "Phiếu kết quả độ lưu động",
+        "Kết quả nén mẫu vữa 28 ngày"
+      ]
+    },
+    {
+      "title": "Xây đá hộc, đá đẽo",
+      "actions": [
+        "Rửa sạch, tưới ướt đá trước khi xây",
+        "Xây hàng đá lớn ở góc và mặt ngoài, đá nhỏ ở lõi; đặt mặt rộng xuống dưới, lót vữa trước",
+        "Không để đá tiếp xúc trực tiếp không có vữa; so le mạch đứng",
+        "Trước khi ngừng xây nhét đầy vữa vào khe rỗng; tưới ẩm khi tạm ngừng mùa nóng khô",
+        "Chỉ đắp đất sau tường chắn khi vữa đạt cường độ thiết kế"
+      ],
+      "requirements": [
+        "Xây thành hàng: mạch vữa không dày quá 3 cm; mạch đứng lớp trên lệch lớp dưới ít nhất 8 cm [14TCN12 · 5.1]",
+        "Đá hộc không thành hàng: mạch vữa không dày quá 20 mm, đều nhau; mặt ngoài không tụt quá 50 mm so với tuyến thiết kế [14TCN12 · 5.2]",
+        "Đá đẽo: mạch vữa không quá 15 mm [14TCN12 · 5.3, 4085 · 5.2.5]",
+        "Móng đá hộc xây theo hàng cao 0,3 m; tường, cột, trụ hàng cao 0,25 m [4085 · 5.2.2, 5.2.3]",
+        "Đá câu: mỗi m² mặt tường có ít nhất một viên dài 0,40 m; tường dày không quá 0,40 m thì 3 viên/m² [4085 · 5.2.2]",
+        "Chiều cao tường đá hộc tạm ngừng không quá 1,2 m (trường hợp đặc biệt tới 4 m có biện pháp); một nguồn chép số liệu có dấu hiệu lỗi đơn vị, chưa đối chiếu [4085 · 5.2.8]",
+        "Không đi lại, chịu tải khi vữa chưa đông cứng [14TCN12 · 5.1]"
+      ],
+      "checks": [
+        "Kiểm tra độ thẳng đứng, tuyến, cao độ từng đợt xây",
+        "Kiểm tra độ đầy mạch vữa (đục thử khi cần)"
+      ]
+    },
+    {
+      "title": "Trát mạch và bảo dưỡng",
+      "actions": [
+        "Đục mạch sâu, cọ rửa sạch, giữ ẩm nhưng không đọng nước rồi trát mạch",
+        "Tưới ẩm liên tục sau khi vữa bắt đầu đông cứng, ban đêm cũng tưới khi nóng"
+      ],
+      "requirements": [
+        "Đục mạch sâu ít nhất 3 cm trước khi trát [14TCN12 · 5.7]",
+        "Mạch chìm sâu 5-7 mm; mạch bằng và mạch nổi theo kích thước nêu ở tiêu chuẩn [14TCN12 · 5.7]",
+        "Tưới ẩm 4-6 ngày [14TCN12 · 5.8]",
+        "Trước khi tiếp xúc nước: nước tĩnh bảo dưỡng 1 ngày đêm; nước chảy mạnh bảo dưỡng đủ 28 ngày đêm [14TCN12 · 5.8]"
+      ],
+      "checks": [
+        "Độ phẳng mặt trát kiểm bằng thước 2 m [14TCN12 · 5.7]",
+        "Nhật ký bảo dưỡng"
+      ]
+    },
+    {
+      "title": "Lát đá bảo vệ mái",
+      "actions": [
+        "Lát mái dốc từ dưới lên; viên lớn nhất đặt hàng dưới cùng và ở rìa",
+        "Chèn khe bằng đá nhỏ (lát khan) hoặc lót vữa, chèn mạch (lát có vữa)",
+        "Rửa sạch đá trước khi lát vữa; tưới bảo dưỡng như mục xây đá"
+      ],
+      "requirements": [
+        "Lát khan: mỗi viên tiếp xúc ít nhất 3 điểm với viên dưới; độ gồ ghề mặt lát không quá 100 mm [14TCN12 · 6.1]",
+        "Lát có vữa: độ gồ ghề mặt lát mái khoảng 50-100 mm; bảo dưỡng theo mục 5.8 [14TCN12 · 6.2]",
+        "Chi tiết điều 6.2.2(b) chưa đọc được, chưa đối chiếu"
+      ],
+      "checks": [
+        "Kiểm tra độ gồ ghề mặt lát",
+        "Nghiệm thu lớp lọc, nền mái trước khi lát (công việc khuất)"
+      ]
+    },
+    {
+      "title": "Lắp rọ đá, thảm đá bảo vệ mái và chân kè",
+      "actions": [
+        "Chọn loại: rọ đá (chống xói, chân khay, tường chắn), thảm đá (bảo vệ mái, đáy kênh), thảm rọ đá (chống xói mạnh), rồng đá (hộ chân)",
+        "Hoàn thiện nền mái; với nền yếu hoặc mái dốc nên lót vải địa kỹ thuật, tầng lọc đặt sát nền đất",
+        "Trải, liên kết các tấm, xếp đá đầy và buộc kín nắp theo hướng dẫn nhà sản xuất (chưa đối chiếu, phần thi công của tiêu chuẩn chưa đọc được)",
+        "Hộ chân mái bằng tấm nằm ngang hoặc tấm cuối chôn trong nền đáy để chống xói chân"
+      ],
+      "requirements": [
+        "Rọ đá: dài thường 2, 3, 4 m; rộng 1,0 m; cao 0,3, 0,5 hoặc 1,0 m; sai số ±5% trước khi xếp đá [10335 · 5.3.1, Bảng 8]",
+        "Thảm đá: rộng thường 2,0 m; cao 0,17, 0,23 hoặc 0,30 m; sai số ±5% dài, rộng và ±10% cao [10335 · 5.3.1, Bảng 9]",
+        "Mắt lưới danh định 63×85, 83×114 hoặc 102×135 mm, sai số ±10% [10335 · 5.1.2, Bảng 2]",
+        "Lớp bọc PVC dày trung bình 0,5 mm, mỏng nhất không dưới 0,4 mm [10335 · 5.1.3.5, Bảng 6]",
+        "Phạm vi bảo vệ bờ: thượng lưu bằng chiều rộng lòng dẫn, hạ lưu bằng 1,5 lần; cao hơn mực nước thiết kế 40-60 cm (sông rộng), 60-90 cm (sông hẹp, uốn khúc) [10335 · mục 8]",
+        "Công trình chỉnh trị, đập khóa: mắt 80 mm, dây mạ kẽm/Galfan/bọc PVC tối thiểu 2,7/3,7 mm [10335 · 9.2]",
+        "Tường rọ đá: chiều cao không quá hai lần bề rộng chân; có tầng lọc ngược phía sau khi mực nước sông thay đổi [10335 · mục 7]"
+      ],
+      "checks": [
+        "Kiểm tra nhãn mác, kích thước, lớp mạ/bọc PVC khi nhận hàng",
+        "Kiểm tra độ đầy đá, độ kín nắp, liên kết giữa các rọ",
+        "Nghiệm thu nền, lớp lọc, vải địa kỹ thuật trước khi phủ"
+      ]
+    },
+    {
+      "title": "Kiểm tra, nghiệm thu",
+      "actions": [
+        "Kiểm tra bố trí đá, mạch vữa, trát mạch, kích thước theo bản vẽ, độ đầy mạch (đục thử)",
+        "Nghi ngờ vữa: dùng súng bật nảy hoặc lấy 5 mẫu vữa từ mạch nén; không đạt thì xây lại",
+        "Lập biên bản khuyết tật, thời hạn sửa, kiểm tra lại; nghiệm thu phần khuất trước khi che"
+      ],
+      "requirements": [
+        "Kiểm tra thực tế gồm cách xếp đá, mạch vữa, trát mạch, kích thước, độ đặc chắc mạch [14TCN12 · 7.4]",
+        "Hồ sơ gồm bản vẽ duyệt, hoàn công, phiếu kiểm định vật liệu, biên bản nghiệm thu nền và bộ phận khuất, nhật ký thi công [14TCN12 · 7.7]",
+        "Sai số cho phép ở Bảng 7.1 chưa đọc được (bảng lỗi định dạng), chưa đối chiếu"
+      ],
+      "checks": [
+        "Biên bản nghiệm thu từng hạng mục xây, lát, rọ đá"
+      ]
+    }
+  ],
+  "safety": [
+    "Đứng trên mái dốc, mép bờ, tường chắn: đai an toàn, giàn giáo chắc, chống trượt; hố sâu từ 1 m trở lên có chống vách [4085 · 4.1.6]",
+    "Bốc xếp đá hộc (20-40 kg/viên) bằng cơ giới hoặc nhiều người; không đứng dưới tải cẩu, dưới mái đang lát",
+    "Làm việc sát nước: áo phao, phao cứu sinh, theo dõi mực nước và lũ; thi công mùa lũ cần biện pháp riêng",
+    "Dây thép lưới rọ đá sắc: găng, kính; xi măng, vữa: găng, ủng, kính"
+  ],
+  "acceptance": [
+    "Nghiệm thu vật liệu đầu vào (đá, xi măng, cát, rọ đá, vải địa kỹ thuật)",
+    "Nghiệm thu nền, tầng lọc trước khi xây, lát hoặc lắp rọ (công việc khuất)",
+    "Nghiệm thu từng đoạn xây, lát, rọ đá và toàn bộ hạng mục trước khi cho nước tiếp xúc"
+  ],
+  "records": [
+    "Chứng chỉ, kết quả thử đá, xi măng, cát, vữa (mẫu 28 ngày)",
+    "Bản vẽ hoàn công, nhật ký thi công, nhật ký bảo dưỡng",
+    "Biên bản nghiệm thu nền, bộ phận khuất, từng hạng mục"
+  ],
+  "note": "Đọc được khá đầy đủ chữ của 14TCN 12:2002 (một phần nội dung và hầu hết bảng số liệu 3.1, 4.1-4.5, 7.1 bị khóa hoặc lỗi định dạng, chưa đối chiếu), TCVN 4085:2011 mục 1-5 (đến đầu mục 6; chưa thấy mục nghiệm thu), TCVN 10335:2014 từ mục 1 đến 9.1 (từ 9.2 trở đi, gồm phần thi công, nghiệm thu rọ đá, bị khóa). Số liệu 4085 mục 5.2.8, 5.2.11, 5.2.12 có dấu hiệu lỗi đơn vị trong bản đọc, nên không dùng; cần đối chiếu bản gốc. Có TCVN 4085:2025 (Thi công kết cấu khối xây - Yêu cầu kỹ thuật) mới nhưng chưa đọc, chưa đối chiếu. Có bản 14TCN (2005, Bộ NN&PTNT) 'Xây và lát gạch' chưa đọc. Trích dẫn từ trang thuvienphapluat.vn bản xem thử, một số bảng sai lệch."
+}

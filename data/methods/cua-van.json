@@ -1,0 +1,183 @@
+{
+  "id": "cua-van",
+  "title": "Lắp đặt cửa van, thiết bị cơ khí thủy công, đường ống áp lực",
+  "scope": "Tiếp nhận, lắp đặt, hàn, sơn, chạy thử và nghiệm thu cửa van (phẳng, cung), bộ phận đặt sẵn, máy đóng mở (cáp, xi lanh thủy lực), lưới chắn rác, đường ống dẫn nước áp lực trong công trình thủy lợi, thủy điện.",
+  "standards": [
+    "tcvn-8298",
+    "tcvn-8640",
+    "tcvn-8300",
+    "tcvn-6700-1",
+    "tcvn-5639",
+    "tcvn-4453",
+    "tcvn-4055",
+    "qcvn-18"
+  ],
+  "prerequisites": [
+    "Gia công, lắp ráp theo hồ sơ thiết kế được cấp có thẩm quyền phê duyệt [8298 · 3.1]",
+    "Nhà chế tạo cung cấp sơ đồ lắp đặt, hướng dẫn sử dụng, biên bản kiểm tra, nghiệm thu khi xuất xưởng [8298 · 3.5]",
+    "Lắp đặt đúng thiết kế, bản vẽ của nhà chế tạo và hướng dẫn lắp đặt, vận hành; nếu không có quy định thì theo tiêu chuẩn Việt Nam hiện hành [5639 · mục 1]",
+    "Phần bê tông cấp 1, mốc tim, cao độ đã bàn giao cho đơn vị lắp đặt (chưa đối chiếu, quy định chi tiết nằm ở phần chưa đọc được của TCVN 8298 mục 9)"
+  ],
+  "steps": [
+    {
+      "title": "Tiếp nhận, kiểm tra thiết bị và bảo quản",
+      "actions": [
+        "Đối chiếu chủng loại, số lượng, hồ sơ xuất xưởng, chứng chỉ vật liệu chính",
+        "Kiểm tra biến dạng, mối hàn, lớp sơn, phụ kiện sau vận chuyển",
+        "Bảo quản bộ phận chắn nước cao su riêng, kê kích cửa van đã lắp hoàn chỉnh để không biến dạng"
+      ],
+      "requirements": [
+        "Vật liệu chịu lực chính phải có nhãn mác, chứng chỉ, nguồn gốc; chưa rõ thì lấy mẫu thử [8298 · 4.1]",
+        "Bộ phận chắn nước cao su bảo quản nơi độ ẩm dưới 50% và nhiệt độ dưới 25 °C [8298 · 8.4d]",
+        "Cửa van đã lắp hoàn chỉnh phải kê kích để không biến dạng [8298 · 8.4h]",
+        "Kết cấu lớn bảo quản ngoài trời phải che phủ và kê cao ít nhất 20 cm so với mặt đất (ghi trong tiêu chuẩn máy đóng mở xi lanh) [8300 · 5.2.1]"
+      ],
+      "checks": [
+        "Biên bản giao nhận thiết bị",
+        "Biên bản kiểm tra sau vận chuyển"
+      ]
+    },
+    {
+      "title": "Kiểm tra mốc, bê tông cấp 1 và bộ phận đặt sẵn",
+      "actions": [
+        "Đo kiểm tim, cao độ, khoảng cách rãnh van, trụ, ngưỡng so với thiết kế",
+        "Lập mốc tim lắp ráp, mốc cao độ ổn định cho cả quá trình lắp",
+        "Làm sạch bề mặt bê tông cấp 1, bu lông neo, khung định vị"
+      ],
+      "requirements": [
+        "Sai lệch chiều dài tim lắp ráp cho phép 1 mm trên 10 m [8298 · 9.1.1.1]",
+        "Các yêu cầu còn lại về bộ phận đặt sẵn (ray, ngưỡng, khung dẫn hướng) và cửa van cung ở mục 9 chưa đọc được, chưa đối chiếu"
+      ],
+      "checks": [
+        "Biên bản kiểm tra mốc, bê tông cấp 1 và vị trí bu lông neo, khung định vị"
+      ]
+    },
+    {
+      "title": "Lắp bộ phận đặt sẵn (ray, ngưỡng, khung dẫn hướng)",
+      "actions": [
+        "Lắp bằng đồ gá, điều chỉnh về đúng tim, cao độ, độ phẳng, độ song song",
+        "Cố định chắc, kiểm tra lại trước khi đổ bê tông cấp 2",
+        "Đổ bê tông cấp 2 theo thiết kế, kiểm tra lại sau khi bê tông đạt cường độ"
+      ],
+      "requirements": [
+        "Dung sai lắp đặt cụ thể của ray, ngưỡng, khung dẫn hướng lấy từ TCVN 8298 mục 9, phụ lục A và tiêu chuẩn ngành 14TCN về cửa van cung (xuất bản 2005, toàn văn hạn chế truy cập), chưa đối chiếu",
+        "Với cửa van phẳng bánh xe, chế tạo yêu cầu độ phẳng dầm biên tiếp xúc ray không lớn hơn 0,3 mm [8298 · 6.6.2.2b]; độ phẳng bánh xe/gối trượt tối đa 2,0 mm khi khẩu độ không quá 10 m, 3,0 mm khi lớn hơn [8298 · 6.6.2.3]. Đây là yêu cầu chế tạo, không phải dung sai lắp đặt"
+      ],
+      "checks": [
+        "Biên bản nghiệm thu bộ phận đặt sẵn trước khi đổ bê tông cấp 2 (công việc khuất)"
+      ]
+    },
+    {
+      "title": "Lắp thân cửa van, hàn và liên kết bu lông tại hiện trường",
+      "actions": [
+        "Cẩu lắp bằng thiết bị đúng tải trọng; dùng quai móc đã hàn sẵn, kiểm tra trọng lượng ghi trên bộ phận",
+        "Lắp thử từng đơn nguyên, điều chỉnh khe hở, bánh xe/gối trượt, bộ phận chắn nước",
+        "Hàn nối theo quy trình hàn được phê duyệt; thợ hàn có chứng chỉ phù hợp",
+        "Siết bu lông, kiểm tra khe hở, sửa khuyết tật mối hàn, lập biên bản"
+      ],
+      "requirements": [
+        "Que hàn, thuốc hàn phải sấy khô, nhiệt độ sấy 150-250 °C; que tróc vỏ, thuốc hỏng tuyệt đối không dùng [8298 · 4.7, 4.8]",
+        "Nhiệt độ môi trường dưới 10 °C: nung nóng vật hàn khoảng 120 °C, bề rộng 10 mm mỗi bên đường hàn [8298 · 6.4.6]",
+        "Thợ hàn hồ quang phải có chứng chỉ hợp cách; thợ hàn tự động, nửa tự động phải được đào tạo chính quy [8298 · 6.4.13]. Quy tắc kiểm tra chấp nhận thợ hàn nóng chảy: TCVN 6700-1:2016 (chỉ đọc phạm vi và cấu trúc, chưa thấy thời hạn chứng chỉ) [6700-1 · điều 1, 6]",
+        "Kiểm tra khe hở siết bu lông bằng thước lá 0,3 mm; thước không lùa sâu quá 20 mm [8298 · 6.5.1]",
+        "Kiểm tra mối hàn và ghi biên bản; sửa khuyết tật theo phụ lục A (chưa đọc được nội dung phụ lục) [8298 · 6.7]",
+        "Kết cấu nặng trên 5.000 kg phải ghi trọng lượng; hàn quai móc để cẩu [8298 · 7.12]"
+      ],
+      "checks": [
+        "Biên bản kiểm tra mối hàn (mắt thường và không phá hủy theo yêu cầu thiết kế)",
+        "Biên bản kiểm tra siết bu lông"
+      ]
+    },
+    {
+      "title": "Lắp máy đóng mở (cáp hoặc xi lanh thủy lực)",
+      "actions": [
+        "Định vị bệ máy, hộp chịu lực, tang; bắt bu lông, kiểm tra độ đồng tâm",
+        "Xi lanh: nâng từ đầu sau, cần pit-tông hướng về chốt cửa, bắt bệ; giữ nguyên lớp bọc cần pit-tông tới khi chạy thử cả hệ thống",
+        "Đấu nối ống thủy lực, tủ điều khiển, cảm biến hành trình",
+        "Đo cách điện trước khi cấp điện cho động cơ"
+      ],
+      "requirements": [
+        "Máy cáp: lớp bê tông dưới bệ máy và hộp chịu lực dày không nhỏ hơn 50 mm; sai số chiều cao đặt máy so với thiết kế không quá ±50 mm; độ lệch tâm tang và tâm tai kéo cửa trên mặt phẳng ngang không quá 150 mm [8640 · 8.3.2-8.3.4]",
+        "Xi lanh: sai lệch vị trí lắp so với thiết kế tối đa 2 mm; độ ngang bằng giữa hai xi lanh không quá 0,5 mm trên 1 m khoảng cách [8300 · 5.3.10k, 5.3.10l]",
+        "Đường ống thủy lực: giữ áp trên 15 phút, tụt áp không quá 5% áp suất lớn nhất [8300 · 5.3.10i]; ống thủy lực bằng thép không gỉ, thử áp bằng 150% áp suất thiết kế [8300 · 4.2.7]",
+        "Không rò rỉ dầu trong hệ thống; hai xi lanh chạy đồng bộ, cửa không tụt khi dừng [8300 · 3.1.3, 3.1.4]",
+        "Giá trị điện trở cách điện cho phép trong 8300 mục 5.3.9 đọc có nghi lỗi chép (đơn vị), chưa đối chiếu"
+      ],
+      "checks": [
+        "Biên bản kiểm tra vị trí, độ đồng tâm bệ máy",
+        "Biên bản thử áp ống thủy lực, đo cách điện"
+      ]
+    },
+    {
+      "title": "Lắp đường ống áp lực (ống thép dẫn nước, ống thủy điện)",
+      "actions": [
+        "Kiểm tra tuyến, cao độ, mố đỡ, khối neo, bê tông bao theo thiết kế",
+        "Lắp từng đoạn ống, hàn nối theo quy trình hàn được duyệt, kiểm tra mối hàn",
+        "Thử áp lực thủy tĩnh, thử kín nước theo thiết kế trước khi lấp, bọc bê tông",
+        "Xử lý bề mặt, sơn chống gỉ sau khi nghiệm thu mối hàn"
+      ],
+      "requirements": [
+        "TCVN 8298 phạm vi gồm đường ống dẫn nước của công trình thủy lợi, thủy điện; liên kết hàn, bu lông, đinh tán [8298 · 1.1, 1.2]",
+        "Quy định riêng về lắp đặt, sai số tim, thử áp ống áp lực: chưa đọc được tiêu chuẩn phù hợp (14TCN 197:2006 'cống lấy nước bằng thép bọc bê tông' mới thấy tên, chưa đọc), chưa đối chiếu; áp dụng thiết kế và hồ sơ nhà chế tạo"
+      ],
+      "checks": [
+        "Biên bản thử áp lực từng đoạn",
+        "Biên bản nghiệm thu trước khi lấp, bọc bê tông (công việc khuất)"
+      ]
+    },
+    {
+      "title": "Xử lý bề mặt, sơn bảo vệ",
+      "actions": [
+        "Chỉ sơn sau khi bộ phận KCS kiểm tra và xác nhận",
+        "Dùng sơn có nguồn gốc rõ; sơn lại chỗ hàn hiện trường, chỗ trầy xước"
+      ],
+      "requirements": [
+        "Kiểm tra và xác nhận của KCS trước khi sơn chống rỉ [8298 · 7.8]; xác nhận chất lượng trước khi sơn và gắn nhãn kiểm tra [8640 · 7.3.1]",
+        "Sơn không rõ nguồn gốc hoặc tự pha chế chưa được công nhận không được dùng [8298 · 4.10]"
+      ],
+      "checks": [
+        "Biên bản kiểm tra bề mặt, chiều dày, độ bám dính lớp sơn theo thiết kế (chưa đối chiếu)"
+      ]
+    },
+    {
+      "title": "Chạy thử, nghiệm thu và bàn giao",
+      "actions": [
+        "Nghiệm thu tĩnh: kiểm tra lắp đặt đúng thiết kế, hồ sơ đầy đủ",
+        "Chạy thử không tải; sau đó chạy thử có tải, kiểm tra tốc độ, độ kín nước, rung, nhiệt độ, vận hành bằng tay",
+        "Sửa khuyết tật, thay dầu sau chạy thử có tải, nghiệm thu tổng thể và bàn giao"
+      ],
+      "requirements": [
+        "Chạy thử không tải chỉ bắt đầu sau khi ký biên bản nghiệm thu tĩnh [5639 · 2.3]; không quy định thời gian thì máy đơn giản chạy tới 4 giờ liên tục, máy phức tạp tới 8 giờ [5639 · 2.3]",
+        "Không có quy định thì chạy có tải liên tục 72 giờ rồi mới kết luận [5639 · 2.3]",
+        "Máy cáp: đóng mở van 3 lần khô và 2 lần thử nước; kiểm tra công suất động cơ, tốc độ nâng hạ, nhiệt độ ổ bi, độ êm [8640 · 9.4]",
+        "Máy xi lanh: chạy thử không tải và có tải kiểm tra tốc độ, ổn định, rung, độ kín; thay toàn bộ dầu sau chạy thử có tải [8300 · 5.3.10h, 6.2.1, 6.3.1]",
+        "Thời gian chạy thử cụ thể của cửa van riêng do nhà thiết kế, nhà chế tạo quy định; chưa có số liệu cụ thể trong phần đọc được của 8298"
+      ],
+      "checks": [
+        "Biên bản nghiệm thu tĩnh",
+        "Biên bản chạy thử không tải, có tải",
+        "Biên bản bàn giao"
+      ]
+    }
+  ],
+  "safety": [
+    "Cẩu lắp cửa van, đoạn ống nặng: tính tải, kiểm tra cáp, móc, đảm bảo vùng cấm bên dưới; không cẩu khi gió mạnh",
+    "Làm việc trên cao, trong rãnh van, trong ống kín: đai an toàn, thông gió, chiếu sáng, kiểm tra khí độc; có người giám sát bên ngoài",
+    "Hàn, cắt: phòng cháy, che chắn tia hàn, thợ hàn có chứng chỉ; nối đất máy hàn",
+    "Thử áp lực: khoanh vùng, đồng hồ đã kiểm định, tăng áp từ từ, không đứng đối diện đầu ống",
+    "Cô lập và khóa nguồn điện, thủy lực khi lắp, chạy thử máy đóng mở; ngăn nước vào rãnh van khi đang lắp"
+  ],
+  "acceptance": [
+    "Nghiệm thu vật liệu, thiết bị khi giao nhận",
+    "Nghiệm thu bộ phận đặt sẵn trước khi đổ bê tông cấp 2",
+    "Nghiệm thu mối hàn, bu lông, sơn",
+    "Nghiệm thu tĩnh, chạy thử không tải, có tải, bàn giao"
+  ],
+  "records": [
+    "Hồ sơ thiết kế, bản vẽ chế tạo, biên bản kiểm tra khi xuất xưởng, chứng chỉ vật liệu",
+    "Biên bản nghiệm thu từng phần, bản vẽ hoàn công, nhật ký lắp đặt, thay đổi thiết kế [5639 · 2.2, 8640 · 11.1]",
+    "Chứng chỉ thợ hàn, biên bản kiểm tra mối hàn, thử áp lực",
+    "Biên bản chạy thử và bàn giao"
+  ],
+  "note": "Chỉ đọc được bản xem thử trên thuvienphapluat.vn: TCVN 8298:2009 đọc mục 1-8 và đầu mục 9 (9.1.1.1); phần lắp đặt bộ phận đặt sẵn, cửa van cung, nghiệm thu và phụ lục A (dung sai) không đọc được; số liệu chưa đối chiếu. TCVN 8640:2011 và TCVN 8300:2009 đọc một phần (nhiều đoạn, công thức, phụ lục bị khóa). TCVN 5639:1991 đọc mục 1-3. TCVN 6700-1:2016 chỉ đọc phạm vi và cấu trúc. Tiêu chuẩn ngành về cửa van cung (2005, Bộ NN&PTNT) chỉ thấy thông tin thư mục, toàn văn hạn chế; chưa đọc tiêu chuẩn riêng cho cửa van phẳng và lắp đặt đường ống áp lực. TCVN 5017 (thuật ngữ hàn) chỉ thấy tên, không dùng. Các số liệu ghi 'chưa đối chiếu' phải lấy lại từ bản gốc và thiết kế trước khi áp dụng."
+}

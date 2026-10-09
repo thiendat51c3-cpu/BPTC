@@ -1,0 +1,204 @@
+{
+  "id": "dan-dong",
+  "title": "Dẫn dòng thi công, đê quây và tiêu nước hố móng",
+  "scope": "Dẫn dòng thi công công trình thủy lợi, thủy điện (thu hẹp lòng sông bằng đê quây hoặc chuyển dòng qua kênh, tuynen, cống), ngăn dòng, thi công đê quây và tiêu nước, hạ mực nước ngầm khi đào hố móng.",
+  "standards": [
+    "qcvn-04-05",
+    "tcvn-9160",
+    "tcvn-11323",
+    "tcvn-9903",
+    "tcvn-4447",
+    "tcvn-4055",
+    "tcvn-9906",
+    "tcvn-8305",
+    "tcvn-5308"
+  ],
+  "prerequisites": [
+    "Có thiết kế dẫn dòng được duyệt: sơ đồ các giai đoạn, lưu lượng và mực nước thiết kế, cao trình đê quây, công trình dẫn dòng, kế hoạch ngăn dòng",
+    "Rà soát lại địa hình hố móng, địa chất công trình, địa chất thủy văn và số liệu khí tượng thủy văn trước khi thi công; chênh lệch đáng kể phải báo các bên liên quan [11323 · 4.1.1, 4.2.1-4.2.2]",
+    "Thi công theo thiết kế và chỉ dẫn kỹ thuật được duyệt; nếu thấy không phù hợp thì kiến nghị điều chỉnh, không tự thay đổi [11323 · 4.1.3, 6.1.2]",
+    "Với công trình từ cấp I trở lên có điều kiện thủy lực hoặc địa chất phức tạp, thiết kế dẫn dòng nên kết hợp tính toán với thí nghiệm mô hình [9160 · 1]"
+  ],
+  "steps": [
+    {
+      "title": "Xác định phương án và cấp công trình tạm phục vụ dẫn dòng",
+      "actions": [
+        "Đối chiếu thiết kế dẫn dòng với số liệu thủy văn, mùa dẫn dòng, tiến độ từng giai đoạn",
+        "Xác định cấp của đê quây, kênh dẫn, tuynen, cống dẫn dòng theo thiết kế",
+        "Xác định phương án: thu hẹp lòng sông bằng đê quây, hoặc ngăn hẳn lòng sông và chuyển dòng sang đường dẫn đã chuẩn bị"
+      ],
+      "requirements": [
+        "Hai hướng dẫn dòng: thu hẹp lòng sông bằng đê quây; hoặc ngăn hẳn lòng dẫn rồi chuyển dòng sang kênh, tuynen, đập tràn, cống đã chuẩn bị [9160 · 3.1]",
+        "Cấp công trình tạm có thể nâng cao hơn bảng quy định nhưng không vượt cấp công trình chính, nếu sự cố làm mất an toàn công trình đang xây dở hoặc gây thiệt hại lớn ở hạ lưu hoặc làm chậm đưa công trình vào khai thác [QCVN04-05 · 3.2.8]"
+      ],
+      "checks": [
+        "Thuyết minh dẫn dòng và cấp công trình tạm được thiết kế, chủ đầu tư chấp thuận"
+      ]
+    },
+    {
+      "title": "Kiểm tra tần suất, lưu lượng và mực nước thiết kế dẫn dòng",
+      "actions": [
+        "Lập bảng lưu lượng, mực nước lớn nhất trong thời đoạn dẫn dòng của từng giai đoạn",
+        "Đối chiếu tần suất thiết kế đê quây, kênh dẫn với giá trị tối đa cho phép",
+        "Với giai đoạn dùng công trình chính xây dở để dẫn dòng, lấy tần suất theo cấp công trình chính"
+      ],
+      "requirements": [
+        "Tần suất mực nước và lưu lượng lớn nhất để thiết kế công trình tạm dẫn dòng (đê quây, kênh dẫn) không lớn hơn Bảng 7: cấp đặc biệt 5% (một mùa khô) và 2% (từ hai mùa khô); cấp I 10% và 5%; cấp II, III, IV 10% và 10% (số liệu đọc từ bản trích trên web, chưa đối chiếu bản gốc) [QCVN04-05 · 5.2.8, bảng 7]",
+        "Lưu lượng, mực nước lớn nhất là trị số lớn nhất trong các lưu lượng lớn nhất xuất hiện trong thời đoạn dẫn dòng [QCVN04-05 · bảng 7, chú thích 1]",
+        "Khi dùng công trình chính chưa hoàn thành để dẫn dòng: tần suất dẫn dòng lấy theo cấp công trình chính ứng với quy mô của thời đoạn dẫn dòng [QCVN04-05 · 5.2.10]",
+        "Hình thức, mặt cắt, cao trình công trình xây dở được quyết định theo từng trường hợp, xét tiến độ, điều kiện khí tượng thủy văn và biện pháp xử lý lũ [QCVN04-05 · 5.2.11]",
+        "Tần suất lưu lượng lớn nhất khi ngăn dòng không vượt giá trị Bảng 8; chưa đọc được Bảng 8, chưa đối chiếu [QCVN04-05 · 5.2.9]"
+      ],
+      "checks": [
+        "Bảng tính tần suất, lưu lượng, mực nước thiết kế từng giai đoạn có xác nhận của thiết kế"
+      ]
+    },
+    {
+      "title": "Chuẩn bị công trình dẫn dòng và mặt bằng",
+      "actions": [
+        "Thi công kênh dẫn, tuynen, cống hoặc đập tràn tạm trước khi ngăn dòng, kiểm tra kích thước và cao độ đáy theo thiết kế",
+        "Chuẩn bị vật liệu đắp đê quây, thiết bị, đường vận chuyển, nguồn điện và bơm dự phòng",
+        "Lập quy trình theo dõi mực nước, lưu lượng và cảnh báo lũ"
+      ],
+      "requirements": [
+        "Biện pháp thi công do nhà thầu lập phải được chấp thuận trước khi khởi công; muốn đổi biện pháp thì phải trình thiết kế chi tiết và chịu trách nhiệm kỹ thuật, tiến độ [11323 · 6.1.2]",
+        "Thiên tai phải báo cáo bằng văn bản, ghi vào nhật ký có chữ ký giám sát; thi công trong mùa lũ phải có biện pháp an toàn cho người, thiết bị và nền [11323 · 6.2.1.3]",
+        "Thông số cụ thể của kênh, tuynen, cống dẫn dòng: chưa đọc được phần yêu cầu thiết kế của TCVN 9160, chưa đối chiếu"
+      ],
+      "checks": [
+        "Nghiệm thu công trình dẫn dòng trước khi ngăn dòng",
+        "Kiểm tra dự trữ vật liệu, thiết bị và phương án ứng phó lũ"
+      ]
+    },
+    {
+      "title": "Thi công đê quây",
+      "actions": [
+        "Định vị tim đê quây, kiểm tra địa chất nền và biện pháp chống thấm, chống xói theo thiết kế",
+        "Đắp hoặc đóng đê quây theo giai đoạn, kiểm soát cao độ đỉnh, mái dốc và bảo vệ mái thượng lưu",
+        "Khi dùng cừ thép làm đê quây hoặc tường vây, đóng cừ trước khi bố trí tiêu nước mặt và nước ngầm",
+        "Đo kiểm cao độ, tuyến và độ thẳng đứng cừ trong lúc thi công"
+      ],
+      "requirements": [
+        "Đê quây là đập tạm dùng để ngăn nước vào vị trí công trình và bảo vệ hố móng [9160 · 3.3]",
+        "Cừ thép: đóng theo TCVN 9394; quy trình của nhà thầu phải được kiểm tra, chấp thuận trước khi dùng; cừ phải đóng trước khi tiêu nước mặt và nước ngầm [11323 · 6.2.4.1]",
+        "Độ nghiêng cừ cho phép từ 0 đến 2‰, vượt thì chỉnh bằng kẹp; chênh cao đầu cừ giữa hai cừ kề nhau khi hạ không quá 0,5 m; khóa nối phải bịt kín; chỗ hợp long còn hở phải bịt bổ sung [11323 · 6.2.4.2]",
+        "Dung sai nghiệm thu cừ: tuyến ±3 cm, cao độ đỉnh ±5 cm [11323 · bảng 5]",
+        "Cừ thép thích hợp khi nước ngầm cao hơn đáy hố móng ít nhất 0,5 m, nền cát chặt vừa đến rời, không có cuội lớn hoặc gỗ; một hàng khi chiều sâu H ≤ 6 m, nhiều hàng có mái dốc khi H > 6 m [11323 · 5.3]",
+        "Yêu cầu riêng cho đê quây đất, đá đổ (độ vượt cao, mái dốc, đầm nén): chưa đọc được, chưa đối chiếu; có thể tham khảo TCVN 4447 và các TCVN về đập đất khi thiết kế quy định"
+      ],
+      "checks": [
+        "Nghiệm thu cao độ, tuyến, độ kín của đê quây",
+        "Theo dõi thấm, lún, xói chân đê trong quá trình làm việc"
+      ]
+    },
+    {
+      "title": "Ngăn dòng",
+      "actions": [
+        "Chốt ngày giờ, vị trí cửa hợp long và lưu lượng thiết kế ngăn dòng trong mùa kiệt",
+        "Thu hẹp lòng dẫn đến cửa hợp long đã tính trước, chuẩn bị đủ vật liệu, thiết bị và nhân lực tại hiện trường",
+        "Chặn dòng tại cửa hợp long, theo dõi mực nước thượng lưu dâng và lưu lượng chuyển sang công trình dẫn dòng",
+        "Gia cố bảo vệ đáy, mái và chống thấm cho đê quây sau khi ngăn dòng"
+      ],
+      "requirements": [
+        "Ngăn dòng có hai giai đoạn: thu hẹp lòng dẫn đến cửa hợp long đã tính trước rồi chặn dòng tại đó; mực nước thượng lưu tăng dần và nước chuyển sang đường dẫn mới; đây là giai đoạn thi công phức tạp nhất của dẫn dòng [9160 · 3.2]",
+        "Tần suất lưu lượng lớn nhất khi ngăn dòng theo Bảng 8: chưa đọc được, chưa đối chiếu [QCVN04-05 · 5.2.9]",
+        "Phương pháp tính thủy lực ngăn dòng và thông số cửa hợp long: chưa đọc được TCVN 9160 phần thiết kế, chưa đối chiếu"
+      ],
+      "checks": [
+        "Biên bản kiểm tra điều kiện trước khi ngăn dòng (công trình dẫn dòng, vật liệu, dự báo thủy văn)",
+        "Hồ sơ nhật ký ngăn dòng: lưu lượng, mực nước, vật liệu đã dùng"
+      ]
+    },
+    {
+      "title": "Chọn phương pháp tiêu nước, hạ mực nước ngầm hố móng",
+      "actions": [
+        "Đối chiếu điều kiện địa chất thủy văn với các phương án: đào hở tiêu nước mặt, đào hở kết hợp giếng, cừ thép, tường xi măng đất, phụt vữa, tường hào bentonite, cừ bê tông cốt thép",
+        "Xác định mức hạ nước ngầm, cao độ đáy hố móng, kích thước hố và mặt bằng bố trí",
+        "Đối với nền cát có nguy cơ cát chảy: ưu tiên phương án ngăn dòng thấm và hạ mực nước ngầm theo TCVN 11323 và TCVN 9903"
+      ],
+      "requirements": [
+        "Tiêu nước, chống thấm hố móng phải: không để dòng thấm cuốn cát; giữ mực nước ngầm thấp hơn đáy hố móng ít nhất 0,5 m; không gây biến dạng công trình lân cận; khi mưa hoặc nước mặt chảy vào không làm hư đáy và mái hố [11323 · 4.3]",
+        "Các phương án và điều kiện áp dụng [11323 · 5.1-5.7]: đào hở có tiêu nước mặt (5.1); đào hở có giếng, một hoặc hai hàng giếng, giếng thi công theo TCVN 9903 (5.2); cừ thép (5.3); tường xi măng đất khi H ≤ 10 m (5.4); phụt vữa xi măng hoặc xi măng sét (5.5); tường hào bentonite khi H ≤ 18 m (5.6); cừ bê tông cốt thép khi H ≤ 14 m (5.7)",
+        "Mỗi phương án phải bảo đảm không xói ngầm hoặc đẩy trồi đáy hố, mái ổn định chống thấm và trượt, không xói mạnh do dòng mặt [11323 · 5.x.4 hoặc 5.x.5]",
+        "Số liệu thiết kế giếng, bơm, kim lọc (lưu lượng, bán kính ảnh hưởng, khoảng cách): chưa đọc được TCVN 9903, chưa đối chiếu; lưu lượng và bán kính ảnh hưởng nên xác định bằng bơm thí nghiệm hiện trường"
+      ],
+      "checks": [
+        "Phương án tiêu nước, hạ mực nước ngầm được thiết kế và chủ đầu tư phê duyệt",
+        "Kết quả bơm thí nghiệm, nếu thiết kế yêu cầu"
+      ]
+    },
+    {
+      "title": "Thi công hệ thống tiêu nước mặt, hố thu và bơm",
+      "actions": [
+        "Đào rãnh biên quanh chân mái hố móng, rãnh chính và rãnh nhánh dốc về hố thu",
+        "Làm hố thu ngoài phạm vi móng, gia cố đáy và thành, lắp bơm, ống xả, nguồn điện chính và dự phòng",
+        "Xả nước qua bể lắng hoặc rãnh dẫn ra khỏi hố móng, tránh chảy ngược vào hố"
+      ],
+      "requirements": [
+        "Rãnh biên ngoài đặt cách mép hố móng không nhỏ hơn giá trị lớn hơn của (b + 0,5 m) và 3,0 m, trong đó b là bề rộng lớn nhất của thiết bị cơ giới [11323 · 5.1.4 a]",
+        "Rãnh chính hình thang sâu khoảng 1 m, rộng đáy trên 0,3 m, độ dốc 0,002; rãnh nhánh sâu 0,3-0,5 m, rộng đáy 0,2-0,3 m, độ dốc 0,002; lót bạt [11323 · 5.1.4 b]",
+        "Hố thu đủ kích thước để bơm liên tục và hạ nước ngầm thấp hơn móng ít nhất 0,5 m [11323 · 5.1.3 c]",
+        "Dung sai nghiệm thu rãnh, hố thu: cao độ đáy -10 cm; độ dốc mái 15%; đá hộc ±5 cm; lớp lọc ±3 cm [11323 · bảng 3, 4]",
+        "Rãnh phải lấp trước khi đổ bê tông bản đáy [11323 · 6.2.2.3]",
+        "Công suất bơm, bơm dự phòng: chưa đọc được tiêu chuẩn có số liệu, chưa đối chiếu; chọn theo tính toán lưu lượng thấm và nước mưa của thiết kế"
+      ],
+      "checks": [
+        "Nghiệm thu cao độ rãnh, hố thu, bơm chạy thử",
+        "Kiểm tra nguồn điện dự phòng và đường xả"
+      ]
+    },
+    {
+      "title": "Đào hố móng khi tiêu nước, giám sát và xử lý sự cố",
+      "actions": [
+        "Đặt mốc khống chế, đào từng lớp từ cạnh ngắn về phía hố thu, tránh đào sâu cục bộ",
+        "Khi có cừ, đào bằng máy đến sát cao độ quy định rồi hút hoặc đào thủ công phần còn lại",
+        "Theo dõi mực nước ngầm, thấm, lún, chuyển vị mái và cừ; ghi nhật ký; xử lý nước mạch, cát chảy ngay khi xuất hiện",
+        "Làm lớp bịt đáy (xi măng đất hoặc bê tông dưới nước) nếu thiết kế yêu cầu"
+      ],
+      "requirements": [
+        "Mốc khống chế: ít nhất hai mốc bê tông trên bờ nếu hố cạnh sông, kênh; tối thiểu một cọc mốc tại mỗi góc hố [11323 · 6.2.2.1]",
+        "Đào từng lớp dày không quá 1 m, bắt đầu từ cạnh ngắn về phía hố thu; thành đứng chỉ đến 0,5 m, sâu hơn phải có mái dốc [11323 · 6.2.2.2]",
+        "Dung sai nghiệm thu hố móng: cao độ đáy -10 cm; chiều dài, rộng ±20 cm; độ dốc mái 10%; lệch trục ±20 cm [11323 · bảng 2]",
+        "Đào bên trong cừ: máy đào dừng cách cao độ thiết kế đáy ít nhất 0,5 m, phần còn lại hút hoặc đào thủ công [11323 · 6.2.4.6]",
+        "Khi bịt đáy bằng xi măng đất, chừa lớp đất trên đầu cọc ít nhất 0,5 m làm đối trọng và đào thủ công [11323 · 6.2.4.4]"
+      ],
+      "checks": [
+        "Nhật ký quan trắc mực nước, thấm, chuyển vị",
+        "Biên bản nghiệm thu hố móng trước khi thi công kết cấu"
+      ]
+    },
+    {
+      "title": "Nghiệm thu, vận hành mùa lũ và tháo dỡ công trình tạm",
+      "actions": [
+        "Nghiệm thu từng giai đoạn dẫn dòng và hồ sơ hoàn công đê quây, tiêu nước",
+        "Kiểm tra, duy tu đê quây và công trình dẫn dòng trước mỗi mùa lũ",
+        "Khi hoàn thành công trình chính: lập kế hoạch tháo dỡ hoặc đóng công trình dẫn dòng, tích nước theo thiết kế"
+      ],
+      "requirements": [
+        "Nội dung yêu cầu nghiệm thu, tháo dỡ, đóng công trình dẫn dòng: chưa đọc được TCVN 9160 phần này, chưa đối chiếu",
+        "Hồ sơ lưu theo quy định và theo thiết kế, nhật ký thiên tai ghi bằng văn bản có xác nhận giám sát [11323 · 6.2.1.3]"
+      ],
+      "checks": [
+        "Biên bản nghiệm thu giai đoạn",
+        "Biên bản đóng hoặc tháo dỡ công trình dẫn dòng đúng thiết kế"
+      ]
+    }
+  ],
+  "safety": [
+    "Thi công mùa lũ: có phương án cảnh báo, sơ tán người và thiết bị, trực mực nước và dự báo thủy văn [11323 · 6.2.1.3]",
+    "Hố móng sâu: theo dõi mái, cừ, nước mạch, cát chảy; có hàng rào, lối lên xuống, tránh người làm việc dưới mái dốc khi có dấu hiệu sạt",
+    "Làm việc gần bơm, điện: nối đất, chống giật, nguồn dự phòng; tuân thủ quy phạm an toàn xây dựng hiện hành (xem TCVN 5308 và QCVN 18:2021/BXD)",
+    "Ngăn dòng: kiểm soát phương tiện, thiết bị trên đê quây và cửa hợp long, có phao cứu sinh, thông tin liên lạc"
+  ],
+  "acceptance": [
+    "Nghiệm thu công trình dẫn dòng và đê quây trước khi ngăn dòng, sau đó theo từng giai đoạn",
+    "Nghiệm thu hệ thống tiêu nước, hạ mực nước ngầm trước khi đào hố móng",
+    "Nghiệm thu hố móng theo dung sai thiết kế và [11323 · bảng 2-5] trước khi thi công kết cấu"
+  ],
+  "records": [
+    "Thiết kế dẫn dòng, thuyết minh tần suất, lưu lượng, mực nước",
+    "Biện pháp thi công được duyệt, nhật ký ngăn dòng, nhật ký thiên tai có xác nhận giám sát",
+    "Số liệu quan trắc mực nước, lưu lượng bơm, thấm, chuyển vị; biên bản nghiệm thu từng giai đoạn"
+  ],
+  "note": "Mức đọc: QCVN 04-05:2012 đọc được mục 3.2.8, 5.2.8 (kèm Bảng 7), 5.2.10, 5.2.11 qua bản web bị cắt (chưa đối chiếu bản gốc), chưa đọc Bảng 8 (5.2.9). TCVN 9160:2012 chỉ đọc được phạm vi, thuật ngữ 3.1-3.3 và danh mục viện dẫn; toàn bộ yêu cầu thiết kế (tần suất, đê quây, ngăn dòng, tiêu nước) bị khóa, chưa đối chiếu. TCVN 11323:2020 đọc được mục 4, 5, 6.2.1-6.2.4 (một số mục 6.2.5-6.2.7 và Bảng 1, 6 bị cắt); chỉ áp dụng tiêu nước cho hố móng nền cát, cần đối chiếu khi dùng cho nền khác. Chưa đọc được TCVN 9903, TCVN 4055 và các tiêu chuẩn tính lưu lượng bơm. TCVN 9161 là khoan nổ mìn đào đá, không phải dẫn dòng; không tìm thấy tiêu chuẩn mang số 8421 hay 9143 về đê quây. Tiêu chuẩn thiết kế dẫn dòng cũ TCXDVN 285-2002 đã được thay bằng QCVN 04-05. Các bước chỉ có mô tả thực hành chung đều ghi rõ chưa đối chiếu."
+}

@@ -2,7 +2,18 @@
   "id": "be-tong",
   "title": "Công tác bê tông",
   "scope": "Cốp pha, trộn, vận chuyển, đổ, đầm, bảo dưỡng, tháo cốp pha bê tông thường và bê tông khối lớn thủy công.",
-  "standards": ["tcvn-4453", "tcvn-14334", "tcvn-10403", "tcvn-4055", "tcvn-9115", "tcvn-12634"],
+  "standards": [
+    "tcvn-4453",
+    "tcvn-14334",
+    "tcvn-10403",
+    "tcvn-4055",
+    "tcvn-9115",
+    "tcvn-12634",
+    "tcxdvn-305",
+    "tcvn-8828",
+    "tcvn-9345",
+    "tcvn-11652"
+  ],
   "prerequisites": [
     "Thiết kế cấp phối được phòng thí nghiệm duyệt; mác ≥ 150 thiết kế tại phòng thí nghiệm [4453 · mục 6]",
     "Cốp pha, cốt thép đã nghiệm thu; vệ sinh bề mặt đổ",
@@ -11,19 +22,29 @@
   "steps": [
     {
       "title": "Ván khuôn, cốp pha",
-      "actions": ["Lắp cốp pha chắc, kín khít, đúng hình dáng; chống đỡ ổn định"],
-      "requirements": ["Sai lệch cho phép của cốp pha theo Bảng 2 của TCVN 4453"],
-      "checks": ["Nghiệm thu cốp pha trước khi đổ"]
+      "actions": [
+        "Lắp cốp pha chắc, kín khít, đúng hình dáng; chống đỡ ổn định"
+      ],
+      "requirements": [
+        "Sai lệch cho phép của cốp pha theo Bảng 2 của TCVN 4453"
+      ],
+      "checks": [
+        "Nghiệm thu cốp pha trước khi đổ"
+      ]
     },
     {
       "title": "Chuẩn bị vật liệu, trộn bê tông",
-      "actions": ["Cân đong theo cấp phối, trộn đều, kiểm tra độ sụt"],
+      "actions": [
+        "Cân đong theo cấp phối, trộn đều, kiểm tra độ sụt"
+      ],
       "requirements": [
         "Sai số cân đong: xi măng 1%, cốt liệu 3%, nước 1% [4453 · mục 6]",
         "Kích thước cốt liệu lớn nhất theo kích thước kết cấu và khoảng cách thép [4453 · mục 6]",
         "Thời gian lưu hỗn hợp: theo tiêu chuẩn và điều kiện thời tiết"
       ],
-      "checks": ["Độ sụt, lấy mẫu thử cường độ"]
+      "checks": [
+        "Độ sụt, lấy mẫu thử cường độ"
+      ]
     },
     {
       "title": "Vận chuyển, đổ và đầm",
@@ -32,28 +53,64 @@
         "Khối lớn: chia khối, đổ theo lớp"
       ],
       "requirements": [
-        "Bê tông đầm lăn (RCC): lớp 15-30 cm sau đầm, độ chặt ≥ 98%, tuổi thiết kế 90/180 ngày [10403] (tham khảo, chưa đối chiếu điều khoản)"
+        "Thời gian lưu hỗn hợp khi vận chuyển (không phụ gia): trên 30°C 30 phút; 20-30°C 45 phút; 10-20°C 60 phút; 5-10°C 90 phút [4453 · Bảng 14]",
+        "Xe ben: chiều dày lớp bê tông trong thùng nên > 40 cm [4453 · 6.3.4a]",
+        "Trời nóng: nhiệt độ hỗn hợp khi đổ không quá 35°C, tốt nhất dưới 30°C; chờ không quá 1,5 giờ [9345 · 5.3.1, 5.3.2]",
+        "Mạch ngừng: làm nhám, tưới hồ hoặc vữa xi măng-cát trước khi đổ tiếp [9345 · 5.4.2-5.4.3]",
+        "Bê tông đầm lăn (RCC): lớp 15-30 cm sau đầm, nhiệt độ hỗn hợp thường dưới 25°C, độ chặt ≥ 98% (rót cát hoặc đồng vị phóng xạ), tuổi thiết kế thường 90 ngày [10403] (từ trang tóm tắt, chưa đối chiếu điều khoản; thời gian giữa các lớp, số lượt đầm chưa đọc được)"
       ],
-      "checks": ["Kiểm tra độ sụt, nhiệt độ hỗn hợp, mẫu thử"]
+      "checks": [
+        "Kiểm tra độ sụt, nhiệt độ hỗn hợp, mẫu thử"
+      ]
+    },
+    {
+      "title": "Đổ bê tông khối lớn, kiểm soát nhiệt",
+      "actions": [
+        "Chia khối, đổ theo lớp mỏng, đo nhiệt tại tâm và sát mặt ngoài",
+        "Che nắng, cách nhiệt, xử lý mạch ngừng bằng vữa"
+      ],
+      "requirements": [
+        "Nhiệt độ hỗn hợp khi đổ ≤ 25°C, tốt nhất ≤ 20°C [305 · 6.7.1c]",
+        "Mỗi lớp đổ không quá 50 cm; thời gian quay vòng một lớp không quá 1 giờ (hè) / 2 giờ (đông) [305 · 6.4.3]",
+        "Một đợt đổ liên tục cao không quá 1,5 m; chờ ít nhất 4 ngày đêm mới đổ đợt trên [305 · 6.4.3, 6.8.3]",
+        "Mạch ngừng: làm nhám, rửa sạch, trải vữa xi măng-cát dày 1-1,5 cm [305 · 6.4.3]",
+        "Điểm đo nhiệt: tâm khối, sát cạnh ngoài, cách mặt ngoài khoảng 40-50 cm [305 · 6.6.1]",
+        "Mô đun chênh nhiệt từ 50°C/m trở lên dễ gây nứt nhiệt [305 · mục 2, 6.6.1]",
+        "Che nắng khối đổ khoảng 2 tuần đầu mùa hè [305 · 6.4.4]"
+      ],
+      "checks": [
+        "Biểu đồ nhiệt độ từng khối, kiểm tra nứt sau tháo cốp pha"
+      ]
     },
     {
       "title": "Bảo dưỡng và kiểm soát nhiệt bê tông khối lớn",
-      "actions": ["Giữ ẩm, che phủ; đo nhiệt độ bê tông và môi trường"],
-      "requirements": [
-        "Đầu đo nhiệt đặt tại tâm, bề mặt, góc và môi trường [14334]",
-        "TCVN 14334 áp dụng cho B20-B70, không áp dụng cho RCC; tuổi thiết kế 56/90 ngày [14334]",
-        "Thời gian bảo dưỡng: chưa đọc được trong 4453, cần lấy từ bản gốc/thiết kế"
+      "actions": [
+        "Giữ ẩm, che phủ; đo nhiệt độ bê tông và môi trường"
       ],
-      "checks": ["Nhật ký nhiệt độ"]
+      "requirements": [
+        "Bắt đầu bảo dưỡng ngay sau hoàn thiện, liên tục [8828 · 4.1, 6.1]",
+        "Bê tông khối lớn bảo dưỡng ẩm tối thiểu 7 ngày; xi măng xỉ/puzolan, đông kết chậm hoặc gần biển trong 1 km: cộng thêm 1 ngày mỗi trường hợp [8828 · 6.3.1-6.3.3]",
+        "Trời nóng: bảo dưỡng ban đầu trong 3-5 giờ đầu, phủ nilon dày ≥ 0,1 mm [9345 · 5.5.2.2-5.5.2.3]",
+        "Bê tông trên mái dốc: bảo dưỡng không dưới 7 ngày [11652] (từ trang tóm tắt)",
+        "Số ngày bảo dưỡng bê tông thường (TCVN 8828 Bảng 2, TCVN 4453) chưa đọc được: lấy từ bản gốc/thiết kế",
+        "TCVN 14334 áp dụng B20-B70, không áp dụng cho RCC; tuổi thiết kế 56/90 ngày [14334 · mục 1]"
+      ],
+      "checks": [
+        "Nhật ký nhiệt độ"
+      ]
     },
     {
       "title": "Tháo cốp pha, nghiệm thu",
-      "actions": ["Tháo theo cường độ đạt; kiểm tra khuyết tật, sửa chữa"],
+      "actions": [
+        "Tháo theo cường độ đạt; kiểm tra khuyết tật, sửa chữa"
+      ],
       "requirements": [
         "Cốp pha không chịu lực tháo khi cường độ > 50 N/cm² [4453 · mục 6]",
         "Cốp pha chịu lực: nhịp < 2 m đạt 50% R28; 2-8 m đạt 70%; > 8 m đạt 90% [4453 · mục 6]"
       ],
-      "checks": ["Cường độ mẫu hiện trường, hình học, khuyết tật; nghiệm thu"]
+      "checks": [
+        "Cường độ mẫu hiện trường, hình học, khuyết tật; nghiệm thu"
+      ]
     }
   ],
   "safety": [
@@ -67,5 +124,5 @@
   "records": [
     "Phiếu thử cường độ, cấp phối, nhật ký đổ, nhiệt độ, biên bản nghiệm thu"
   ],
-  "note": "TCVN 10403 (đầm lăn) và 14334 (khối lớn) chưa đọc được nội dung chi tiết; số liệu nêu là tham khảo. Thời gian bảo dưỡng, yêu cầu mối nối thi công cần lấy từ bản gốc."
+  "note": "TCVN 10403, 14334, 11652 chỉ đọc được trang tóm tắt. Số liệu khối lớn lấy từ TCXDVN 305:2004 (tiền nhiệm 14334, chưa rõ còn hiệu lực), nên đối chiếu 14334. TCVN 4453 mục 6.4-6.9 (chiều dày lớp, mạch ngừng, bảo dưỡng) chưa đọc được."
 }

@@ -2,7 +2,7 @@
 
 Web app tĩnh (HTML, CSS, JavaScript thuần), không cần cài đặt hay build. Dùng tốt trên iPhone (Safari), có thể thêm vào Màn hình chính.
 
-Nội dung gồm 8 nhóm công tác: đào đất đá hở, đào ngầm, gia cố, khoan phun, đắp đất đá, làm đường, cốt thép, bê tông. Mỗi nhóm có trình tự các bước, yêu cầu kỹ thuật, kiểm tra nghiệm thu, an toàn, hồ sơ và tiêu chuẩn viện dẫn.
+Nội dung gồm 12 nhóm công tác: đào đất đá hở, đào ngầm, gia cố, khoan phun, đắp đất đá, làm đường, cốt thép, bê tông. Mỗi nhóm có trình tự các bước, yêu cầu kỹ thuật, kiểm tra nghiệm thu, an toàn, hồ sơ và tiêu chuẩn viện dẫn.
 
 ## Đưa lên GitHub Pages
 
