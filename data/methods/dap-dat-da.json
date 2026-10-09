@@ -16,7 +16,8 @@
     "tcvn-8644",
     "tcvn-8645",
     "tcvn-9906",
-    "tcvn-12634"
+    "tcvn-12634",
+    "tcvn-du-thao-2020-nen-dat"
   ],
   "prerequisites": [
     "Nhà thầu căn cứ hồ sơ thiết kế, điều kiện thực tế để lập biện pháp thi công, quy trình thi công, tiến độ cho từng hạng mục và tổng mặt bằng; với công trình phức tạp, quy trình chi tiết phải được chủ đầu tư duyệt [8297 · 3.1, 3.2]",
@@ -120,7 +121,8 @@
         "Khoan phụt: quy trình riêng do thiết kế hoặc nhà thầu soạn, chủ đầu tư chấp thuận; trước khi thi công phải thí nghiệm các thông số kỹ thuật để đạt chỉ tiêu thiết kế [8297 · 10.2.4]",
         "Công trình vĩnh cửu trong thân đập (cống lấy nước, cống xả cát, cống dẫn dòng, hành lang kiểm tra, các loại ống) phải nghiệm thu trước khi đắp phủ [8297 · 15.3c]",
         "Đất đắp quanh công trình xây đúc, vách đá: trong 1 m kể từ đường viền tiếp giáp dùng đất thịt, đất sét không lẫn sạn sỏi, đầm bằng đầm cóc; tại đường viền tiếp giáp đầm bằng chày gỗ hoặc đầm bàn gang [8297 · 11.5b]",
-        "Thiết bị quan trắc nền lắp theo chỉ dẫn riêng của thiết kế; trước khi lắp phải lập biên bản nghiệm thu tình trạng thiết bị tại công trường [8297 · 13.1, 13.2]"
+        "Thiết bị quan trắc nền lắp theo chỉ dẫn riêng của thiết kế; trước khi lắp phải lập biên bản nghiệm thu tình trạng thiết bị tại công trường [8297 · 13.1, 13.2]",
+        "Khoan phụt xi măng vào nền đất, thân đất: màn đập đất theo TCVN 8216:2018; chỉ phụt khi hệ số thấm lớn hơn thiết kế hoặc có nứt, hang hốc; phải phụt thử nghiệm trước đại trà; hàng thượng lưu phụt trước, hạ lưu sau rồi các hàng giữa; lỗ kiểm tra sau 1 tuần và đạt khi K ≤ Ktk [2020-nền đất · 4.1, 5.2.1, 5.5, 5.6, 6.5.7]"
       ],
       "checks": [
         "Nghiệm thu xử lý nền, màn chống thấm, chân khay, công trình trong thân đập trước khi đắp [8297 · 15.3a, 15.3c]"
@@ -131,7 +133,8 @@
         "Phụt vữa nền nên thực hiện trước hoặc ở thời điểm cao trình đắp phù hợp theo thiết kế",
         "Cổ cống không được bỏ khi thiết kế có yêu cầu",
         "Khoan phụt theo TCVN 8644, 8645 chỉ đọc được từng phần",
-        "Tường chống thấm và cừ chưa nghiệm thu thì chưa đắp đập lên trên: không đẩy tiến độ đắp khi biên bản hạng mục này chưa ký"
+        "Tường chống thấm và cừ chưa nghiệm thu thì chưa đắp đập lên trên: không đẩy tiến độ đắp khi biên bản hạng mục này chưa ký",
+        "Số liệu phụt nền đất lấy từ dự thảo TCVN 2020 chưa có số hiệu chính thức: chi tiết xem bước khoan phụt trong phương án khoan phun, nhớ kiểm tra lại khi ban hành"
       ]
     },
     {

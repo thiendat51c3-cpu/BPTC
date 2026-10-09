@@ -1,7 +1,7 @@
 {
   "id": "khoan-phun",
   "title": "Công tác khoan phun (khoan phụt)",
-  "scope": "Khoan phụt vữa xi măng vào nền đá chống thấm, gia cố; khoan phụt vữa sét - xi măng gia cố thân đê, đập đất.",
+  "scope": "Khoan phụt vữa xi măng vào nền đá chống thấm, gia cố; khoan phụt vữa sét - xi măng gia cố thân đê, đập đất. Bổ sung (tạm): khoan phụt vữa xi măng vào nền đất, thân công trình đất (phụt 1 nút, phụt 2 nút manchette) theo dự thảo TCVN 2020.",
   "standards": [
     "tcvn-8645",
     "14tcn-82",
@@ -10,13 +10,15 @@
     "tcvn-9906",
     "tcvn-9157",
     "tcvn-4055",
-    "tcvn-12634"
+    "tcvn-12634",
+    "tcvn-du-thao-2020-nen-dat"
   ],
   "prerequisites": [
     "Có thiết kế khoan phụt: sơ đồ lỗ, chiều sâu, áp lực, tỷ lệ vữa, tiêu chuẩn kết thúc",
     "Bố trí đủ mặt bằng; khi khoan từ hành lang ngầm, chiều cao hành lang đủ cho thiết bị khoan, máng dẫn mùn khoan, thiết bị xói rửa [14TCN82 · 2.1]",
     "Phụt trước khi dâng nước; nếu làm sau khi đã có cột nước phải xét ảnh hưởng của việc nâng cột nước [14TCN82 · 2.2]",
-    "Kết thúc phụt trước khi làm công trình tiêu nước trong phạm vi ảnh hưởng, hoặc có biện pháp ngăn vữa làm tắc; khoan qua bê tông có khớp nối phải che chắn [14TCN82 · 2.3]"
+    "Kết thúc phụt trước khi làm công trình tiêu nước trong phạm vi ảnh hưởng, hoặc có biện pháp ngăn vữa làm tắc; khoan qua bê tông có khớp nối phải che chắn [14TCN82 · 2.3]",
+    "Nền đất, thân đất: có hồ sơ thiết kế và địa chất; chỉ phụt khi thấm lớn hơn thiết kế hoặc có nứt, hang hốc, sụt lún và nước ngầm không cản ninh kết; phụt thử nghiệm được duyệt trước đại trà; công trình đang vận hành phải tuân thủ quy trình vận hành và ổn định [2020-nền đất · 4.1, 4.2, 5.6, 6.1]"
   ],
   "steps": [
     {
@@ -191,23 +193,39 @@
         "Phân tích kết quả khảo sát, đề xuất thông số thi công cho từng đoạn đê có điều kiện khác nhau",
         "Xác định các vị trí nứt, hang hốc, tổ mối bằng quan sát, đo đạc và thăm dò; đánh dấu trên bình đồ",
         "Bố trí tuyến lỗ, hàng lỗ, lỗ xử lý nứt và tổ mối trên bình đồ; đánh số lỗ để quản lý",
-        "Trình duyệt sơ đồ lỗ và biện pháp thi công; chỉ khoan khi sơ đồ được chấp thuận"
+        "Trình duyệt sơ đồ lỗ và biện pháp thi công; chỉ khoan khi sơ đồ được chấp thuận",
+        "Nền đất, thân đất (dự thảo 2020): thu thập hồ sơ thiết kế, hồ sơ địa chất (thí nghiệm đổ nước, xuyên tiêu chuẩn, mực nước ngầm) và địa hình; xác định phạm vi, độ sâu, số hàng của màn chống thấm rồi mới bố trí lỗ",
+        "Tổ chức phụt thử nghiệm tại khu vực đại diện (nhiều hàng nhất, sâu nhất) đúng vị trí lỗ đại trà, dùng lỗ lân cận làm lỗ quan trắc; xác định K hoặc q, khoảng cách lỗ, thành phần vữa, áp lực, điều kiện dừng, bán kính lan vữa R và áp lực cực hạn [P]",
+        "Lập báo cáo phụt thử nghiệm trình chủ đầu tư duyệt, hiệu chỉnh thiết kế rồi mới phụt đại trà"
       ],
       "requirements": [
         "Áp dụng khi hệ số thấm thân đê lớn hơn 10⁻⁴ cm/s, hoặc có nứt nẻ, hang hốc, tổ mối; mục tiêu sau phụt đạt hệ số thấm dưới 10⁻⁴ cm/s [8644 · mục 1, 3.1]",
         "Bố trí một cụm khảo sát khoảng 200 m dài đê [8644 · 4.2]",
         "Tuyến lỗ song song với đê, lệch về phía sông, cách mép đê phía sông 0,5-1,0 m; khoảng cách giữa các hàng sơ bộ 0,8-1,5 m; lỗ trong hàng so le, cùng chiều sâu, thẳng đứng [8644 · 5.4.1]",
         "Xử lý nứt: mở rộng tối thiểu 1,5 m hai bên vết nứt và 5,0 m ở hai đầu; lỗ sâu hơn vết nứt tối thiểu 0,5 m, nghiêng khoảng 10° vào vết nứt, khoảng cách lỗ không quá 2 m; áp lực sơ bộ 0,050 MPa (á cát) hoặc 0,075 MPa (á sét); vết nứt trên 10 mm đổ vữa đặc vào miệng [8644 · 5.4.2]",
-        "Xử lý tổ mối: lỗ hình hoa mai cách nhau 1,0-1,5 m, sâu 2-4 m, bán kính xử lý tối thiểu 5 m quanh tâm tổ, áp lực 0,075-0,10 MPa [8644 · 5.4.3]"
+        "Xử lý tổ mối: lỗ hình hoa mai cách nhau 1,0-1,5 m, sâu 2-4 m, bán kính xử lý tối thiểu 5 m quanh tâm tổ, áp lực 0,075-0,10 MPa [8644 · 5.4.3]",
+        "Phạm vi áp dụng phụt xi măng vào đất: hệ số thấm lớn hơn thiết kế, hoặc đất nứt nẻ, hang hốc, sụt lún gây mất nước, và nước ngầm không ảnh hưởng xấu tới sự ninh kết của vữa; đập đất thực hiện theo TCVN 8216:2018 về chiều dài, chiều sâu, chiều dày màn [2020-nền đất · 4.1, 5.2.1]",
+        "Công trình khác: chiều sâu màn thường (1/3-2/3)H, không nhỏ hơn 5 m và không quá H; nhiều hàng thì hàng tim sâu nhất, hàng thượng lưu sâu 1 đến 2/3 và hàng hạ lưu sâu 1/2 đến 1/3 hàng tim; màn kéo dài thêm 5 m mỗi bên [2020-nền đất · 5.2.1]",
+        "Chiều dày sơ bộ T = H/J, với vữa xi măng - sét lấy gradient J khoảng 3-4 và điều chỉnh sau phụt thử [2020-nền đất · 5.2.1]",
+        "Bố trí lỗ: hàng cách nhau 1-2 m, lỗ trong hàng cách nhau 2-3 m, các hàng so le, bán kính lan vữa của hai lỗ kề nhau chờm nhau 1/3; vùng thấm lớn (lớp kẹp cát, thấu kính, hang hốc) tăng chiều dày màn 1,5-2 lần và giảm khoảng cách lỗ còn 1/2-2/3 [2020-nền đất · 5.2.1]",
+        "Đánh số hàng bằng chữ (A, B, C...), lỗ bằng số trong hàng; lỗ bổ sung ghi BS, lỗ phụt lại thay lỗ sự cố ghi L, lỗ kiểm tra ghi KT; sai lệch vị trí lỗ không quá 0,1 m; 2 lỗ đợt 1 cách nhau không quá 20 m thì xác định tim mốc và cao độ cho 1 lỗ [2020-nền đất · 5.2.1, 6.3]",
+        "Trình tự: hai hàng thì hàng thượng lưu trước, hạ lưu sau; nhiều hàng thì hai hàng biên (thượng lưu rồi hạ lưu) trước, sau đó các hàng giữa, các đợt sau xen vào giữa đợt trước [2020-nền đất · 5.5]",
+        "Phụt thử nghiệm do chính nhà thầu thi công đại trà thực hiện, chỉ dẫn kỹ thuật do tư vấn lập, giám sát xác nhận; báo cáo trong 15 ngày sau khi xong (kể cả kiểm tra) [2020-nền đất · 5.6]",
+        "Khảo sát bán kính lan vữa và áp lực cực hạn: tăng áp lực mỗi cấp 0,025 MPa khi lượng ăn vữa không quá 3 L/phút trong 15 phút liên tục, dừng khi mặt đất quanh lỗ rạn chân chim hoặc nứt nối giữa các lỗ; R = b + 0,5 (b là khoảng cách tới lỗ xa nhất có vữa lộ ra); [P] lấy theo giá trị nhỏ nhất, loại các lỗ phụt quá 5 giờ hoặc vữa trào không xử lý được [2020-nền đất · Phụ lục B (B.2-B.4)]",
+        "Thí nghiệm đổ nước xác định K trong lỗ khoan theo công thức (A.1), điều kiện 50 ≤ h/r ≤ 200 và h < chiều sâu lỗ [2020-nền đất · Phụ lục A (A.2)]"
       ],
       "checks": [
-        "Duyệt sơ đồ lỗ trước khi khoan"
+        "Duyệt sơ đồ lỗ trước khi khoan",
+        "Báo cáo phụt thử nghiệm đã được chủ đầu tư duyệt trước khi phụt đại trà [2020-nền đất · 5.6, 6.1]"
       ],
       "tips": [
         "Nhiều tổ mối phát hiện muộn trong lúc phụt gây trào vữa: khảo sát kỹ mặt đê và mái đê trước",
         "Cụm khảo sát nên chọn ở vị trí đại diện, không chọn nơi đã biết là đặc biệt tốt hoặc xấu",
         "Đánh dấu chắc chắn tim lỗ ngoài hiện trường, tránh bị máy móc làm mất mốc",
-        "Ghi riêng hồ sơ từng vị trí xử lý nứt, tổ mối để theo dõi sau mùa lũ"
+        "Ghi riêng hồ sơ từng vị trí xử lý nứt, tổ mối để theo dõi sau mùa lũ",
+        "Hai tài liệu khác nhau về khoảng cách hàng: TCVN 8644 sơ bộ 0,8-1,5 m, dự thảo 2020 là 1-2 m (lỗ trong hàng 2-3 m); đê đất dùng 8644 làm căn cứ chính, nền đất sâu dùng 2020 làm tham khảo và chốt bằng phụt thử",
+        "Khác biệt về áp lực cực hạn: 8644 lấy k = 0,60-0,90 theo đợt, dự thảo 2020 cùng hệ số k nhưng phải nhỏ hơn [P] xác định từ phụt thử; không dùng áp lực nền đá cho nền đất",
+        "Số liệu nền đất lấy từ dự thảo 2020 chưa có số hiệu chính thức: ghi rõ trong hồ sơ biện pháp và kiểm tra lại khi tiêu chuẩn được ban hành"
       ]
     },
     {
@@ -228,7 +246,12 @@
         "Áp lực bắt đầu không quá 0,05 MPa; tỷ lệ vữa 1/3 ít nhất 5 phút, 1/2 ít nhất 10 phút, 1/1 đến khi không nhận vữa [8644 · 6.3.2]",
         "Hệ số k lấy áp lực thiết kế: đợt 1 từ 0,60-0,75; đợt 2 từ 0,75-0,85; đợt 3 từ 0,85-0,90 của áp lực cực hạn [8644 · 5.3]",
         "Kết thúc khi đạt áp lực thiết kế, lượng ăn vữa không quá 1 L/phút và duy trì ít nhất 30 phút; gián đoạn tối thiểu 72 giờ giữa lỗ liền kề hoặc các đợt; lấp lỗ trong vòng 24 giờ sau khi phụt [8644 · 6.3.2, 6.3.3.3]",
-        "Dừng khi đê bị nứt do áp lực, thiết bị hỏng hoặc không bảo đảm an toàn [8644 · 6.3.3.3]"
+        "Dừng khi đê bị nứt do áp lực, thiết bị hỏng hoặc không bảo đảm an toàn [8644 · 6.3.3.3]",
+        "Thông số vữa (dự thảo 2020): tỷ trọng 1,12-1,30, độ nhớt phễu 0,5 L 35-42 giây, độ tách nước 3-5% sau 2-3 giờ, tỷ lệ nước/vật liệu theo khối lượng khoảng 2-2,5 [2020-nền đất · 5.3.1]",
+        "Vữa chỉ gồm hạt nhỏ hơn 0,02 mm, phụt một nồng độ theo thiết kế, dùng liên tục không quá 1 giờ, vữa lưu trữ phải khuấy liên tục và dùng trong 12 giờ [2020-nền đất · 6.4]",
+        "Thiết bị: ống dẫn vữa chịu áp không dưới 1,5 lần áp lực thiết kế, dài không quá 20 m; mỗi thùng trộn chỉ 1 ống dẫn và 1 đồng hồ áp lực; thử áp 1,5 lần áp lực làm việc tối đa sau khi lắp ống [2020-nền đất · 6.2, 8]",
+        "Vữa xi măng - sét ổn định (tham khảo): tách nước sau 2 giờ không quá 2%, độ sụt côn 10-18 cm, cường độ nén 0,10-0,55 MPa sau 7 ngày và 0,20-1,00 MPa sau 28 ngày; hạt sét lớn hơn 1 mm không quá 1%; phụt vữa không ổn định sau vữa ổn định 2-5 ngày [2020-nền đất · Phụ lục C (C.4, C.5, C.12)]",
+        "Phụt xong lấp lỗ từ dưới lên bằng chính vữa phụt qua ống thả đến đáy, hoặc bơm qua nút có van một chiều và giữ áp 5 phút sau khi đầy, nút giữ tối thiểu 24 giờ [2020-nền đất · 6.5.6]"
       ],
       "checks": [
         "Ghi nhật ký áp lực, thời gian, nồng độ vữa, sơ đồ thi công [8644 · 7.1]"
@@ -238,7 +261,69 @@
         "Phụt liên tục nhiều lỗ gần nhau dễ làm đê nứt do áp lực: tuân thủ thứ tự đợt và thời gian gián đoạn đã nêu",
         "Đồng hồ áp lực đặt xa lỗ hoặc sai số làm áp lực thực khác áp lực đọc: đặt gần miệng lỗ, kiểm định định kỳ",
         "Đê bị nứt hoặc vữa trào do áp lực quá cao: dừng ngay, báo thiết kế, xử lý theo chỉ dẫn",
-        "Mùa lũ tránh thi công trên đoạn đê trọng điểm, hoặc có biện pháp riêng được duyệt"
+        "Mùa lũ tránh thi công trên đoạn đê trọng điểm, hoặc có biện pháp riêng được duyệt",
+        "Chênh số liệu giữa hai tài liệu: máy ép vữa 8644 tối thiểu 0,20 MPa, dự thảo 2020 ghi 02 MPa (bản trích mất dấu phẩy, kiểm tra lại); điều kiện kết thúc 8644 là ăn vữa không quá 1 L/phút trong 30 phút, dự thảo 2020 chỉ nêu lưu lượng không vượt giá trị thiết kế trong 30 phút. Với đê dùng giá trị 8644",
+        "Vữa dùng quá 1 giờ hoặc lưu quá 12 giờ dễ đông, tắc ống: xả bỏ và pha mẻ mới"
+      ]
+    },
+    {
+      "title": "Chọn phương pháp phụt nền đất và khoan tạo lỗ (phụt 1 nút, phụt 2 nút manchette)",
+      "actions": [
+        "Xác định mức ổn định thành vách lỗ khoan của đất để chọn phụt 1 nút hay 2 nút",
+        "Phụt 1 nút: làm tầng phản áp (bê tông hoặc phụt trước lớp đất trên), phụt tuần hoàn, chia đoạn dài 2-7 m, phụt từ trên xuống hoặc từ dưới lên",
+        "Phụt 2 nút: đặt cố định ống manchette dài bằng hoặc hơn lỗ khoan, bơm vữa áo lấp khoảng hở giữa ống và vách lỗ trước khi phụt 2-5 ngày",
+        "Khoan xoay, đường kính 90-110 mm; lỗ sâu hơn 20 m phải cố định máy, khoan áp lực nhỏ, tốc độ thấp để hạn chế lệch",
+        "Mô tả đất khi khoan (hoặc lấy nõn), ghi mực nước ngầm, lưu lượng nước trào, kích thước hang hốc ở nơi địa chất phức tạp",
+        "Chính xác hóa chiều sâu lỗ trong lúc khoan: màn hoàn chỉnh cắm vào lớp không thấm 3-5 m; màn không hoàn chỉnh, nếu đoạn cuối mất nước hoặc ăn vữa vượt 10 lần yêu cầu thì khoan phụt thêm một đoạn, không quá H",
+        "Rửa lỗ, đo lại chiều sâu, đậy kín miệng lỗ; bơm đầy vữa áo; vữa áo co ngót sau 12 giờ có thể bù bằng vữa xi măng - cát mịn sâu 1,5-2,0 m"
+      ],
+      "requirements": [
+        "Đất dính ổn định thành vách dùng được cả 1 nút và 2 nút; đất rời hoặc đất dính yếu dễ sạt lở bắt buộc phụt 2 nút [2020-nền đất · 5.2.2.3]",
+        "Phụ gia chống sạt lở chỉ dùng cho phụt 2 nút; phụt 1 nút tuyệt đối không dùng vì làm bít vách lỗ; phụt 1 nút không được phụt lại trong cùng lỗ [2020-nền đất · 5.2.2.3]",
+        "Phụt 1 nút: bắt buộc phụt tuần hoàn, trọng lượng phản áp lớn hơn áp lực phụt, đoạn phụt 2-7 m, vị trí nút giữ nguyên trong mọi lần phụt [2020-nền đất · 5.2.2.1]",
+        "Phụt 2 nút: áp lực tối đa theo thiết kế 7 atm (khoảng 0,7 MPa); nên chọn 2-5 atm (khoảng 0,2-0,5 MPa) và lượng ăn vữa 0,5-5 m³/m [2020-nền đất · 5.2.2.2]",
+        "Đường kính lỗ 90-110 mm, khoan xoay; ưu tiên phương pháp ít lệch, vách phẳng, ít mùn; khoan mất nước rửa hoặc sập vách thì dừng và dùng dung dịch khoan có phụ gia chống sập [2020-nền đất · 6.3]",
+        "Sai lệch vị trí lỗ so với thiết kế không quá 0,1 m [2020-nền đất · 6.3]",
+        "Vì dự thảo 2020 là tài liệu nền đất, không áp dụng các thông số này cho phụt nền đá"
+      ],
+      "checks": [
+        "Kiểm tra lại q và áp lực phụt cao nhất ngay trên lỗ thiết kế trước khi phụt; lệch lớn so với thiết kế thì dừng và báo cơ quan có thẩm quyền [2020-nền đất · 6.2]"
+      ],
+      "tips": [
+        "Phụt 1 nút áp thấp chỉ thấm vào kẽ rỗng: lỗ đã bít sau lần đầu, không phụt lại; muốn phụt nhiều lần phải dùng manchette",
+        "Mùn khoan và vách lỗ không phẳng làm vữa áo kém: dùng phương pháp khoan ít mùn",
+        "Sai số vị trí lỗ lớn làm lỗ manchette lệch so với nút: kiểm tra mốc bằng máy trắc địa",
+        "Phụt 1 nút của dự thảo 2020 và phụt sét - xi măng thân đê của TCVN 8644 là hai kỹ thuật khác nhau; đê thường dùng 8644, chỉ chuyển sang manchette khi nền đất sâu, rời, sạt vách"
+      ]
+    },
+    {
+      "title": "Phụt hai nút qua ống manchette: trình tự, áp lực, điều kiện dừng và sự cố",
+      "actions": [
+        "Chia 2 bước phụt (bước 3 khi cần); đặt nút ở đoạn dưới cùng và đánh số đoạn từ dưới lên; phụt phản áp 3-5 đoạn trên cùng và nghỉ kỹ thuật tới 24 giờ",
+        "Tăng áp từ thấp để phá vữa áo, rồi điều chỉnh về áp lực thiết kế và giữ ổn định đến khi kết thúc đoạn",
+        "Bước 2 phụt liên tiếp 3-5 đoạn dưới cùng, sau đó phụt cách đoạn; nếu hơn 50% đoạn chưa đạt áp lực thiết kế thì phụt bước 3 cho các lỗ đó",
+        "Theo dõi nứt mặt đất, phình hoặc vỡ ống dẫn, sụt áp đột ngột, vữa xì; dừng và xử lý theo thời gian nghỉ quy định",
+        "Dừng đoạn theo điều kiện quy định, ghi nhật ký, lấp lỗ bằng vữa phụt",
+        "Bổ sung 1-2 lỗ ở vị trí lỗ cũ chưa hoàn tất hoặc lỗ có mất nước, ăn vữa vượt 10 lần trung bình đợt"
+      ],
+      "requirements": [
+        "Ba bước phụt: bước 1 chiếm 50-60% lượng vữa thiết kế, bước 2 chiếm 30-35%, bước 3 bằng 1/2 lượng vữa trung bình bước 2; lượng vữa mỗi mét phụt dao động 0,5-3,0 m³ [2020-nền đất · 6.5.1]",
+        "Đoạn phụt cố định 0,2-1,2 m theo khoảng đục lỗ ống manchette; tổng chiều dài phụt chỉ thay đổi không quá 10% so với ống đục lỗ đã đặt; lưu lượng bơm không quá 15-30 L/phút [2020-nền đất · 6.5.1]",
+        "Áp lực phụt tối đa 3-7 kg/cm² (khoảng 0,3-0,7 MPa), tăng theo độ sâu và mực nước ngầm; giữ lưu lượng và áp lực ổn định ở mức lớn nhất cho phép, mỗi nấc áp lực phải khống chế lưu lượng ăn vữa ổn định và ghi thời gian tiêu thụ [2020-nền đất · 6.5.4]",
+        "Áp lực lớn nhất cho đập Pmax = k·[P] với k 0,60-0,75 (bước 1), 0,75-0,85 (bước 2), 0,85-0,90 (bước 3); áp lực chọn Ptk không nhỏ hơn 0,85·Pmax và sai lệch dưới 15% [2020-nền đất · 5.4]",
+        "Dừng đoạn khi dưới Pmax với vữa đặc nhất, lưu lượng không quá giá trị thiết kế liên tục 30 phút; hoặc khi lượng vữa liên tục đạt 50-75% khối lượng thiết kế; hoặc áp lực trên 20 kG/cm² (khoảng 2 MPa) mà vữa không vào, vữa áo không bị phá [2020-nền đất · 6.5.3, 6.5.5]",
+        "Xì vữa ngoài lỗ: nghỉ 24-48 giờ; vữa xì lên qua vữa áo: ngừng và phụt phản áp hoặc phụt lại bước 2 sau 72 giờ; xì nước trong lưu lượng nhỏ có thể phụt tiếp với áp giảm; sự cố trên mặt nền có thể phụt lại sau 7 ngày [2020-nền đất · 6.5.3]",
+        "Sự cố máy hoặc nút kéo dài trên 1 giờ: bơm rửa ống dẫn, xả bỏ vữa đang bơm và dùng vữa mới [2020-nền đất · 6.5.3]",
+        "Nút phụt cơ động hoặc cố định có cơ chế kích nở thủy lực chịu áp tới 30 atm; sau phụt giữ áp đồng hồ đến khi vữa lắng, không chảy ngược [2020-nền đất · 3.10, 6.5.6]"
+      ],
+      "checks": [
+        "Ghi áp lực, lưu lượng và lượng vữa từng đoạn theo mẫu nhật ký phụt (E.3) bằng thiết bị tự ghi nếu thiết kế yêu cầu [2020-nền đất · Phụ lục E (E.1.2, E.3)]"
+      ],
+      "tips": [
+        "Áp lực quá cao ở các đoạn gần mặt đất làm nứt mặt đất: dừng, giảm áp và theo dõi trước khi tiếp tục",
+        "Phụt gần bờ dốc, bờ sông suối, hang hốc, tổ mối dễ sụt áp đột ngột và vữa tuôn đi: khảo sát kỹ trước, dự trữ phụ tùng, vật tư",
+        "Hai tài liệu khác nhau về kết thúc: 8644 (đê) là ăn vữa không quá 1 L/phút trong 30 phút ở áp lực thiết kế, dự thảo 2020 (nền đất) là lưu lượng không quá giá trị thiết kế trong 30 phút hoặc điều kiện chối khác; chốt giá trị cụ thể trong phụt thử",
+        "Khi tiêu chuẩn chính thức ban hành, đối chiếu lại các thông số 3-7 kg/cm² và 15-30 L/phút trước khi dùng"
       ]
     },
     {
@@ -414,7 +499,8 @@
         "Khoan lỗ kiểm tra, lấy mẫu, mô tả hiện trạng vữa trong thân đê hoặc nền; thí nghiệm hệ số thấm hoặc ép nước kiểm tra",
         "Tổng hợp kết quả từng lỗ, đối chiếu tiêu chí thiết kế; xác định đoạn không đạt",
         "Phụt bổ sung ở đoạn không đạt, rồi kiểm tra lại",
-        "Lấp lỗ kiểm tra đúng quy định, tổng hợp hồ sơ, lập biên bản nghiệm thu từng khu vực, đoạn phụt"
+        "Lấp lỗ kiểm tra đúng quy định, tổng hợp hồ sơ, lập biên bản nghiệm thu từng khu vực, đoạn phụt",
+        "Nền đất (dự thảo 2020): khoan lỗ kiểm tra sau khi xong đại trà 1 tuần (hoặc 5 ngày sau khi xong từng khu vực), thí nghiệm đổ hoặc ép nước, đối chiếu K, q thiết kế"
       ],
       "requirements": [
         "Lỗ kiểm tra gia cố đê: sâu bằng thiết kế, số lượng bằng 3% tổng số lỗ và tối thiểu 3 lỗ, phân bố đều [8644 · 7.2.2]",
@@ -422,19 +508,26 @@
         "Chiều dày màn phụt T tính theo Phụ lục D phải đạt ít nhất 0,8 m [8644 · phụ lục D]",
         "Nghiệm thu chỉ sau khi có kết quả kiểm tra chất lượng [8644 · 7.3]",
         "Cọc jet-grouting: khoan lấy lõi 2-5% số cọc, đào lộ đầu cọc đo đường kính, nén tĩnh theo Bảng 2 và Bảng 3 của TCVN 9906; hồ sơ gồm nhật ký, chứng chỉ vật liệu, biên bản hiện trường, bản vẽ hoàn công [9906 · 6.1.2, 6.2.3]",
-        "Giếng giảm áp: mọi giếng bơm giật cấp và bơm 3 giờ; đạt khi hiệu quả giếng không nhỏ hơn 70% và lượng cát không quá 10 mg/L [9157 · 5.1, 5.8.11]"
+        "Giếng giảm áp: mọi giếng bơm giật cấp và bơm 3 giờ; đạt khi hiệu quả giếng không nhỏ hơn 70% và lượng cát không quá 10 mg/L [9157 · 5.1, 5.8.11]",
+        "Nền đất: lỗ kiểm tra khoan thẳng, sâu ít nhất bằng lỗ phụt sâu nhất khu vực, số lượng dự kiến không vượt 5-10% tổng chiều dài lỗ đã khoan; đạt khi K ≤ Ktk hoặc q ≤ qtk [2020-nền đất · 6.5.7]",
+        "Lỗ kiểm tra có tính thấm lớn hơn 10⁻⁵ cm/s: lấp lỗ như lỗ phụt thường và khu vực đó phải khoan phụt lại; giữ toàn bộ mẫu khoan kiểm tra [2020-nền đất · 6.5.7]",
+        "Hồ sơ hoàn công trong 45 ngày sau khi xong (kể cả kiểm tra): báo cáo phụt thử, biên bản mặt bằng và vị trí lỗ, kiểm định thiết bị, chứng chỉ vật liệu, nhật ký khoan và phụt, biểu thí nghiệm nước, hình trụ lỗ kiểm tra, báo cáo sự cố, bản vẽ hoàn công, kết luận của giám sát [2020-nền đất · 6.5.8, 7]",
+        "Nhật ký không tẩy xóa, ghi sai thì gạch một vạch và người sửa ký bên cạnh; phụt xi măng là công việc bị che khuất nên lập biên bản xác nhận từng phần, có thể kèm kết quả đo vận tốc sóng đàn hồi sau phụt nếu thiết kế yêu cầu [2020-nền đất · Phụ lục E (E.1.4-E.1.6, E.6)]"
       ],
       "checks": [
         "Biên bản nghiệm thu từng đoạn",
         "Với nền đá: thí nghiệm ép nước kiểm tra độ thấm sau phụt theo thiết kế",
         "Với jet-grouting: báo cáo cọc thử, kết quả lõi khoan, đường kính cọc đào lộ",
-        "Với giếng giảm áp: biểu mẫu bơm kiểm tra và hồ sơ hoàn công giếng"
+        "Với giếng giảm áp: biểu mẫu bơm kiểm tra và hồ sơ hoàn công giếng",
+        "Với nền đất: bảng theo dõi đổ nước nghiệm thu (D.1.2), biên bản thí nghiệm lỗ kiểm tra (E.4) và biên bản xác nhận công việc bị che khuất (E.6) [2020-nền đất · Phụ lục D, E]"
       ],
       "tips": [
         "Lỗ kiểm tra phân bố đều, có cả vị trí nghi ngờ yếu, không chỉ chọn nơi dễ khoan",
         "Không để thiếu hồ sơ nhật ký phụt: nghiệm thu dễ bị đình chỉ khi số liệu không đầy đủ",
         "Lỗ kiểm tra là đường thấm mới, phải lấp chắc ngay sau khi xong",
-        "Kết quả không đạt cần phân tích nguyên nhân (lỗ thưa, vữa loãng, kết thúc sớm) trước khi phụt bổ sung"
+        "Kết quả không đạt cần phân tích nguyên nhân (lỗ thưa, vữa loãng, kết thúc sớm) trước khi phụt bổ sung",
+        "Hai tài liệu khác nhau về số lỗ kiểm tra: TCVN 8644 (đê) là 3% số lỗ và tối thiểu 3 lỗ, dự thảo 2020 (nền đất) là 5-10% tổng chiều dài lỗ; chọn mức chặt hơn khi hồ sơ thiết kế chưa quy định",
+        "Tiêu chí đạt: 8644 cho phép sai lệch hệ số thấm 5% và 90% lỗ đạt; dự thảo 2020 đòi K ≤ Ktk cho mỗi lỗ kiểm tra: đối chiếu thiết kế để chọn tiêu chí"
       ]
     }
   ],
@@ -446,14 +539,19 @@
     "Có người giám sát riêng đồng hồ áp lực và hiệu lệnh dừng bơm khẩn cấp khi thi công",
     "Phụt áp lực cao: theo dõi nâng nền, nứt, vữa trào; có người giám sát và quyền dừng bơm",
     "Jet-grouting: ống áp lực cao, vữa hồi, hố thu thải; kiểm tra khớp nối trước ca",
-    "Giếng giảm áp, cừ: kiểm soát sụt thành lỗ, rung, thiết bị nâng"
+    "Giếng giảm áp, cừ: kiểm soát sụt thành lỗ, rung, thiết bị nâng",
+    "Phụt nền đất: gặp sự cố ảnh hưởng an toàn công trình thì dừng thi công, báo chủ đầu tư và tư vấn thiết kế, có phương án giữ an toàn trong thời gian chờ [2020-nền đất · 4.3]",
+    "Thiết bị phụt, trạm trộn đặt ngoài trời có che chắn, không để nhiên liệu dễ cháy, dầu mỡ, chất độc hại gần khu vực; bộ phận chuyển động có che chắn [2020-nền đất · 8]",
+    "Thử ống dẫn vữa và nước áp bằng 1,5 lần áp lực làm việc tối đa; không sửa, bôi dầu máy đang chạy; mở hoàn toàn van ống dẫn khi khởi động bơm; chỉ đo vữa trong thùng khi máy trộn đã dừng; chỉ tháo ống chính, bơm, nút khi hết áp [2020-nền đất · 8]",
+    "Nút bật khỏi lỗ phải dừng phụt đặt lại; không để vữa, dầu, phụ gia chảy vào nguồn nước, đất canh tác [2020-nền đất · 8]"
   ],
   "acceptance": [
     "Nghiệm thu từng lỗ, từng đợt lỗ khoan phụt",
     "Nghiệm thu kết quả lỗ kiểm tra, độ thấm sau phụt",
     "Nghiệm thu toàn bộ hạng mục khoan phụt trước khi dâng nước",
     "Nghiệm thu phân loại đợt lỗ, thứ tự phụt và điều kiện kết thúc theo từng lỗ",
-    "Nghiệm thu cọc xi măng đất, cừ chống thấm, giếng giảm áp (nếu có) theo hồ sơ thí nghiệm kiểm tra"
+    "Nghiệm thu cọc xi măng đất, cừ chống thấm, giếng giảm áp (nếu có) theo hồ sơ thí nghiệm kiểm tra",
+    "Nghiệm thu khoan phụt nền đất: bản vẽ hoàn công, nhật ký khoan phụt, chứng chỉ vật liệu, kết quả lỗ kiểm tra và kết luận của tư vấn giám sát [2020-nền đất · 7]"
   ],
   "records": [
     "Kết quả phụt thử, thiết kế điều chỉnh",
@@ -462,7 +560,8 @@
     "Biên bản sự cố và cách xử lý (nếu có), ảnh mẫu lõi, ảnh hiện trường theo giai đoạn",
     "Dữ liệu tự ghi áp lực, lưu lượng, biểu đồ độ thấm theo lỗ",
     "Nhật ký nâng nền, mất vữa, hang karst và biện pháp xử lý",
-    "Hồ sơ jet-grouting, cừ chống thấm, giếng giảm áp (thông số, chất lượng)"
+    "Hồ sơ jet-grouting, cừ chống thấm, giếng giảm áp (thông số, chất lượng)",
+    "Nền đất: nhật ký khoan, nhật ký phụt theo mẫu E.2, E.3, biên bản thí nghiệm lỗ kiểm tra (E.4), biên bản xác nhận công việc bị che khuất (E.6), bảng theo dõi đổ nước (D.1) [2020-nền đất · Phụ lục D, E]"
   ],
-  "note": "Cập nhật: TCVN 9906:2014 và TCVN 9157:2012 đã đối chiếu toàn văn, số liệu ghi theo số điều đọc được (jet-grouting: bước trộn thử, cọc thử, thi công, nghiệm thu; giếng giảm áp: khoan, kết cấu, thổi rửa, bơm kiểm tra, nghiệm thu). Phần khoan phụt nền đá vẫn theo TCVN 8645:2011 và 14TCN 82:1995 chỉ đọc được các mục đầu; các thông số áp lực, tỷ lệ vữa, tiêu chuẩn kết thúc nền đá chưa có số liệu đối chiếu. Tệp văn bản được cung cấp dưới tên TCVN 8645:2019 thực chất là tiêu chuẩn 2020 (chưa có số hiệu) về khoan phụt vữa xi măng vào NỀN ĐẤT, không phải nền đá, nên chưa dùng để đối chiếu phần nền đá. Phần gia cố đê (TCVN 8644) đọc được khá đầy đủ."
+  "note": "Cập nhật: TCVN 9906:2014 và TCVN 9157:2012 đã đối chiếu toàn văn, số liệu ghi theo số điều đọc được (jet-grouting: bước trộn thử, cọc thử, thi công, nghiệm thu; giếng giảm áp: khoan, kết cấu, thổi rửa, bơm kiểm tra, nghiệm thu). Phần khoan phụt nền đá vẫn theo TCVN 8645:2011 và 14TCN 82:1995 chỉ đọc được các mục đầu; các thông số áp lực, tỷ lệ vữa, tiêu chuẩn kết thúc nền đá chưa có số liệu đối chiếu. Tệp văn bản được cung cấp dưới tên TCVN 8645:2019 thực chất là tiêu chuẩn 2020 (chưa có số hiệu) về khoan phụt vữa xi măng vào NỀN ĐẤT, không phải nền đá, nên chưa dùng để đối chiếu phần nền đá. Phần gia cố đê (TCVN 8644) đọc được khá đầy đủ. Cập nhật nền đất: các số liệu về khoan phụt vữa xi măng vào NỀN ĐẤT (nhãn [2020-nền đất · ...]) lấy từ dự thảo TCVN 2020 chưa có số hiệu chính thức, do người dùng cung cấp thay cho TCVN 8645; cần kiểm tra lại khi tiêu chuẩn được ban hành. Các số liệu đê vẫn lấy TCVN 8644:2011 làm căn cứ chính, chỗ hai tài liệu khác nhau đã nêu cả hai trong mục lưu ý. Bản văn dự thảo có lỗi OCR (máy ép vữa ghi '02 Mpa', thang áp lực 3-7 kg/cm², đơn vị đổi 1 kG/cm² ≈ 0,1 MPa); các bước nền đá chưa được sửa."
 }

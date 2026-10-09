@@ -754,5 +754,14 @@
     "note": "Được QCVN 18:2021/BXD viện dẫn (mục 1.3.1).",
     "read": "none",
     "readNote": "Chưa đọc được nội dung; chỉ biết tên qua danh mục viện dẫn. Số hiệu, tên chưa xác minh, cần kiểm tra trên bản gốc."
+  },
+  {
+    "id": "tcvn-du-thao-2020-nen-dat",
+    "short": "2020-nền đất",
+    "code": "Dự thảo TCVN 2020 (chưa số hiệu)",
+    "title": "Khoan phụt vữa xi măng vào nền đất - Yêu cầu kỹ thuật thiết kế, thi công và nghiệm thu",
+    "note": "Dự thảo tiêu chuẩn quốc gia (Công trình thủy lợi) về khoan phụt vữa xi măng chống thấm nền đất và công trình đất: thiết kế màn chống thấm, vữa, áp lực, phụt 1 nút và 2 nút (manchette), thi công, kiểm tra, nghiệm thu, an toàn. Chưa có số hiệu chính thức; không phải TCVN 8645 (nền đá).",
+    "read": "full",
+    "readNote": "Đã đọc toàn văn mục 1-8 và Phụ lục A-E. Văn bản có lỗi OCR (ví dụ máy ép vữa '02 Mpa', một số công thức và đơn vị), nội dung bảng C.1 và nhiều biểu mẫu chưa đầy đủ; số liệu dùng tạm, cần kiểm tra khi ban hành. Không dùng cho nền đá."
   }
 ]
