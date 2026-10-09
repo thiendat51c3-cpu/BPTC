@@ -61,12 +61,13 @@
   }
   /* nhóm dạng 'pages': mỗi mục (vd. một loại máy) mở trang riêng */
   function itemList(gid, m) {
+    var doneMap = safeStore('bptc-done-' + gid) || {};
     return el('div', { class: 'itemlist' }, m.steps.map(function (st, i) {
-      return el('a', { class: 'itemcard', href: '#/g/' + gid + '/' + i }, [
+      return el('a', { class: 'itemcard' + (doneMap[i] ? ' done' : ''), href: '#/g/' + gid + '/' + i }, [
         el('span', { class: 'num', text: String(i + 1) }),
         el('span', { class: 'it' }, [
           el('span', { class: 'st', text: st.title }),
-          (st.intro && st.intro.summary) ? el('span', { class: 's', text: st.intro.summary }) : null
+          (st.intro && st.intro.summary) ? el('span', { class: 's', text: st.intro.summary }) : (doneMap[i] ? el('span', { class: 's', text: 'Đã đánh dấu hoàn thành' }) : null)
         ]),
         el('span', { class: 'chev', text: '›' })
       ]);
@@ -81,6 +82,14 @@
     });
     return el('div', { class: 'card intro' }, kids);
   }
+  function doneBtn(gid, i) {
+    var key = 'bptc-done-' + gid, done = safeStore(key) || {};
+    var b = el('button', { class: 'donebtn', type: 'button' });
+    function label() { b.textContent = done[i] ? 'Bỏ đánh dấu hoàn thành' : 'Đánh dấu đã làm xong'; }
+    b.addEventListener('click', function () { done[i] = !done[i]; safeStore(key, done); label(); });
+    label();
+    return b;
+  }
   function viewItem(gid, idx) {
     var g = state.index.groups.filter(function (x) { return x.id === gid; })[0];
     var m = state.methods[gid], st = m && m.steps[Number(idx)];
@@ -92,10 +101,11 @@
     appEl.replaceChildren(
       el('div', { class: 'hero' }, [el('h2', { text: st.title }), el('p', { text: m.title })]),
       introBlock(st.intro),
-      section('Cách sử dụng, trình tự', st.actions),
-      section('Yêu cầu kiểm tra, an toàn', st.requirements),
-      section('Kiểm tra hằng ca, nghiệm thu', st.checks),
-      st.tips && st.tips.length ? el('div', { class: 'card tips-card' }, [el('h3', { text: 'Lưu ý hiện trường (kinh nghiệm chung)' }), list(st.tips)]) : null,
+      section(st.intro ? 'Cách sử dụng, trình tự' : 'Trình tự thực hiện', st.actions),
+      section(st.intro ? 'Yêu cầu kiểm tra, an toàn' : 'Yêu cầu kỹ thuật', st.requirements),
+      section(st.intro ? 'Kiểm tra hằng ca, nghiệm thu' : 'Kiểm tra, nghiệm thu', st.checks),
+      st.tips && st.tips.length ? el('div', { class: 'card tips-card' }, [el('h3', { text: 'Lưu ý hiện trường (kinh nghiệm chung, không phải điều khoản)' }), list(st.tips)]) : null,
+      el('div', { class: 'card' }, [noteBox(gid, n), doneBtn(gid, n)]),
       el('div', { class: 'navrow' }, nav),
       el('div', { class: 'disclaimer', text: state.index.disclaimer })
     );
@@ -212,8 +222,8 @@
       el('div', { class: 'hero' }, [el('h2', { text: g.icon + ' ' + m.title }), el('p', { text: m.scope })]),
       section('Điều kiện trước khi thi công', m.prerequisites),
       el('h3', { class: 'sec-title', text: 'Trình tự thi công' }),
-      m.layout === 'pages' ? itemList(id, m) : stepsEl,
-      m.layout === 'pages' ? null : resetBtn,
+      itemList(id, m),
+      resetBtn,
       section('An toàn lao động', m.safety),
       section('Nghiệm thu', m.acceptance),
       section('Hồ sơ cần lập', m.records),
@@ -273,7 +283,7 @@
       if (!m) return;
       m.steps.forEach(function (st, i) {
         var text = [st.title, st.intro ? [st.intro.about].concat(st.intro.parts || [], st.intro.types || [], st.intro.uses || []).join(' ') : ''].concat(st.actions || [], st.requirements || [], st.checks || [], st.tips || []).join(' ');
-        rows.push({ href: '#/g/' + g.id + (m.layout === 'pages' ? '/' + i : ''), title: (i + 1) + '. ' + st.title, sub: g.title, text: text });
+        rows.push({ href: '#/g/' + g.id + '/' + i, title: (i + 1) + '. ' + st.title, sub: g.title, text: text });
       });
       ['safety', 'acceptance', 'records', 'prerequisites'].forEach(function (k) {
         (m[k] || []).forEach(function (t) { rows.push({ href: '#/g/' + g.id, title: t, sub: g.title, text: t }); });

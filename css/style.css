@@ -112,3 +112,6 @@ mark{background:#ffe08a;color:#000;border-radius:3px;padding:0 1px}
 .intro h5{margin:10px 0 2px;font-size:13px;color:var(--brand);text-transform:uppercase;letter-spacing:.03em}
 .tips-card{background:rgba(255,183,77,.14);border-left:3px solid #ffb74d}
 .navrow{display:flex;flex-direction:column;gap:8px;margin:12px 0}
+
+.itemcard.done{border-color:#1b7a3a}.itemcard.done .num{background:#1b7a3a}
+.itemcard.done .s{color:#1b7a3a;font-weight:600}
