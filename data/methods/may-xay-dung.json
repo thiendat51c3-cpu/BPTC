@@ -48,7 +48,35 @@
         "Đầu búa phá dùng sai (đập liên tục khi không chạm đá) làm hỏng cần, xy lanh",
         "Bôi mỡ chốt, vệ sinh lọc gió và lọc nhiên liệu đúng chu kỳ ghi trong sổ máy",
         "Dùng gầu đúng loại (gầu đất, gầu đá, gầu vét) để giảm mòn và tăng hiệu quả"
-      ]
+      ],
+      "intro": {
+        "about": "Máy đào gầu nghịch là máy xúc thủy lực tự hành, dùng cần, tay gầu và gầu gắn phía trước để đào đất từ dưới thấp lên. Dầu thủy lực từ bơm cấp cho các xi lanh làm cần, tay gầu và gầu chuyển động, thân máy quay được trên khung gầm.",
+        "parts": [
+          "Gầu: cắt và chứa đất đá khi đào",
+          "Cần và tay gầu: tạo tầm với và chiều sâu đào",
+          "Xi lanh thủy lực: truyền lực nâng, hạ, co, duỗi các khâu",
+          "Cabin và hệ điều khiển: người vận hành điều khiển các chuyển động",
+          "Bàn quay: cho phép thân máy quay quanh trục thẳng đứng",
+          "Khung gầm bánh xích hoặc bánh lốp: di chuyển và chịu tải"
+        ],
+        "types": [
+          "Máy đào bánh xích: bám nền tốt, ổn định, hợp nền yếu và địa hình gồ ghề",
+          "Máy đào bánh lốp: cơ động, di chuyển nhanh giữa các vị trí, hợp mặt bằng cứng",
+          "Máy đào mini: làm việc trong không gian hẹp",
+          "Máy đào tay dài: đào sâu hoặc nạo vét ở xa"
+        ],
+        "uses": [
+          "Đào hố móng đập, nhà máy, cống",
+          "Đào kênh, mương, nạo vét lòng dẫn",
+          "Xúc đất đá lên xe vận chuyển, gắn búa phá đá khi cần"
+        ],
+        "limits": [
+          "Hiệu quả cao trên nhiều loại đất đá mềm, thay được nhiều dụng cụ",
+          "Không phù hợp đá cứng nguyên khối nếu chưa phá bằng khoan nổ hoặc búa",
+          "Cần chú ý ổn định nền và mép hố khi máy đứng sát taluy"
+        ],
+        "summary": "Đào hố móng, kênh mương và xúc đất lên xe"
+      }
     },
     {
       "title": "Máy ủi",
@@ -80,7 +108,35 @@
         "Đào chân lưỡi quá sâu làm mặt bằng gồ ghề, tốn công san lại",
         "Vệ sinh bùn đất ở bộ phận gầm xích sau mỗi ca",
         "Khi để lâu phải hạ lưỡi, rút chìa khóa, kéo phanh đỗ"
-      ]
+      ],
+      "intro": {
+        "about": "Máy ủi là máy tự hành có lưỡi ủi lớn phía trước, đẩy đất đá đi theo phương ngang bằng lực kéo của xích. Máy dùng để san, đẩy và tạo mặt bằng sơ bộ ở cự ly ngắn.",
+        "parts": [
+          "Lưỡi ủi: đẩy, cắt và san gạt vật liệu",
+          "Khung đẩy và xi lanh: nâng hạ, nghiêng lưỡi ủi",
+          "Răng xới (ripper): xới đất cứng, đá phong hóa",
+          "Bộ di chuyển bánh xích: tạo lực kéo lớn, bám nền tốt",
+          "Động cơ và hộp số truyền động: cung cấp công suất kéo",
+          "Cabin: vị trí điều khiển và bảo vệ người vận hành"
+        ],
+        "types": [
+          "Lưỡi thẳng: đẩy và san chính xác, đa dụng",
+          "Lưỡi chữ U: đẩy khối lượng lớn vật liệu rời",
+          "Lưỡi xoay (lưỡi góc): đẩy vật liệu sang một bên",
+          "Ủi bánh lốp: cơ động hơn nhưng lực kéo kém xích"
+        ],
+        "uses": [
+          "Dọn dẹp, tạo mặt bằng thi công, mở đường công vụ",
+          "San rải đất đắp đập, đê theo từng lớp sơ bộ",
+          "Đẩy đất đá vào vị trí xúc, xới đá phong hóa"
+        ],
+        "limits": [
+          "Hiệu quả ở cự ly đẩy ngắn, thao tác linh hoạt",
+          "Không kinh tế khi vận chuyển xa, nên dùng xe tự đổ",
+          "Cần cẩn trọng trên mái dốc, nền yếu có nguy cơ trượt hoặc lật"
+        ],
+        "summary": "Đẩy, san gạt đất đá và tạo mặt bằng ở cự ly ngắn"
+      }
     },
     {
       "title": "Máy san",
@@ -111,7 +167,34 @@
         "Lưỡi mòn không đều nên đảo hoặc thay đúng thời điểm",
         "Hạ lưỡi xuống đất khi đỗ",
         "Bảo dưỡng ổ xoay lưỡi theo sổ máy"
-      ]
+      ],
+      "intro": {
+        "about": "Máy san là máy tự hành có lưỡi san dài đặt giữa hai cụm bánh, dùng để tạo và hoàn thiện bề mặt phẳng, đúng độ dốc. Lưỡi có thể nâng, hạ, nghiêng và xoay góc để cắt gọt hay rải vật liệu thành lớp đều.",
+        "parts": [
+          "Lưỡi san: cắt, vận chuyển và gạt phẳng vật liệu",
+          "Vòng xoay lưỡi: điều chỉnh góc đặt lưỡi theo mặt bằng",
+          "Khung chính và hệ thống thủy lực: nâng, nghiêng, dịch lưỡi",
+          "Cụm bánh trước và bánh sau: di chuyển và giữ ổn định",
+          "Răng xới: xới lớp mặt cứng trước khi san",
+          "Cabin và cần điều khiển: điều khiển chính xác lưỡi san"
+        ],
+        "types": [
+          "Máy san tự hành: loại phổ biến nhất trong thi công đường",
+          "Máy san kéo theo: ít dùng, cần máy kéo",
+          "Máy san có hệ thống điều khiển cao độ tự động: tăng độ chính xác mặt san"
+        ],
+        "uses": [
+          "San phẳng, tạo độ dốc mặt đường công vụ, đường vận hành",
+          "Hoàn thiện nền, lớp móng đường trước khi lu lèn",
+          "Tạo mái dốc nông, rãnh thoát nước"
+        ],
+        "limits": [
+          "Cho bề mặt phẳng, đúng cao độ khi vận hành tốt",
+          "Không dùng để đào sâu hay đẩy khối lượng lớn",
+          "Khó làm việc trên nền quá mềm, quá dốc hoặc đá lớn"
+        ],
+        "summary": "San phẳng, tạo độ dốc mặt nền và đường công vụ"
+      }
     },
     {
       "title": "Máy xúc lật",
@@ -143,7 +226,35 @@
         "Lốp bị cắt do đá nhọn nên giữ bãi sạch",
         "Không tăng giảm số đột ngột khi đang mang tải",
         "Vệ sinh két nước, lọc gió nhiều bụi"
-      ]
+      ],
+      "intro": {
+        "about": "Máy xúc lật là máy tự hành có gầu lớn phía trước, xúc vật liệu rời, nâng lên và đổ vào xe hoặc phễu. Máy tiến vào đống vật liệu để gầu ngập đầy, nâng cần rồi di chuyển đến nơi đổ.",
+        "parts": [
+          "Gầu xúc: chứa và đổ vật liệu",
+          "Cần nâng và thanh liên kết: nâng, hạ, lật gầu",
+          "Xi lanh thủy lực: tạo chuyển động của cần và gầu",
+          "Khung gập giữa: giúp quay vòng gọn, linh hoạt",
+          "Bánh lốp lớn: di chuyển và chịu tải",
+          "Cabin: điều khiển, quan sát vùng xúc"
+        ],
+        "types": [
+          "Xúc lật bánh lốp: phổ biến, cơ động nhanh",
+          "Xúc lật bánh xích: dùng ở nền yếu, nhiều bùn",
+          "Xúc lật mini: làm việc nơi hẹp",
+          "Xúc lật có tay gầu phụ: gắn nhiều dụng cụ khác"
+        ],
+        "uses": [
+          "Cấp cốt liệu vào phễu trạm trộn bê tông",
+          "Xúc đất, đá nổ mìn, vật liệu rời lên xe tự đổ",
+          "Dọn dẹp, san gạt, vận chuyển ngắn trong bãi vật liệu"
+        ],
+        "limits": [
+          "Thao tác nhanh, thích hợp bãi chứa và cự ly ngắn",
+          "Không đào sâu dưới mặt nền được như máy đào",
+          "Lốp dễ hư hại khi làm việc trên đá sắc nhọn"
+        ],
+        "summary": "Xúc, nâng và cấp vật liệu rời lên xe, phễu"
+      }
     },
     {
       "title": "Ô tô tự đổ",
@@ -175,7 +286,35 @@
         "Chất tải lệch gây mòn lốp và hỏng nhíp",
         "Kiểm tra áp suất lốp theo catalog",
         "Giữ đường vận chuyển bằng phẳng, tưới ẩm giảm bụi"
-      ]
+      ],
+      "intro": {
+        "about": "Ô tô tự đổ là xe tải có thùng ben, dùng chở đất đá, vật liệu rời và tự đổ bằng cách nâng nghiêng thùng nhờ xi lanh thủy lực. Xe là khâu vận chuyển chính nối giữa nơi xúc và nơi đổ hoặc đắp.",
+        "parts": [
+          "Thùng ben: chứa vật liệu và đổ tải",
+          "Xi lanh nâng thùng: nghiêng thùng để đổ",
+          "Khung xe và hệ thống treo: chịu tải và giảm chấn",
+          "Động cơ, hộp số, cầu: tạo lực kéo",
+          "Hệ thống phanh: giữ an toàn khi xuống dốc, có tải",
+          "Cabin: điều khiển và bảo vệ lái xe"
+        ],
+        "types": [
+          "Xe tải ben đường bộ: dùng trên đường công cộng và đường công vụ tốt",
+          "Xe ben địa hình (ben khung gập): hợp đường xấu, dốc, nền yếu",
+          "Xe ben tải trọng lớn dùng ngoài đường: chuyên cho mỏ đá, công trường lớn",
+          "Xe ben đổ ba phía: đổ linh hoạt theo hướng"
+        ],
+        "uses": [
+          "Vận chuyển đất, đá, cát, sỏi đến bãi đắp, bãi thải",
+          "Chở đất đá đào móng đi bãi trữ hoặc bãi thải",
+          "Cấp vật liệu cho thân đập, đê"
+        ],
+        "limits": [
+          "Cơ động, năng suất cao khi phối hợp tốt với máy xúc",
+          "Rủi ro lật khi đổ ở mép hố, nền yếu hoặc dốc",
+          "Cần đường vận chuyển ổn định, thoát nước tốt"
+        ],
+        "summary": "Vận chuyển đất đá và vật liệu rời, tự đổ"
+      }
     },
     {
       "title": "Máy lu (lu rung, lu bánh lốp, lu chân cừu)",
@@ -207,7 +346,35 @@
         "Lu trên mái dốc cần có biện pháp chống trượt, dây neo hoặc tời kéo",
         "Vệ sinh dính đất ở trống và lốp",
         "Ghi số lượt lu, độ ẩm, kết quả độ chặt vào nhật ký"
-      ]
+      ],
+      "intro": {
+        "about": "Máy lu là thiết bị làm chặt đất, đá, hỗn hợp bằng trọng lượng bản thân, kết hợp rung hoặc nhào trộn. Lu làm các hạt vật liệu sắp xếp lại, giảm độ rỗng và tăng độ chặt, độ ổn định của lớp đắp.",
+        "parts": [
+          "Trống lu hoặc bánh lu: tác động lực nén lên vật liệu",
+          "Bộ rung (lệch tâm): tạo lực rung giúp nén sâu",
+          "Khung và động cơ: truyền động và chịu tải",
+          "Hệ thống phun nước: chống dính (ở lu bánh thép)",
+          "Cabin hoặc ghế điều khiển: điều khiển hướng và chế độ rung",
+          "Chân cừu gắn trên trống: nhào, đầm đất dính"
+        ],
+        "types": [
+          "Lu rung bánh thép: hiệu quả với đất rời, đá, cát sỏi",
+          "Lu bánh lốp: nén và làm kín bề mặt, hợp lớp mặt",
+          "Lu chân cừu: dùng cho đất dính, có độ ẩm phù hợp",
+          "Lu tĩnh: nén bằng tải trọng, ít dùng cho lớp dày"
+        ],
+        "uses": [
+          "Đầm nén thân đập đất, đập đá, đê, nền đường",
+          "Lu lèn nền, móng đường công vụ, đường vận hành",
+          "Đầm lớp đá, cát sỏi chuyển tiếp, lớp lọc"
+        ],
+        "limits": [
+          "Cần kiểm soát độ ẩm, chiều dày lớp và số lượt lu",
+          "Không dùng gần công trình xây xong dễ bị rung hư hại",
+          "Vùng hẹp, sát tường cần đầm tay hoặc đầm cóc thay thế"
+        ],
+        "summary": "Lu lèn đất đá, nền, thân đập đạt độ chặt thiết kế"
+      }
     },
     {
       "title": "Đầm cóc và đầm bàn",
@@ -238,7 +405,33 @@
         "Đầm bàn dễ nảy khi gặp đá lớn",
         "Làm sạch bùn bám sau ca",
         "Dùng đúng loại nhiên liệu của nhà sản xuất"
-      ]
+      ],
+      "intro": {
+        "about": "Đầm cóc và đầm bàn là thiết bị đầm nén cầm tay hoặc đẩy tay, chạy bằng động cơ xăng, dầu hoặc điện. Đầm cóc tạo xung lực nhảy lên xuống, còn đầm bàn rung qua tấm đế phẳng để làm chặt vật liệu ở vùng nhỏ hẹp.",
+        "parts": [
+          "Động cơ: tạo năng lượng cho cơ cấu đầm",
+          "Cơ cấu lệch tâm hoặc piston: tạo lực xung hoặc rung",
+          "Bàn đầm hoặc đế đầm: truyền lực xuống vật liệu",
+          "Tay điều khiển: người vận hành dẫn hướng",
+          "Bộ giảm chấn: bảo vệ động cơ và người vận hành"
+        ],
+        "types": [
+          "Đầm cóc: dùng cho đất dính, rãnh hẹp, quanh cống, giếng",
+          "Đầm bàn rung: hợp đất rời, cát sỏi và vùng rộng hơn",
+          "Đầm bàn đảo chiều: dễ đi tiến lùi trên diện rộng"
+        ],
+        "uses": [
+          "Đắp lưng tường, quanh cống, hố ga, rãnh móng",
+          "Đầm chỗ hẹp mà máy lu không vào được",
+          "Hoàn thiện lớp đất sát công trình bê tông"
+        ],
+        "limits": [
+          "Linh hoạt, dễ dùng ở chỗ hẹp",
+          "Chiều dày đầm mỗi lớp nhỏ, năng suất thấp",
+          "Người vận hành chịu rung và ồn, cần bảo hộ"
+        ],
+        "summary": "Đầm chặt đất ở chỗ hẹp, quanh cống và lưng tường"
+      }
     },
     {
       "title": "Cần trục (bánh xích, bánh lốp) và cẩu tháp",
@@ -272,7 +465,35 @@
         "Cẩu tháp kiểm tra dây chằng, bu lông giằng định kỳ",
         "Bôi mỡ cáp, vệ sinh bánh puly",
         "Ghi sổ giao ca và biên bản kiểm tra kỹ thuật"
-      ]
+      ],
+      "intro": {
+        "about": "Cần trục dùng để nâng, hạ và di chuyển vật nặng bằng cáp tời và cần. Cẩu tháp có tháp cố định cao, cần ngang và xe con, phục vụ nâng chuyển vật liệu trên diện rộng tại công trình lớn.",
+        "parts": [
+          "Cần (cần ống lồng hoặc cần dàn): tạo tầm với của cần trục",
+          "Cơ cấu tời và cáp: nâng hạ tải",
+          "Móc cẩu và puli: treo, dẫn hướng cáp",
+          "Đối trọng: cân bằng tải, giữ ổn định",
+          "Chân chống hoặc đế tháp: tăng ổn định, truyền tải xuống nền",
+          "Hệ thống an toàn (giới hạn tải, mô men): ngăn quá tải"
+        ],
+        "types": [
+          "Cần trục bánh xích: ổn định, di chuyển trên nền yếu",
+          "Cần trục bánh lốp: cơ động, di chuyển nhanh",
+          "Cần trục tự hành địa hình: kết hợp ưu điểm hai loại",
+          "Cẩu tháp: cố định hoặc leo theo công trình, phủ diện rộng"
+        ],
+        "uses": [
+          "Lắp đặt cửa van, thiết bị cơ khí, ống áp lực",
+          "Cẩu lắp cốt thép, ván khuôn, cấu kiện đúc sẵn",
+          "Phục vụ đổ bê tông bằng thùng cẩu ở khối đổ lớn"
+        ],
+        "limits": [
+          "Tải nâng phụ thuộc tầm với và nền đặt máy",
+          "Cần nền móng ổn định, vùng nguy hiểm khi gió lớn",
+          "Bắt buộc có người điều khiển, người cảnh giới và kiểm định định kỳ"
+        ],
+        "summary": "Nâng, hạ và lắp đặt cấu kiện, thiết bị nặng"
+      }
     },
     {
       "title": "Máy khoan (xoay đập thủy lực, khoan neo, khoan nhồi, khoan phụt)",
@@ -305,7 +526,36 @@
         "Giữ lỗ khoan sạch trước khi phụt",
         "Kiểm tra đường ống nén khí rò rỉ",
         "Bôi trơn bộ búa đập đúng loại dầu"
-      ]
+      ],
+      "intro": {
+        "about": "Máy khoan tạo lỗ trong đất đá hoặc bê tông bằng mũi khoan quay, đập hoặc kết hợp. Tùy mục đích, lỗ khoan dùng để nổ mìn, đặt neo, đổ cọc nhồi hoặc phụt vữa xử lý nền.",
+        "parts": [
+          "Mũi khoan: phá và cắt đất đá",
+          "Cần khoan: truyền lực, mô men và dẫn dung dịch",
+          "Đầu quay hoặc búa đập: tạo chuyển động quay, đập",
+          "Giá khoan, tháp khoan: dẫn hướng và đỡ cần khoan",
+          "Hệ thống bơm dung dịch, nén khí: làm sạch lỗ, làm mát mũi khoan",
+          "Bơm phụt vữa: đưa vữa vào lỗ khoan (khoan phụt)"
+        ],
+        "types": [
+          "Khoan xoay đập thủy lực: tạo lỗ nổ mìn, lỗ neo trong đá",
+          "Khoan neo: tạo lỗ đặt neo gia cố mái, hầm",
+          "Khoan nhồi: khoan lỗ lớn để đổ bê tông cọc",
+          "Khoan phụt: khoan lỗ rồi phụt vữa chống thấm, gia cố nền"
+        ],
+        "uses": [
+          "Khoan nổ mìn đào hố móng, hầm dẫn nước",
+          "Khoan neo gia cố mái đá, vòm hầm",
+          "Khoan phụt chống thấm, xử lý nền đập",
+          "Khoan khảo sát địa chất, thoát nước"
+        ],
+        "limits": [
+          "Hiệu quả cao trong đá cứng và nền khó",
+          "Cần định vị, kiểm soát độ thẳng đứng và góc nghiêng",
+          "Cần xử lý bụi, tiếng ồn, dung dịch khoan thải"
+        ],
+        "summary": "Khoan lỗ nổ mìn, neo, cọc nhồi và phụt xử lý nền"
+      }
     },
     {
       "title": "Trạm trộn bê tông và xe bồn",
@@ -338,7 +588,35 @@
         "Xe bồn không chờ quá lâu tại hiện trường",
         "Vệ sinh trạm cuối ca, tránh bê tông đóng cứng",
         "Lấy mẫu thí nghiệm theo quy định của nhóm bê tông"
-      ]
+      ],
+      "intro": {
+        "about": "Trạm trộn bê tông là hệ thống trộn xi măng, cốt liệu, nước, phụ gia theo cấp phối thiết kế. Bê tông sau khi trộn được xe bồn chở đến vị trí đổ và quay thùng liên tục để giữ đồng nhất.",
+        "parts": [
+          "Phễu chứa cốt liệu và băng tải: cấp cốt liệu vào trạm",
+          "Silo xi măng: chứa và cấp xi măng",
+          "Hệ thống cân đong: định lượng vật liệu theo cấp phối",
+          "Máy trộn: trộn đều hỗn hợp bê tông",
+          "Bể, bơm nước và phụ gia: cấp nước và phụ gia",
+          "Xe bồn: vận chuyển, khuấy giữ bê tông đồng nhất"
+        ],
+        "types": [
+          "Trạm trộn cố định: dùng cho công trường lớn, thời gian dài",
+          "Trạm trộn di động: dễ tháo lắp, chuyển vị trí",
+          "Trạm trộn cưỡng bức: trộn đều, hợp bê tông khô, bê tông khối lớn",
+          "Trạm trộn rơi tự do: cấu tạo đơn giản hơn"
+        ],
+        "uses": [
+          "Cấp bê tông cho đập, tràn, nhà máy, cống",
+          "Sản xuất bê tông đầm lăn hoặc bê tông khối lớn tại chỗ",
+          "Làm lạnh, kiểm soát nhiệt độ bê tông khối lớn"
+        ],
+        "limits": [
+          "Kiểm soát chất lượng tốt nhờ định lượng chính xác",
+          "Cần mặt bằng, nguồn nước, điện và kho cốt liệu",
+          "Thời gian vận chuyển phải đủ ngắn để bê tông không đông kết sớm"
+        ],
+        "summary": "Trộn bê tông theo cấp phối và chở đến vị trí đổ"
+      }
     },
     {
       "title": "Máy bơm bê tông",
@@ -370,7 +648,34 @@
         "Cần bơm xoay phải có người quan sát",
         "Rửa ống kịp thời tránh bê tông đóng rắn",
         "Bảo dưỡng piston, van đúng chu kỳ"
-      ]
+      ],
+      "intro": {
+        "about": "Máy bơm bê tông đẩy bê tông tươi qua đường ống đến vị trí đổ ở xa hoặc trên cao. Bê tông được nạp vào phễu rồi piston thủy lực bơm vào ống, giúp đổ liên tục mà không cần xe vận chuyển tới sát khối đổ.",
+        "parts": [
+          "Phễu nạp: nhận bê tông từ xe bồn",
+          "Xi lanh bơm và van chuyển: hút, đẩy bê tông vào ống",
+          "Đường ống và cút nối: dẫn bê tông tới vị trí đổ",
+          "Cần phân phối (cần bơm): đưa ống đến vị trí linh hoạt",
+          "Hệ thống thủy lực và động cơ: cung cấp năng lượng bơm",
+          "Bộ phận làm sạch: vệ sinh ống sau khi bơm"
+        ],
+        "types": [
+          "Bơm tĩnh (bơm cố định): đặt cố định, nối ống dài",
+          "Bơm cần (bơm xe): có cần tự đưa ống đến vị trí đổ",
+          "Bơm trộn liền: kết hợp bơm và thùng trộn"
+        ],
+        "uses": [
+          "Đổ bê tông bản đáy, tường, trụ ở nơi xe khó tiếp cận",
+          "Đổ bê tông khối lớn, tường cao, kết cấu phức tạp",
+          "Đổ bê tông trong hầm, giếng, vị trí xa trạm trộn"
+        ],
+        "limits": [
+          "Đổ nhanh, liên tục, ít phụ thuộc đường vận chuyển",
+          "Bê tông phải có độ sụt và thành phần phù hợp, dễ tắc ống",
+          "Cần vệ sinh kỹ sau khi bơm, tránh bê tông đóng cứng trong ống"
+        ],
+        "summary": "Bơm bê tông tươi tới vị trí xa hoặc trên cao"
+      }
     },
     {
       "title": "Máy đầm dùi",
@@ -402,7 +707,34 @@
         "Dự phòng dùi để thay khi hỏng",
         "Vệ sinh dùi ngay sau ca, tránh bê tông đóng cứng",
         "Bảo quản dây khô ráo"
-      ]
+      ],
+      "intro": {
+        "about": "Máy đầm dùi là thiết bị có đầu dùi rung, cắm vào bê tông tươi để đuổi bọt khí và làm chặt hỗn hợp. Rung động giúp bê tông chảy lấp đầy ván khuôn, bao bọc cốt thép và đạt độ đặc chắc.",
+        "parts": [
+          "Đầu dùi: tạo rung truyền vào bê tông",
+          "Dây mềm hoặc trục truyền: nối động cơ với đầu dùi",
+          "Động cơ điện hoặc xăng: cung cấp năng lượng",
+          "Bộ biến tần hoặc bộ điều khiển: điều chỉnh tần số (loại có)",
+          "Tay cầm: người vận hành điều khiển vị trí dùi"
+        ],
+        "types": [
+          "Đầm dùi chạy điện: phổ biến, vận hành êm",
+          "Đầm dùi động cơ xăng: dùng nơi thiếu điện",
+          "Đầm dùi trục mềm: nhẹ, dễ thao tác",
+          "Đầm dùi có động cơ gắn trong đầu: rung mạnh, hợp khối lớn"
+        ],
+        "uses": [
+          "Đầm bê tông khối lớn đập, tường, trụ",
+          "Đầm bê tông kết cấu có cốt thép dày",
+          "Đầm bê tông bản, dầm tại nhà máy, tràn"
+        ],
+        "limits": [
+          "Phải cắm đều, rút từ từ, không đầm quá lâu gây phân tầng",
+          "Không chạm sát cốt thép hay ván khuôn gây hư hại",
+          "Không dùng thay cho cách đầm bề mặt các lớp mỏng"
+        ],
+        "summary": "Đầm chặt bê tông tươi, đuổi bọt khí trong khối đổ"
+      }
     },
     {
       "title": "Máy bơm nước",
@@ -434,7 +766,35 @@
         "Bùn cát làm mòn cánh, dùng bơm bùn khi cần",
         "Bơm dự phòng sẵn sàng khi mưa lũ",
         "Vệ sinh lưới lọc thường xuyên"
-      ]
+      ],
+      "intro": {
+        "about": "Máy bơm nước hút và đẩy nước nhờ năng lượng cơ hoặc điện. Cánh quạt hoặc piston truyền năng lượng cho nước, tạo chênh lệch áp suất để nước chảy từ nơi thấp lên nơi cao hoặc đi xa.",
+        "parts": [
+          "Vỏ bơm: chứa và dẫn dòng nước",
+          "Bánh công tác (cánh bơm): truyền năng lượng cho nước",
+          "Động cơ: dẫn động bánh công tác",
+          "Ống hút và ống đẩy: dẫn nước vào, ra",
+          "Van một chiều: giữ nước không chảy ngược",
+          "Lưới lọc: ngăn rác, cát vào bơm"
+        ],
+        "types": [
+          "Bơm ly tâm: phổ biến, lưu lượng ổn định, hợp nước sạch",
+          "Bơm chìm: đặt dưới nước, tiện hút nước hố móng",
+          "Bơm bùn, bơm cát: chịu mài mòn, hút nước lẫn bùn",
+          "Bơm piston (bơm màng): hợp dung dịch đặc, cột áp cao"
+        ],
+        "uses": [
+          "Hút nước hố móng, tiêu nước nền công trình",
+          "Cấp nước cho trộn bê tông, bảo dưỡng, rửa cốt liệu",
+          "Dẫn dòng tạm, hạ mực nước ngầm khi thi công"
+        ],
+        "limits": [
+          "Cần chọn loại bơm theo độ sạch, cột áp và lưu lượng nước",
+          "Chạy khô hoặc hút khí làm hỏng bơm",
+          "Cần lưới lọc và bảo trì, nhất là khi nước lẫn bùn cát"
+        ],
+        "summary": "Hút và cấp nước, tiêu nước hố móng"
+      }
     },
     {
       "title": "Máy phát điện",
@@ -466,7 +826,35 @@
         "Khói xả cần thoát ra ngoài, không đặt trong nơi kín",
         "Dự trữ nhiên liệu an toàn",
         "Chạy thử định kỳ máy dự phòng"
-      ]
+      ],
+      "intro": {
+        "about": "Máy phát điện biến cơ năng của động cơ thành điện năng, cấp điện cho thiết bị khi chưa có hoặc mất lưới điện. Động cơ quay rôto máy phát, tạo điện áp trong cuộn dây stato theo nguyên lý cảm ứng điện từ.",
+        "parts": [
+          "Động cơ diesel hoặc xăng: sinh cơ năng",
+          "Đầu phát (alternator): chuyển cơ năng thành điện",
+          "Bộ điều tốc và điều áp: giữ tốc độ, điện áp ổn định",
+          "Tủ điều khiển và bảo vệ: đóng cắt, chống quá tải, ngắn mạch",
+          "Hệ thống nhiên liệu, làm mát, ống xả: duy trì vận hành",
+          "Khung đỡ và vỏ cách âm: cố định và giảm ồn"
+        ],
+        "types": [
+          "Máy phát diesel: phổ biến, bền, hợp tải lớn liên tục",
+          "Máy phát xăng: gọn nhẹ, hợp tải nhỏ, tạm thời",
+          "Máy phát di động: đặt trên rơ moóc, dễ chuyển vị trí",
+          "Máy phát dự phòng tự khởi động (ATS): tự đóng khi mất điện"
+        ],
+        "uses": [
+          "Cấp điện thi công ở vùng chưa có lưới",
+          "Dự phòng cho trạm trộn, bơm tiêu nước, chiếu sáng",
+          "Cấp điện cho máy hàn, máy khoan, thiết bị điện khác"
+        ],
+        "limits": [
+          "Chủ động nguồn điện nhưng tốn nhiên liệu, tiếng ồn, khí thải",
+          "Cần chọn công suất phù hợp tải, tránh quá tải khi khởi động động cơ",
+          "Phải nối đất, bố trí thông gió, phòng cháy ở nơi đặt máy"
+        ],
+        "summary": "Cấp điện thi công khi chưa có hoặc mất lưới điện"
+      }
     },
     {
       "title": "Máy nén khí",
@@ -497,7 +885,35 @@
         "Chạy quá nóng do bẩn két làm mát",
         "Thay lọc gió, dầu đúng chu kỳ",
         "Ghi sổ kiểm tra bình áp lực"
-      ]
+      ],
+      "intro": {
+        "about": "Máy nén khí nén không khí lên áp suất cao rồi cấp cho dụng cụ khí nén. Khí nén là nguồn năng lượng gọn, an toàn cháy nổ để chạy búa, máy khoan, súng phun và thổi sạch bề mặt.",
+        "parts": [
+          "Đầu nén (piston hoặc trục vít): nén không khí",
+          "Động cơ điện hoặc diesel: dẫn động đầu nén",
+          "Bình chứa khí: ổn định áp suất, tích trữ khí",
+          "Van an toàn và đồng hồ áp suất: kiểm soát áp suất",
+          "Bộ lọc, tách nước, làm mát: làm sạch, giảm nhiệt khí",
+          "Ống dẫn và đầu nối: dẫn khí tới dụng cụ"
+        ],
+        "types": [
+          "Máy nén piston: đơn giản, hợp lưu lượng nhỏ",
+          "Máy nén trục vít: chạy liên tục, lưu lượng lớn, êm",
+          "Máy nén di động diesel: dùng ở công trường chưa có điện",
+          "Máy nén điện cố định: đặt ở xưởng, trạm"
+        ],
+        "uses": [
+          "Cấp khí cho búa khoan, búa phá, khoan đá nổ mìn",
+          "Cấp khí cho phun bê tông, phun vữa, phun cát",
+          "Thổi sạch nền đá, khe nứt, ván khuôn trước khi đổ"
+        ],
+        "limits": [
+          "Gọn, an toàn khi dùng dụng cụ khí nén",
+          "Hiệu suất năng lượng thấp, tạo nhiệt và tiếng ồn",
+          "Cần xả nước ngưng, kiểm tra ống và van an toàn định kỳ"
+        ],
+        "summary": "Cấp khí nén cho búa, máy khoan và thiết bị phun"
+      }
     },
     {
       "title": "Máy hàn",
@@ -529,7 +945,35 @@
         "Chai khí để thẳng đứng, cố định, cách xa lửa",
         "Bảo quản que hàn khô",
         "Cấm hàn khi mưa nếu không có mái che"
-      ]
+      ],
+      "intro": {
+        "about": "Máy hàn nối các chi tiết kim loại bằng nhiệt của hồ quang điện hoặc khí cháy làm chảy kim loại tại mối nối. Sau khi nguội, mối hàn liên kết chắc chắn các chi tiết với nhau.",
+        "parts": [
+          "Nguồn hàn: cấp dòng điện cho hồ quang",
+          "Kìm hàn (hoặc súng hàn): giữ que hàn, dây hàn",
+          "Cáp hàn và kẹp mát: tạo mạch điện kín với vật hàn",
+          "Que hàn hoặc dây hàn: cung cấp kim loại bù mối hàn",
+          "Bình khí bảo vệ (với hàn MIG, TIG): che chắn mối hàn",
+          "Mặt nạ, găng tay bảo hộ: bảo vệ người hàn"
+        ],
+        "types": [
+          "Hàn hồ quang tay (que hàn): phổ biến, linh hoạt ngoài trời",
+          "Hàn MIG/MAG: dùng dây hàn và khí bảo vệ, năng suất cao",
+          "Hàn TIG: mối hàn đẹp, hợp vật mỏng, thép không gỉ",
+          "Hàn khí (oxy-axetylen): hàn, cắt kim loại bằng ngọn lửa"
+        ],
+        "uses": [
+          "Hàn cốt thép, khung giàn, ống áp lực",
+          "Chế tạo, lắp đặt cửa van, lưới chắn rác, cầu công tác",
+          "Sửa chữa thiết bị, kết cấu thép tại công trường"
+        ],
+        "limits": [
+          "Cần thợ hàn có tay nghề và kiểm tra chất lượng mối hàn",
+          "Hàn ngoài trời bị ảnh hưởng gió, mưa, độ ẩm",
+          "Nguy cơ cháy nổ, bỏng, hại mắt, khói độc nên phải có biện pháp an toàn"
+        ],
+        "summary": "Nối, hàn kết cấu thép, cốt thép và ống"
+      }
     },
     {
       "title": "Máy cắt, uốn thép",
@@ -560,7 +1004,34 @@
         "Dao mòn phải thay kịp thời",
         "Lau chùi, bôi trơn các trục",
         "Dọn phế liệu thép sau ca"
-      ]
+      ],
+      "intro": {
+        "about": "Máy cắt, uốn thép gia công cốt thép theo kích thước và hình dạng thiết kế. Máy cắt dùng lưỡi hoặc đĩa cắt thanh thép, máy uốn dùng chốt và bàn quay để uốn thanh thép thành góc hoặc cong theo yêu cầu.",
+        "parts": [
+          "Lưỡi cắt hoặc đĩa cắt: cắt đứt thanh thép",
+          "Bàn uốn và chốt uốn: tạo góc, bán kính uốn",
+          "Động cơ và hộp giảm tốc: tạo lực cắt, uốn",
+          "Bàn đỡ và thước chặn: định vị chiều dài, vị trí uốn",
+          "Bộ phận điều khiển, bảo vệ: khởi động, dừng khẩn cấp"
+        ],
+        "types": [
+          "Máy cắt thép cố định: cắt nhiều thanh cùng lúc, năng suất cao",
+          "Máy cắt thép cầm tay (đĩa cắt): linh hoạt tại hiện trường",
+          "Máy uốn thép: uốn thanh, đai, móc neo",
+          "Máy uốn đai tự động: gia công thép đai số lượng lớn"
+        ],
+        "uses": [
+          "Gia công cốt thép đập, tràn, nhà máy, cống",
+          "Cắt, uốn thép đai, móc neo, thép chờ theo bản vẽ",
+          "Gia công tại xưởng cốt thép, bãi gia công công trường"
+        ],
+        "limits": [
+          "Gia công nhanh, đồng đều, chính xác hơn làm tay",
+          "Phải chọn máy phù hợp đường kính và loại thép",
+          "Cần che chắn bộ phận chuyển động, tránh kẹt tay, văng mảnh thép"
+        ],
+        "summary": "Cắt, uốn cốt thép đúng kích thước, hình dạng"
+      }
     },
     {
       "title": "Búa phá và búa rung đóng cọc",
@@ -591,7 +1062,35 @@
         "Tiếng ồn lớn, dùng nút tai",
         "Thay dụng cụ đúng lúc",
         "Theo dõi sổ nhật ký đóng cọc"
-      ]
+      ],
+      "intro": {
+        "about": "Búa phá là thiết bị gắn trên máy đào để đập vỡ đá, bê tông bằng xung lực của mũi đục. Búa rung đóng cọc tạo rung động lớn làm giảm ma sát đất quanh cọc, giúp cọc hoặc cừ chìm xuống bằng trọng lượng và lực rung.",
+        "parts": [
+          "Mũi đục (mũi búa): truyền xung lực vào đá, bê tông",
+          "Piston và xi lanh: tạo lực đập (búa phá)",
+          "Bộ rung lệch tâm: tạo lực rung (búa rung)",
+          "Kẹp cọc, kẹp cừ: giữ cọc, cừ khi đóng, nhổ",
+          "Khung gá và giá đỡ: gắn búa vào máy đào hoặc cần trục",
+          "Hệ thống thủy lực: cấp năng lượng cho búa"
+        ],
+        "types": [
+          "Búa phá thủy lực gắn máy đào: phá đá, bê tông tại chỗ",
+          "Búa phá cầm tay: phá chỗ nhỏ, hẹp",
+          "Búa rung đóng cọc: hạ, nhổ cọc, cừ trong đất rời",
+          "Búa đóng cọc diesel hoặc thủy lực: đóng cọc bằng xung đập"
+        ],
+        "uses": [
+          "Phá đá mồ côi, đá quá cỡ, bê tông cũ",
+          "Hạ, nhổ cừ thép, cọc ván trong đê quai, hố móng",
+          "Đóng cọc gia cố nền, cọc ván chống thấm"
+        ],
+        "limits": [
+          "Hiệu quả cao phá đá nhỏ, chọn lọc khi nổ mìn không phù hợp",
+          "Gây rung và ồn, ảnh hưởng công trình lân cận",
+          "Búa rung kém hiệu quả ở đất sét cứng, đá"
+        ],
+        "summary": "Phá đá, bê tông và đóng, nhổ cọc, cừ"
+      }
     },
     {
       "title": "Máy rải và phun bê tông",
@@ -622,7 +1121,35 @@
         "Bảo dưỡng lớp phun đúng yêu cầu",
         "Rửa máy ngay sau ca",
         "Thay ống mòn trước khi nổ"
-      ]
+      ],
+      "intro": {
+        "about": "Máy rải bê tông và máy phun bê tông thi công bê tông bằng cách rải đều thành lớp hoặc phun lên bề mặt bằng áp lực khí nén. Bê tông phun bám lên mặt đá, tường, đất nhờ lực phun mạnh, tạo lớp bảo vệ nhanh.",
+        "parts": [
+          "Phễu nhận bê tông: nhận vật liệu từ xe vận chuyển",
+          "Băng tải hoặc vít tải: đưa bê tông tới vị trí rải",
+          "Bàn đầm, bàn san: làm phẳng và đầm bề mặt",
+          "Vòi phun và ống dẫn: đưa hỗn hợp tới bề mặt phun",
+          "Máy nén khí: tạo áp lực phun, thổi hỗn hợp",
+          "Bộ cấp phụ gia: thêm chất tăng đông kết khi phun"
+        ],
+        "types": [
+          "Máy rải bê tông bánh xích: rải lớp bê tông dày, nền đường, mặt tràn",
+          "Máy phun bê tông khô: trộn nước tại vòi phun",
+          "Máy phun bê tông ướt: trộn sẵn, cấp liên tục tới vòi phun",
+          "Máy phun gắn tay máy: phun xa, cao, an toàn hơn"
+        ],
+        "uses": [
+          "Phun gia cố vòm hầm, mái đá, mái dốc",
+          "Phun bảo vệ bề mặt kênh, mái hố móng",
+          "Rải bê tông mặt đập đầm lăn, mặt tràn, mặt đường vận hành"
+        ],
+        "limits": [
+          "Thi công nhanh, bám tốt lên bề mặt gồ ghề, cong",
+          "Có bụi, vật liệu bật nảy; cần xử lý và giữ vệ sinh",
+          "Chất lượng phụ thuộc tay nghề người phun, độ ẩm bề mặt, cấp phối"
+        ],
+        "summary": "Rải hoặc phun bê tông thành lớp bảo vệ, gia cố"
+      }
     }
   ],
   "safety": [
@@ -645,5 +1172,6 @@
     "Danh sách, chứng chỉ người vận hành",
     "Biên bản nghiệm thu đưa máy vào sử dụng"
   ],
-  "note": "Đây là hướng dẫn chung. Công suất, tải trọng, áp lực, giới hạn vận hành và chu kỳ bảo dưỡng cụ thể phải theo catalog và hồ sơ kỹ thuật của nhà sản xuất; điều khoản pháp lý chi tiết cần đối chiếu văn bản hiện hành. Chỉ các điều khoản có nhãn [số hiệu · mục] mới được đọc từ nguồn."
+  "note": "Đây là hướng dẫn chung. Công suất, tải trọng, áp lực, giới hạn vận hành và chu kỳ bảo dưỡng cụ thể phải theo catalog và hồ sơ kỹ thuật của nhà sản xuất; điều khoản pháp lý chi tiết cần đối chiếu văn bản hiện hành. Chỉ các điều khoản có nhãn [số hiệu · mục] mới được đọc từ nguồn.",
+  "layout": "pages"
 }

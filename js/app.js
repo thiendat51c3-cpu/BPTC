@@ -59,6 +59,47 @@
     ta.addEventListener('input', function () { all[i] = ta.value; safeStore(key, all); });
     return el('div', { class: 'noterow' }, [el('h4', { text: 'Ghi chú của bạn' }), ta]);
   }
+  /* nhóm dạng 'pages': mỗi mục (vd. một loại máy) mở trang riêng */
+  function itemList(gid, m) {
+    return el('div', { class: 'itemlist' }, m.steps.map(function (st, i) {
+      return el('a', { class: 'itemcard', href: '#/g/' + gid + '/' + i }, [
+        el('span', { class: 'num', text: String(i + 1) }),
+        el('span', { class: 'it' }, [
+          el('span', { class: 'st', text: st.title }),
+          (st.intro && st.intro.summary) ? el('span', { class: 's', text: st.intro.summary }) : null
+        ]),
+        el('span', { class: 'chev', text: '›' })
+      ]);
+    }));
+  }
+  function introBlock(it) {
+    if (!it) return null;
+    var kids = [el('h4', { text: 'Giới thiệu' })];
+    if (it.about) kids.push(el('p', { class: 'about', text: it.about }));
+    [['parts', 'Cấu tạo chính'], ['types', 'Phân loại'], ['uses', 'Ứng dụng trên công trường'], ['limits', 'Ưu điểm, hạn chế']].forEach(function (p) {
+      if (it[p[0]] && it[p[0]].length) { kids.push(el('h5', { text: p[1] })); kids.push(list(it[p[0]])); }
+    });
+    return el('div', { class: 'card intro' }, kids);
+  }
+  function viewItem(gid, idx) {
+    var g = state.index.groups.filter(function (x) { return x.id === gid; })[0];
+    var m = state.methods[gid], st = m && m.steps[Number(idx)];
+    if (!g || !st) return viewNotFound();
+    setChrome(st.title, { back: true, tab: 'home' });
+    var n = Number(idx), nav = [];
+    if (n > 0) nav.push(el('a', { class: 'btn', href: '#/g/' + gid + '/' + (n - 1), text: '‹ ' + m.steps[n - 1].title }));
+    if (n < m.steps.length - 1) nav.push(el('a', { class: 'btn', href: '#/g/' + gid + '/' + (n + 1), text: m.steps[n + 1].title + ' ›' }));
+    appEl.replaceChildren(
+      el('div', { class: 'hero' }, [el('h2', { text: st.title }), el('p', { text: m.title })]),
+      introBlock(st.intro),
+      section('Cách sử dụng, trình tự', st.actions),
+      section('Yêu cầu kiểm tra, an toàn', st.requirements),
+      section('Kiểm tra hằng ca, nghiệm thu', st.checks),
+      st.tips && st.tips.length ? el('div', { class: 'card tips-card' }, [el('h3', { text: 'Lưu ý hiện trường (kinh nghiệm chung)' }), list(st.tips)]) : null,
+      el('div', { class: 'navrow' }, nav),
+      el('div', { class: 'disclaimer', text: state.index.disclaimer })
+    );
+  }
   var READ = { full: 'Đã đọc nội dung chính', partial: 'Chỉ đọc được một phần', none: 'Chưa đọc được nội dung chi tiết' };
   function section(title, items) {
     if (!items || !items.length) return null;
@@ -169,14 +210,14 @@
 
     appEl.replaceChildren(
       el('div', { class: 'hero' }, [el('h2', { text: g.icon + ' ' + m.title }), el('p', { text: m.scope })]),
-      el('div', { class: 'card' }, [el('h3', { text: 'Tiêu chuẩn viện dẫn' }), el('div', { class: 'chips' }, stdChips)]),
       section('Điều kiện trước khi thi công', m.prerequisites),
       el('h3', { class: 'sec-title', text: 'Trình tự thi công' }),
-      stepsEl,
-      resetBtn,
+      m.layout === 'pages' ? itemList(id, m) : stepsEl,
+      m.layout === 'pages' ? null : resetBtn,
       section('An toàn lao động', m.safety),
       section('Nghiệm thu', m.acceptance),
       section('Hồ sơ cần lập', m.records),
+      el('div', { class: 'card' }, [el('h3', { text: 'Tiêu chuẩn viện dẫn' }), el('div', { class: 'chips' }, stdChips)]),
       m.note ? el('div', { class: 'note', text: m.note }) : null,
       el('div', { class: 'disclaimer', text: state.index.disclaimer })
     );
@@ -231,8 +272,8 @@
       var m = state.methods[g.id];
       if (!m) return;
       m.steps.forEach(function (st, i) {
-        var text = [st.title].concat(st.actions || [], st.requirements || [], st.checks || [], st.tips || []).join(' ');
-        rows.push({ href: '#/g/' + g.id, title: (i + 1) + '. ' + st.title, sub: g.title, text: text });
+        var text = [st.title, st.intro ? [st.intro.about].concat(st.intro.parts || [], st.intro.types || [], st.intro.uses || []).join(' ') : ''].concat(st.actions || [], st.requirements || [], st.checks || [], st.tips || []).join(' ');
+        rows.push({ href: '#/g/' + g.id + (m.layout === 'pages' ? '/' + i : ''), title: (i + 1) + '. ' + st.title, sub: g.title, text: text });
       });
       ['safety', 'acceptance', 'records', 'prerequisites'].forEach(function (k) {
         (m[k] || []).forEach(function (t) { rows.push({ href: '#/g/' + g.id, title: t, sub: g.title, text: t }); });
@@ -294,7 +335,7 @@
     var parts = (location.hash || '#/').replace(/^#\/?/, '').split('/');
     var head = parts[0] || '';
     if (head === '') return viewHome();
-    if (head === 'g') return viewGroup(parts[1]);
+    if (head === 'g') return parts[2] !== undefined && parts[2] !== '' ? viewItem(parts[1], parts[2]) : viewGroup(parts[1]);
     if (head === 'standards') return viewStandards(parts[1]);
     if (head === 'search') return viewSearch(parts[1]);
     if (head === 'about') return viewAbout();
