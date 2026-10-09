@@ -1,0 +1,73 @@
+{
+  "id": "dap-dat-da",
+  "title": "Công tác đắp đất đá",
+  "scope": "Đắp đập đất đầm nén, đập hỗn hợp đất đá, đập đá đổ, đắp đê, bờ kênh, đắp quanh cống bằng phương pháp đầm nén.",
+  "standards": ["tcvn-8297", "tcvn-10397", "tcvn-10775", "tcvn-9166", "tcvn-8305", "tcvn-4447", "tcvn-4055", "qcvn-18"],
+  "prerequisites": [
+    "Nhà thầu lập thiết kế biện pháp thi công, quy trình thi công, tiến độ cho từng hạng mục và trình chủ đầu tư duyệt",
+    "Có kết quả thí nghiệm vật liệu đắp: thành phần hạt, độ ẩm tốt nhất, khối lượng thể tích khô lớn nhất",
+    "Nền đập đã xử lý, nghiệm thu; hoàn thành dẫn dòng và tiêu nước thi công",
+    "Đã xác định trên thực địa đường viền chân đập và đường viền xử lý nền"
+  ],
+  "steps": [
+    {
+      "title": "Chuẩn bị và xử lý nền",
+      "actions": ["Bóc lớp đất hữu cơ, đào bỏ gốc rễ, xử lý hang hốc, mạch nước, ổ mối", "Đào chân khay, hào chống thấm theo thiết kế", "Thi công khoan phụt, cừ chống thấm nếu có (xem nhóm Khoan phun)"],
+      "requirements": ["Nền khô ráo, sạch, đúng cao độ và độ dốc trước khi đắp", "Mặt tiếp giáp giữa các khối đắp, bờ vai được xử lý (đào bậc, làm xờm) để liên kết tốt"],
+      "checks": ["Nghiệm thu nền trước khi đắp lớp đầu tiên"]
+    },
+    {
+      "title": "Khai thác và vận chuyển vật liệu",
+      "actions": ["Khai thác từ mỏ vật liệu đã được thí nghiệm, đưa lên khu tập kết", "Điều chỉnh độ ẩm tại mỏ hoặc bãi trộn nếu cần"],
+      "requirements": ["Vật liệu đúng chủng loại, không lẫn tạp chất, rễ cây, đất hữu cơ", "Không dùng vật liệu quá ướt hoặc quá khô so với phạm vi độ ẩm cho phép"],
+      "checks": ["Thí nghiệm nhanh độ ẩm, thành phần hạt tại bãi trộn"]
+    },
+    {
+      "title": "Rải vật liệu theo lớp",
+      "actions": ["Rải bằng máy ủi, máy san theo chiều dày lớp đã được thử nghiệm", "Với đập nhiều vùng vật liệu, đắp các vùng cùng lúc, kiểm soát chặt ranh giới vùng và tầng lọc"],
+      "requirements": ["Chiều dày lớp rải theo kết quả đầm thử, đồng đều, không phân tầng", "Mặt lớp đắp có độ dốc nhẹ thoát nước mưa"],
+      "checks": ["Kiểm tra chiều dày lớp, độ ẩm trước khi đầm"]
+    },
+    {
+      "title": "Đầm nén",
+      "actions": ["Đầm thử để chọn loại đầm, số lượt đầm, vận tốc đầm", "Đầm đại trà theo thông số đã chọn; khu vực hẹp (quanh cống, bờ vai) dùng đầm nhẹ, đầm tay"],
+      "requirements": ["Đạt độ chặt thiết kế (hệ số đầm nén) cho từng vùng", "Không đầm sát cống, tường, ống gây hư hại; đắp hai bên đối xứng"],
+      "checks": ["Lấy mẫu khối lượng thể tích hiện trường, so với khối lượng thể tích khô lớn nhất", "Nếu không đạt thì đầm lại, xử lý lớp đó trước khi rải lớp mới"]
+    },
+    {
+      "title": "Xử lý mặt tiếp giáp giữa các lớp, các đợt đắp",
+      "actions": ["Làm xờm, tưới ẩm mặt lớp đã khô, nứt trước khi đắp lớp tiếp", "Đắp nối tiếp ở các khe thi công theo mái dốc, bậc thang"],
+      "requirements": ["Mặt tiếp giáp không có lớp bụi, vỏ khô, nước đọng"],
+      "checks": ["Kiểm tra mặt lớp trước khi rải lớp mới"]
+    },
+    {
+      "title": "Hoàn thiện mái, bảo vệ mái",
+      "actions": ["Tạo mái, sửa mái theo cao độ, độ dốc, đắp dư rồi gọt bỏ phần đất tơi", "Thi công bảo vệ mái: trồng cỏ, đá lát, bê tông, rãnh thoát nước"],
+      "requirements": ["Mái đúng độ dốc, cơ, đường đỉnh theo thiết kế"],
+      "checks": ["Đo hoàn công kích thước, cao độ, mái đập"]
+    },
+    {
+      "title": "Quản lý chất lượng và nghiệm thu",
+      "actions": ["Thí nghiệm kiểm tra theo mật độ quy định cho từng lớp, từng vùng", "Quan trắc lún, thấm theo thiết kế quan trắc"],
+      "requirements": ["Hồ sơ kiểm tra đầy đủ cho từng lớp, từng khối đắp"],
+      "checks": ["Nghiệm thu từng giai đoạn, từng cao trình đắp", "Nghiệm thu hoàn thành thân đập"]
+    }
+  ],
+  "safety": [
+    "Đường vận chuyển có biển báo, người điều tiết, tưới nước chống bụi",
+    "Máy đầm, máy ủi hoạt động gần mép mái: chú ý ổn định, tránh lật",
+    "Khi mưa lớn dừng đắp, che phủ mặt đắp, thoát nước ngay",
+    "Cấm người đi lại vào vùng máy làm việc"
+  ],
+  "acceptance": [
+    "Nghiệm thu nền, xử lý nền trước khi đắp",
+    "Nghiệm thu từng lớp đắp (độ chặt, độ ẩm) theo điểm dừng kiểm tra",
+    "Nghiệm thu mái, kích thước hình học, hệ thống quan trắc"
+  ],
+  "records": [
+    "Kết quả đầm thử, thí nghiệm vật liệu, thí nghiệm hiện trường từng lớp",
+    "Nhật ký thi công, biên bản nghiệm thu từng lớp, từng giai đoạn",
+    "Bản vẽ hoàn công, số liệu quan trắc"
+  ],
+  "note": "Với đập đá đổ bản mặt bê tông thi công theo TCVN 10775 gồm thêm công đoạn bản mặt, khớp nối. Kiểm tra phiên bản hiện hành của TCVN 8297 trên bản gốc trước khi áp dụng."
+}

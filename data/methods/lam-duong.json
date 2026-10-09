@@ -1,0 +1,72 @@
+{
+  "id": "lam-duong",
+  "title": "Công tác làm đường",
+  "scope": "Đường thi công tạm (ngoài và nội bộ công trường) và đường vận hành, quản lý vĩnh cửu của công trình thủy lợi, thủy điện.",
+  "standards": ["tcvn-9162", "tcvn-4054", "tcvn-9436", "tcvn-4447", "tcvn-4055", "qcvn-18"],
+  "prerequisites": [
+    "Có thiết kế tuyến đường: cấp đường, bề rộng, độ dốc, kết cấu mặt, hệ thống thoát nước",
+    "Phân cấp đường thi công theo cường độ vận chuyển và thời gian sử dụng",
+    "Nếu kết hợp làm đường quản lý, đường vận hành thì cấp thiết kế theo tiêu chuẩn thiết kế đường ô tô",
+    "Mặt bằng tuyến được giải phóng, có phương án thoát nước và dẫn dòng tạm"
+  ],
+  "steps": [
+    {
+      "title": "Định tuyến và chuẩn bị mặt bằng",
+      "actions": ["Cắm tim, mốc, cọc giới hạn tuyến", "Phát quang, bóc lớp đất hữu cơ, di dời công trình ngầm nổi vướng tuyến"],
+      "requirements": ["Tim tuyến, cao độ khống chế đúng thiết kế", "Mốc được bảo vệ, kiểm tra định kỳ"],
+      "checks": ["Kiểm tra tim, mốc, bàn giao mốc"]
+    },
+    {
+      "title": "Thi công nền đào",
+      "actions": ["Đào nền đường theo mái dốc thiết kế, vận chuyển vật liệu dùng lại làm nền đắp", "Đào đá bằng nổ mìn nơi có đá (xem nhóm Đào hở)"],
+      "requirements": ["Mái ta luy đúng độ dốc, ổn định", "Rãnh dọc, rãnh đỉnh thi công cùng nền đào"],
+      "checks": ["Kiểm tra cao độ, độ dốc mái, tim tuyến"]
+    },
+    {
+      "title": "Thi công nền đắp",
+      "actions": ["Xử lý nền tự nhiên (đánh cấp, bóc đất yếu), rải đắp từng lớp, đầm nén", "Đoạn nửa đào nửa đắp: đánh cấp ở sườn dốc để liên kết"],
+      "requirements": ["Độ chặt nền đắp đạt yêu cầu thiết kế", "Thi công thử đoạn đại diện để chọn thông số máy đầm, chiều dày lớp"],
+      "checks": ["Thí nghiệm độ chặt từng lớp", "Đo độ võng bề mặt nền (nếu thiết kế yêu cầu)"]
+    },
+    {
+      "title": "Thoát nước và công trình trên tuyến",
+      "actions": ["Làm cống, rãnh dọc, rãnh đỉnh, hố thu", "Xây dựng ngầm tràn, cầu tạm, tường chắn nếu có"],
+      "requirements": ["Thoát nước thông suốt, không xói mái đường", "Công trình thoát nước đúng cao độ và tải trọng"],
+      "checks": ["Nghiệm thu công trình thoát nước trước khi lấp"]
+    },
+    {
+      "title": "Thi công kết cấu mặt đường",
+      "actions": ["Đường tạm: rải lớp đá dăm, cấp phối, đầm chặt", "Đường vĩnh cửu: lớp móng, lớp mặt (bê tông xi măng, bê tông nhựa hoặc láng nhựa) theo thiết kế"],
+      "requirements": ["Chiều dày, độ chặt, độ bằng phẳng từng lớp đạt yêu cầu", "Bố trí độ dốc ngang cho thoát nước mặt"],
+      "checks": ["Kiểm tra từng lớp, nghiệm thu chuyển bước"]
+    },
+    {
+      "title": "Hoàn thiện, an toàn giao thông",
+      "actions": ["Lắp biển báo, cọc tiêu, hộ lan, vạch sơn ở đoạn nguy hiểm", "Trồng cỏ, bảo vệ mái ta luy"],
+      "requirements": ["Đủ biển báo ở đoạn cua gấp, dốc lớn, cầu tạm, vị trí giao nhau"],
+      "checks": ["Nghiệm thu hoàn thành tuyến, hoàn công"]
+    },
+    {
+      "title": "Duy tu trong thời gian thi công",
+      "actions": ["Tưới nước chống bụi, san sửa mặt đường thường xuyên", "Thông cống, rãnh sau mưa, sửa chữa đoạn sụt lún"],
+      "requirements": ["Duy trì đường thông suốt cho cường độ vận chuyển lớn nhất"],
+      "checks": ["Kiểm tra định kỳ, ghi nhật ký duy tu"]
+    }
+  ],
+  "safety": [
+    "Quy định tốc độ, tải trọng, có người điều tiết ở đoạn giao cắt, cầu tạm",
+    "Biển báo, đèn tín hiệu, chiếu sáng ban đêm ở đoạn nguy hiểm",
+    "Đoạn đường dốc, đường vào hầm: phanh, chèn bánh, hạn chế xe đi ngược chiều",
+    "Phân luồng xe thi công và người đi bộ"
+  ],
+  "acceptance": [
+    "Nghiệm thu nền đường (đào, đắp)",
+    "Nghiệm thu công trình thoát nước",
+    "Nghiệm thu từng lớp kết cấu mặt đường và nghiệm thu hoàn thành"
+  ],
+  "records": [
+    "Kết quả thí nghiệm độ chặt, chiều dày, vật liệu từng lớp",
+    "Nhật ký thi công, biên bản nghiệm thu, bản vẽ hoàn công"
+  ],
+  "note": "TCVN 9162:2012 là tiêu chuẩn thiết kế đường thi công. Phần thi công nền đường tham chiếu TCVN 9436:2012."
+}

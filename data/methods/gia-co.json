@@ -1,0 +1,73 @@
+{
+  "id": "gia-co",
+  "title": "Công tác gia cố",
+  "scope": "Gia cố mái dốc, mái hầm (neo, bê tông phun, lưới thép, khung chống), gia cố nền, bờ kênh và mái đập (rọ đá, đá lát, thảm bê tông).",
+  "standards": ["tcvn-8870", "tcvn-13509", "tcvn-14180", "tcvn-11652", "tcvn-9906", "tcvn-12634", "qcvn-18"],
+  "prerequisites": [
+    "Có thiết kế gia cố: loại neo, chiều dài, mật độ, chiều dày bê tông phun, lưới thép",
+    "Mái dốc hoặc bề mặt đã đào, sửa đúng hình dạng thiết kế",
+    "Vật liệu có chứng chỉ, thí nghiệm đầu vào đạt: thép neo, xi măng, cốt liệu, phụ gia",
+    "Có thợ phun, thợ khoan neo được đào tạo, có chứng chỉ phù hợp"
+  ],
+  "steps": [
+    {
+      "title": "Chuẩn bị bề mặt",
+      "actions": ["Gỡ đá lỏng, đá treo, làm sạch bụi, bùn, nước đọng", "Đánh dấu vị trí neo, ống thoát nước, mốc kiểm tra chiều dày"],
+      "requirements": ["Bề mặt sạch, ẩm vừa phải (đối với bê tông phun), không có nước chảy trực tiếp", "Có biện pháp dẫn nước thấm ra khỏi vùng phun"],
+      "checks": ["Kiểm tra mái trước khi gia cố, nghiệm thu bề mặt"]
+    },
+    {
+      "title": "Khoan lỗ neo",
+      "actions": ["Khoan đúng vị trí, hướng, độ sâu, đường kính", "Thổi sạch lỗ khoan"],
+      "requirements": ["Độ lệch vị trí, góc nghiêng, chiều sâu nằm trong dung sai thiết kế", "Lỗ khoan sạch, không sập thành"],
+      "checks": ["Kiểm tra số lượng, chiều sâu lỗ khoan"]
+    },
+    {
+      "title": "Lắp neo và bơm vữa",
+      "actions": ["Chế tạo thanh neo, lắp đệm định tâm, ống bơm, ống thoát khí", "Đặt neo vào lỗ, bơm vữa xi măng từ đáy lỗ lên", "Lắp bản đệm, đai ốc, gia lực sau khi vữa đạt cường độ"],
+      "requirements": ["Vữa đúng tỷ lệ nước - xi măng của thiết kế, lấp đầy lỗ", "Bảo vệ chống ăn mòn theo thiết kế"],
+      "checks": ["Lấy mẫu vữa thí nghiệm cường độ", "Thí nghiệm kéo thử một số neo theo tỷ lệ quy định"]
+    },
+    {
+      "title": "Lưới thép, khung vòm (nếu có)",
+      "actions": ["Treo, buộc, hàn lưới thép vào neo và khung", "Lắp khung vòm thép, liên kết chặt với mặt đá"],
+      "requirements": ["Lưới, khung đúng lớp bảo vệ, độ chồng nối, khoảng cách theo thiết kế", "Khung vòm ổn định, không xê dịch khi phun"],
+      "checks": ["Kiểm tra cốt thép, khung trước khi phun"]
+    },
+    {
+      "title": "Phun bê tông",
+      "actions": ["Thí nghiệm cấp phối, phun thử trên tấm thử", "Phun từ dưới lên, từng lớp, vòi phun vuông góc bề mặt", "Phun bù vào các chỗ lõm, quanh cốt thép, khung"],
+      "requirements": ["Chiều dày tổng và từng lớp đúng thiết kế", "Giảm tối đa bật nảy, bụi, đảm bảo bê tông đặc chắc, bám dính tốt"],
+      "checks": ["Kiểm tra chiều dày bằng mốc, khoan kiểm tra", "Lấy mẫu từ tấm thử hoặc khoan lõi, thí nghiệm cường độ, độ bám dính"]
+    },
+    {
+      "title": "Bảo dưỡng, làm ống thoát nước",
+      "actions": ["Giữ ẩm bê tông phun theo quy định", "Khoan, đặt ống thoát nước theo thiết kế để giảm áp lực nước sau lớp phun"],
+      "requirements": ["Không để bê tông khô nhanh, nứt co ngót", "Ống thoát nước thông, không bị bịt bởi vữa"],
+      "checks": ["Kiểm tra vết nứt, bong tróc, ẩm ướt bất thường"]
+    },
+    {
+      "title": "Gia cố bờ kênh, mái đập (rọ đá, đá lát, thảm bê tông)",
+      "actions": ["San sửa mái, đặt lớp lọc (vải địa kỹ thuật, đá dăm) theo thiết kế", "Lắp rọ đá, lát đá, trải thảm bê tông theo từng mảng", "Xử lý khe nối, chân khay, đỉnh mái"],
+      "requirements": ["Lớp lọc liên tục, không xáo trộn", "Chân khay, đỉnh mái neo chắc, tránh bị xói trượt"],
+      "checks": ["Kiểm tra cao độ, độ phẳng, độ chặt xếp đá, khe nối"]
+    }
+  ],
+  "safety": [
+    "Làm việc trên cao, trên mái dốc: dây an toàn, giàn giáo, đường lên xuống",
+    "Kiểm soát bụi, bật nảy bê tông phun: kính, mặt nạ, quần áo bảo hộ",
+    "Có người quan sát đá rơi khi làm trên mái dốc, dừng khi mưa lớn",
+    "Thiết bị áp lực (máy phun, bơm vữa): kiểm tra ống, khớp nối trước ca"
+  ],
+  "acceptance": [
+    "Nghiệm thu từng neo (vị trí, chiều dài, thử kéo)",
+    "Nghiệm thu bê tông phun (chiều dày, cường độ, độ bám dính)",
+    "Nghiệm thu lớp lọc và kết cấu gia cố bờ kênh, mái đập"
+  ],
+  "records": [
+    "Chứng chỉ vật liệu, kết quả thí nghiệm vữa, bê tông phun",
+    "Biên bản kéo thử neo, kết quả khoan kiểm tra chiều dày",
+    "Biên bản nghiệm thu, bản vẽ hoàn công"
+  ],
+  "note": "TCVN 8870:2011 và TCVN 13509:2022 là tiêu chuẩn của ngành giao thông. Tiêu chuẩn cho phép áp dụng tham khảo cho các công trình ngầm khác, mái dốc, kênh. Hãy xác nhận trong chỉ dẫn kỹ thuật của dự án."
+}

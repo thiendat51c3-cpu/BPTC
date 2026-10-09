@@ -1,0 +1,74 @@
+{
+  "id": "dao-ngam",
+  "title": "Công tác đào ngầm",
+  "scope": "Đào hầm dẫn nước, hầm tháo lũ, hầm thi công, nhà máy ngầm và các công trình ngầm khác trong đá bằng khoan nổ mìn hoặc phương pháp cơ giới.",
+  "standards": ["tcvn-4528", "tcvn-9161", "tcvn-13509", "tcvn-8870", "tcvn-4055", "qcvn-18"],
+  "prerequisites": [
+    "Có thiết kế hầm, phân loại đá, sơ đồ chống đỡ tạm và vĩnh cửu",
+    "Hoàn thành cửa hầm (portal), mái dốc cửa hầm và hệ thống thoát nước",
+    "Có hệ thống thông gió, cấp điện, cấp nước, chiếu sáng, thoát nước trong hầm",
+    "Có phương án nổ mìn, phương án ứng cứu sự cố, thông tin liên lạc liên tục"
+  ],
+  "steps": [
+    {
+      "title": "Thi công cửa hầm",
+      "actions": ["Đào, gia cố mái dốc khu vực cửa hầm", "Làm mũ cửa hầm, tường chắn, hệ thống thoát nước đỉnh mái"],
+      "requirements": ["Mái cửa hầm ổn định trước khi vào đào ngầm", "Có biện pháp bảo vệ người và thiết bị ở cửa hầm khỏi đá rơi"],
+      "checks": ["Kiểm tra gia cố mái, tim hầm, cao độ cửa hầm"]
+    },
+    {
+      "title": "Khoan lỗ mìn theo hộ chiếu",
+      "actions": ["Xác định gương đào, vẽ sơ đồ lỗ khoan lên gương", "Khoan bằng jumbo hoặc khoan tay theo sơ đồ: lỗ phá, lỗ mở rộng, lỗ biên"],
+      "requirements": ["Đúng vị trí, hướng, độ sâu lỗ khoan theo hộ chiếu", "Lỗ biên khoan chính xác để hạn chế đào lẹm"],
+      "checks": ["Kiểm tra số lượng, chiều sâu, độ lệch lỗ khoan trước khi nạp mìn"]
+    },
+    {
+      "title": "Nạp mìn, nổ mìn",
+      "actions": ["Nạp thuốc nổ, kíp theo hộ chiếu, đấu mạng nổ", "Sơ tán người, thiết bị, kiểm tra an toàn rồi mới nổ"],
+      "requirements": ["Chỉ người có chứng chỉ thực hiện, tuân thủ quy định về vật liệu nổ công nghiệp", "Dùng nổ mìn tạo biên để giảm phá hoại đá xung quanh"],
+      "checks": ["Ghi nhật ký nổ mìn từng chu kỳ"]
+    },
+    {
+      "title": "Thông gió, kiểm tra an toàn sau nổ",
+      "actions": ["Thông gió đẩy khói, bụi, khí độc ra khỏi hầm", "Kiểm tra mìn câm, đo khí, nhặt đá om, gỡ đá treo trên vòm và vách"],
+      "requirements": ["Chỉ cho người vào gương khi nồng độ khí, bụi đạt yêu cầu và gương đã được kiểm tra"],
+      "checks": ["Đo khí tại gương theo quy định", "Ghi nhận tình trạng đá sau nổ"]
+    },
+    {
+      "title": "Bốc xúc, vận chuyển đá đào",
+      "actions": ["Bốc xúc đá nổ ra khỏi gương bằng máy xúc, ô tô tự đổ", "Đưa ra bãi thải đã duyệt, giữ đường trong hầm sạch, thoát nước tốt"],
+      "requirements": ["Đường vận chuyển trong hầm bằng phẳng, đủ chiếu sáng, có biển báo, người điều tiết"],
+      "checks": ["Kiểm tra tim, cao độ, mặt cắt hầm sau mỗi chu kỳ"]
+    },
+    {
+      "title": "Chống đỡ tạm, gia cố ngay sau đào",
+      "actions": ["Phun bê tông, neo, lưới thép, khung vòm thép theo cấp đá và thiết kế", "Gia cố kịp thời, theo kịp tiến độ đào để giữ ổn định vòm hầm"],
+      "requirements": ["Loại và mật độ chống đỡ đúng theo phân loại đá thực tế gặp phải", "Khi đá yếu hơn dự kiến phải báo thiết kế điều chỉnh"],
+      "checks": ["Mô tả địa chất gương đào từng chu kỳ", "Kiểm tra chất lượng neo, bê tông phun (xem nhóm Gia cố)"]
+    },
+    {
+      "title": "Quan trắc biến dạng và hoàn thiện mặt cắt",
+      "actions": ["Đo hội tụ vòm, lún đỉnh hầm, lực neo nếu có thiết kế", "Sửa, dọn mặt cắt đến đường biên thiết kế để chuẩn bị bê tông lót, bê tông vỏ hầm"],
+      "requirements": ["Chuyển vị nằm trong ngưỡng cảnh báo của thiết kế", "Mặt cắt không lẹm vào đường biên bê tông vỏ hầm"],
+      "checks": ["Nghiệm thu mặt cắt hầm trước khi thi công lớp vỏ", "Hoàn công theo từng đoạn hầm"]
+    }
+  ],
+  "safety": [
+    "Không đào quá dài mà chưa chống đỡ theo thiết kế",
+    "Luôn có đường thoát hiểm, nơi trú ẩn, bình dưỡng khí, thông tin liên lạc liên tục",
+    "Thông gió, đo khí độc, khí nổ trước khi vào gương",
+    "Cấm người đứng dưới vùng đá treo chưa gỡ, nhặt đá om đầy đủ sau mỗi lần nổ",
+    "Điện hạ thế, chiếu sáng, bơm thoát nước phải có phương án dự phòng"
+  ],
+  "acceptance": [
+    "Nghiệm thu từng chu kỳ đào và chống đỡ (theo điểm dừng kiểm tra)",
+    "Nghiệm thu đoạn hầm sau khi đào hoàn thiện, trước thi công vỏ hầm",
+    "Nghiệm thu bê tông phun, neo (xem nhóm Gia cố)"
+  ],
+  "records": [
+    "Hộ chiếu khoan nổ mìn, nhật ký nổ mìn",
+    "Hồ sơ mô tả địa chất gương đào từng chu kỳ",
+    "Số liệu quan trắc hội tụ, biên bản nghiệm thu, bản vẽ hoàn công"
+  ],
+  "note": "Chưa tìm thấy tiêu chuẩn thi công riêng cho đường hầm thủy công trong đợt tra cứu này. TCVN 4528:1988 là tiêu chuẩn hầm giao thông, dùng tham khảo. Hãy đối chiếu với chỉ dẫn kỹ thuật của dự án và tiêu chuẩn mới hơn nếu có."
+}

@@ -1,0 +1,66 @@
+{
+  "id": "dao-ho",
+  "title": "Công tác đào đất đá hở",
+  "scope": "Đào hố móng, kênh, mặt bằng, mỏ vật liệu và đào đá bằng khoan nổ mìn lộ thiên cho công trình thủy lợi, thủy điện.",
+  "standards": ["tcvn-4447", "tcvn-4055", "tcvn-8305", "tcvn-11323", "tcvn-9903", "tcvn-9161", "qcvn-18"],
+  "prerequisites": [
+    "Có hồ sơ thiết kế, biện pháp thi công được chủ đầu tư phê duyệt",
+    "Có số liệu địa chất, địa chất thủy văn khu vực đào",
+    "Đã xác định công trình ngầm, đường dây, hệ thống thoát nước hiện hữu trong phạm vi đào",
+    "Có bãi thải, đường vận chuyển và phương án tiêu thoát nước đã duyệt"
+  ],
+  "steps": [
+    {
+      "title": "Chuẩn bị mặt bằng và định vị",
+      "actions": ["Dọn dẹp thực bì, bóc lớp đất hữu cơ, đào gốc rễ cây", "Lập lưới khống chế, cắm tim, mốc, giới hạn mép đào", "Làm rãnh thoát nước quanh hố đào, đê quai tạm nếu cần"],
+      "requirements": ["Mốc cao độ và tọa độ được kiểm tra, lập biên bản bàn giao", "Đường vận chuyển và bãi thải sẵn sàng trước khi đào"],
+      "checks": ["Kiểm tra tim, mép đào so với bản vẽ", "Nghiệm thu công tác chuẩn bị"]
+    },
+    {
+      "title": "Tiêu nước và hạ mực nước ngầm",
+      "actions": ["Bố trí rãnh, hố thu, bơm tiêu hoặc hệ thống hạ mực nước ngầm theo thiết kế", "Với nền cát có nguy cơ cát chảy, áp dụng giải pháp riêng (giếng kim, cừ, hạ mực nước)"],
+      "requirements": ["Duy trì mực nước ngầm thấp hơn đáy móng công trình ít nhất 0,5 m trong suốt thời gian thi công móng", "Không để nước chảy vào hố đào làm sạt, trương nở nền"],
+      "checks": ["Quan trắc mực nước ngầm hằng ngày", "Theo dõi lún, nứt khu vực xung quanh hố đào"]
+    },
+    {
+      "title": "Đào đất theo lớp",
+      "actions": ["Đào bằng máy theo từng lớp, từ trên xuống, theo hướng đã duyệt", "Vận chuyển đất đào đến bãi thải hoặc bãi tập kết vật liệu đắp", "Để lại lớp bảo vệ đáy hố móng, không đào sát cao độ thiết kế bằng máy nặng"],
+      "requirements": ["Mái dốc đào đúng thiết kế, ổn định trong từng giai đoạn", "Không chất tải (đất, thiết bị) sát mép hố đào gây mất ổn định mái"],
+      "checks": ["Kiểm tra mái dốc, cơ, cao độ theo từng lớp", "Đo khối lượng định kỳ"]
+    },
+    {
+      "title": "Đào đá bằng khoan nổ mìn (nếu có)",
+      "actions": ["Lập hộ chiếu khoan nổ mìn, xác định vùng nguy hiểm và bán kính an toàn", "Khoan, nạp mìn, đấu nối và kích nổ do đơn vị, người có chứng chỉ thực hiện", "Nổ mìn tạo mái, nổ mìn tạo biên để bảo vệ đá nền và mái"],
+      "requirements": ["Chỉ nổ mìn khi có giấy phép và phương án nổ mìn được duyệt", "Kiểm soát chấn động, đá văng, ảnh hưởng tới công trình lân cận", "Đáy móng và mái tạo biên đúng yêu cầu thiết kế"],
+      "checks": ["Kiểm tra sau nổ: mìn câm, đá treo, vùng nứt nẻ do nổ", "Ghi nhật ký nổ mìn từng đợt"]
+    },
+    {
+      "title": "Làm sạch và hoàn thiện đáy, mái hố móng",
+      "actions": ["Đào hoàn thiện đáy móng đến cao độ thiết kế bằng thủ công hoặc máy nhỏ", "Làm sạch, xử lý vết nứt, hang hốc, lớp phong hóa theo chỉ định", "Bảo vệ đáy hố móng khỏi nước, ánh nắng, giẫm đạp"],
+      "requirements": ["Đáy móng không bị xáo trộn, đúng cao độ và độ dốc", "Nền đúng loại đất đá như thiết kế"],
+      "checks": ["Mô tả địa chất mặt hố móng, so sánh với hồ sơ thiết kế", "Mời tư vấn thiết kế xác nhận nền trước khi thi công kết cấu"]
+    },
+    {
+      "title": "Nghiệm thu hố móng",
+      "actions": ["Đo đạc hoàn công kích thước, cao độ hố móng", "Lập hồ sơ nghiệm thu, biên bản xác nhận địa chất hố móng"],
+      "requirements": ["Sai số kích thước, cao độ nằm trong giới hạn của thiết kế và tiêu chuẩn áp dụng"],
+      "checks": ["Biên bản nghiệm thu công việc đào đất đá", "Chỉ chuyển bước sau khi nghiệm thu đạt"]
+    }
+  ],
+  "safety": [
+    "Có biển báo, rào chắn quanh hố đào, bố trí lối lên xuống an toàn",
+    "Kiểm tra mái dốc, vách hố đào trước mỗi ca, sau mưa lớn",
+    "Máy đào làm việc cách xa mép mái, có người điều khiển, ra tín hiệu",
+    "Nổ mìn theo quy định riêng: sơ tán người, thiết bị, canh gác, báo hiệu"
+  ],
+  "acceptance": [
+    "Nghiệm thu công tác chuẩn bị, định vị",
+    "Nghiệm thu hố móng sau khi đào và xử lý nền",
+    "Nghiệm thu mái dốc, đường đồng mức sau đào"
+  ],
+  "records": [
+    "Bản vẽ thi công và biện pháp thi công được duyệt",
+    "Nhật ký thi công, nhật ký nổ mìn",
+    "Biên bản nghiệm thu, bản vẽ hoàn công, hồ sơ địa chất hố móng"
+  ]
+}
