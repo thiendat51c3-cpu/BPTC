@@ -15,7 +15,7 @@ body{margin:0;min-height:100vh;background:var(--bg);color:var(--text);
 :root{--topbar-h:45px}
 html{background:var(--card)}
 .topbar{position:sticky;top:0;z-index:20;display:flex;align-items:center;gap:8px;
-  padding:env(safe-area-inset-top) 12px 0;height:calc(27px + env(safe-area-inset-top));min-height:0;
+  padding:max(0px,calc(env(safe-area-inset-top) - 7px)) 12px 7px;height:calc(27px + env(safe-area-inset-top));min-height:0;
   background:#3a8bab;color:#fff;}
 @media (prefers-color-scheme: dark){.topbar{background:#1d5f78}}
 .topbar h1{flex:1;margin:0;font-size:18px;line-height:1.2;font-weight:650;
