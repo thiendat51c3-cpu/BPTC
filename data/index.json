@@ -1,16 +1,56 @@
 {
   "title": "Biện pháp thi công thủy lợi, thủy điện",
-  "version": "1.0",
+  "version": "1.1",
   "updated": "2026-10-09",
-  "disclaimer": "Nội dung do Claude tổng hợp, diễn đạt lại từ các tiêu chuẩn và tài liệu công khai, chỉ để tham khảo khi lập biện pháp thi công. Không thay thế bản gốc tiêu chuẩn, hồ sơ thiết kế và chỉ dẫn kỹ thuật của dự án. Cần đối chiếu số hiệu, điều khoản và hiệu lực trên bản gốc trước khi áp dụng.",
+  "disclaimer": "Nội dung do Claude tổng hợp, diễn đạt lại từ các tiêu chuẩn và tài liệu công khai, chỉ để tham khảo khi lập biện pháp thi công. Không thay thế bản gốc tiêu chuẩn, hồ sơ thiết kế và chỉ dẫn kỹ thuật của dự án. Cần đối chiếu số hiệu, điều khoản và hiệu lực trên bản gốc trước khi áp dụng. Số liệu trong các bước có kèm nhãn [số hiệu · mục] chỉ điều khoản đã đối chiếu; mức \"đã đọc\" của từng tiêu chuẩn xem ở trang Tiêu chuẩn. Phần chưa đọc được bản gốc cần tự kiểm tra.",
   "groups": [
-    {"id": "dao-ho", "title": "Đào đất đá hở", "icon": "⛏️", "summary": "Hố móng, kênh, đào đá nổ mìn lộ thiên"},
-    {"id": "dao-ngam", "title": "Đào ngầm", "icon": "🕳️", "summary": "Hầm dẫn nước, hầm thi công, nhà máy ngầm"},
-    {"id": "gia-co", "title": "Gia cố", "icon": "🔩", "summary": "Neo, bê tông phun, lưới thép, rọ đá, thảm bê tông"},
-    {"id": "khoan-phun", "title": "Khoan phun", "icon": "💧", "summary": "Khoan phụt xi măng nền đá, gia cố đê, đập"},
-    {"id": "dap-dat-da", "title": "Đắp đất đá", "icon": "🏔️", "summary": "Đập đất, đập hỗn hợp, đê, bờ kênh"},
-    {"id": "lam-duong", "title": "Làm đường", "icon": "🛣️", "summary": "Đường thi công tạm, đường vận hành vĩnh cửu"},
-    {"id": "cot-thep", "title": "Cốt thép", "icon": "🧱", "summary": "Gia công, nối, lắp dựng, nghiệm thu cốt thép"},
-    {"id": "be-tong", "title": "Bê tông", "icon": "🏗️", "summary": "Ván khuôn, bê tông thủy công, khối lớn, đầm lăn"}
+    {
+      "id": "dao-ho",
+      "title": "Đào đất đá hở",
+      "icon": "⛏️",
+      "summary": "Hố móng, kênh, đào đá nổ mìn lộ thiên"
+    },
+    {
+      "id": "dao-ngam",
+      "title": "Đào ngầm",
+      "icon": "🕳️",
+      "summary": "Hầm dẫn nước, hầm thi công, nhà máy ngầm"
+    },
+    {
+      "id": "gia-co",
+      "title": "Gia cố",
+      "icon": "🔩",
+      "summary": "Neo, bê tông phun, lưới thép, rọ đá, thảm bê tông"
+    },
+    {
+      "id": "khoan-phun",
+      "title": "Khoan phun",
+      "icon": "💧",
+      "summary": "Khoan phụt xi măng nền đá, gia cố đê, đập"
+    },
+    {
+      "id": "dap-dat-da",
+      "title": "Đắp đất đá",
+      "icon": "🏔️",
+      "summary": "Đập đất, đập hỗn hợp, đê, bờ kênh"
+    },
+    {
+      "id": "lam-duong",
+      "title": "Làm đường",
+      "icon": "🛣️",
+      "summary": "Đường thi công tạm, đường vận hành vĩnh cửu"
+    },
+    {
+      "id": "cot-thep",
+      "title": "Cốt thép",
+      "icon": "🧱",
+      "summary": "Gia công, nối, lắp dựng, nghiệm thu cốt thép"
+    },
+    {
+      "id": "be-tong",
+      "title": "Bê tông",
+      "icon": "🏗️",
+      "summary": "Ván khuôn, bê tông thủy công, khối lớn, đầm lăn"
+    }
   ]
 }

@@ -1,74 +1,71 @@
 {
   "id": "be-tong",
   "title": "Công tác bê tông",
-  "scope": "Bê tông thủy công thường, bê tông khối lớn, bê tông đầm lăn (RCC), bê tông trên mái dốc; gồm ván khuôn, đổ, đầm, bảo dưỡng, kiểm soát nhiệt.",
-  "standards": ["tcvn-8218", "tcvn-8219", "tcvn-4453", "tcvn-14334", "tcvn-10403", "tcvn-11652", "tcvn-9159", "tcvn-4055", "qcvn-18"],
+  "scope": "Cốp pha, trộn, vận chuyển, đổ, đầm, bảo dưỡng, tháo cốp pha bê tông thường và bê tông khối lớn thủy công.",
+  "standards": ["tcvn-4453", "tcvn-14334", "tcvn-10403", "tcvn-4055", "tcvn-9115", "tcvn-12634"],
   "prerequisites": [
-    "Có thiết kế thành phần bê tông (mác, độ chống thấm, độ bền) đã thí nghiệm và được duyệt",
-    "Vật liệu đầu vào (xi măng, cốt liệu, nước, phụ gia, tro bay) đạt yêu cầu, có chứng chỉ",
-    "Có trạm trộn, thiết bị vận chuyển, đầm, bảo dưỡng; có kế hoạch đổ theo khối, lớp, thời tiết",
-    "Hố móng, cốt thép, ván khuôn, ống chôn sẵn đã nghiệm thu"
+    "Thiết kế cấp phối được phòng thí nghiệm duyệt; mác ≥ 150 thiết kế tại phòng thí nghiệm [4453 · mục 6]",
+    "Cốp pha, cốt thép đã nghiệm thu; vệ sinh bề mặt đổ",
+    "Kế hoạch đổ, nhân lực, thiết bị, nguồn dự phòng"
   ],
   "steps": [
     {
-      "title": "Chuẩn bị bề mặt tiếp nhận bê tông",
-      "actions": ["Với mặt đá nền: làm sạch, rửa, bơm hút nước đọng, trải lớp vữa lót nếu thiết kế yêu cầu", "Với mạch ngừng: đục, xới hoặc rửa tới khi lộ cốt liệu, làm ẩm bề mặt"],
-      "requirements": ["Bề mặt sạch, không bùn, không bụi, không nước đọng", "Bề mặt mạch ngừng đủ nhám để liên kết"],
-      "checks": ["Nghiệm thu bề mặt trước khi lắp ván khuôn, đổ"]
+      "title": "Ván khuôn, cốp pha",
+      "actions": ["Lắp cốp pha chắc, kín khít, đúng hình dáng; chống đỡ ổn định"],
+      "requirements": ["Sai lệch cho phép của cốp pha theo Bảng 2 của TCVN 4453"],
+      "checks": ["Nghiệm thu cốp pha trước khi đổ"]
     },
     {
-      "title": "Lắp ván khuôn",
-      "actions": ["Lắp ván khuôn, giàn giáo, chống đỡ theo thiết kế", "Bôi chất chống dính, bịt kín khe, lắp khớp nối biến dạng, băng cản nước"],
-      "requirements": ["Ván khuôn kín khít, đủ cứng, ổn định, đúng hình dạng, cao độ, kích thước", "Vật chôn sẵn, băng cản nước đặt đúng vị trí, nối kín"],
-      "checks": ["Đo kiểm kích thước, cao độ, độ thẳng đứng", "Nghiệm thu ván khuôn cùng cốt thép"]
+      "title": "Chuẩn bị vật liệu, trộn bê tông",
+      "actions": ["Cân đong theo cấp phối, trộn đều, kiểm tra độ sụt"],
+      "requirements": [
+        "Sai số cân đong: xi măng 1%, cốt liệu 3%, nước 1% [4453 · mục 6]",
+        "Kích thước cốt liệu lớn nhất theo kích thước kết cấu và khoảng cách thép [4453 · mục 6]",
+        "Thời gian lưu hỗn hợp: theo tiêu chuẩn và điều kiện thời tiết"
+      ],
+      "checks": ["Độ sụt, lấy mẫu thử cường độ"]
     },
     {
-      "title": "Trộn và vận chuyển bê tông",
-      "actions": ["Trộn theo cấp phối đã duyệt, kiểm tra độ ẩm cốt liệu để điều chỉnh nước", "Vận chuyển bằng xe bồn, băng chuyền, máy bơm, thùng cẩu"],
-      "requirements": ["Bê tông đồng nhất, không phân tầng, đạt độ sụt (hoặc độ cứng với RCC) khi đến vị trí đổ", "Thời gian vận chuyển, chờ đổ không quá giới hạn cho phép"],
-      "checks": ["Kiểm tra độ sụt, nhiệt độ bê tông tại nơi đổ", "Lấy mẫu thí nghiệm cường độ, độ chống thấm theo tần suất quy định"]
+      "title": "Vận chuyển, đổ và đầm",
+      "actions": [
+        "Đổ theo lớp, đầm đúng kỹ thuật; tránh phân tầng",
+        "Khối lớn: chia khối, đổ theo lớp"
+      ],
+      "requirements": [
+        "Bê tông đầm lăn (RCC): lớp 15-30 cm sau đầm, độ chặt ≥ 98%, tuổi thiết kế 90/180 ngày [10403] (tham khảo, chưa đối chiếu điều khoản)"
+      ],
+      "checks": ["Kiểm tra độ sụt, nhiệt độ hỗn hợp, mẫu thử"]
     },
     {
-      "title": "Đổ và đầm bê tông",
-      "actions": ["Đổ theo lớp, thứ tự, chiều dày lớp đã quy định; không để rơi tự do từ độ cao lớn làm phân tầng", "Đầm bằng đầm dùi, đầm bàn; bê tông đầm lăn rải và đầm lăn bằng lu rung từng lớp", "Đổ liên tục trong từng khối, xử lý mạch ngừng nếu bị gián đoạn"],
-      "requirements": ["Không đổ khi mưa lớn mà chưa có biện pháp che chắn", "Đầm kỹ, không bỏ sót, không đầm quá gây phân tầng, không chạm cốt thép, ván khuôn"],
-      "checks": ["Theo dõi nhật ký đổ: giờ, khối, vị trí, thời tiết", "Quan sát hiện tượng rỗ, tổ ong, phân tầng"]
+      "title": "Bảo dưỡng và kiểm soát nhiệt bê tông khối lớn",
+      "actions": ["Giữ ẩm, che phủ; đo nhiệt độ bê tông và môi trường"],
+      "requirements": [
+        "Đầu đo nhiệt đặt tại tâm, bề mặt, góc và môi trường [14334]",
+        "TCVN 14334 áp dụng cho B20-B70, không áp dụng cho RCC; tuổi thiết kế 56/90 ngày [14334]",
+        "Thời gian bảo dưỡng: chưa đọc được trong 4453, cần lấy từ bản gốc/thiết kế"
+      ],
+      "checks": ["Nhật ký nhiệt độ"]
     },
     {
-      "title": "Bảo dưỡng và kiểm soát nhiệt (bê tông khối lớn)",
-      "actions": ["Giữ ẩm bề mặt bê tông, phủ vật liệu giữ nước, tưới nước theo quy định", "Với bê tông khối lớn: giảm nhiệt độ ban đầu của hỗn hợp, dùng ống làm mát, hạn chế chênh lệch nhiệt giữa lõi và bề mặt"],
-      "requirements": ["Bảo dưỡng đủ thời gian theo thiết kế và tiêu chuẩn", "Kiểm soát nhiệt độ để hạn chế nứt nhiệt, nứt co ngót"],
-      "checks": ["Đo nhiệt độ lõi, bề mặt theo thiết kế quan trắc", "Kiểm tra vết nứt sau khi tháo ván khuôn"]
-    },
-    {
-      "title": "Tháo ván khuôn, sửa chữa khuyết tật",
-      "actions": ["Tháo ván khuôn khi bê tông đạt cường độ theo quy định", "Sửa chữa chỗ rỗ, tổ ong, nứt theo biện pháp được duyệt"],
-      "requirements": ["Không tháo sớm làm hư hỏng, biến dạng kết cấu", "Biện pháp sửa chữa phải được tư vấn thiết kế chấp thuận trước khi làm"],
-      "checks": ["Kiểm tra bề mặt, kích thước hình học sau tháo ván khuôn"]
-    },
-    {
-      "title": "Kiểm tra chất lượng và nghiệm thu",
-      "actions": ["Tổng hợp kết quả thí nghiệm cường độ, độ chống thấm", "Khoan lấy lõi hoặc thí nghiệm không phá hủy nếu kết quả mẫu không đạt hoặc nghi ngờ", "Thử nước, thử áp lực với kết cấu yêu cầu"],
-      "requirements": ["Chất lượng bê tông đạt mác, độ chống thấm theo thiết kế"],
-      "checks": ["Biên bản nghiệm thu từng khối đổ, từng giai đoạn", "Hồ sơ hoàn công"]
+      "title": "Tháo cốp pha, nghiệm thu",
+      "actions": ["Tháo theo cường độ đạt; kiểm tra khuyết tật, sửa chữa"],
+      "requirements": [
+        "Cốp pha không chịu lực tháo khi cường độ > 50 N/cm² [4453 · mục 6]",
+        "Cốp pha chịu lực: nhịp < 2 m đạt 50% R28; 2-8 m đạt 70%; > 8 m đạt 90% [4453 · mục 6]"
+      ],
+      "checks": ["Cường độ mẫu hiện trường, hình học, khuyết tật; nghiệm thu"]
     }
   ],
   "safety": [
-    "Giàn giáo, ván khuôn lắp chắc, có lan can, lưới, lối lên xuống an toàn",
-    "Bơm bê tông: kiểm tra đường ống, cố định, có người điều khiển, không đứng gần đầu ống",
-    "Cẩu thùng đổ: dây cáp, móc kiểm tra, không đi dưới tải, tín hiệu rõ ràng",
-    "Đổ ban đêm: đủ chiếu sáng; mùa mưa lũ: có phương án che, thoát nước hố móng",
-    "Làm việc với xi măng, phụ gia: bảo hộ da, mắt, hô hấp"
+    "Giàn giáo, sàn công tác, chống đỡ cốp pha tính toán chắc chắn",
+    "Điện, thiết bị đầm; cẩu, máy bơm: người điều khiển có chứng chỉ",
+    "Thời tiết nóng, mưa: có biện pháp che chắn"
   ],
   "acceptance": [
-    "Nghiệm thu bề mặt tiếp nhận, ván khuôn, cốt thép, vật chôn sẵn trước khi đổ",
-    "Nghiệm thu từng khối bê tông sau khi đổ và bảo dưỡng",
-    "Nghiệm thu kết cấu hoàn thành, khớp nối, băng cản nước"
+    "Nghiệm thu cốp pha, cốt thép trước đổ; nghiệm thu từng khối đổ và kết cấu hoàn thành"
   ],
   "records": [
-    "Thiết kế thành phần bê tông, kết quả thí nghiệm vật liệu",
-    "Nhật ký đổ bê tông, kết quả thí nghiệm mẫu từng khối",
-    "Số liệu nhiệt độ, biên bản nghiệm thu, bản vẽ hoàn công"
+    "Phiếu thử cường độ, cấp phối, nhật ký đổ, nhiệt độ, biên bản nghiệm thu"
   ],
-  "note": "Bê tông đầm lăn thi công theo TCVN 10403:2015 (đập trọng lực). Bê tông thủy công thông thường tham chiếu TCVN 8218, 8219; bê tông khối lớn theo TCVN 14334:2025. Hãy kiểm tra hiệu lực từng tiêu chuẩn trên bản gốc."
+  "note": "TCVN 10403 (đầm lăn) và 14334 (khối lớn) chưa đọc được nội dung chi tiết; số liệu nêu là tham khảo. Thời gian bảo dưỡng, yêu cầu mối nối thi công cần lấy từ bản gốc."
 }

@@ -1,73 +1,151 @@
 {
   "id": "gia-co",
   "title": "Công tác gia cố",
-  "scope": "Gia cố mái dốc, mái hầm (neo, bê tông phun, lưới thép, khung chống), gia cố nền, bờ kênh và mái đập (rọ đá, đá lát, thảm bê tông).",
-  "standards": ["tcvn-8870", "tcvn-13509", "tcvn-14180", "tcvn-11652", "tcvn-9906", "tcvn-12634", "qcvn-18"],
+  "scope": "Gia cố mái dốc, mái hầm (neo, bê tông phun, lưới thép), bờ kênh và mái đập (tầng lọc, lát đá, thảm bê tông, vải địa kỹ thuật).",
+  "standards": ["tcvn-8870", "tcvn-13509", "tcvn-14180", "tcvn-8297", "tcvn-8305", "tcvn-9436", "tcvn-11652", "tcvn-9906", "tcvn-12634"],
   "prerequisites": [
-    "Có thiết kế gia cố: loại neo, chiều dài, mật độ, chiều dày bê tông phun, lưới thép",
-    "Mái dốc hoặc bề mặt đã đào, sửa đúng hình dạng thiết kế",
-    "Vật liệu có chứng chỉ, thí nghiệm đầu vào đạt: thép neo, xi măng, cốt liệu, phụ gia",
-    "Có thợ phun, thợ khoan neo được đào tạo, có chứng chỉ phù hợp"
+    "Hồ sơ thiết kế được duyệt; mọi thay đổi cần văn bản đồng ý của thiết kế và chủ đầu tư [8870 · 4.2]",
+    "Vật liệu đạt tiêu chuẩn Nhà nước, thí nghiệm bởi phòng thí nghiệm hợp chuẩn [8870 · 4.4]",
+    "Với bê tông phun: thí nghiệm, trộn thử, phun thử tấm thử trước thi công đại trà [13509 · 5.2.2, 8.1]"
   ],
   "steps": [
     {
-      "title": "Chuẩn bị bề mặt",
-      "actions": ["Gỡ đá lỏng, đá treo, làm sạch bụi, bùn, nước đọng", "Đánh dấu vị trí neo, ống thoát nước, mốc kiểm tra chiều dày"],
-      "requirements": ["Bề mặt sạch, ẩm vừa phải (đối với bê tông phun), không có nước chảy trực tiếp", "Có biện pháp dẫn nước thấm ra khỏi vùng phun"],
-      "checks": ["Kiểm tra mái trước khi gia cố, nghiệm thu bề mặt"]
+      "title": "Chuẩn bị bề mặt và vật liệu",
+      "actions": [
+        "Gỡ đá lỏng, đá treo, làm sạch bụi, bùn; đánh dấu vị trí neo, ống thoát nước",
+        "Kiểm tra xi măng, cát, nước trộn vữa neo, cốt thép"
+      ],
+      "requirements": [
+        "Nền đất: làm ẩm ngay trước khi phun, không để nước đọng; bề mặt bê tông cũ tạo nhám, làm ẩm rồi để ráo; đá: làm sạch bùn, vật liệu rời [13509 · 7.2]",
+        "Nước ngầm: phải có biện pháp thoát nước; nếu không kiểm soát được, cân nhắc bơm vữa gia cường đất đá [13509 · 7.2.5]",
+        "Xi măng vữa neo dùng PCB 40; thí nghiệm lại nếu quá 3 tháng, bảo quản kém hoặc bị ẩm [8870 · 5.1.2]",
+        "Cát vữa neo: hạt dưới 0,15 mm không quá 10%, mô đun độ lớn khoảng 1,5-1,8, bùn đất tối đa 2% [8870 · 5.1.3]",
+        "Nước trộn vữa: tổng muối tối đa 2000 mg/l; SO4 tối đa 600 mg/l; Cl tối đa 350 mg/l [8870 · 5.1.4]",
+        "Cấm dùng phụ gia gốc CaCl2 gây ăn mòn cốt thép [8870 · 5.1.5]"
+      ],
+      "checks": ["Nghiệm thu bề mặt trước khi gia cố"]
     },
     {
       "title": "Khoan lỗ neo",
-      "actions": ["Khoan đúng vị trí, hướng, độ sâu, đường kính", "Thổi sạch lỗ khoan"],
-      "requirements": ["Độ lệch vị trí, góc nghiêng, chiều sâu nằm trong dung sai thiết kế", "Lỗ khoan sạch, không sập thành"],
-      "checks": ["Kiểm tra số lượng, chiều sâu lỗ khoan"]
+      "actions": [
+        "Khoan đúng vị trí, hướng, độ sâu, đường kính; kiểm tra bằng máy toàn đạc hoặc thước thép",
+        "Ép nước kiểm tra lỗ, thổi sạch lỗ"
+      ],
+      "requirements": [
+        "Sai lệch vị trí lỗ ±10 cm; góc nghiêng ±1°; hướng trục sai không quá 2,5° [8870 · 5.3.2]",
+        "Độ thẳng: lệch tối đa 10 mm mỗi 3 m và không quá 1/30 chiều dài lỗ [8870 · 5.3.2]",
+        "Ép nước kiểm tra: lượng nước hao tổn không quá 5 l/phút, áp lực trên 0,1 MPa, ghi số liệu mỗi 10 phút; nếu vượt, bơm vữa lấp rồi khoan lại sau khi vữa đạt ít nhất 90% cường độ thiết kế [8870 · 5.3.2]",
+        "Máy nén khí lưu lượng trên 24 m³/phút; máy bơm vữa áp lực tối thiểu 10 MPa [8870 · 5.2]"
+      ],
+      "checks": ["Kiểm tra toàn bộ lỗ khoan"]
     },
     {
       "title": "Lắp neo và bơm vữa",
-      "actions": ["Chế tạo thanh neo, lắp đệm định tâm, ống bơm, ống thoát khí", "Đặt neo vào lỗ, bơm vữa xi măng từ đáy lỗ lên", "Lắp bản đệm, đai ốc, gia lực sau khi vữa đạt cường độ"],
-      "requirements": ["Vữa đúng tỷ lệ nước - xi măng của thiết kế, lấp đầy lỗ", "Bảo vệ chống ăn mòn theo thiết kế"],
-      "checks": ["Lấy mẫu vữa thí nghiệm cường độ", "Thí nghiệm kéo thử một số neo theo tỷ lệ quy định"]
+      "actions": [
+        "Gia công thanh neo hoặc bó cáp, lắp đệm định tâm, ống bơm; đặt vào lỗ",
+        "Trộn vữa, kiểm tra độ chảy, bơm vữa từ đáy lên; neo nghiêng lên dùng phương pháp thoát khí"
+      ],
+      "requirements": [
+        "Cắt cáp bằng máy cắt, cấm hàn; không xoay hoặc vặn bó cáp; kiểm tra, đánh số, đăng ký bó cáp trước khi bơm [8870 · 5.3.1, 5.3.3]",
+        "Lớp vữa bảo vệ tối thiểu 5 mm giữa các vị trí định tâm và 10 mm tại vị trí định tâm [8870 · 5.3.3]",
+        "Tỉ lệ nước/xi măng 0,40-0,45; mẫu lập phương 70 mm đạt 30 N/mm² sau 7 ngày, 40 N/mm² sau 28 ngày; độ lắng không quá 2% sau 3 giờ [8870 · 5.3.4]",
+        "Thí nghiệm hiện trường trước bơm 24 giờ: độ chảy 13-25 giây, sai lệch 3 giây; kiểm tra độ chảy đầu vào 3 lần mỗi tấn xi măng, đầu ra 1 lần mỗi lỗ [8870 · 5.3.4]",
+        "Trộn bằng máy trộn keo tối thiểu 1000 vòng/phút hoặc máy khuấy tối thiểu 150 vòng/phút, ít nhất 4 phút; bơm trong 20 phút sau khi trộn; ống bơm đường kính trong 20-30 mm, chịu tối thiểu 10 MPa [8870 · 5.3.4]"
+      ],
+      "checks": ["Lấy mẫu vữa thí nghiệm cường độ", "Biên bản bơm vữa từng neo"]
     },
     {
-      "title": "Lưới thép, khung vòm (nếu có)",
-      "actions": ["Treo, buộc, hàn lưới thép vào neo và khung", "Lắp khung vòm thép, liên kết chặt với mặt đá"],
-      "requirements": ["Lưới, khung đúng lớp bảo vệ, độ chồng nối, khoảng cách theo thiết kế", "Khung vòm ổn định, không xê dịch khi phun"],
+      "title": "Căng kéo, thử neo, khóa đầu neo",
+      "actions": [
+        "Căng khi vữa đạt cường độ yêu cầu; theo dõi lực kéo và độ giãn dài",
+        "Thử kéo một số neo; khóa đầu neo, bịt đầu neo"
+      ],
+      "requirements": [
+        "Chỉ căng khi vữa đạt tối thiểu 30 N/mm² (mẫu 70 mm); ứng suất kéo vượt tối đa 80% cường độ tiêu chuẩn [8870 · 5.3.5]",
+        "Nếu sau 48 giờ mất ứng suất trên 10% thì phải căng bổ sung [8870 · 5.3.5]",
+        "Số neo thử tối thiểu 3 neo cho mỗi loại kết cấu và mỗi khu vực địa chất; tải thử tối đa 125% Pk; neo đạt nếu chuyển vị sau 15 phút nhỏ hơn 5% chuyển vị đàn hồi [8870 · 5.3.5.3]",
+        "Báo cáo thử phải được tư vấn thiết kế duyệt trước thi công đại trà [8870 · 5.3.5.3]",
+        "Bịt đầu neo bằng vữa bê tông mác từ 20 N/mm² trở lên [8870 · 5.3.6]"
+      ],
+      "checks": ["Biên bản căng kéo, thử neo từng neo", "Quan trắc mái dốc: mặt cắt cách nhau tối đa 20 m [8870 · 6.4]"]
+    },
+    {
+      "title": "Lưới thép, khung vòm và cốt thép trong bê tông phun",
+      "actions": [
+        "Treo, buộc, hàn lưới thép vào neo và khung; lắp khung vòm thép liên kết chặt với mặt đá"
+      ],
+      "requirements": [
+        "Khoảng cách tối thiểu giữa các thanh cốt thép trong lớp phun là giá trị nhỏ nhất của: 3 lần đường kính thanh lớn nhất, 3 lần cỡ cốt liệu lớn nhất, hoặc 50 mm [13509 · 7.2.4.1]"
+      ],
       "checks": ["Kiểm tra cốt thép, khung trước khi phun"]
     },
     {
       "title": "Phun bê tông",
-      "actions": ["Thí nghiệm cấp phối, phun thử trên tấm thử", "Phun từ dưới lên, từng lớp, vòi phun vuông góc bề mặt", "Phun bù vào các chỗ lõm, quanh cốt thép, khung"],
-      "requirements": ["Chiều dày tổng và từng lớp đúng thiết kế", "Giảm tối đa bật nảy, bụi, đảm bảo bê tông đặc chắc, bám dính tốt"],
-      "checks": ["Kiểm tra chiều dày bằng mốc, khoan kiểm tra", "Lấy mẫu từ tấm thử hoặc khoan lõi, thí nghiệm cường độ, độ bám dính"]
+      "actions": [
+        "Chia ô phun khoảng 2 x 2 m, phun từ dưới lên, tường trước vòm sau; phun góc, hốc trước",
+        "Vòi phun vuông góc bề mặt, di chuyển theo hình tròn hoặc elip",
+        "Phun bù chỗ lõm, quanh cốt thép, khung"
+      ],
+      "requirements": [
+        "Tỷ lệ N/X bê tông ướt 0,40-0,45, bê tông khô 0,35-0,45; độ sụt vận chuyển đến máy bơm 8 ± 3 cm (bê tông ướt) [13509 · 4.2.1, 4.2.3]",
+        "Cường độ nén 28 ngày tối thiểu 30 MPa (theo chú thích Bảng 2, cần đối chiếu bảng gốc); cường độ bám dính 1,0-1,5 MPa [13509 · 4.2.5, 4.2.8]",
+        "Chiều dày hoàn thiện mỗi lớp: tường 7-10 cm, vòm hoặc trần 5-7 cm; ô phun khoảng 4 m², không quá 6 m² [13509 · 7.4.1.6, 7.4.1.7]",
+        "Vòi phun cách bề mặt 0,8-1,2 m [13509 · 7.4.1.9]",
+        "Mối nối thi công nghiêng khoảng 45° so với bề mặt tiếp nhận; tại nút giao cắt đặt góc 90° [13509 · 7.3.1]",
+        "Không phun khi nhiệt độ khu vực trên 35 °C; nhiệt độ cốt thép và bề mặt dưới 32 °C; không phun nếu nhiệt độ trung bình dự báo dưới 10 °C kéo dài 24 giờ; nhiệt độ hỗn hợp khi phun không thấp hơn 10 °C [13509 · 7.4.4]"
+      ],
+      "checks": [
+        "Kiểm soát chiều dày bằng đinh hoặc ghim đánh dấu, dây căng, khoan lõi, quét ảnh hoặc laser [13509 · 7.5]",
+        "Lấy mẫu từ tấm thử hoặc khoan lõi, thí nghiệm cường độ, độ bám dính; chuẩn bị mẫu theo TCVN 14180"
+      ]
     },
     {
-      "title": "Bảo dưỡng, làm ống thoát nước",
-      "actions": ["Giữ ẩm bê tông phun theo quy định", "Khoan, đặt ống thoát nước theo thiết kế để giảm áp lực nước sau lớp phun"],
-      "requirements": ["Không để bê tông khô nhanh, nứt co ngót", "Ống thoát nước thông, không bị bịt bởi vữa"],
+      "title": "Bảo dưỡng, sửa chữa khuyết tật, ống thoát nước",
+      "actions": [
+        "Bảo dưỡng ẩm; hoàn thiện sau khi bê tông đạt thời gian đông kết ban đầu",
+        "Đục bỏ phần rỗng, bong, chảy xệ rồi phun sửa; khoan, đặt ống thoát nước theo thiết kế"
+      ],
+      "requirements": [
+        "Khi nhiệt độ trung bình ngày trên 10 °C, bảo dưỡng liên tục 7 ngày hoặc đến khi đạt 70% cường độ quy định, tùy điều kiện nào đến trước [13509 · 7.7.1]",
+        "Bảo dưỡng tự nhiên chỉ khi độ ẩm tương đối từ 85% trở lên [13509 · 7.7.2]",
+        "Đục bỏ phần lỗi bằng búa nhẹ tối đa 8 kg, rồi rửa bằng nước áp lực cao [13509 · 7.8.2]",
+        "Nếu cường độ không đạt, tăng chiều dày theo công thức d1 = (f/m - 1) x d, với f là cường độ yêu cầu, m là cường độ đo được, d là chiều dày thiết kế [13509 · 7.8.4]"
+      ],
       "checks": ["Kiểm tra vết nứt, bong tróc, ẩm ướt bất thường"]
     },
     {
-      "title": "Gia cố bờ kênh, mái đập (rọ đá, đá lát, thảm bê tông)",
-      "actions": ["San sửa mái, đặt lớp lọc (vải địa kỹ thuật, đá dăm) theo thiết kế", "Lắp rọ đá, lát đá, trải thảm bê tông theo từng mảng", "Xử lý khe nối, chân khay, đỉnh mái"],
-      "requirements": ["Lớp lọc liên tục, không xáo trộn", "Chân khay, đỉnh mái neo chắc, tránh bị xói trượt"],
-      "checks": ["Kiểm tra cao độ, độ phẳng, độ chặt xếp đá, khe nối"]
+      "title": "Gia cố bờ kênh, mái đập (tầng lọc, lát đá, thảm bê tông)",
+      "actions": [
+        "San sửa mái, đặt tầng lọc ngược, vải địa kỹ thuật theo thiết kế",
+        "Lát đá, lát tấm bê tông, trải thảm bê tông hoặc trồng cỏ theo từng mảng",
+        "Làm khe nối, chân khay, đỉnh mái"
+      ],
+      "requirements": [
+        "Tầng lọc: lớp dày dưới 15 cm đắp thủ công, trên 15 cm dùng thiết bị cơ giới nhẹ; các lớp không được trộn lẫn; bậc tiếp giáp rộng ít nhất 40 cm; không đổ tầng lọc xuống nước [8297 · 12.1]",
+        "Lát tấm bê tông từ dưới lên, mạch so le; mặt tấm chênh nhau không quá 5% chiều dày [8297 · 12.2.4.5]",
+        "Geosynthetic clay liner trải trên lớp đất dính dày tối thiểu 1 m và phủ lớp bảo vệ dày tối thiểu 1 m; géomembrane phải neo ở đầu trên chống trượt [8297 · 10.3.2]",
+        "Đắp dôi mái kênh tối thiểu 15 cm để tu chỉnh; không dùng gầu xúc vuốt mái [8305 · 6.3]",
+        "Gia cố taluy bằng đá: đá có cường độ nén trên 40 MPa; khe co giãn cách nhau 10-15 m, rộng 20-30 mm; chân khay sâu tối thiểu 1,0 m dưới cao độ bị xói [9436 · 10.3]",
+        "Trồng cỏ: gieo khoảng 200 g cho 100 m²; kiểm tra sau 6 tháng, cây chết không quá 10%, không có mảng chết trên 1 m² [9436 · 10.2]",
+        "Dung sai tầng phòng hộ: bề dày ±50 mm, cao độ mặt ±30 mm, độ bằng phẳng 50 mm (thước 2 m) [9436 · bảng 4-5]"
+      ],
+      "checks": ["Kiểm tra cao độ, độ phẳng, khe nối, tầng lọc liên tục"]
     }
   ],
   "safety": [
-    "Làm việc trên cao, trên mái dốc: dây an toàn, giàn giáo, đường lên xuống",
-    "Kiểm soát bụi, bật nảy bê tông phun: kính, mặt nạ, quần áo bảo hộ",
-    "Có người quan sát đá rơi khi làm trên mái dốc, dừng khi mưa lớn",
-    "Thiết bị áp lực (máy phun, bơm vữa): kiểm tra ống, khớp nối trước ca"
+    "Làm việc trên cao, trên mái dốc: dây an toàn, giàn giáo, đường lên xuống; dừng khi mưa lớn",
+    "Kiểm soát bụi, bật nảy bê tông phun: kính, mặt nạ, quần áo bảo hộ; thợ phun có chứng chỉ chuyên môn [14180]",
+    "Thiết bị áp lực (máy phun, bơm vữa, kích căng): kiểm tra ống, khớp nối, đồng hồ áp lực cấp chính xác 2 trở lên trước ca [8870 · 5.2]"
   ],
   "acceptance": [
-    "Nghiệm thu từng neo (vị trí, chiều dài, thử kéo)",
-    "Nghiệm thu bê tông phun (chiều dày, cường độ, độ bám dính)",
-    "Nghiệm thu lớp lọc và kết cấu gia cố bờ kênh, mái đập"
+    "Nghiệm thu từng neo: vị trí, chiều sâu lỗ, bó cáp, bơm vữa, căng thép, thử kéo [8870 · 6.3]",
+    "Nghiệm thu bê tông phun: chiều dày, cường độ, độ bám dính",
+    "Nghiệm thu tầng lọc, lớp bảo vệ mái, khe nối"
   ],
   "records": [
-    "Chứng chỉ vật liệu, kết quả thí nghiệm vữa, bê tông phun",
-    "Biên bản kéo thử neo, kết quả khoan kiểm tra chiều dày",
-    "Biên bản nghiệm thu, bản vẽ hoàn công"
+    "Chứng chỉ vật liệu, biên bản nghiệm thu vật liệu, kết quả thí nghiệm vữa, bê tông phun",
+    "Biên bản kéo thử neo, báo cáo địa chất, nhật ký thi công [8870 · 6.3]",
+    "Biên bản nghiệm thu từng phần, bản vẽ hoàn công"
   ],
-  "note": "TCVN 8870:2011 và TCVN 13509:2022 là tiêu chuẩn của ngành giao thông. Tiêu chuẩn cho phép áp dụng tham khảo cho các công trình ngầm khác, mái dốc, kênh. Hãy xác nhận trong chỉ dẫn kỹ thuật của dự án."
+  "note": "TCVN 8870 là tiêu chuẩn giao thông (neo trong đất), TCVN 13509 là tiêu chuẩn hầm giao thông, đều chỉ dùng tham khảo cho thủy lợi, thủy điện. Bảng 2 của TCVN 13509 bị lỗi định dạng khi đọc nên các giá trị cường độ cần đối chiếu bản gốc. Chưa đọc được TCVN 11652 (bê tông mái dốc), 9906 (jet-grouting), 12634 (cừ chống thấm)."
 }

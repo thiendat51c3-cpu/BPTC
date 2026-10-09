@@ -1,66 +1,72 @@
 {
   "id": "cot-thep",
   "title": "Công tác cốt thép",
-  "scope": "Nhận, gia công, lắp dựng và nghiệm thu cốt thép cho kết cấu bê tông cốt thép của công trình thủy lợi, thủy điện.",
-  "standards": ["tcvn-4453", "tcvn-1651", "tcvn-5724", "tcvn-11652", "tcvn-4055", "qcvn-18"],
+  "scope": "Gia công, hàn, nối, lắp dựng, nghiệm thu cốt thép bê tông cốt thép thủy công. Căn cứ TCVN 4453.",
+  "standards": ["tcvn-4453", "tcvn-4055", "tcvn-9115"],
   "prerequisites": [
-    "Có bản vẽ thi công cốt thép đã duyệt: chủng loại, đường kính, khoảng cách, chiều dài neo, nối",
-    "Thép có chứng chỉ chất lượng của nhà sản xuất, đã thí nghiệm mẫu theo quy định",
-    "Có bãi gia công, kho chứa thép khô ráo, kê cao, phân loại rõ ràng"
+    "Thép có chứng chỉ chất lượng của nhà sản xuất; thí nghiệm lại theo lô nếu yêu cầu",
+    "Bản vẽ thi công cốt thép, bảng thống kê được duyệt",
+    "Bãi gia công khô ráo, thép xếp kê cao, phân loại"
   ],
   "steps": [
     {
-      "title": "Nhập và kiểm tra thép",
-      "actions": ["Đối chiếu chứng chỉ, nhãn mác, đường kính, chủng loại với thiết kế", "Lấy mẫu thí nghiệm kéo, uốn theo lô"],
-      "requirements": ["Thép không han gỉ sâu, không dính dầu mỡ, bùn, không giảm tiết diện", "Chỉ dùng thép đạt kết quả thí nghiệm"],
-      "checks": ["Biên bản nghiệm thu vật liệu thép đầu vào"]
+      "title": "Kiểm tra, bảo quản cốt thép",
+      "actions": [
+        "Kiểm tra chủng loại, đường kính, hình dạng, gỉ",
+        "Làm sạch gỉ, dầu mỡ, bùn đất"
+      ],
+      "requirements": [
+        "Mức hao hụt tiết diện do làm sạch gỉ ≤ 2% đường kính [4453 · mục 4]",
+        "Lô 100 thanh lấy 5 thanh kiểm tra [4453 · mục 4]"
+      ],
+      "checks": ["Lập biên bản kiểm tra vật liệu đầu vào"]
     },
     {
-      "title": "Gia công thép",
-      "actions": ["Làm sạch, nắn thẳng, cắt, uốn theo bảng thống kê", "Đánh dấu, phân loại bó thép theo cấu kiện"],
-      "requirements": ["Kích thước thanh uốn, bán kính uốn, chiều dài thanh đúng thiết kế", "Sai lệch gia công nằm trong giới hạn cho phép của tiêu chuẩn"],
-      "checks": ["Kiểm tra mẫu đầu tiên, kiểm tra ngẫu nhiên các lô gia công"]
+      "title": "Cắt, uốn, gia công",
+      "actions": [
+        "Cắt, uốn theo bảng thống kê; kiểm tra mẫu đầu tiên của mỗi chủng loại"
+      ],
+      "requirements": [
+        "Sai lệch chiều dài thanh cắt: 5 mm/m và tổng 20 mm [4453 · mục 4]"
+      ],
+      "checks": ["Kiểm tra kích thước đoạn uốn, móc, sai lệch"]
     },
     {
-      "title": "Nối, hàn thép",
-      "actions": ["Nối buộc, nối hàn hoặc nối cơ khí theo thiết kế", "Thợ hàn được kiểm tra tay nghề, hàn thử mẫu"],
-      "requirements": ["Chiều dài nối chồng, vị trí mối nối so le theo thiết kế", "Mối hàn đạt chất lượng, không cháy, rỗ, thiếu chiều dài đường hàn"],
-      "checks": ["Kiểm tra mối hàn bằng mắt, lấy mẫu thử kéo theo quy định"]
+      "title": "Hàn và nối cốt thép",
+      "actions": [
+        "Hàn thử; kiểm tra mối hàn; nối buộc hoặc nối hàn theo thiết kế"
+      ],
+      "requirements": [
+        "Mối hàn: cứ 100 mối lấy 5 mẫu kiểm tra kích thước + 3 mẫu thử kéo + 3 mẫu thử uốn [4453 · mục 5]",
+        "Nối buộc: không quá 25% diện tích thép trơn, không quá 50% thép có gờ trong một mặt cắt [4453 · mục 5]",
+        "Chiều dài nối buộc ≥ 250 mm (vùng kéo), ≥ 200 mm (vùng nén), và theo thiết kế [4453 · mục 5]"
+      ],
+      "checks": ["Kết quả thử kéo, thử uốn mẫu mối hàn"]
     },
     {
-      "title": "Lắp dựng cốt thép",
-      "actions": ["Lắp thép theo bản vẽ: đúng vị trí, khoảng cách, buộc hoặc hàn định vị", "Đặt con kê, thép chờ, thép neo, ống chôn sẵn theo thiết kế"],
-      "requirements": ["Đảm bảo lớp bê tông bảo vệ đúng thiết kế, con kê đủ cứng và đủ số lượng", "Khung thép ổn định, không xê dịch khi đổ bê tông", "Thép chờ bảo vệ, thẳng, đúng vị trí"],
-      "checks": ["Đo khoảng cách, đường kính, số lượng, lớp bảo vệ", "Kiểm tra thép nối với các hạng mục khác"]
-    },
-    {
-      "title": "Nghiệm thu cốt thép trước khi đổ bê tông",
-      "actions": ["Kiểm tra toàn bộ cốt thép đã lắp, vệ sinh bề mặt", "Lập biên bản nghiệm thu cùng với ván khuôn"],
-      "requirements": ["Chỉ đổ bê tông khi biên bản nghiệm thu cốt thép đạt, có chữ ký các bên", "Thép không bị bẩn bùn, dầu mỡ, vữa khô trước khi đổ"],
-      "checks": ["Biên bản nghiệm thu cốt thép, ảnh chụp trước khi đổ"]
-    },
-    {
-      "title": "Bảo vệ cốt thép trong khi đổ bê tông",
-      "actions": ["Đặt sàn công tác, ván đi lại, không đi trực tiếp lên thép", "Có người theo dõi, chỉnh thép bị xê dịch khi đổ"],
-      "requirements": ["Không dùng đầm làm xê dịch, rung rơi con kê"],
-      "checks": ["Kiểm tra lại vị trí thép tại vị trí nhạy cảm sau khi đổ"]
+      "title": "Lắp dựng, cố định cốt thép",
+      "actions": [
+        "Đặt con kê, buộc/hàn định vị, kiểm tra lớp bảo vệ",
+        "Lắp đặt thép chờ, chi tiết chôn sẵn đúng vị trí"
+      ],
+      "requirements": [
+        "Con kê đặt cách nhau ≤ 1 m [4453 · mục 5]",
+        "Sai lệch lớp bảo vệ: 3 mm (lớp bảo vệ nhỏ) / 5 mm [4453 · mục 5]",
+        "Buộc hoặc hàn ≥ 50% số giao điểm; góc đai buộc 100% [4453 · mục 5]"
+      ],
+      "checks": ["Nghiệm thu cốt thép trước khi đóng cốp pha kín và đổ bê tông"]
     }
   ],
   "safety": [
-    "Gia công thép: găng tay, kính, che chắn khu vực cắt, uốn, hàn",
-    "Cẩu lắp, vận chuyển bó thép: dây cáp, móc cẩu kiểm tra, không đứng dưới tải",
-    "Hàn điện: bảo hộ, chống cháy, nối đất, bình khí hàn an toàn",
-    "Đầu thép chờ nhô cao: bọc đầu, đặt cảnh báo tránh chọc, ngã"
+    "Găng tay, kính khi cắt, hàn, uốn; che chắn khi hàn; phòng cháy",
+    "Vận chuyển, cẩu thép: dùng thiết bị phù hợp, không đứng dưới tải",
+    "Giàn giáo, sàn công tác khi lắp dựng trên cao"
   ],
   "acceptance": [
-    "Nghiệm thu vật liệu thép đầu vào",
-    "Nghiệm thu mối nối, mối hàn",
-    "Nghiệm thu cốt thép đã lắp dựng trước khi đổ bê tông"
+    "Nghiệm thu cốt thép (chủng loại, vị trí, lớp bảo vệ, mối nối) trước đổ bê tông, lập biên bản"
   ],
   "records": [
-    "Chứng chỉ chất lượng thép, kết quả thí nghiệm kéo, uốn",
-    "Biên bản kiểm tra mối hàn, biên bản nghiệm thu cốt thép",
-    "Bản vẽ hoàn công cốt thép (nếu yêu cầu)"
+    "Chứng chỉ thép, kết quả thí nghiệm, biên bản nghiệm thu cốt thép"
   ],
-  "note": "TCVN 4453:1995 có dự thảo bản mới TCVN 4453:202x. TCVN 1651 hiện chia thành nhiều phần theo loại thép. Kiểm tra phiên bản hiện hành."
+  "note": "TCVN 4453:1995 chỉ đọc được một phần; điều khoản ghi là 'mục' cần đối chiếu bản gốc. Các số liệu là bản tóm tắt."
 }

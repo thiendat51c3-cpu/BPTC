@@ -1,73 +1,126 @@
 {
   "id": "khoan-phun",
   "title": "Công tác khoan phun (khoan phụt)",
-  "scope": "Khoan phụt vữa xi măng vào nền đá chống thấm, gia cố; khoan phụt vữa gia cố thân đê, đập đất; khoan phụt nối tiếp trong đập và hầm.",
-  "standards": ["tcvn-8645", "tcvn-8644", "tcvn-9149", "tcvn-9906", "tcvn-9157", "tcvn-4055"],
+  "scope": "Khoan phụt vữa xi măng vào nền đá chống thấm, gia cố; khoan phụt vữa sét - xi măng gia cố thân đê, đập đất.",
+  "standards": ["tcvn-8645", "14tcn-82", "tcvn-8644", "tcvn-9149", "tcvn-9906", "tcvn-9157", "tcvn-4055"],
   "prerequisites": [
-    "Có hồ sơ thiết kế khoan phụt: sơ đồ lỗ, chiều sâu, áp lực, tỷ lệ vữa, tiêu chuẩn kết thúc",
-    "Mặt bằng đủ rộng cho trạm trộn, bơm, thiết bị khoan; có điện, nước",
-    "Việc khoan phụt xi măng nền đá cần hoàn thành trước khi dâng nước hồ",
-    "Với phụt vào lớp đá nền, thông thường phải có lớp gia tải bên trên (bê tông, đất đắp) theo thiết kế"
+    "Có thiết kế khoan phụt: sơ đồ lỗ, chiều sâu, áp lực, tỷ lệ vữa, tiêu chuẩn kết thúc",
+    "Bố trí đủ mặt bằng; khi khoan từ hành lang ngầm, chiều cao hành lang đủ cho thiết bị khoan, máng dẫn mùn khoan, thiết bị xói rửa [14TCN82 · 2.1]",
+    "Phụt trước khi dâng nước; nếu làm sau khi đã có cột nước phải xét ảnh hưởng của việc nâng cột nước [14TCN82 · 2.2]",
+    "Kết thúc phụt trước khi làm công trình tiêu nước trong phạm vi ảnh hưởng, hoặc có biện pháp ngăn vữa làm tắc; khoan qua bê tông có khớp nối phải che chắn [14TCN82 · 2.3]"
   ],
   "steps": [
     {
+      "title": "Kiểm tra điều kiện áp dụng, chuẩn bị lớp gia tải",
+      "actions": [
+        "Đối chiếu nền đá với điều kiện áp dụng; chuẩn bị lớp gia tải phía trên",
+        "Nếu lớp mặt không ổn định, đặt ống chèn qua lớp đó và đổ vữa vào khoảng trống ngoài ống"
+      ],
+      "requirements": [
+        "Nền đá cứng hoặc nửa cứng, nứt nẻ, độ mở khe nứt từ 0,1 mm đến 10 mm; lượng mất nước đơn vị 0,01-10 l/(phút.m²); vận tốc nước ngầm dưới 2.400 m/ngày đêm [8645 · 1.2]",
+        "Thường phải có lớp gia tải (đá thiên nhiên hoặc tấm bê tông) để nền không nứt gãy và vữa không trào lên mặt [14TCN82 · 2.4]",
+        "Có thể không cần lớp gia tải nếu áp lực phụt không lớn hơn khoảng 0,2-0,5 MPa, nền đá nguyên khối ít nứt và phụt thử cho kết quả tốt [14TCN82 · 2.4]"
+      ],
+      "checks": ["Nghiệm thu lớp gia tải, ống chèn (nếu có)"]
+    },
+    {
       "title": "Phụt thử nghiệm",
-      "actions": ["Chọn khu vực phụt thử đại diện về địa chất", "Thử các thông số: tỷ lệ vữa, áp lực, tốc độ nâng áp", "Đánh giá kết quả, điều chỉnh thông số thiết kế nếu cần"],
-      "requirements": ["Phải có kết quả phụt thử trước khi thi công đại trà"],
+      "actions": [
+        "Chọn hố thử trong các hố có trong đồ án thiết kế",
+        "Hiệu chỉnh khoảng cách hố, nồng độ vữa, áp lực phụt; kiểm tra chất lượng bằng phương pháp thiết kế quy định để rút ra chỉ tiêu đánh giá"
+      ],
+      "requirements": [
+        "Phải phụt thử trước khi thi công đại trà [14TCN82 · 3.1, 3.2]"
+      ],
       "checks": ["Báo cáo phụt thử được thiết kế và chủ đầu tư chấp thuận"]
     },
     {
-      "title": "Định vị, khoan lỗ",
-      "actions": ["Định vị lỗ khoan theo sơ đồ, đánh dấu thứ tự lỗ", "Khoan lỗ theo trình tự: lỗ đợt 1, đợt 2, đợt 3 (lỗ kiểm tra) để tăng dần độ dày đặc", "Lấy mẫu lõi, ghi chép địa chất lỗ khoan"],
-      "requirements": ["Vị trí, độ nghiêng, chiều sâu đúng thiết kế", "Lỗ khoan được rửa sạch bùn khoan trước khi thí nghiệm, phụt"],
-      "checks": ["Kiểm tra lỗ khoan, hồ sơ địa chất lỗ khoan"]
+      "title": "Khoan lỗ, ép nước thí nghiệm",
+      "actions": [
+        "Định vị lỗ, khoan theo từng hàng, đánh số thứ tự từ hạ lưu đến thượng lưu",
+        "Khoan theo đợt lỗ, lấy mẫu lõi, ghi chép địa chất; rửa lỗ",
+        "Ép nước thí nghiệm theo đoạn để xác định độ thấm (Lugeon)"
+      ],
+      "requirements": [
+        "Phụt theo từng hàng, đánh số từ hạ lưu đến thượng lưu [14TCN82 · 4.1]",
+        "Phương pháp ép nước theo TCVN 9149:2024; áp lực, chiều dài đoạn và tiêu chí chi tiết cần xem bản gốc (chưa đọc được)"
+      ],
+      "checks": ["Ghi biểu đồ áp lực - lưu lượng từng đoạn; hồ sơ địa chất lỗ khoan"]
     },
     {
-      "title": "Thí nghiệm ép nước",
-      "actions": ["Chia đoạn thí nghiệm, đặt nút chặn (packer)", "Ép nước theo cấp áp lực, đo lưu lượng, tính độ thấm (Lugeon)"],
-      "requirements": ["Thực hiện theo phương pháp quy định trong tiêu chuẩn ép nước vào lỗ khoan", "Kết quả dùng chọn tỷ lệ vữa khởi đầu và đánh giá hiệu quả sau phụt"],
-      "checks": ["Ghi biểu đồ áp lực - lưu lượng từng đoạn"]
+      "title": "Trộn vữa và phụt vữa xi măng nền đá",
+      "actions": [
+        "Trộn vữa đúng tỷ lệ thiết kế, lọc, khuấy liên tục",
+        "Phụt theo phân đoạn, tăng áp lực theo cấp, đổi tỷ lệ vữa theo lượng nhận vữa",
+        "Quan trắc biến dạng nền, công trình xung quanh khi phụt"
+      ],
+      "requirements": [
+        "Áp lực phụt, tỷ lệ nước/xi măng, đổi cấp vữa, tiêu chuẩn kết thúc: theo thiết kế và điều khoản của TCVN 8645; phần này chưa đọc được nội dung chi tiết",
+        "Gặp sự cố ảnh hưởng an toàn phải dừng thi công, báo chủ đầu tư và thiết kế [8644 · 3.3]"
+      ],
+      "checks": ["Ghi đầy đủ nhật ký phụt: áp lực, lưu lượng, lượng vữa, thời gian"]
     },
     {
-      "title": "Trộn vữa",
-      "actions": ["Trộn vữa xi măng đúng tỷ lệ nước - xi măng, thêm phụ gia nếu thiết kế quy định", "Khuấy liên tục trong bể chứa, lọc vữa trước khi bơm"],
-      "requirements": ["Vữa phụt đúng tỷ lệ cấp phối, đo tỷ trọng thường xuyên", "Xi măng, nước đạt chất lượng, không vón cục"],
-      "checks": ["Kiểm tra tỷ trọng, độ nhớt vữa theo ca"]
+      "title": "Khoan phụt vữa gia cố đê, đập đất: khảo sát, thiết kế sơ đồ lỗ",
+      "actions": [
+        "Khảo sát cụm khoảng 200 m dài đê: xác định hệ số thấm, độ sâu hố, bán kính lan vữa, áp lực cực hạn",
+        "Bố trí tuyến lỗ, hàng lỗ, lỗ xử lý nứt và tổ mối"
+      ],
+      "requirements": [
+        "Áp dụng khi hệ số thấm thân đê lớn hơn 10⁻⁴ cm/s, hoặc có nứt nẻ, hang hốc, tổ mối; mục tiêu sau phụt đạt hệ số thấm dưới 10⁻⁴ cm/s [8644 · mục 1, 3.1]",
+        "Bố trí một cụm khảo sát khoảng 200 m dài đê [8644 · 4.2]",
+        "Tuyến lỗ song song với đê, lệch về phía sông, cách mép đê phía sông 0,5-1,0 m; khoảng cách giữa các hàng sơ bộ 0,8-1,5 m; lỗ trong hàng so le, cùng chiều sâu, thẳng đứng [8644 · 5.4.1]",
+        "Xử lý nứt: mở rộng tối thiểu 1,5 m hai bên vết nứt và 5,0 m ở hai đầu; lỗ sâu hơn vết nứt tối thiểu 0,5 m, nghiêng khoảng 10° vào vết nứt, khoảng cách lỗ không quá 2 m; áp lực sơ bộ 0,050 MPa (á cát) hoặc 0,075 MPa (á sét); vết nứt trên 10 mm đổ vữa đặc vào miệng [8644 · 5.4.2]",
+        "Xử lý tổ mối: lỗ hình hoa mai cách nhau 1,0-1,5 m, sâu 2-4 m, bán kính xử lý tối thiểu 5 m quanh tâm tổ, áp lực 0,075-0,10 MPa [8644 · 5.4.3]"
+      ],
+      "checks": ["Duyệt sơ đồ lỗ trước khi khoan"]
     },
     {
-      "title": "Phụt vữa",
-      "actions": ["Phụt theo phân đoạn (từ trên xuống hoặc từ dưới lên) theo thiết kế", "Tăng áp lực từ từ theo cấp, đổi tỷ lệ vữa từ loãng sang đặc khi lượng nhận vữa lớn", "Dùng thiết bị ghi tự động áp lực, lưu lượng nếu có"],
-      "requirements": ["Áp lực không vượt giá trị cho phép gây nâng, nứt nền, thân công trình", "Gặp sự cố ảnh hưởng an toàn (nứt, trồi, vữa trào) phải dừng, báo cáo và xử lý"],
-      "checks": ["Quan trắc biến dạng nền, công trình xung quanh khi phụt", "Ghi đầy đủ nhật ký phụt từng đoạn"]
+      "title": "Phụt vữa sét - xi măng gia cố đê",
+      "actions": [
+        "Pha vữa, khuấy nước rồi thêm bột sét; phụt hàng phía sông trước, hàng phía đồng, sau đó các hàng giữa",
+        "Tăng áp lực dần theo cấp; đổi tỷ lệ vữa từ loãng sang đặc"
+      ],
+      "requirements": [
+        "Thiết bị: máy ép vữa tối thiểu 0,20 MPa; đồng hồ áp lực chính xác trên 5%, vạch chia tối đa 0,02 MPa; ống dẫn dài tối đa 20 m, đường kính trong 20-25 mm [8644 · 6.1.2]",
+        "Pha vữa: thời gian phân tầng không dưới 20 phút; khuấy nước 5-10 phút rồi thêm bột sét, khuấy 7-10 phút [8644 · 6.2]",
+        "Sai lệch khoan: góc nghiêng không quá 10°, vị trí không quá 10 cm, chiều sâu không quá 20 cm [8644 · 6.3.1.1]",
+        "Áp lực bắt đầu không quá 0,05 MPa; tỷ lệ vữa 1/3 ít nhất 5 phút, 1/2 ít nhất 10 phút, 1/1 đến khi không nhận vữa [8644 · 6.3.2]",
+        "Hệ số k lấy áp lực thiết kế: đợt 1 từ 0,60-0,75; đợt 2 từ 0,75-0,85; đợt 3 từ 0,85-0,90 của áp lực cực hạn [8644 · 5.3]",
+        "Kết thúc khi đạt áp lực thiết kế, lượng ăn vữa không quá 1 L/phút và duy trì ít nhất 30 phút; gián đoạn tối thiểu 72 giờ giữa lỗ liền kề hoặc các đợt; lấp lỗ trong vòng 24 giờ sau khi phụt [8644 · 6.3.2, 6.3.3.3]",
+        "Dừng khi đê bị nứt do áp lực, thiết bị hỏng hoặc không bảo đảm an toàn [8644 · 6.3.3.3]"
+      ],
+      "checks": ["Ghi nhật ký áp lực, thời gian, nồng độ vữa, sơ đồ thi công [8644 · 7.1]"]
     },
     {
-      "title": "Kết thúc phụt và lấp lỗ",
-      "actions": ["Kết thúc phụt khi đạt tiêu chuẩn kết thúc của thiết kế (áp lực, lượng nhận vữa)", "Lấp lỗ khoan bằng vữa hoặc vữa xi măng - cát đặc, đủ chặt"],
-      "requirements": ["Lỗ khoan được lấp kín hoàn toàn, không để rỗng"],
-      "checks": ["Kiểm tra lỗ đã lấp theo thiết kế"]
-    },
-    {
-      "title": "Kiểm tra chất lượng sau phụt",
-      "actions": ["Khoan lỗ kiểm tra, lấy mẫu, ép nước kiểm tra độ thấm", "Đối chiếu với tiêu chí độ thấm của thiết kế"],
-      "requirements": ["Độ thấm sau phụt đạt yêu cầu, nếu không đạt phải phụt bổ sung"],
-      "checks": ["Biên bản kiểm tra, nghiệm thu từng khu vực, đoạn phụt"]
+      "title": "Kiểm tra chất lượng và nghiệm thu",
+      "actions": [
+        "Khoan lỗ kiểm tra, thí nghiệm hệ số thấm; phụt bổ sung nếu không đạt",
+        "Lập biên bản nghiệm thu từng khu vực, đoạn phụt"
+      ],
+      "requirements": [
+        "Lỗ kiểm tra gia cố đê: sâu bằng thiết kế, số lượng bằng 3% tổng số lỗ và tối thiểu 3 lỗ, phân bố đều [8644 · 7.2.2]",
+        "Đạt khi hệ số thấm mỗi lỗ không vượt quá 5% so với thiết kế (theo văn bản nguồn), trên 90% lỗ kiểm tra đạt và không có hai lỗ liền kề không đạt [8644 · 7.2.3]",
+        "Chiều dày màn phụt T tính theo Phụ lục D phải đạt ít nhất 0,8 m [8644 · phụ lục D]",
+        "Nghiệm thu chỉ sau khi có kết quả kiểm tra chất lượng [8644 · 7.3]"
+      ],
+      "checks": ["Biên bản nghiệm thu từng đoạn", "Với nền đá: thí nghiệm ép nước kiểm tra độ thấm sau phụt theo thiết kế"]
     }
   ],
   "safety": [
-    "Ống dẫn vữa, khớp nối chịu áp lực: kiểm tra, cố định chắc, người đứng ngoài tầm văng",
-    "Đồng hồ áp lực kiểm định, đủ tin cậy",
-    "Khoan phụt trong hầm: thông gió, chiếu sáng, thoát nước, bụi vữa xi măng",
-    "Trang bị bảo hộ khi tiếp xúc xi măng: găng, kính, ủng"
+    "Ống dẫn vữa, khớp nối chịu áp lực: kiểm tra, cố định chắc, người đứng ngoài tầm văng; đồng hồ áp lực đã kiểm định",
+    "Khoan phụt trong hầm, hành lang: thông gió, chiếu sáng, thoát nước, bụi xi măng",
+    "Trang bị bảo hộ khi tiếp xúc xi măng, vữa: găng, kính, ủng"
   ],
   "acceptance": [
     "Nghiệm thu từng lỗ, từng đợt lỗ khoan phụt",
-    "Nghiệm thu kết quả lỗ kiểm tra và độ thấm sau phụt",
+    "Nghiệm thu kết quả lỗ kiểm tra, độ thấm sau phụt",
     "Nghiệm thu toàn bộ hạng mục khoan phụt trước khi dâng nước"
   ],
   "records": [
     "Kết quả phụt thử, thiết kế điều chỉnh",
-    "Nhật ký khoan, nhật ký phụt (áp lực, lưu lượng, lượng vữa)",
+    "Nhật ký khoan, nhật ký phụt (áp lực, lưu lượng, lượng vữa), hồ sơ địa chất lỗ khoan",
     "Kết quả ép nước, lỗ kiểm tra, biên bản nghiệm thu"
   ],
-  "note": "Phần khoan phụt vữa sét - xi măng gia cố đê, đập đất tham chiếu TCVN 8644:2011. Cọc xi măng đất jet-grouting (TCVN 9906) nằm ở nhóm xử lý nền, cần thiết kế riêng."
+  "note": "Phần khoan phụt nền đá: TCVN 8645:2011 và 14TCN 82:1995 chỉ đọc được các mục đầu (phạm vi, điều kiện, phụt thử, thứ tự). Các thông số áp lực, tỷ lệ vữa, tiêu chuẩn kết thúc cho nền đá nằm sau tường phí, hãy lấy từ bản gốc và thiết kế. Một nguồn ghi có bản TCVN 8645 mới hơn (2019), cần kiểm tra. Phần gia cố đê (TCVN 8644) đọc được khá đầy đủ."
 }

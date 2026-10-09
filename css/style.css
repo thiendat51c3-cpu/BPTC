@@ -87,3 +87,8 @@ mark{background:#ffe08a;color:#000;border-radius:3px;padding:0 1px}
   details.step>summary{display:flex}
   details.step:not([open])>.body{display:block}
 }
+
+.cite{display:inline-block;margin:0 2px;padding:1px 6px;border-radius:6px;background:var(--accent);color:var(--brand);font-size:.78em;font-weight:600;white-space:nowrap}
+.read{display:block;margin-top:6px;font-size:.85em;font-weight:600}
+.read-full{color:#1b7a3a}.read-partial{color:#a06100}.read-none{color:#b3261e}
+.chip-none{opacity:.75;border:1px dashed currentColor}

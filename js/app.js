@@ -37,8 +37,21 @@
     try { if (val === undefined) return JSON.parse(localStorage.getItem(key) || 'null'); localStorage.setItem(key, JSON.stringify(val)); } catch (e) { return null; }
   }
   function list(items) {
-    return el('ul', null, (items || []).map(function (t) { return el('li', { text: t }); }));
+    return el('ul', null, (items || []).map(function (t) { return el('li', null, cite(t)); }));
   }
+  /* tách thẻ trích dẫn dạng [số hiệu · mục] thành nhãn nhỏ */
+  function cite(t) {
+    var out = [], re = /\[(\d[^\]]*?|14TCN82[^\]]*?)\]/g, last = 0, m;
+    while ((m = re.exec(t))) {
+      if (m.index > last) out.push(document.createTextNode(t.slice(last, m.index)));
+      out.push(el('span', { class: 'cite', text: m[1] }));
+      last = re.lastIndex;
+    }
+    if (!out.length) return [document.createTextNode(t)];
+    if (last < t.length) out.push(document.createTextNode(t.slice(last)));
+    return out;
+  }
+  var READ = { full: 'Đã đọc nội dung chính', partial: 'Chỉ đọc được một phần', none: 'Chưa đọc được nội dung chi tiết' };
   function section(title, items) {
     if (!items || !items.length) return null;
     return el('div', { class: 'card' }, [el('h3', { text: title }), list(items)]);
@@ -114,7 +127,7 @@
 
     var stdChips = (m.standards || []).map(function (sid) {
       var s = state.stdMap[sid];
-      return s ? el('a', { class: 'chip', href: '#/standards/' + sid, text: s.code }) : null;
+      return s ? el('a', { class: 'chip' + (s.read === 'none' ? ' chip-none' : ''), href: '#/standards/' + sid, text: s.code + (s.read === 'none' ? ' (chưa đọc)' : '') }) : null;
     });
 
     var stepsEl = el('div', { class: 'steps' }, m.steps.map(function (st, i) {
@@ -181,6 +194,7 @@
           el('span', { class: 'c', text: s.code }),
           el('div', { text: s.title }),
           s.note ? el('span', { class: 'n', text: s.note }) : null,
+          s.read ? el('span', { class: 'read read-' + s.read, text: READ[s.read] + (s.readNote ? ': ' + s.readNote : '') }) : null,
           users.length ? el('div', { class: 'chips', style: 'margin-top:8px' }, users) : null
         ]);
         if (focusId === s.id) li.style.outline = '2px solid var(--brand-2)';
